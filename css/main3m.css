@@ -2833,6 +2833,11 @@ padding-bottom:10px;
 display:inline-block
 }
 
+.rtl .telegramicon {
+padding-right:0px;
+padding-left:20px;
+}
+
 .telegramiconlast {
 font-size:1.9rem;
 display:inline-block
