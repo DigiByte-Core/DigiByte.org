@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	
+	<link rel="manifest" href="/manifest.json">
 	<script src="js/languagerouter.js"></script>
 	
 	<!--- Google analytics
@@ -1927,7 +1927,14 @@
 	data-close-text="OK"
 	>
     </script>
-
+    <script>
+        if (!navigator.serviceWorker.controller) {
+            navigator.serviceWorker.register("sw.js").then(function(reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }       
+    </script>
+       
 </body>
 	
 </html>
