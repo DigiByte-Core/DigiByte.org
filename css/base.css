@@ -71,3 +71,9 @@ input[type="text"]{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:n
 }
 .group:after{content:"";display:table;clear:both}
 .align-center{margin-left:auto;margin-right:auto;text-align:center}
+#dgbcore p.item-plan__price {display:block;text-align:center;margin-top:20px;color:#002352;}
+#dgbcore .item-plan__block-wrapper {margin:0 auto;max-width:1150px;}
+@media only screen and (min-width:800px) {
+#dgbcore .item-plan__block-wrapper {width:50%;}
+}
+#dgbcore_symbol {background-image:url(/images/digibyte_symbol_06c.svg);background-size:cover;aspect-ratio:1;width:40%;max-width:150px;margin:10px auto 0 auto;}
