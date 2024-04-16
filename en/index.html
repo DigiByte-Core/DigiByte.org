@@ -16,53 +16,19 @@
     })
 		
 	  .then((data) => {
-        if (data.country == "US")
+		let c = data.country.toLowerCase();
+        if (c === "us" || c === "gb" || c === "ca" || c === "au" || c === "nz" || c === "in" || c === "ng")
 	    window.location.replace('../en-us/'+target)
-		
-	    else if (data.country == "GB")
-	    window.location.replace('../en-gb/'+target)
-		
-	    else if (data.country == "CA")
-	    window.location.replace('../en-ca/'+target)
-		
-	    else if (data.country == "AU")
-	    window.location.replace('../en-au/'+target)
-		
-	    else if (data.country == "NZ")
-	    window.location.replace('../en-nz/'+target)
-		
-		else if (data.country == "IN")
-	    window.location.replace('../en-in/'+target)
-		
-		else if (data.country == "NG")
-	    window.location.replace('../en-ng/'+target)
 		
 		else
 		window.location.replace('../?lang=en'+target)
       })
 		
 	  .catch((err) => {
-	    if (langcode5 == "en-US")
+		let c = langcode5.toLowerCase();
+	    if (c === "en-us" || c === "en-gb" || c === "en-ca" || c === "en-u" || c === "en-nz" || c === "en-in" || c === "en-ng")
 	    window.location.replace('../en-us/'+target)
-		
-	    else if (langcode5 == "en-GB")
-	    window.location.replace('../en-gb/'+target)
-		
-        else if (langcode5 == "en-CA")
-	    window.location.replace('../en-ca/'+target)
-		
-	    else if (langcode5 == "en-AU")
-	    window.location.replace('../en-au/'+target)
-		
-	    else if (langcode5 == "en-NZ")
-	    window.location.replace('../en-nz/'+target)
-		
-		else if (langcode5 == "en-IN")
-	    window.location.replace('../en-in/'+target)
-		
-		else if (langcode5 == "en-NG")
-	    window.location.replace('../en-NG/'+target)
-		
+	
 	    else
 	    window.location.replace('../?lang=en'+target)
 	  })

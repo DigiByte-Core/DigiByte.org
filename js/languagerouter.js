@@ -21,6 +21,16 @@
     else
     null
 
+	const isEnglish = (data, definitelyIsEnglish=false) => {
+		//Will set any of these locale detections to en-US translation
+		let c;
+		if (definitelyIsEnglish) c = data.toLowerCase()
+		else c = data.country.toLowerCase();
+
+		if (c === "us" || c === "gb" || c === "ca" || c === "au" || c === "nz" || c === "in" || c === "ng") window.location.replace(`en-us/${target}`);
+		if (c === "en-us" || c === "en-gb" || c === "en-ca" || c === "en-au" || c === "en-nz" || c === "en-in" || c === "en-ng") window.location.replace(`en-us/${target}`)
+	}
+
     var langvalue = location.search.substring(1);
     var browserlang = navigator.language || navigator.userLanguage;
 	var langcode5 = browserlang.substr(0,5);
@@ -52,29 +62,8 @@
     })
 		
 	  .then((data) => {
-        if (data.country == "US")
-	    window.location.replace('en-us/'+target)
-		
-	    else if (data.country == "GB")
-	    window.location.replace('en-gb/'+target)
-		
-	    else if (data.country == "CA")
-	    window.location.replace('en-ca/'+target)
-		
-	    else if (data.country == "AU")
-	    window.location.replace('en-au/'+target)
-		
-	    else if (data.country == "NZ")
-	    window.location.replace('en-nz/'+target)
-		
-	    else if (data.country == "BR")
+        if (data.country == "BR")
 	    window.location.replace('pt-br/'+target)
-		
-		else if (data.country == "IN")
-	    window.location.replace('en-in/'+target)
-		
-		else if (data.country == "NG")
-	    window.location.replace('en-ng/'+target)
 		
 		else if (['KE', 'TZ', 'CD', 'RW', 'UG'].indexOf(data.country) >= 0)
 	    window.location.replace('sw/'+target)
@@ -87,31 +76,14 @@
 		
 		else if (data.country == "ID")
 	    window.location.replace('id/'+target)
+
+		else isEnglish(data)
       })
 		
       .catch((err) => {
-	    if (langcode5 == "en-US")
-	    window.location.replace('en-us/'+target)
-		
-	    else if (langcode5 == "en-GB")
-	    window.location.replace('en-gb/'+target)
-		
-        else if (langcode5 == "en-CA")
-	    window.location.replace('en-ca/'+target)
-		
-	    else if (langcode5 == "en-AU")
-	    window.location.replace('en-au/'+target)
-		
-	    else if (langcode5 == "en-NZ")
-	    window.location.replace('en-nz/'+target)
-		
-	    else if (langcode5 == "pt-BR")
+	    if (langcode5 == "pt-BR")
 	    window.location.replace('pt-br/'+target)
 		
-		else if (langcode5 == "en-IN")
-	    window.location.replace('en-in/'+target)
-		
-		else if (langcode5 == "en-NG")
-	    window.location.replace('en-ng/'+target)
+		else isEnglish(langcode5, true)
 	  })
 	}
