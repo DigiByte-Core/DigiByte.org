@@ -1,0 +1,14 @@
+permalink: pretty
+redirects:
+  - from: /en-au/
+    to: /en-us/
+  - from: /en-ca/
+    to: /en-us/
+  - from: /en-gb/
+    to: /en-us/
+  - from: /en-in/
+    to: /en-us/
+  - from: /en-ng/
+    to: /en-us/
+  - from: /en-nz/
+    to: /en-us/
