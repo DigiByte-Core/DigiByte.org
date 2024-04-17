@@ -1,10 +1,126 @@
 <!-- HTML meta refresh URL redirection -->
 <html>
-<head>
-   <meta http-equiv="refresh" content="0; url=https://digibyte.org/">
-</head>
-<body>
-   <p>The page has moved to:
-   <a href="https://digibyte.org/">this page</a> as part of our new website update.</p>
-</body>
+    <head>
+        <!-- <meta http-equiv="refresh" content="0; url=https://digibyte.org/" /> -->
+    </head>
+    <style>
+        body {
+            background: rgb(0, 35, 82);
+            background: -moz-linear-gradient(
+                45deg,
+                rgba(0, 35, 82, 1) 0%,
+                rgba(0, 102, 204, 1) 35%,
+                rgba(0, 212, 255, 1) 100%
+            );
+            background: -webkit-linear-gradient(
+                45deg,
+                rgba(0, 35, 82, 1) 0%,
+                rgba(0, 102, 204, 1) 35%,
+                rgba(0, 212, 255, 1) 100%
+            );
+            background: linear-gradient(
+                45deg,
+                rgba(0, 35, 82, 1) 0%,
+                rgba(0, 102, 204, 1) 35%,
+                rgba(0, 212, 255, 1) 100%
+            );
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002352",endColorstr="#00d4ff",GradientType=1);
+
+            font-size: 2rem;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+            }
+        }
+
+        @media only screen and (min-resolution: 300dpi),
+            only screen and (min-width: 3840px) and (min-height: 2160px) {
+            /* Styles for high-resolution 4K screens */
+            .container {
+                max-width: 1800px;
+            }
+        }
+        .four-oh-four {
+            height: 100%;
+            width: 100%;
+        }
+        .border-box {
+            border-radius: 20px;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+        }
+        .top_left_corner {
+            border-top: 1rem solid white;
+            border-left: 1rem solid white;
+            left: 5%;
+            top: 5%;
+        }
+        .bottom_right_corner {
+            border-bottom: 1rem solid white;
+            border-right: 1rem solid white;
+            bottom: 5%;
+            right: 5%;
+        }
+        .heading {
+         color: white;
+            display: block;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            text-shadow: 4px 4px 2px #06c;
+        }
+        h1 {
+         font-style: italic;
+        }
+        h1, h2 {
+         text-align: center;
+        }
+        button {
+         padding: 1rem;
+         border-radius: 15px;
+         color: #002352;
+         background-color: #06c;
+         font-weight: 900;
+         font-size: 3rem;
+         margin: 0 auto;
+         display: block;
+         box-shadow: 0 1px 5px #002352;
+         border: none;
+        }
+        button a {
+         display: block;
+         height: 100%;
+         width: 100%;
+         color: inherit;
+         text-decoration: none;
+        }
+        button a:hover, button a:focus, button:hover > a {
+         color: white;
+        }
+    </style>
+    <body>
+        <div class="container four-oh-four">
+            <div class="top_left_corner border-box"></div>
+            <div class="bottom_right_corner border-box"></div>
+            <div class="heading">
+                <h1>DigiDon't</h1>
+                <h3>That page does not exist!</h3>
+                  <button>
+                     <a href="/">
+                        Go to Homepage
+                     </a>
+                  </button>
+            </div>
+        </div>
+    </body>
 </html>
