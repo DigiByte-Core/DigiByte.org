@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Nunito+Sans:wght@300;400;600;700&family=Open+Sans&display=swap&subset=cyrillic,latin-ext";
+@import "font-awesome/css/all.min.css";
 html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 footer,header,nav,section{display:block}
