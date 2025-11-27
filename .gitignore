@@ -10,3 +10,4 @@ deploy.php
 # Add php files used elsewhere
 rates.php
 ajax.php
+*.index.html.bak
