@@ -13,7 +13,16 @@
       <title>DigiByte News</title>
       <link>https://digibyte.org</link>
     </image>
-    <lastBuildDate>Fri, 2 Dec 2022 16:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>DigiByte Core v8.26.2 Released</title>
+      <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v8.26.2</link>
+      <description>
+      DigiByte Core v8.26.2 is now available. This maintenance release addresses two critical RPC bugs: a 6-10x performance regression in getblockchaininfo and incorrect difficulty reporting in getmininginfo. All users are strongly encouraged to upgrade for improved node performance and accurate mining statistics.
+      </description>
+      <pubDate>Fri, 17 Jan 2026 00:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>DigiByte v8.22 release: benefits &amp; future plans w/ Jared, Rutger, Johnny and Yoshi</title>
