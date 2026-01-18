@@ -51,7 +51,7 @@
 	else if (['cs', 'sk'].indexOf(langcode2) >= 0)
 	window.location.replace('cs/'+target)
 		
-	else if (['af', 'da', 'de', 'es', 'fr', 'id', 'it', 'sw', 'hu', 'ms', 'nl', 'pl', 'pt', 'ro', 'sq', 'sl', 'fi', 'sv', 'vi', 'tr', 'ru', 'bg', 'el', 'hi', 'th', 'ja', 'ko', 'zh', 'ar', 'fa'].indexOf(langcode2) >= 0)
+	else if (['af', 'da', 'de', 'es', 'fr', 'id', 'it', 'sw', 'hu', 'ms', 'nl', 'pl', 'pt', 'ro', 'sq', 'sl', 'fi', 'sv', 'vi', 'tr', 'ru', 'bg', 'el', 'hi', 'th', 'ja', 'zh', 'ar', 'fa'].indexOf(langcode2) >= 0)
 			
 	window.location.replace(langcode2+'/'+target)
 		

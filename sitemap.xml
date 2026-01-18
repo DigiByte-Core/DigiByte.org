@@ -1,48 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-	<url>
-		<loc>https://digibyte.org/</loc>
+</urlset>
+	</url>
+		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
 		<lastmod>2026-01-18</lastmod>
-		<xhtml:link rel="alternate" hreflang="en" href="https://digibyte.org/" />
-		<xhtml:link rel="alternate" hreflang="en-US" href="https://digibyte.org/en-us/" />
-		<xhtml:link rel="alternate" hreflang="en-GB" href="https://digibyte.org/en-gb/" />
-		<xhtml:link rel="alternate" hreflang="en-AU" href="https://digibyte.org/en-au/" />
-		<xhtml:link rel="alternate" hreflang="en-NZ" href="https://digibyte.org/en-nz/" />
-		<xhtml:link rel="alternate" hreflang="en-CA" href="https://digibyte.org/en-ca/" />
-		<xhtml:link rel="alternate" hreflang="en-IN" href="https://digibyte.org/en-in/" />
-		<xhtml:link rel="alternate" hreflang="en-NG" href="https://digibyte.org/en-ng/" />
-		<xhtml:link rel="alternate" hreflang="af" href="https://digibyte.org/af/" />
-		<xhtml:link rel="alternate" hreflang="cs" href="https://digibyte.org/cs/" />
-		<xhtml:link rel="alternate" hreflang="da" href="https://digibyte.org/da/" />
-		<xhtml:link rel="alternate" hreflang="de" href="https://digibyte.org/de/" />
-		<xhtml:link rel="alternate" hreflang="es" href="https://digibyte.org/es/" />
-		<xhtml:link rel="alternate" hreflang="fr" href="https://digibyte.org/fr/" />
-		<xhtml:link rel="alternate" hreflang="hr" href="https://digibyte.org/hr/" />
-		<xhtml:link rel="alternate" hreflang="id" href="https://digibyte.org/id/" />
-		<xhtml:link rel="alternate" hreflang="it" href="https://digibyte.org/it/" />
-		<xhtml:link rel="alternate" hreflang="sw" href="https://digibyte.org/sw/" />
-		<xhtml:link rel="alternate" hreflang="hu" href="https://digibyte.org/hu/" />
-		<xhtml:link rel="alternate" hreflang="ms" href="https://digibyte.org/ms/" />
-		<xhtml:link rel="alternate" hreflang="nl" href="https://digibyte.org/nl/" />
-		<xhtml:link rel="alternate" hreflang="nb" href="https://digibyte.org/nb/" />
-		<xhtml:link rel="alternate" hreflang="tl" href="https://digibyte.org/fil/" />
-		<xhtml:link rel="alternate" hreflang="pl" href="https://digibyte.org/pl/" />
-		<xhtml:link rel="alternate" hreflang="pt" href="https://digibyte.org/pt/" />
-		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://digibyte.org/pt-br/" />
-		<xhtml:link rel="alternate" hreflang="ro" href="https://digibyte.org/ro/" />
-		<xhtml:link rel="alternate" hreflang="sq" href="https://digibyte.org/sq/" />
-		<xhtml:link rel="alternate" hreflang="sl" href="https://digibyte.org/sl/" />
-		<xhtml:link rel="alternate" hreflang="fi" href="https://digibyte.org/fi/" />
-		<xhtml:link rel="alternate" hreflang="sv" href="https://digibyte.org/sv/" />
-		<xhtml:link rel="alternate" hreflang="vi" href="https://digibyte.org/vi/" />
-		<xhtml:link rel="alternate" hreflang="tr" href="https://digibyte.org/tr/" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://digibyte.org/ru/" />
-		<xhtml:link rel="alternate" hreflang="bg" href="https://digibyte.org/bg/" />
-		<xhtml:link rel="alternate" hreflang="el" href="https://digibyte.org/el/" />
-		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
-		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
-		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -89,7 +49,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -135,7 +94,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -181,7 +139,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -227,7 +184,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -273,7 +229,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -319,7 +274,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -365,7 +319,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -412,7 +365,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -459,7 +411,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -506,7 +457,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -553,7 +503,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -600,7 +549,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -647,7 +595,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -694,7 +641,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -741,7 +687,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -788,7 +733,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -835,7 +779,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -882,7 +825,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -929,7 +871,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -976,7 +917,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1023,7 +963,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1070,7 +1009,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1117,7 +1055,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1164,7 +1101,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1211,7 +1147,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1258,7 +1193,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1305,7 +1239,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1352,7 +1285,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1399,7 +1331,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1446,7 +1377,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1493,7 +1423,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1540,7 +1469,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1587,7 +1515,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1634,7 +1561,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1681,7 +1607,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1728,7 +1653,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1775,7 +1699,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1822,54 +1745,7 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
-		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
-		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
-		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
-	</url>
-	<url>
-		<loc>https://digibyte.org/ko/</loc>
 		<lastmod>2026-01-18</lastmod>
-		<xhtml:link rel="alternate" hreflang="en" href="https://digibyte.org/" />
-		<xhtml:link rel="alternate" hreflang="en-US" href="https://digibyte.org/en-us/" />
-		<xhtml:link rel="alternate" hreflang="en-GB" href="https://digibyte.org/en-gb/" />
-		<xhtml:link rel="alternate" hreflang="en-AU" href="https://digibyte.org/en-au/" />
-		<xhtml:link rel="alternate" hreflang="en-NZ" href="https://digibyte.org/en-nz/" />
-		<xhtml:link rel="alternate" hreflang="en-CA" href="https://digibyte.org/en-ca/" />
-		<xhtml:link rel="alternate" hreflang="en-IN" href="https://digibyte.org/en-in/" />
-		<xhtml:link rel="alternate" hreflang="en-NG" href="https://digibyte.org/en-ng/" />
-		<xhtml:link rel="alternate" hreflang="af" href="https://digibyte.org/af/" />
-		<xhtml:link rel="alternate" hreflang="cs" href="https://digibyte.org/cs/" />
-		<xhtml:link rel="alternate" hreflang="da" href="https://digibyte.org/da/" />
-		<xhtml:link rel="alternate" hreflang="de" href="https://digibyte.org/de/" />
-		<xhtml:link rel="alternate" hreflang="es" href="https://digibyte.org/es/" />
-		<xhtml:link rel="alternate" hreflang="fr" href="https://digibyte.org/fr/" />
-		<xhtml:link rel="alternate" hreflang="hr" href="https://digibyte.org/hr/" />
-		<xhtml:link rel="alternate" hreflang="id" href="https://digibyte.org/id/" />
-		<xhtml:link rel="alternate" hreflang="it" href="https://digibyte.org/it/" />
-		<xhtml:link rel="alternate" hreflang="sw" href="https://digibyte.org/sw/" />
-		<xhtml:link rel="alternate" hreflang="hu" href="https://digibyte.org/hu/" />
-		<xhtml:link rel="alternate" hreflang="ms" href="https://digibyte.org/ms/" />
-		<xhtml:link rel="alternate" hreflang="nl" href="https://digibyte.org/nl/" />
-		<xhtml:link rel="alternate" hreflang="nb" href="https://digibyte.org/nb/" />
-		<xhtml:link rel="alternate" hreflang="tl" href="https://digibyte.org/fil/" />
-		<xhtml:link rel="alternate" hreflang="pl" href="https://digibyte.org/pl/" />
-		<xhtml:link rel="alternate" hreflang="pt" href="https://digibyte.org/pt/" />
-		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://digibyte.org/pt-br/" />
-		<xhtml:link rel="alternate" hreflang="ro" href="https://digibyte.org/ro/" />
-		<xhtml:link rel="alternate" hreflang="sq" href="https://digibyte.org/sq/" />
-		<xhtml:link rel="alternate" hreflang="sl" href="https://digibyte.org/sl/" />
-		<xhtml:link rel="alternate" hreflang="fi" href="https://digibyte.org/fi/" />
-		<xhtml:link rel="alternate" hreflang="sv" href="https://digibyte.org/sv/" />
-		<xhtml:link rel="alternate" hreflang="vi" href="https://digibyte.org/vi/" />
-		<xhtml:link rel="alternate" hreflang="tr" href="https://digibyte.org/tr/" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://digibyte.org/ru/" />
-		<xhtml:link rel="alternate" hreflang="bg" href="https://digibyte.org/bg/" />
-		<xhtml:link rel="alternate" hreflang="el" href="https://digibyte.org/el/" />
-		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
-		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
-		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1916,7 +1792,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -1963,7 +1838,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
@@ -2010,7 +1884,6 @@
 		<xhtml:link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/" />
 		<xhtml:link rel="alternate" hreflang="th" href="https://digibyte.org/th/" />
 		<xhtml:link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/" />
-		<xhtml:link rel="alternate" hreflang="ko" href="https://digibyte.org/ko/" />
 		<xhtml:link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/" />
 		<xhtml:link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/" />
 		<xhtml:link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/" />
