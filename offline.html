@@ -1,49 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offline Mode</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            font-size: 28px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .logo {
-            width: 120px;
-            margin-bottom: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Offline · DigiByte</title>
+	<meta name="theme-color" content="#05070d">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap">
+	<link rel="stylesheet" href="/css/tokens.css">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/components.css">
+	<link rel="stylesheet" href="/css/sections.css">
+	<link rel="stylesheet" href="/css/utilities.css">
 </head>
 <body>
-    <img class="logo" src="icon512_rounded.png" alt="DigiByte.org">
-    <h1>Offline Mode</h1>
-    <p>You are currently accessing the offline version of our website.</p>
-    <p>This means you are not connected to the internet, but you can still access some of the basic content.</p>
-    <p>If you'd like to go back online and access the full website with the latest updates, please check your internet connection.</p>
-    <a class="btn" href="/">Go to Homepage</a>
+	<main class="center-page">
+		<div>
+			<img src="/images/logo.svg" alt="DigiByte" width="200" height="36" class="mb-5">
+			<span class="chip chip--cyan">You are offline</span>
+			<h1>The network is still alive — your connection isn't.</h1>
+			<p>You're seeing the cached, offline version of digibyte.org. Reconnect to load fresh content and live chain stats.</p>
+			<div class="cluster mt-6 justify-center-children">
+				<a class="btn btn--primary" href="/">Try again</a>
+				<button class="btn btn--ghost" type="button" onclick="location.reload()">Reload</button>
+			</div>
+		</div>
+	</main>
 </body>
 </html>

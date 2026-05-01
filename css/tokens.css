@@ -1,0 +1,150 @@
+/* ==========================================================================
+   DigiByte Design Tokens
+   Single source of truth for color, type, space, motion, and surfaces.
+   ========================================================================== */
+
+:root {
+	/* ---------- Brand & semantic palette (dark-first) ---------- */
+	--c-bg-0: #05070d;          /* deep space */
+	--c-bg-1: #0a0e1a;          /* base canvas */
+	--c-bg-2: #0f1626;          /* card base */
+	--c-bg-3: #16203a;          /* elevated */
+	--c-ink-0: #ffffff;
+	--c-ink-1: #e6ecf7;
+	--c-ink-2: #aab4c8;
+	--c-ink-3: #8a95ad;
+	--c-ink-4: #3e475c;
+
+	/* DigiByte brand */
+	--c-brand-navy: #002352;
+	--c-brand-blue: #0066cc;
+
+	/* Neon accents */
+	--c-neon-cyan: #00e5ff;
+	--c-neon-blue: #2f80ff;
+	--c-neon-violet: #1450ff;     /* repurposed: deep electric blue (no purple) */
+	--c-neon-mint: #5cffd1;
+	--c-neon-magenta: #ff3df0;
+	--c-neon-amber: #ffb648;
+
+	/* Semantic */
+	--c-accent: var(--c-neon-cyan);
+	--c-accent-2: var(--c-neon-blue);
+	--c-success: #29e3a3;
+	--c-warn: #ffb648;
+	--c-danger: #ff5577;
+	--c-link: var(--c-neon-cyan);
+	--c-link-hover: #7ff5ff;
+	--c-border: rgba(255, 255, 255, 0.08);
+	--c-border-strong: rgba(255, 255, 255, 0.16);
+
+	/* Gradients */
+	--g-hero: radial-gradient(ellipse at 20% 0%, rgba(20, 80, 255, 0.28), transparent 60%),
+	          radial-gradient(ellipse at 80% 30%, rgba(0, 229, 255, 0.20), transparent 55%),
+	          linear-gradient(180deg, #05070d 0%, #0a0e1a 100%);
+	--g-brand: linear-gradient(135deg, var(--c-neon-cyan) 0%, var(--c-brand-blue) 55%, #0a3aa8 100%);
+	--g-brand-soft: linear-gradient(135deg, rgba(0, 229, 255, 0.18), rgba(20, 80, 255, 0.18));
+	--g-divider: linear-gradient(90deg, transparent, var(--c-neon-cyan), transparent);
+	--g-text: linear-gradient(135deg, #ffffff 0%, #aef0ff 50%, #b5d6ff 100%);
+
+	/* Glass surfaces */
+	--glass-bg: rgba(15, 22, 38, 0.55);
+	--glass-bg-strong: rgba(15, 22, 38, 0.78);
+	--glass-bg-soft: rgba(255, 255, 255, 0.04);
+	--glass-border: rgba(255, 255, 255, 0.10);
+	--glass-blur: 14px;
+	--glass-blur-strong: 22px;
+
+	/* Glow / shadow */
+	--glow-cyan: 0 0 0 1px rgba(0, 229, 255, 0.35), 0 8px 40px rgba(0, 229, 255, 0.18);
+	--glow-violet: 0 0 0 1px rgba(20, 80, 255, 0.35), 0 8px 40px rgba(20, 80, 255, 0.18);
+	--glow-soft: 0 12px 40px rgba(0, 0, 0, 0.45);
+	--shadow-card: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+	--shadow-pop: 0 24px 80px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+	/* ---------- Typography ---------- */
+	--ff-display: "Space Grotesk", "Chivo", system-ui, sans-serif;
+	--ff-body: "Inter", "Nunito Sans", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	--ff-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+	/* Fluid type scale (clamp(min, fluid, max)) */
+	--fs-0: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+	--fs-1: clamp(0.88rem, 0.85rem + 0.15vw, 0.95rem);
+	--fs-2: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+	--fs-3: clamp(1.13rem, 1.06rem + 0.35vw, 1.25rem);
+	--fs-4: clamp(1.32rem, 1.20rem + 0.6vw, 1.55rem);
+	--fs-5: clamp(1.6rem, 1.4rem + 1vw, 2rem);
+	--fs-6: clamp(2rem, 1.6rem + 2vw, 2.85rem);
+	--fs-7: clamp(2.6rem, 2rem + 3vw, 4rem);
+	--fs-8: clamp(3.2rem, 2.4rem + 4.5vw, 5.6rem);
+	--fs-9: clamp(4rem, 2.8rem + 6vw, 7.2rem);
+
+	--lh-tight: 1.1;
+	--lh-snug: 1.25;
+	--lh-normal: 1.55;
+	--lh-loose: 1.8;
+	--ls-tight: -0.02em;
+	--ls-snug: -0.01em;
+	--ls-wide: 0.04em;
+	--ls-mega: 0.18em;
+
+	/* ---------- Spacing scale (4-pt) ---------- */
+	--s-0: 0;
+	--s-1: 0.25rem;
+	--s-2: 0.5rem;
+	--s-3: 0.75rem;
+	--s-4: 1rem;
+	--s-5: 1.5rem;
+	--s-6: 2rem;
+	--s-7: 3rem;
+	--s-8: 4rem;
+	--s-9: 6rem;
+	--s-10: 8rem;
+	--s-11: 12rem;
+
+	/* ---------- Radii ---------- */
+	--r-1: 4px;
+	--r-2: 8px;
+	--r-3: 12px;
+	--r-4: 16px;
+	--r-5: 24px;
+	--r-6: 32px;
+	--r-pill: 999px;
+
+	/* ---------- Motion ---------- */
+	--ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+	--ease-in: cubic-bezier(0.55, 0, 1, 0.45);
+	--ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+	--ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+	--d-1: 120ms;
+	--d-2: 200ms;
+	--d-3: 320ms;
+	--d-4: 520ms;
+	--d-5: 800ms;
+	--d-6: 1200ms;
+
+	/* ---------- Layout ---------- */
+	--container-w: 1280px;
+	--container-w-narrow: 880px;
+	--container-w-wide: 1480px;
+	--container-px: clamp(1rem, 4vw, 2.5rem);
+	--section-py: clamp(4rem, 8vw, 8rem);
+	--nav-h: 72px;
+	--ticker-h: 36px;
+
+	/* ---------- z-index ---------- */
+	--z-base: 1;
+	--z-sticky: 50;
+	--z-nav: 100;
+	--z-overlay: 500;
+	--z-modal: 1000;
+	--z-toast: 1500;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+	:root {
+		--d-1: 0ms; --d-2: 0ms; --d-3: 0ms; --d-4: 0ms; --d-5: 0ms; --d-6: 0ms;
+	}
+}

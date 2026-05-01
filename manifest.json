@@ -1,26 +1,25 @@
 {
-    "theme_color": "#8936FF",
-    "background_color": "#2EC6FE",
-    "icons": [
-        {
-            "purpose": "maskable",
-            "sizes": "512x512",
-            "src": "icon512_maskable.png",
-            "type": "image/png"
-        },
-        {
-            "purpose": "any",
-            "sizes": "512x512",
-            "src": "icon512_rounded.png",
-            "type": "image/png"
-        }
-    ],
-    "orientation": "any",
-    "display": "standalone",
-    "dir": "auto",
-    "lang": "en-US",
-    "name": "DigiByte.org",
-    "short_name": "DGB",
-    "start_url": "https://www.digibyte.org/",
-    "description": "DigiByte is more than a faster digital currency. It is an innovative blockchain that can be used for digital assets, smart contracts, decentralized applications and secure authentication."
+	"name": "DigiByte — Faster, Safer, Forward-thinking Blockchain",
+	"short_name": "DigiByte",
+	"description": "The longest, fastest, most decentralized UTXO blockchain. Build with DigiAssets, sign in with Digi-ID, run a node, and join a global open-source community.",
+	"start_url": "/",
+	"scope": "/",
+	"id": "/",
+	"display": "standalone",
+	"orientation": "any",
+	"dir": "auto",
+	"lang": "en",
+	"theme_color": "#05070d",
+	"background_color": "#05070d",
+	"categories": ["finance", "productivity", "utilities"],
+	"icons": [
+		{ "src": "/icon512_maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+		{ "src": "/icon512_rounded.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+		{ "src": "/favicons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+	],
+	"shortcuts": [
+		{ "name": "Downloads", "url": "/#downloads", "description": "Get DigiByte Core or the mobile app" },
+		{ "name": "Developer hub", "url": "/#devhub", "description": "Build on DGB" },
+		{ "name": "Live chain", "url": "/#chain", "description": "Real-time network stats" }
+	]
 }
