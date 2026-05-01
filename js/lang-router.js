@@ -1,5 +1,38 @@
 // JavaScript Document
 
+    // One-time cleanup: unregister legacy service workers and clear old caches
+    // (handles users coming back from the previous site version).
+    (function () {
+        try {
+            if (!localStorage.getItem('dgb_sw_reset_v2')) {
+                localStorage.setItem('dgb_sw_reset_v2', '1');
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.getRegistrations().then(function (regs) {
+                        regs.forEach(function (r) { r.unregister(); });
+                    });
+                }
+                if (typeof caches !== 'undefined' && caches.keys) {
+                    caches.keys().then(function (keys) {
+                        keys.forEach(function (k) { if (k.indexOf('dgb-v2026-05-02') !== 0) caches.delete(k); });
+                    });
+                }
+            }
+        } catch (e) { /* noop */ }
+    })();
+
+    // Bail out if we're already inside a locale subdirectory — prevents
+    // infinite /en-us/en-us/... redirect loops.
+    (function () {
+        var LOCALES = ['af','ar','bg','cs','da','de','el','en','en-us','es','fa','fi','fil','fr','hi','hr','hu','id','it','ja','ms','nb','nl','pl','pt','pt-br','ro','ru','sl','sq','sv','sw','th','tr','vi','zh'];
+        var first = location.pathname.split('/').filter(Boolean)[0];
+        if (first && LOCALES.indexOf(first.toLowerCase()) !== -1) {
+            // Already on a localized page; do not redirect.
+            window.__dgbSkipLangRouter = true;
+        }
+    })();
+    if (window.__dgbSkipLangRouter) { /* skip rest of router */ }
+    else {
+
     var target = location.hash
 	
     if (['#ecosystem', '#jared', '#developers', '#foundation', '#dgbat', '#wiki', '#telegram', '#socialmedia', '#digiassetservices', '#dgbcore', '#dgbmobile', '#dgbgo', '#docs', '#contribute', '#history', '#digidservices'].indexOf(target) >= 0)
@@ -87,3 +120,4 @@
 		else isEnglish(langcode5, true)
 	  })
 	}
+    } // end else (skip router guard)

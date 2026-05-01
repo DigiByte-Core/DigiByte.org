@@ -1,1188 +1,959 @@
 <!DOCTYPE html>
-<html class="no-js" lang="vi">
+<html lang="vi" dir="ltr">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>DigiByte — Faster, Safer, Forward-thinking Blockchain | DGB · DigiAssets · Digi-ID</title>
+	<meta name="description" content="DigiByte is the longest, fastest, most decentralized UTXO blockchain. Build with DigiAssets, sign in with Digi-ID, run a node, and join a global open-source community.">
+	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
+	<meta name="theme-color" content="#05070d">
+	<meta name="color-scheme" content="dark">
+	<link rel="canonical" href="https://digibyte.org/vi/">
 	<link rel="manifest" href="../manifest.json">
-	<script src="../js/hashcatcher.js"></script>
-	
-	<!--- Google analytics
-    ================================================== -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129492671-3"></script>
-    <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
-    </script>
 
-    <!--- Basic page needs
-    ================================================== -->
-    <title>DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Trang web chính thức của DigiByte. DigiByte là một blockchain toàn cầu mã nguồn mở và có tính phi tập trung cao lưu trữ DGB Coin, DigiAssets, Digi-ID và hơn thế nữa.">
-	<meta name="keywords" content="DigiByte, DGB, Blockchain, Phi tập trung, Coin, Tài sản, Kỹ thuật số, Tiền kỹ thuật số, Tiền tệ, DigiAssets, Digi-ID, An ninh mạng, Xác thực, Smart Contract, dApp, Thanh toán, Ví, Cộng đồng, Trao đổi, Mua, Giá bán, Chính thức">
-	<link rel="canonical" href="https://digibyte.org/vi/" />
+	<!-- Hreflang for 40 locales -->
+	<link rel="alternate" hreflang="x-default" href="https://digibyte.org/">
+	<link rel="alternate" hreflang="en" href="https://digibyte.org/en/">
+	<link rel="alternate" hreflang="en-us" href="https://digibyte.org/en-us/">
+	<link rel="alternate" hreflang="af" href="https://digibyte.org/af/">
+	<link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/">
+	<link rel="alternate" hreflang="bg" href="https://digibyte.org/bg/">
+	<link rel="alternate" hreflang="cs" href="https://digibyte.org/cs/">
+	<link rel="alternate" hreflang="da" href="https://digibyte.org/da/">
+	<link rel="alternate" hreflang="de" href="https://digibyte.org/de/">
+	<link rel="alternate" hreflang="el" href="https://digibyte.org/el/">
+	<link rel="alternate" hreflang="es" href="https://digibyte.org/es/">
+	<link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/">
+	<link rel="alternate" hreflang="fi" href="https://digibyte.org/fi/">
+	<link rel="alternate" hreflang="fil" href="https://digibyte.org/fil/">
+	<link rel="alternate" hreflang="fr" href="https://digibyte.org/fr/">
+	<link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/">
+	<link rel="alternate" hreflang="hr" href="https://digibyte.org/hr/">
+	<link rel="alternate" hreflang="hu" href="https://digibyte.org/hu/">
+	<link rel="alternate" hreflang="id" href="https://digibyte.org/id/">
+	<link rel="alternate" hreflang="it" href="https://digibyte.org/it/">
+	<link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/">
+	<link rel="alternate" hreflang="ms" href="https://digibyte.org/ms/">
+	<link rel="alternate" hreflang="nb" href="https://digibyte.org/nb/">
+	<link rel="alternate" hreflang="nl" href="https://digibyte.org/nl/">
+	<link rel="alternate" hreflang="pl" href="https://digibyte.org/pl/">
+	<link rel="alternate" hreflang="pt" href="https://digibyte.org/pt/">
+	<link rel="alternate" hreflang="pt-br" href="https://digibyte.org/pt-br/">
+	<link rel="alternate" hreflang="ro" href="https://digibyte.org/ro/">
+	<link rel="alternate" hreflang="ru" href="https://digibyte.org/ru/">
+	<link rel="alternate" hreflang="sl" href="https://digibyte.org/sl/">
+	<link rel="alternate" hreflang="sq" href="https://digibyte.org/sq/">
+	<link rel="alternate" hreflang="sv" href="https://digibyte.org/sv/">
+	<link rel="alternate" hreflang="sw" href="https://digibyte.org/sw/">
+	<link rel="alternate" hreflang="th" href="https://digibyte.org/th/">
+	<link rel="alternate" hreflang="tr" href="https://digibyte.org/tr/">
+	<link rel="alternate" hreflang="vi" href="https://digibyte.org/vi/">
+	<link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/">
 
-    <!-- Mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+	<link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#00e5ff">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/vendor1g.css">
-    <link rel="stylesheet" href="../css/main3p.css">
-
-    <!-- Scripts
-    ================================================== -->
-    <script src="../js/modernizr.js"></script>
-    <script src="../js/pace.min.js"></script>
-	
-	<!-- RSS Feed
-    ================================================== -->
-    <link rel="alternate" type="application/rss+xml" title="DigiByte News" href="https://digibyte.org/news.xml" />
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
-    <link rel="manifest" href="../favicons/site.webmanifest">
-    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#002352">
-    <meta name="apple-mobile-web-app-title" content="DigiByte">
-    <meta name="application-name" content="DigiByte">
-    <meta name="msapplication-TileColor" content="#002352">
-    <meta name="msapplication-config" content="../favicons/browserconfig.xml">
-    <meta name="theme-color" content="#002352">
-	
-	<!-- Twitter preview
-    ================================================== -->
-	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID" />
-    <meta name="twitter:description" content="DigiByte là một blockchain toàn cầu mã nguồn mở và có tính phi tập trung cao lưu trữ DGB Coin, DigiAssets, Digi-ID và hơn thế nữa." />
-    <meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png" />
-	
-	<!-- Facebook preview
-    ================================================== -->
+	<!-- Open Graph / Twitter -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="DigiByte — Faster, Safer, Forward-thinking Blockchain">
+	<meta property="og:description" content="The longest, fastest, most decentralized UTXO blockchain. Build with DigiAssets, sign in with Digi-ID.">
+	<meta property="og:url" content="https://digibyte.org/vi/">
 	<meta property="og:image" content="https://digibyte.org/favicons/og-image.jpg">
-    <meta property="og:image:width" content="955">
-    <meta property="og:image:height" content="500">
-    <meta property="og:description" content="DigiByte là một blockchain toàn cầu mã nguồn mở và có tính phi tập trung cao lưu trữ DGB Coin, DigiAssets, Digi-ID và hơn thế nữa.">
-    <meta property="og:title" content="DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID">
-    <meta property="og:url" content="https://digibyte.org/">
+	<meta property="og:image:width" content="955">
+	<meta property="og:image:height" content="500">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="DigiByte — Faster, Safer, Forward-thinking Blockchain">
+	<meta name="twitter:description" content="The longest, fastest, most decentralized UTXO blockchain. Build, transact and authenticate on DGB.">
+	<meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png">
 
+	<!-- Fonts (non-blocking) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
+
+	<!-- Icons (Font Awesome, non-blocking) -->
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></noscript>
+
+	<!-- Design system -->
+	<link rel="stylesheet" href="../css/tokens.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/components.css">
+	<link rel="stylesheet" href="../css/sections.css">
+	<link rel="stylesheet" href="../css/utilities.css">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="DigiByte News" href="../news.xml">
+
+	<!-- Language router (preserves existing behaviour) -->
+	<script src="../js/lang-router.js" defer></script>
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "DigiByte",
+		"url": "https://digibyte.org/",
+		"logo": "https://digibyte.org/images/logo.svg",
+		"sameAs": [
+			"https://github.com/DigiByte-Core",
+			"https://twitter.com/DigiByteCoin",
+			"https://www.reddit.com/r/Digibyte/"
+		]
+	}
+	</script>
+
+	<!-- Google Analytics (deferred to idle to protect FCP/LCP) -->
+	<script>
+		(function(){
+			window.dataLayer = window.dataLayer || [];
+			window.gtag = function(){ dataLayer.push(arguments); };
+			gtag('js', new Date());
+			gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
+			var load = function(){
+				var s = document.createElement('script');
+				s.async = true;
+				s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129492671-3';
+				document.head.appendChild(s);
+			};
+			if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 4000 });
+			else window.addEventListener('load', function(){ setTimeout(load, 1500); });
+		})();
+	</script>
 </head>
-
 <body id="top">
 
-    <!-- Preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-           <div><img src="../images/preloader.svg" loading="eager" alt="Preloader logo"></div>
-        </div>
-    </div> 
-	
-	<!-- Ticker
-    ================================================== -->
-	<header class="pticker">
-		<div class="row">
-			<div includeHTML="../langmenu/ticker.html"></div>
-		</div>
-	</header>
-	
-    <!-- Header
-    ================================================== -->
-    <header class="s-header">
+<a class="skip-link" href="#main">Skip to content</a>
 
-        <div class="row">
-            <div class="header-logo">
-                <a class="site-logo smoothscroll" href="#top" onClick="homeButton()"><img src="../images/logo.svg" loading="eager" alt="Home">
-                </a>
-            </div>
-    
-            <nav class="header-nav-wrap">
-                <ul class="header-main-nav">
-                    <li id="dbc"><a class="ssbc" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li id="mbc"><a class="ssbcm" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li><a class="smoothscroll" href="#currency" title="Tiền tệ">Tiền tệ</a></li>
-                    <li><a class="smoothscroll" href="#digiassets" title="DigiAssets">DigiAssets</a></li>
-                    <li><a class="smoothscroll" href="#digi-id" title="Digi-ID">Digi-ID</a></li>
-                    <li><a class="smoothscroll" href="#community" title="Cộng đồng">Cộng đồng</a></li>
-					<li><a class="smoothscroll" href="#downloads" title="Tải về">Tải về</a></li>
-                    <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">Wiki</a></li>
-				</ul>
-				
-					<div class="dropdown header-cta" id="langmenu">
-					   <a href="javascript:void(0)" onclick="lmenu()" class="dropbtn" id="lmenuname"></a>
-                       <div includeHTML="../langmenu/desktop.html"></div>
-                    </div>
-					
-					<div includeHTML="../langmenu/mobile.html"></div>
-            </nav>
-    
-            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-        </div>
+<!-- Top live ticker -->
+<div class="top-ticker" role="status" aria-live="polite" aria-label="Live DigiByte network ticker">
+	<div class="top-ticker__track">
+		<span class="top-ticker__item"><span>DGB</span> <strong data-stat="price">—</strong> <span class="up" data-stat="price-change">—</span></span>
+		<span class="top-ticker__item">Block <strong data-stat="blocks" class="is-loading">—</strong></span>
+		<span class="top-ticker__item">Hashrate <strong data-stat="network-hashrate" class="is-loading">—</strong></span>
+		<span class="top-ticker__item">Difficulty <strong data-stat="difficulty" class="is-loading">—</strong></span>
+		<span class="top-ticker__item">Connections <strong data-stat="connections" class="is-loading">—</strong></span>
+		<span class="top-ticker__item">Core <strong data-stat="version" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><i class="fas fa-shield-halved"></i> 5 mining algorithms</span>
+		<span class="top-ticker__item"><i class="fas fa-bolt"></i> 15-second blocks</span>
+		<span class="top-ticker__item"><i class="fas fa-globe"></i> Global, decentralized</span>
+	</div>
+</div>
 
-    </header>
-
-
-    <!-- Home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../images/hero-bg4.jpg" data-natural-width="3200" data-natural-height="1590" data-position-y="center" data-speed="0.0" data-z-index="1">
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-				
-				<div class="mapps">
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/software.svg" loading="eager" alt="Software Wallets">
-					</a>
-				  </div>
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/hardware.svg" loading="eager" alt="Hardware Wallets">
-					</a>
-				  </div>
+<!-- Sticky nav -->
+<header class="nav" id="nav">
+	<div class="row nav__row">
+		<a class="nav__brand" href="#top" aria-label="DigiByte home">
+			<img class="nav__symbol" src="../images/dgb-logo.png" alt="DigiByte" width="44" height="44">
+			<span class="nav__brand-text">DigiByte</span>
+		</a>
+		<nav aria-label="Primary">
+			<ul class="nav__list">
+				<li><a href="#chain">Chain</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#tokenomics">DGB</a></li>
+				<li><a href="#digiassets">DigiAssets</a></li>
+				<li><a href="#digi-id">Digi-ID</a></li>
+				<li><a href="#devhub">Developers</a></li>
+				<li><a href="#wallets">Wallets</a></li>
+				<li><a href="#downloads">Download</a></li>
+				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<div class="nav__cta">
+			<div class="lang-menu" data-lang-menu>
+				<button class="lang-menu__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Choose language">
+					<i class="fas fa-globe"></i>
+				</button>
+				<div class="lang-menu__panel" role="menu" hidden>
+					<div class="lang-menu__grid">
+						<a href="../en/" hreflang="en">English</a>
+						<a href="../af/" hreflang="af">Afrikaans</a>
+						<a href="../cs/" hreflang="cs">Čeština</a>
+						<a href="../da/" hreflang="da">Dansk</a>
+						<a href="../de/" hreflang="de">Deutsch</a>
+						<a href="../es/" hreflang="es">Español</a>
+						<a href="../fr/" hreflang="fr">Français</a>
+						<a href="../hr/" hreflang="hr">Hrvatski</a>
+						<a href="../id/" hreflang="id">Indonesia</a>
+						<a href="../it/" hreflang="it">Italiano</a>
+						<a href="../sw/" hreflang="sw">Kiswahili</a>
+						<a href="../hu/" hreflang="hu">Magyar</a>
+						<a href="../ms/" hreflang="ms">Melayu</a>
+						<a href="../nl/" hreflang="nl">Nederlands</a>
+						<a href="../nb/" hreflang="nb">Norsk</a>
+						<a href="../fil/" hreflang="fil">Pilipino</a>
+						<a href="../pl/" hreflang="pl">Polski</a>
+						<a href="../pt/" hreflang="pt">Português</a>
+						<a href="../pt-br/" hreflang="pt-br">Português BR</a>
+						<a href="../ro/" hreflang="ro">Română</a>
+						<a href="../sq/" hreflang="sq">Shqip</a>
+						<a href="../sl/" hreflang="sl">Slovenščina</a>
+						<a href="../fi/" hreflang="fi">Suomi</a>
+						<a href="../sv/" hreflang="sv">Svenska</a>
+						<a href="../vi/" hreflang="vi">Tiếng Việt</a>
+						<a href="../tr/" hreflang="tr">Türkçe</a>
+						<a href="../ru/" hreflang="ru">Русский</a>
+						<a href="../bg/" hreflang="bg">български</a>
+						<a href="../el/" hreflang="el">Ελληνικά</a>
+						<a href="../hi/" hreflang="hi">हिन्दी</a>
+						<a href="../th/" hreflang="th">ไทย</a>
+						<a href="../ja/" hreflang="ja">日本語</a>
+						<a href="../zh/" hreflang="zh">简体中文</a>
+						<a href="../ar/" hreflang="ar">العربية</a>
+						<a href="../fa/" hreflang="fa">فارسی</a>
+					</div>
+					<a class="lang-menu__edit" href="https://github.com/DigiByte-Core/DGBio" target="_blank" rel="noopener"><i class="fab fa-github"></i> Edit translations on GitHub</a>
 				</div>
-
-                <div class="home-content__left">
-                    <h1>
-                    An toàn hơn,<br/> Nhanh hơn,<br/>
-                    Tư duy thẳng thắn.
-                    </h1>
-    
-                    <h3>
-                    DigiByte không chỉ là một loại tiền kỹ thuật số nhanh hơn. Nó là một blockchain sáng tạo có thể được sử dụng cho các tài sản kỹ thuật số, hợp đồng thông minh, các ứng dụng phi tập trung và việc xác thực an toàn.
-                    </h3>
-    
-                    <div class="home-content__btn-wrap">
-                        <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#community-driven-social-media" class="btn btn--primary home-content__btn">
-                           Tìm hiểu thêm
-                        </a>
-						<a href="#docs" class="btn btn--primary home-content__btn smoothscrollup">
-                            Tài liệu
-                        </a>
-                    </div>
-					
-					<a href="../docs/integrationguide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> Hướng dẫn tích hợp</a>
-					<a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> DigiDollar guide</a>
-                </div>
-
-                <!-- <div class="home-content__right">
-                    <img src="../images/hero-app-screens-800.png" alt="DigiByte App" srcset="../images/hero-app-screens-800.png 1x, ../images/hero-app-screens-1600.png 2x">
-                </div> -->
-
-            </div>
-        </div>
-
-        <a href="#footer" class="home-scroll smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a> 
-
-    </section>
-
-
-    <!-- About
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-		<a href="#footer" class="home-scroll2 smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a>
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Điều gì làm cho DigiByte mạnh hơn những bên khác?
-                </h1>
-                <p class="lead">
-                    DigiByte là một blockchain mã nguồn mở đang phát triển nhanh chóng được tạo ra vào cuối năm 2013 và được phát hành vào đầu năm 2014. Sau <span class="year-diff"></span> năm phát triển tư duy thẳng thắn, DigiByte đã trở thành một trong những blockchain <a href="https://wikipedia.org/wiki/Unspent_transaction_output" target="_blank">UTXO</a> phi tập trung an toàn nhất, nhanh nhất, lâu nhất hiện vẫn đang tồn tại.
-                </p>
-            </div>
-        </div>
-
-        <div class="row wide about-desc" data-aos="fade">
-
-            <div class="col-full slick-slider about-desc__slider">
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Được phân cấp thực sự.</h3>
-
-                    <p>
-                    DigiByte chưa bao giờ được tài trợ thông qua một <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> hoặc số lượng đáng kể <a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">coin được đào trước</a>. Không có CEO hay công ty nào kiểm soát blockchain DigiByte. Đây là một dự án dựa trên cộng đồng tình nguyện và toàn cầu.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Bảo mật hơn.</h3>
-
-                    <p>
-					DigiByte sử dụng 5 thuật toán mã hóa và <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">điều chỉnh độ khó thời gian thực</a> để ngăn chặn sự tập trung khai thác độc hại và biến động năng lượng băm. Một trong số đó là Odocrypt tự thay đổi sau mỗi 10 ngày để kháng ASIC.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Nhanh hơn nhiều.</h3>
-
-                    <p>
-                    Các khối DigiByte diễn ra cứ sau 15 giây, nhanh hơn 40 lần so với Bitcoin và nhanh hơn 10 lần so với Litecoin. Việc triển khai <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a> sớm và độ cứng của blockchain cho phép lên tới <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> giao dịch trực tuyến mỗi giây với mức phí không đáng kể.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Tư duy tương lai.</h3>
-
-                    <p>
-                    Trong <span class="year-diff"></span> năm qua, DigiByte đã liên tục tạo ra sự khác biệt với nhiều lần đầu tiên blockchain, như <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a> guard, khai thác <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a>, triển khai <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank">SegWit</a>, thuật toán <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a>, Giao thức bảo mật <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a>, <a href="#digiassets" class="smoothscroll">DigiAssets</a> và <a href="#digi-id" class="smoothscroll">Digi-ID</a>.
-                    </p>
-                </div> 
-
-            </div>
-            
-        </div>
-
-    </section>
-
-
-    <!-- What is DigiByte Video
-    ================================================== -->
-    <section class="s-about-how target-section" id="blockchain">
-
-        <div class="row">
-           <div class="col-full video-bg" data-aos="zoom-in">
-
-                <div class="shadow-overlay"></div>
-
-                <a class="btn-video" href="https://www.youtube.com/embed/bsHA7TBbbWE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity>
-                    <span class="video-icon"></span>
-                </a>
-
-                <div class="stats">
-                    <div class="item-stats">
-                        <span class="item-stats__num">
-                            DigiByte<br>là gì?
-                        </span>
-                        <span class="item-stats__title">
-                            Xem video giới thiệu
-                        </span>
-                    </div>
-                </div>
-		   
-           </div>
-        </div>
-	    
-    <!-- Blockchain
-    ================================================== -->
-	    
-        <div class="row process-wrap">
-			
-		<div class="section-header align-center has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Đây là cách blockchain DigiByte hoạt động.
-                </h1>
-                <p class="lead">
-                    Ba lớp là các phần sáng tạo nhất của blockchain DigiByte cung cấp cơ sở hạ tầng mạng, bảo mật và thông tin liên lạc để hoạt động với tốc độ vượt trội.
-                </p>
-            </div>
-        </div>
-
-        <div class="process" data-aos="fade">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Ứng dụng / DigiAssets.</h3>
-                        <p>Lớp trên cùng giống như một cửa hàng ứng dụng với các mục đích sử dụng thực tế rõ ràng. Tất cả các loại tài sản kỹ thuật số có thể được tạo bằng giao thức <a href="#digiassets" class="smoothscroll">DigiAssets</a> của blockchain DigiByte. Các ứng dụng phi tập trung (dApps) có thể được xây dựng dựa trên blockchain DigiByte. Ngoài ra các smart contract tận dụng sự nghiêm ngặt và bảo mật của blockchain DigiByte để có thể được mã hóa dễ dàng.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Tài sản kỹ thuật số / sổ cái công khai.</h3>
-                        <p>Lớp giữa cung cấp bảo mật và quản trị. Một <strong>Digi</strong>Tal <strong>Byte</strong> dữ liệu, đại diện cho dữ liệu lớn hơn hoặc một đơn vị giữ giá trị và không thể bị làm giả, sao chép hoặc hack. Một sổ cái công khai bất biến nơi tất cả các giao dịch của DigiBytes được ghi lại. DigiByte sử dụng <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">năm bằng chứng thuật toán công việc</a> để bảo mật. DigiBytes mới chỉ đến từ việc đào.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Giao thức cốt lõi / Mạng toàn cầu.</h3>
-                        <p>Lớp dưới cùng cung cấp các thủ tục giao tiếp và vận hành. Một nút cách mức rất thấp trên mạng toàn cầu DigiByte giao tiếp. Hàng ngàn người đang chạy phần mềm DigiByte trên khắp hành tinh. Bất kỳ máy chủ, máy tính, máy tính bảng hoặc điện thoại di động nào được kết nối với mạng DigiByte đều trở thành nút giúp chuyển tiếp giao dịch.
-			            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node#complete-port-forwarding" target="_blank">Bắt đầu đóng góp cho blockchain DigiByte theo cách tối ưu</a>.
-			            </p>
-		            </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">Nguồn mở / Không cần xin phép.</h3>
-                        <p>Giống như <a href="https://github.com/DigiByte-Core/DGBio" target="_blank">trang web này</a>, blockchain DigiByte hoàn toàn là nguồn mở và miễn phí sử dụng được phát hành theo <a href="https://opensource.org/licenses/mit-license.php" target="_blank">giấy phép MIT</a>, cho phép bạn chạy và sửa đổi phần mềm. Tính minh bạch cho phép xác minh độc lập các mã nhị phân và mã nguồn tương ứng của chúng.<br />
-						<a href="https://github.com/DigiByte-Core/digibyte" target="_blank">Giao thức DigiByte trên GitHub</a>.
-						<br />
-						<a href="https://github.com/DigiByte-Core" target="_blank">Phát triển cốt lõi DigiByte trên GitHub</a>.
-                        </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-		
-		   <div class="row s-stats" data-aos="fade">
-		      <div class="stitle">Thống kê chuỗi khối DigiByte</div>
-		   <div class="block-1-3">
-
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="years-surpassed">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">năm</a></div>
-              </div>
-			   
-			   <div class="col-block stats__col">
-                  <div class="stats__count" id="block-count" >0</div>
-                  <div class="stats_text"><a href="https://chainz.cryptoid.info/dgb/" target="_blank">khối</a></div>
-              </div>
-			   
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="node-download-count">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">tải xuống nút</a></div> 
-              </div>
-
-           </div>
-		   </div>
-
-		   <div class="testimonials-wrap" data-aos="fade" id="history">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">Lịch sử của DigiByte.</h2>
-					<p class="lead">
-                    Khám phá các mốc phát triển chính của blockchain DigiByte.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full slick-slider testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="../images/avatars/development.png" loading="lazy" width="72" height="72" alt="Development" class="testimonials__avatar">
-                        
-                        <p>Phát triển toàn thời gian đã được bắt đầu để xây dựng tương lai của blockchain DigiByte.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Tháng 10 năm 2013</span>
-				<a href="https://x.com/jaredctate/status/1190673943876841475" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/launch.png" loading="lazy" width="72" height="72" alt="Launch" class="testimonials__avatar">
-                        
-                        <p>Khối nguyển thủy đã được khai thác thành công và blockchain DigiByte chính thức ra mắt.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 10 tháng 1 năm 2014</span>
-							<a href="https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L40" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digishield.png" loading="lazy" width="72" height="72" alt="DigiShield" class="testimonials__avatar">
-                        
-                        <p>DigiShield đã kích hoạt để sử dụng điều chỉnh độ khó thời gian thực chống lại những biến động băm.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">28 tháng 2 năm 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multialgo.png" loading="lazy" width="72" height="72" alt="MultiAlgo" class="testimonials__avatar">
-                        
-                        <p>MultiAlgo được kích hoạt để sử dụng 5 thuật toán khác nhau để ngăn chặn việc tập trung khai thác.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 1 tháng 9 năm 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multishield.png" loading="lazy" width="72" height="72" alt="MultiShield" class="testimonials__avatar">
-                        
-                        <p>MultiShield được kích hoạt để mở rộng bảo vệ DigiShield trên tất cả 5 thuật toán khai thác.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 10 tháng 12 năm 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multishield" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digispeed.png" loading="lazy" width="72" height="72" alt="DigiSpeed" class="testimonials__avatar">
-                        
-                        <p>DigiSpeed được kích hoạt để giảm thời gian block xuống 15 giây để giao dịch nhanh hơn.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 4 tháng 12 năm 2015</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/segwit.png" loading="lazy" width="72" height="72" alt="SegWit" class="testimonials__avatar">
-                        
-                        <p>SegWit được kích hoạt trước Bitcoin và Litecoin để sử dụng kích thước khối hiệu quả.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">28 tháng 4 năm 2017</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digi-id.png" loading="lazy" width="72" height="72" alt="Digi-ID" class="testimonials__avatar">
-                        
-                        <p>Digi-ID ra mắt để trao quyền cho người dùng dễ dàng đăng nhập vào các trang web và hơn thế nữa.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Tháng 5 năm 2018</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digi-id" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digiassets.png" loading="lazy" width="72" height="72" alt="DigiAssets" class="testimonials__avatar">
-                        
-                        <p>DigiAssets đã ra mắt để cho phép phát hành tài sản phi tập trung và hơn thế nữa.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Tháng 4 năm 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digiassets" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/dandelion.png" loading="lazy" width="72" height="72" alt="Dandelion++" class="testimonials__avatar">
-                        
-                        <p>Giao thức Dandelion ++ được triển khai nhằm ngăn chặn IP và theo dõi vị trí vật lý. 
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 3 tháng 5 năm 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-			
-					<div class="testimonials__slide">		
-                        <img src="../images/avatars/odocrypt.png" loading="lazy" width="72" height="72" alt="Odocrypt" class="testimonials__avatar">
-                        
-                        <p>Odocrypt được kích hoạt tự thay đổi cứ sau 10 ngày cho khả năng kháng ASIC vượt trội. 
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Ngày 21 tháng 7 năm 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank" class="testimonials__link">Tìm hiểu thêm</a>
-                        </div>
-                    </div>
-					
-                    <div class="testimonials__slide">		
-                        <img src="../images/avatars/roadmap.png" loading="lazy" width="72" height="72" alt="Roadmap" class="testimonials__avatar">
-                        
-                        <div>
-                            Để tìm hiểu thêm về các thay đổi được đề xuất đối với giao thức DigiByte, vui lòng truy cập kho DIPs: <a href="https://github.com/DigiByte-Core/DIPs" target="_blank" class="testimonials__link"> Kho DIPs của DigiByte</a>
-                        </div>
-                        <div>
-                            Để tìm hiểu thêm về cách bạn có thể đóng góp vào sự phát triển của DigiByte, vui lòng truy cập diễn đàn Thảo luận GitHub:<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" class="testimonials__link"> Thảo luận GitHub của DigiByte</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div> 
-
-        </div>
-
-    </section>
-
-
-    <!-- Currency
-    ================================================== -->
-    <section id="currency" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Một loại tiền kỹ thuật số<br/>bạn sẽ hoàn toàn yêu thích.
-                </h1>
-                <p class="lead">
-                    DigiByte (DGB) là một loại tiền kỹ thuật số ngang hàng có khả năng mở rộng cao, cho phép tốc độ giao dịch hàng đầu trong ngành với mức phí không đáng kể. DigiByte là cách tốt nhất để thanh toán.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/RSEijQXSfZQ?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Học bằng cách quan sát</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-phone-laptop"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Dễ sử dụng.</h3>
-                    <p>Bắt đầu sử dụng DigiByte thậm chí còn dễ dàng hơn gửi SMS. Bạn có thể gửi và nhận DigiBytes bằng các thiết bị bạn đã biết và yêu thích. Tất cả những gì bạn cần là cài đặt một <a class="smoothscroll" href="#downloads">ví được hỗ trợ bởi DigiByte</a>, sau đó nhấp vào scan, quét mã QR và gửi DigiByte. Dễ như đếm 1..2..3.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-thumbs-up"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Không phải là ICO.</h3>
-                    <p>DigiByte chưa bao giờ được tài trợ thông qua một <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> hoặc số lượng đáng kể coin được đào trước (<a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">0% còn lại</a>). Không có CEO hay công ty nào kiểm soát blockchain DigiByte. <a class="smoothscrollup" href="#developers">Nhà phát triển</a> và <a class="smoothscroll" href="#community">cộng đồng</a> là những tình nguyện viên không được trả lương giúp loại bỏ rủi ro phá sản.
-                    </p>
-                </div>
-            </div>
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-tachometer-alt-fastest"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Nhanh hơn nhiều.</h3>
-                    <p>Những giao dịch DigiByte được xác nhận trong khoảng 15 giây, nhanh hơn 40 lần so với Bitcoin và nhanh hơn 10 lần so với Litecoin. <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a> cho phép lên tới <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> giao dịch trực tuyến mỗi giây và phí không đáng kể khiến DigiByte trở thành loại tiền tệ lý tưởng cho thanh toán hàng ngày.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>    
-                <div class="item-feature__text">
-                    <h3 class="item-title">Luôn luôn bảo mật.</h3>
-                    <p>DigiByte đã được xây dựng dựa trên công nghệ không thể bẻ khóa của blockchain Bitcoin và đã triển khai nhiều cải tiến nâng cao khác nhau như lớp bảo vệ <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a>, khai thác <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> và thuật toán <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a>. Ngoài ra giao thức bảo mật <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a> giúp bạn an toàn bằng cách ẩn IP và vị trí thực của bạn. <a href="https://github.com/DigiByte-Core/digibyte/wiki#key-features" target="_blank">Tìm hiểu thêm</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-digging"></i>
-                </div> 
-                <div class="item-feature__text">
-                    <h3 class="item-title">Có thể khai thác được.</h3>
-                    <p>DigiByte là một blockchain <a href="https://wikipedia.org/wiki/Proof_of_work" target="_blank">Proof of Work</a> (PoW) 100% có thể được khai thác với năm thuật toán là Sha256, Scrypt, Skein, Qubit và Odocrypt. Việc khai thác <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> góp phần phân cấp, bảo mật mạng và cho phép bạn tự do sử dụng các loại phần cứng khác nhau như ASIC một GPU hoặc GPU. <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">Tìm hiểu thêm</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-coins"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Những đơn vị quản lý.</h3>
-                    <p>So với 21 triệu Bitcoin, 21 tỷ DigiByte (tỷ lệ 1000:1 so với BTC) đã được thiết kế để sẵn sàng cho việc áp dụng đại trà. Phần thưởng khối DigiByte giảm 1% mỗi tháng thay vì giảm một nửa sau mỗi 4 năm. Tất cả 21 tỷ DigiByte sẽ được khai thác vào năm 2035. Sau năm 2035, các công ty khai thác sẽ chỉ dựa vào phí giao dịch. <a href="https://github.com/DigiByte-Core/digibyte/wiki/Technical-Specifications" target="_blank">Tìm hiểu thêm</a>.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="testimonials-wrap" data-aos="fade" id="ecosystem">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">Chọn nhanh từ Hệ sinh thái DigiByte.</h2>
-					<p class="lead">
-                    Tất cả các sàn giao dịch và dịch vụ hỗ trợ DigiByte có thể được tìm thấy trên <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank">DigiByte Wiki</a>.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- DigiAssets
-    ================================================== -->
-    <section id="digiassets" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                   Một cách đơn giản để<br/>tạo tài sản kỹ thuật số.
-                </h1>
-                <p class="lead">
-                    DigiAssets là một lớp an toàn, có thể mở rộng trên blockchain DigiByte, cho phép phát hành phi tập trung tài sản, mã token, hợp đồng thông minh, nhận dạng kỹ thuật số và hơn thế nữa.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/JoqOn5gTiqE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Học bằng cách quan sát</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-photo-video"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Những khả năng vô hạn.</h3>
-                    <p>DigiAssets có thể được sử dụng để thể hiện một cách an toàn bất cứ thứ gì chúng ta tìm thấy trong thế giới vật lý. Từ những tài sản hữu hình như bất động sản hay xe hơi, cho đến những tác phẩm nghệ thuật kỹ thuật số khan hiếm. Các tài liệu đã được ký như chứng thư và hóa đơn y tế có thể được bảo vệ.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Phát triển một cách tự tin.</h3>
-                    <p>DigiAssets với tư cách là một hệ sinh thái và nền tảng đã có các bên quan tâm lên kế hoạch hoặc hiện đang xây dựng các nền tảng trong bất động sản, tài chính, chuyển tiền, nhận dạng, điểm bán, đua xe, thương mại, y tế, chuỗi cung ứng, chính phủ, v.v.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-badge-check"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">Công nghệ cứng rắn.</h3>
-                    <p>DigiAssets tận dụng các khía cạnh độc đáo của một blockchain thực sự phi tập trung chỉ được tìm thấy trong một blockchain không cần xin phép như DigiByte. Điều này cho phép DigiAssets an toàn hơn, có thể mở rộng và phân cấp hơn bất kỳ nền tảng nào khác trên thị trường.
-                    </p>
-                </div>
-            </div>
-			
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">Hãy bắt đầu với DigiAssets.</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Tìm hiểu về giao thức.</h3>
-                        <p>Khám phá các mã nguồn mở của giao thức DigiAssets để phát hành và giao dịch các tài sản kỹ thuật số trên DigiByte Blockchain. 
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/web" target="_blank">Giao thức DigiAssets trên GitHub</a>,
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/src/RPC/Methods" target="_blank">DigiAssets Core ghi đè và mở rộng</a>.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Phát hành một tài sản.</h3>
-                        <p>Không phải là một nhà phát triển? Chắc chắn không phải là vấn đề! Bất cứ ai cũng có thể dễ dàng phát hành DigiAsset bằng cách sử dụng một trong những công cụ có sẵn mà không cần có kiến thức kỹ thuật về giao thức. <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">DigiAssets đã hỗ trợ các dịch vụ</a>.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Lưu trữ / Giao dịch.</h3>
-                        <p>Tự hỏi làm thế nào để sử dụng DigiAssets? Truy cập các <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">dịch vụ được hỗ trợ bởi DigiAssets</a> để mua, bán và trao đổi DigiAssets.
-                        </p> 
-                    </div>
-					
-                    <div class="col-block step">
-                        <h3 class="item-title">Cần thêm sự giúp đỡ?</h3>
-                        <p>Bạn có cần hỗ trợ thêm về DigiAssets không? Xin vui lòng tham gia diễn đàn thảo luận DigiByte trên GitHub để đặt câu hỏi hoặc chia sẻ ý tưởng của bạn. <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">DigiByte GitHub Discussions</a>.
-                        </p>
-                    </div>
-            </div>
-
-        </div>
-	    </div>
-		
-    </section>
-	
-	
-	<!-- Digi-ID
-    ================================================== -->
-    <section id="digi-id" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Sự xác thực tốt nhất của họ.
-                </h1>
-                <p class="lead">
-                    Digi-ID là một giao thức bảo mật được xây dựng trên công nghệ chuỗi khối DigiByte, cho phép người dùng dễ dàng đăng nhập vào các trang web, ứng dụng và thậm chí vào internet mọi thứ.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/pLrQycud5GI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Học bằng cách quan sát</a>
-        </div>
-		
-		<div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-sign-in-alt"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Xác thực dễ dàng.</h3>
-                    <p>Digi-ID loại bỏ các yêu cầu tên người dùng, mật khẩu và những yêu cầu 2fa để xác thực. Vì Digi-ID sử dụng mật mã khóa công khai / riêng tư, không có rủi ro nào cho mật khẩu hoặc tên người dùng. Phương pháp này không chỉ bảo vệ người tiêu dùng, nó còn bảo vệ các dịch vụ mà người tiêu dùng sử dụng.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-user-shield"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Bảo mật hoàn hảo.</h3>
-                    <p>Digi-ID không lưu trữ bất kỳ dữ liệu nào về người dùng trên blockchain. Điều này càng củng cố tính bảo mật đồng thời củng cố niềm tin của người dùng cuối rằng dữ liệu của họ không bị theo dõi cũng như không có nguy cơ do sơ suất của người khác. Không có điểm sai sót bên ngoài nào cho tin tặc nhắm mục tiêu và khai thác nền tảng của bạn.</p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-smile-plus"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Đơn giản và miễn phí.</h3>
-                    <p>Digi-ID là hoàn toàn miễn phí! Không có phí, dịch vụ thuê bao, hoặc chi phí bảo trì. Nhưng chi phí là tính năng tốt thứ hai của nó. Đặc điểm chính của nó là, theo ưu tiên bảo mật của DigiByte, Digi-ID là một phương pháp an toàn hơn, đơn giản hơn để đăng nhập vào các trang web, ứng dụng và hơn thế nữa.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">Nó hoạt động như thế này.</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Thế hệ.</h3>
-                        <p>Trang web, ứng dụng hoặc sản phẩm tạo mã QR Digi-ID duy nhất và thể hiện nó.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Scanning.</h3>
-                        <p>
-                            Người dùng quét mã QR từ bất kỳ ứng dụng nào được hỗ trợ bởi <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">Digi-ID</a>.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Xác thực.</h3>
-                        <p>Người dùng xác thực yêu cầu bằng cách nhập mã PIN hoặc quét dấu vân tay / khuôn mặt của họ.
-                        </p> 
-                    </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">Sự xác nhận.</h3>
-                        <p>Digi-ID gửi lại yêu cầu được ký bằng mật mã và người dùng đã đăng nhập thành công.
-                        </p> 
-                    </div>
-
-                </div>
-              </div>
-			
-          </div>
-		
-		  <div data-aos="fade">
-		
-		  <h1 class="align-center">Các câu hỏi thường gặp.</h1>
-		
-		  <div class="row features block-1-2 block-m-1-2">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Tôi có thể tìm thêm tài liệu ở đâu?</h3>
-                    <p>Nơi tốt nhất để bắt đầu là <a href="https://www.digi-id.io" target="_blank">Digi-ID.io</a>. Nếu bạn muốn biết thêm về các chi tiết và ưu điểm của Digi-ID, bạn có thể tham khảo <a href="https://www.digi-id.io/faq" target="_blank">hướng dẫn sử dụng</a>, <a href="https://www.digi-id.io/vendor-info.html" target="_blank">hướng dẫn nhà cung cấp</a> và <a href="https://www.digi-id.io/integration.html" target="_blank">hướng dẫn tích hợp</a>. Nếu bạn đang tìm kiếm bộ phương tiện truyền thông, vui lòng lấy <a href="../docs/digiidintro.pdf" target="_blank">bảng giới thiệu</a> và <a href="https://github.com/DigiByte-Core/digibyte-logos/tree/master/Digi-ID%20Logos/Digi-ID_logos" target="_blank">logo</a>.
-                    </p>
-                </div>
-            </div>
-			  
-            <div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Thư viện tích hợp ở đâu?</h3>
-                    <p>Vì Digi-ID là mã nguồn mở, bạn có thể tìm hiểu thêm bằng cách truy cập <a href="https://github.com/DigiByte-Core?q=digiid" target="_blank">DigiByte Core Development</a>. Nếu bạn cần thêm hỗ trợ, vui lòng tham gia <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">diễn đàn thảo luận DigiByte trên GitHub</a> để đặt câu hỏi.
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Tôi có thể tích hợp Digi-ID mà không cần mã hóa không?</h3>
-                    <p>Nếu bạn không phải là nhà phát triển, bạn có thể muốn sử dụng các giải pháp tích hợp sẵn sàng cho trang web hoặc sản phẩm của mình. Bạn cũng có thể sử dụng <a href="https://wordpress.org/plugins/digi-id-authentication/" target="_blank">WordPress plugin</a> cho các nền tảng WordPress.
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Có các ứng dụng xác thực Digi-ID nào khác không?</h3>
-                    <p>Tất nhiên! Digi-ID là một nền tảng phát triển nhanh chóng. Có thể tìm thấy nhiều ứng dụng xác thực độc lập và ví được hỗ trợ Digi-ID tại phần <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">Downloads</a>.
-                    </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-
-    </section>
-	
-	
-	<!-- Community
-    ================================================== -->
-    <section id="community" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Cộng đồng đam mê nhất<br/>từ trước đến nay!
-                </h1>
-                <p class="lead">
-                    Hàng chục ngàn tình nguyện viên từ khắp nơi trên thế giới đã đóng góp cho DigiByte bằng vô số cách trong nhiều năm để biến nó thành như ngày nay. Đó là một phong trào có nền tảng thực sự. Chúng tôi nồng nhiệt chào đón bạn tham gia với chúng tôi!
-                </p>
-            </div>
-		    <a class="btn btn--primary playb" href="https://www.youtube.com/embed/zODI3S9ZdUI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Học bằng cách quan sát</a>
-        </div>
-		
-		<div class="row features block-1-2 block-m-1-2" data-aos="fade">
-            <div class="col-block item-feature" id="developers">
-                <div class="item-feature__icon">
-                    <i class="fas fa-code"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">Các nhà phát triển DigiByte.</h3>
-                    <p>Mọi người làm việc trên DigiByte là một tình nguyện viên không được trả lương. Bắt đầu đóng góp cho sự phát triển DGB ngay hôm nay hoặc xây dựng ứng dụng của riêng bạn trên đầu chuỗi khối DigiByte.
-					<br />	
-					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">Các nhà phát triển DigiByte trên GitHub Discussions</a>.
-					<br />
-					<a href="https://github.com/digibyte-core/digibyte" target="_blank">Giao thức lõi DigiByte trên GitHub</a>.
-                    </p>
-                </div>
-            </div>
-			<div class="col-block item-feature" id="wiki">
-                <div class="item-feature__icon">
-                    <i class="fab fa-wikipedia-w"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Wiki DigiByte.</h3>
-                    <p>The <a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">DigiByte Wiki</a> là một bách khoa toàn thư trực tuyến <a href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank">được xây dựng bởi cộng đồng, dành cho cộng đồng</a>. Nó chứa dữ liệu hữu ích và cập nhật như <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank">Hệ sinh thái DigiByte</a> và <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank">cách hướng dẫn</a>. Bất cứ ai cũng có thể đóng góp tích cực vào Wiki bằng cách tạo một tài khoản người dùng miễn phí và bắt đầu thêm hoặc cập nhật thông tin trên DigiByte Wiki. <strong>Cảnh báo</strong> <i class="fas fa-exclamation-circle"></i> Tránh cảm thấy xấu hổ việc quảng cáo và các liên kết giới thiệu.</p>
-					<p class="jared">
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#technical-specifications" target="_blank"><i class="fab fa-wikipedia-w"></i> Kỹ thuật</a> 
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#framework" target="_blank"><i class="fab fa-wikipedia-w"></i> Khung làm việc</a>
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#accomplishments" target="_blank"><i class="fab fa-wikipedia-w"></i> Các thành tựu</a>
-					</p>
-                </div>
-            </div>
+			</div>
+			<a class="btn btn--ghost btn--sm nav__cta-extra" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" aria-label="GitHub">
+				<i class="fab fa-github"></i> GitHub
+			</a>
+			<a class="btn btn--primary btn--sm" href="#downloads">Get DGB</a>
+			<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+				<span></span>
+			</button>
 		</div>
-	    
-	</section>
+	</div>
+</header>
 
+<main id="main">
 
-   <!-- Downloads
-    ================================================== -->
-    <section id="downloads" class="s-download target-section">
-	    
-	<!--- Downloads DigiByte Wallets
-    ================================================== -->
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Chọn ứng dụng của bạn.
-                </h1>
-                <p class="lead">
-                    Chọn một ứng dụng để gửi, chấp nhận và lưu trữ DigiBytes & DigiAssets của bạn hoặc xác thực an toàn bằng cách sử dụng Digi-ID.<br /><a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank">DigiByte Core v8.26.1 hiện tại</a>
-                </p>
-            </div>
-			<a class="btn wb playb" href="https://www.youtube.com/embed/sRxpgJkvRK8?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Học bằng cách quan sát</a>
-        </div>
-		
-		<div data-aos="fade">
-            <h1 class="downtitle align-center">Giao thức & Ví <br>Tất cả trong Một</h1>
-            <div class="item-feature__text max830 align-center">
-                <p>DigiByte Core chứa một bản sao đầy đủ của blockchain và xây dựng xương sống của mạng.
-                Thông thường được sử dụng bởi các nhà phát triển, sàn giao dịch, và các doanh nghiệp khác, cũng như bởi các thành viên cộng đồng, để phân quyền mạng bằng cách chạy một nút đầy đủ.
-                Nó cũng gấp đôi như một ví phần mềm.
-                </p>
-            </div>
-            <div class="row features block-1-2 block-m-1-2 block-tab-full stack max880">
-                <div id="dgbcore">
-                    <div class="item-plan__block-wrapper">
-                        <div class="item-plan__block">
-                            <div id="dgbcore_symbol"></div>
-                            <div class="item-plan__top-part">
-                                <p class="item-plan__price">DigiByte Core</p>
-                            </div>
-                            <div class="item-plan__bottom-part">
-                                <ul class="item-plan__features">
-                                    <li><i class="fas fa-check blue"></i> Xác thực đầy đủ</li>
-                                    <li><i class="fas fa-check blue"></i> Hỗ trợ mạng</li>
-                                    <li><i class="fas fa-check blue"></i> Độ ổn định cao</li>
-                                    <li><i class="fas fa-check blue"></i> Hỗ trợ SegWit</li>
-                                </ul>
-                                <div class="appsicon align-center">
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-win64-setup.exe" target="_blank"><i class="fab fa-windows zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-apple-darwin.zip" target="_blank"><i class="fab fa-apple zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-linux-gnu.tar.gz" target="_blank"><i class="fab fa-linux zoom"></i></a>
-                                    <a href="https://snapcraft.io/digibyte-core" target="_blank">
-                                        <svg class="zoom" width="44px" height="69px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: middle;">
-                                            <g id="[EN]-snap-store-white-uneditable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="logo" fill-rule="nonzero">
-                                                    <path d="M18.9875172,17.8017143 L18.9875172,7.33085714 L26.2054138,10.5525714 L18.9875172,17.8017143 Z M5.20774138,31.6411429 L14.058569,14.9742857 L17.9423276,18.852 L5.20774138,31.6411429 Z M0.160180862,0.233262857 L18.3753103,6.84571429 L18.3753103,18.4171429 L0.160180862,0.233262857 Z" id="body" fill="#06c"></path>
-                                                    <polygon id="head" fill="#06c" points="29.8968621 6.84514286 19.4057069 6.84514286 32.8936034 12.8657143"></polygon>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="supportline align-center">
-                                    <p class="item-plan__per">Có sẵn cho Windows, macOS, Linux & Snapcraft (64 Bit)</p>
-                                </div>
-                                <div class="supportline align-center pt2">
-                                    <a href="https://dgbsupport.digiassetx.com" data-lity><i class="fas fa-user-headset"></i> Hỗ trợ</a> - <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank"><i class="fas fa-info-circle"></i> Vận hành một nút đầy đủ</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lrmargin25">
-                        <div class="item-feature__text max800 align-center">
-                            <p>
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <strong>Lưu ý về Ví</strong>
-                                <br>
-                                DigiByte Core như một ví nên chỉ được sử dụng bởi những người dùng nâng cao, những người biết cách giữ an toàn cho ví của họ.
-                                Nếu bạn không phải là người dùng có kinh nghiệm, bạn có thể muốn sử dụng một <a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">ví phần mềm</a> đơn giản hơn.
-                            </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>        
-	    
-	    	<!--- Downloads Docs & Guides
-    ================================================== -->
-	    	<div class="lrmargin25" data-aos="fade"  id="docs">
-		
-			<h1 class="downtitle align-center"><i class="fas fa-books"></i> Tài liệu & Hướng dẫn sử dụng DigiByte.</h1>
-				
-			  <div class="item-feature__text max800 align-center">
-                  <p>Tìm kiếm thêm tài liệu? Cho dù bạn cần thông tin cơ bản cho một bài viết hoặc thông tin kỹ thuật cho một quá trình tích hợp. Bạn có thể đạt được tất cả các hướng dẫn cần thiết dưới đây.
-                  </p>
-              </div>
-     
-		    <div class="row testimonials downslide">
+<!-- HERO ===================================================== -->
+<section class="hero" aria-labelledby="hero-title">
+	<div class="hero__canvas" data-hero-network aria-hidden="true"></div>
+	<div class="hero__overlay" aria-hidden="true"></div>
 
-                <div class="col-full slick-slider testimonials__slider">
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/infopaper.png" loading="lazy" width="72" height="72" alt="DigiByte Info Paper" class="testimonials__avatar">
-                        
-                        <p>Tìm hiểu chi tiết về chuỗi khối DigiByte bằng cách sử dụng "info paper".</p>
+	<div class="row hero__inner">
+		<div class="hero__content">
+			<div class="hero__chips">
+				<span class="chip chip--live">Live · Block <span data-block-height class="is-loading">—</span></span>
+				<span class="chip chip--violet">Open source · MIT</span>
+				<span class="chip">Since 2014</span>
+			</div>
+			<h1 id="hero-title" class="hero__title">
+				The blockchain<br>
+				<span class="accent">that never stops moving.</span>
+			</h1>
+			<p class="hero__lead">
+				DigiByte is the longest, fastest and most decentralized UTXO blockchain in existence — secured by five mining algorithms, settling in 15&nbsp;seconds and powering DGB Coin, DigiAssets and Digi-ID for over a decade.
+			</p>
+			<div class="hero__ctas">
+				<a class="btn btn--primary btn--lg" href="#downloads">
+					<i class="fas fa-rocket"></i> Get DigiByte
+				</a>
+				<a class="btn btn--ghost btn--lg" href="#devhub">
+					<i class="fas fa-terminal"></i> Build on DGB
+				</a>
+			</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Info paper</span>
-                            <a href="../docs/infopaper.pdf" target="_blank" class="testimonials__link">Tải xuống</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/integration.png" loading="lazy" width="72" height="72" alt="DigiByte Integration Guide" class="testimonials__avatar">
-                        
-                        <p>Tích hợp blockchain DigiByte vào sàn giao dịch, ví hoặc dịch vụ một cách dễ dàng.</p>
+			<div class="hero__metrics">
+				<div class="stat hero__metric">
+					<span class="stat__label">Block time</span>
+					<span class="stat__value">15<small class="size-fs-half">s</small></span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label">Algorithms</span>
+					<span class="stat__value">5</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label">Years live</span>
+					<span class="stat__value year-diff">—</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label">Max supply</span>
+					<span class="stat__value">21B</span>
+				</div>
+			</div>
+		</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Hướng dẫn tích hợp</span>
-                            <a href="../docs/integrationguide.pdf" target="_blank" class="testimonials__link">Tải xuống</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/digibyte_symbol_06c.svg" loading="lazy" width="72" height="72" alt="DigiByte DigiDollar Guide" class="testimonials__avatar">
-                        
-                        <p>Implement DigiDollar &mdash; DigiByte's native USD-pegged stablecoin &mdash; in your wallet, exchange or service.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">DigiDollar guide</span>
-                            <a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="testimonials__link">Download</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/mediag.png" loading="lazy" width="72" height="72" alt="DigiByte Media Sheet" class="testimonials__avatar">
-                        
-                        <p>Tìm hiểu các sự thật quan trọng về blockchain DigiByte bằng các phương tiện truyền thông một cách nhanh chóng.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Tờ truyền thông</span>
-                            <a href="../docs/mediakit.pdf" target="_blank" class="testimonials__link">Tải xuống</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-						<img src="../images/avatars/presentation.png" loading="lazy" width="72" height="72" alt="DigiByte Presentation" class="testimonials__avatar">
-                        
-                        <p>Sử dụng bản trình bày trực tuyến thông tin để giới thiệu DigiByte cho bạn bè của bạn.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Sự trình bày</span>
-                            <a href="https://docs.google.com/presentation/d/16Hn2GfuS1yLjZpjeTYloW0S_JVkhevYzffkDZFqjbiU" target="_blank" class="testimonials__link">Bắt đầu</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/logos.png" loading="lazy" width="72" height="72" alt="DigiByte Logos & Icons" class="testimonials__avatar">
-                        
-                        <p>Tìm các biểu tượng và logo DigiByte chính xác và được cập nhật cho dự án của bạn.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Logo và biểu tượng</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" class="testimonials__link">Truy cập GitHub</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/howto.png" loading="lazy" width="72" height="72" alt="How to Guides" class="testimonials__avatar">
-                        
-                        <p>Chạy full node DigiByte của riêng bạn hoặc thám hiểm trong đó bằng cách tham khảo các hướng dẫn Wiki.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Bằng cách nào để sử dụng.</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank" class="testimonials__link">Chuyển đến DigiByte Wiki</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
+		<div class="hero__art" aria-hidden="true">
+			<div class="hero__art-ring hero__art-ring--2"></div>
+			<div class="hero__art-ring"></div>
+			<div class="hero__art-coin">
+				<img src="../images/digibyte_symbol_06c.svg" alt="" width="420" height="420" class="coin-glow-soft">
+			</div>
+		</div>
 	</div>
 
-    </section>
+	<a class="hero__scroll-cue" href="#chain" aria-label="Scroll to chain"></a>
+</section>
 
-
-    <!-- Footer
-    ================================================== -->
-    <footer id="footer" class="s-footer footer">
-		
-		<div class="align-center">
-			<a class="smoothscroll" href="#top"><img src="../images/footerlogo.png" loading="lazy" width="360" height="139" alt="DigiByte Blockchain" class="footerlogo"></a>
+<!-- TRUST MARQUEE ============================================ -->
+<section class="s-trust" aria-label="Trusted by">
+	<div class="row">
+		<p class="s-trust__label eyebrow">Available across the ecosystem</p>
+		<div class="marquee" aria-hidden="true">
+			<div class="marquee__track">
+				<a href="#wallets"><img src="../images/wallets/ledger.png" alt="Ledger" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/trust.png" alt="Trust Wallet" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/exodus.png" alt="Exodus" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/atomic.png" alt="Atomic Wallet" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/cryptocom.png" alt="Crypto.com" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/edge.png" alt="Edge" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/keepkey.png" alt="KeepKey" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/safepal.png" alt="SafePal" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/secux.png" alt="SecuX" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/bitfi.png" alt="Bitfi" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/dcent.png" alt="D'CENT" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/guarda1.png" alt="Guarda" loading="lazy"></a>
+				<a href="#wallets"><img src="../images/wallets/upholdcard.png" alt="Uphold" loading="lazy"></a>
+			</div>
 		</div>
-		
-		<div class="row footer__top max1000">
-            <div class="col-full footer__subscribe end">
-                <div class="subscribe-form">
-					<form id="de-form" class="group" method="get" target="_blank" action="https://chainz.cryptoid.info/dgb/search.dws?key=25ac5ef2ff1e">
-                       <input type="text" name="q" placeholder="Tìm kiếm block, tx id hoặc địa chỉ" autocomplete="off" required>
-                       <a><input type="submit" value="Tìm kiếm" class="btn btn--primary home-content__btn search"></a>
-                    </form>
-                </div>
-            </div>
-        </div>
+	</div>
+</section>
 
-        <div class="row footer__bottom">
+<!-- LIVE DASHBOARD =========================================== -->
+<section id="chain" class="s-dashboard bg-grid" aria-labelledby="chain-title" data-chain-dashboard>
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Live network</span>
+			<h2 id="chain-title">Real-time chain dashboard</h2>
+			<p>Pulled directly from the DigiByte network every minute. No middleman, no API key, no walled garden.</p>
+		</header>
 
-            <div class="footer__about col-five tab-full left">
+		<div class="s-dashboard__grid">
+			<div class="stat card--neon" data-reveal>
+				<span class="stat__label">Block height</span>
+				<span class="stat__value is-loading" data-stat="blocks">—</span>
+				<span class="stat__delta">15s avg block time</span>
+			</div>
+			<div class="stat card--neon" data-reveal data-reveal-delay="80">
+				<span class="stat__label">Network hashrate</span>
+				<span class="stat__value is-loading" data-stat="network-hashrate">—</span>
+				<span class="stat__delta">5-algorithm secured</span>
+			</div>
+			<div class="stat card--neon" data-reveal data-reveal-delay="160">
+				<span class="stat__label">Difficulty</span>
+				<span class="stat__value is-loading" data-stat="difficulty">—</span>
+				<span class="stat__delta">DigiShield-adjusted</span>
+			</div>
+			<div class="stat card--neon" data-reveal data-reveal-delay="240">
+				<span class="stat__label">Peers</span>
+				<span class="stat__value is-loading" data-stat="connections">—</span>
+				<span class="stat__delta">Globally distributed</span>
+			</div>
+			<div class="stat card--neon" data-reveal data-reveal-delay="320">
+				<span class="stat__label">Core version</span>
+				<span class="stat__value is-loading size-fs-5" data-stat="version">—</span>
+				<span class="stat__delta">Latest release</span>
+			</div>
+			<div class="stat card--neon" data-reveal data-reveal-delay="400">
+				<span class="stat__label">Years online</span>
+				<span class="stat__value year-diff">—</span>
+				<span class="stat__delta">Since Jan 2014</span>
+			</div>
+		</div>
+	</div>
+</section>
 
-                <h4>Về DigiByte.</h4>
+<!-- WHY DIGIBYTE / FEATURES ================================== -->
+<section id="features" class="s-features" aria-labelledby="features-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Why DigiByte</span>
+			<h2 id="features-title">Engineered for the next decade of crypto.</h2>
+			<p>A pure proof-of-work UTXO chain that has shipped industry firsts since 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets and Digi-ID.</p>
+		</header>
 
-                <p>
-                DigiByte là một blockchain mã nguồn mở đang phát triển nhanh chóng được tạo ra vào cuối năm 2013 và được phát hành vào đầu năm 2014. Sau <span class="year-diff"></span> năm phát triển với tư duy tiến bộ, DigiByte đã trở thành một trong những blockchain UTXO an toàn nhất, nhanh nhất, lâu nhất còn tồn tại đến nay. DigiByte có mặt trên toàn cầu tại hơn 100 quốc gia.
-                </p>
+		<div class="grid grid-2">
+			<article class="card card--neon" data-reveal>
+				<div class="card__icon"><i class="fas fa-bolt"></i></div>
+				<h3 class="card__title">15-second blocks</h3>
+				<p class="card__body">40× faster than Bitcoin and 10× faster than Litecoin. SegWit boosts throughput up to 4× per second with negligible fees.</p>
+			</article>
+			<article class="card card--neon" data-reveal data-reveal-delay="80">
+				<div class="card__icon"><i class="fas fa-shield-halved"></i></div>
+				<h3 class="card__title">5-algorithm security</h3>
+				<p class="card__body">Sha256d, Scrypt, Skein, Qubit and Odocrypt — Odocrypt re-randomizes itself every 10 days to keep mining decentralized.</p>
+			</article>
+			<article class="card card--neon" data-reveal data-reveal-delay="160">
+				<div class="card__icon"><i class="fas fa-globe"></i></div>
+				<h3 class="card__title">Truly decentralized</h3>
+				<p class="card__body">No ICO, no premine, no foundation, no CEO. A volunteer-driven, community-governed protocol with thousands of nodes.</p>
+			</article>
+			<article class="card card--neon" data-reveal data-reveal-delay="240">
+				<div class="card__icon"><i class="fas fa-cubes"></i></div>
+				<h3 class="card__title">DigiAssets</h3>
+				<p class="card__body">Issue tokens, stablecoins, NFTs and real-world asset wrappers on a battle-tested UTXO base layer — no smart-contract risk.</p>
+			</article>
+			<article class="card card--neon" data-reveal data-reveal-delay="320">
+				<div class="card__icon"><i class="fas fa-fingerprint"></i></div>
+				<h3 class="card__title">Digi-ID</h3>
+				<p class="card__body">Passwordless, private, phishing-resistant authentication. Sign in with a single QR scan — no third-party identity broker.</p>
+			</article>
+			<article class="card card--neon" data-reveal data-reveal-delay="400">
+				<div class="card__icon"><i class="fas fa-code-branch"></i></div>
+				<h3 class="card__title">Open by default</h3>
+				<p class="card__body">MIT-licensed Core, public RPC, public roadmap. Fork it, ship it, run it — every line of code lives on GitHub.</p>
+			</article>
+		</div>
+	</div>
+</section>
 
-                <ul class="footer__social">
-		            <li><a class="zoom" href="https://x.com/DigiByteCoin" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                </ul>
-            </div>
+<!-- TOKENOMICS + 3D COIN ===================================== -->
+<section id="tokenomics" class="s-tokenomics" aria-labelledby="tokenomics-title">
+	<div class="row">
+		<div class="s-tokenomics__layout">
+			<div class="s-tokenomics__visual" data-coin-3d data-reveal>
+				<div class="coin-fallback hero__art fill-parent">
+					<div class="hero__art-ring hero__art-ring--2"></div>
+					<div class="hero__art-ring"></div>
+					<div class="hero__art-coin">
+						<img src="../images/digibyte_symbol_06c.svg" alt="DGB symbol" width="420" height="420" class="coin-glow">
+					</div>
+				</div>
+			</div>
 
-            <div class="col-six md-seven tab-full right end">
-                <div class="row">
+			<div data-reveal>
+				<span class="eyebrow">Tokenomics</span>
+				<h2 id="tokenomics-title">DGB — sound money for a faster web.</h2>
+				<p class="lead">Hard-capped at 21 billion DGB and emitted on a transparent, predictable schedule. No inflation surprises, no dev tax, no hidden allocations.</p>
 
-                    <div class="footer__site-links col-six mob-full">
-                        <h4>Những liên kết DigiByte.</h4>
+				<div class="s-tokenomics__stats">
+					<div class="stat"><span class="stat__label">Max supply</span><span class="stat__value">21B</span></div>
+					<div class="stat"><span class="stat__label">Block reward</span><span class="stat__value">~466</span><span class="stat__delta">DGB / block</span></div>
+					<div class="stat"><span class="stat__label">Halving</span><span class="stat__value">~1y</span><span class="stat__delta">monthly reduction</span></div>
+					<div class="stat"><span class="stat__label">Premine</span><span class="stat__value text-success">0%</span><span class="stat__delta">none, ever</span></div>
+				</div>
 
-                        <ul class="footer__site-links">
-                            <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">Wiki DigiByte</a></li>
-			                <li><a href="https://digiexplorer.info" rel="noopener" target="_blank">DigiExplorer</a></li>
-							<li><a href="https://digibyte.io" target="_blank">DigiStats</a></li>
-                            <li><a href="https://github.com/DigiByte-Core/digibyte/wiki/Mining" target="_blank">Khai thác DigiByte</a></li>
-                        </ul>
-                    </div>
+				<div class="cluster mt-6">
+					<a class="btn btn--outline" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">Read the wiki <i class="fas fa-arrow-right"></i></a>
+					<a class="btn btn--ghost" href="docs/infopaper.pdf" target="_blank"><i class="fas fa-file-lines"></i> Info paper</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-                    <div class="footer__contact col-six mob-full">
-                        <h4>Tài nguyên.</h4>
+<!-- DIGIASSETS =============================================== -->
+<section id="digiassets" class="s-digiassets bg-grid" aria-labelledby="digiassets-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">DigiAssets</span>
+			<h2 id="digiassets-title">Issue any asset, on the safest UTXO chain.</h2>
+			<p>Tokens, NFTs, stablecoins, identity records, supply-chain tags — issued natively on DigiByte, settled in 15 seconds, secured by global proof-of-work.</p>
+		</header>
 
-                        <ul class="footer__site-links">
-                            <li><a href="../docs/integrationguide.pdf" target="_blank">Hướng dẫn tích hợp DGB</a></li>
-                            <li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank">DGB DigiDollar Guide</a></li>
-                            <li><a href="../docs/mediakit.pdf" target="_blank">Tờ thông tin DGB</a></li>
-                            <li><a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank">Logo & Biểu tượng DGB</a></li>
-			                <li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank">Giao thức DGB GitHub</a></li>
-                            <li><a href="https://github.com/digibyte-core" target="_blank">DGB Core GitHub</a></li>
-                        </ul>
-                    </div>		
+		<div class="flow-steps">
+			<div class="flow-step card" data-reveal>
+				<h3>Pick your asset</h3>
+				<p>Fungible token, collectible, certificate, voucher — anything mintable on a UTXO base layer.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="80">
+				<h3>Define metadata</h3>
+				<p>Set name, supply, divisibility and IPFS-anchored metadata so wallets and explorers can render it natively.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="160">
+				<h3>Sign &amp; broadcast</h3>
+				<p>Pay a few sats of DGB in fees, broadcast the transaction and the asset is live across the network.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="240">
+				<h3>Send anywhere</h3>
+				<p>Transfer to any DGB address. Embeds in DigiByte Mobile, DigiAssetX, web wallets and explorers out of the box.</p>
+			</div>
+		</div>
 
-                </div>
-            </div>
+		<div class="cluster mt-7 justify-center-children" data-reveal>
+			<a class="btn btn--primary" href="https://digiassetx.com" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> DigiAssetX</a>
+			<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">Protocol docs</a>
+		</div>
+	</div>
+</section>
 
-            <div class="col-full ss-copyright"> 
-                <span>&copy; Copyright <span id="copyright-year"></span></span> 
-				<span>Bảo lưu mọi quyền</span> 
-                <span>Được phát hành theo <a href="https://opensource.org/licenses/mit-license.php" target="_blank">giấy phép MIT</a></span> 
-				<span><a href="/legaldisclaimer.html">Legal Disclaimer</a>Tuyên bố miễn trừ trách nhiệm pháp lý</a> | <a href="../docs/PrivacyPolicy.pdf">Chính sách bảo mật</a></span>
-            </div>
+<!-- DIGI-ID ================================================== -->
+<section id="digi-id" class="s-digiid" aria-labelledby="digiid-title">
+	<div class="row">
+		<div class="s-digiid__layout">
+			<div data-reveal>
+				<div class="qr-demo">
+					<div class="qr-demo__scan"></div>
+					<svg viewBox="0 0 33 33" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<rect width="33" height="33" fill="transparent"/>
+						<g fill="var(--c-ink-0)">
+							<rect x="0" y="0" width="7" height="7"/><rect x="2" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="26" y="0" width="7" height="7"/><rect x="28" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="0" y="26" width="7" height="7"/><rect x="2" y="28" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="9" y="0" width="2" height="2"/><rect x="13" y="0" width="3" height="2"/><rect x="18" y="0" width="2" height="2"/>
+							<rect x="9" y="9" width="2" height="2"/><rect x="13" y="11" width="3" height="2"/><rect x="18" y="9" width="3" height="3"/>
+							<rect x="22" y="11" width="2" height="3"/><rect x="11" y="14" width="2" height="3"/><rect x="14" y="14" width="3" height="2"/>
+							<rect x="20" y="16" width="2" height="2"/><rect x="24" y="14" width="3" height="3"/>
+							<rect x="9" y="20" width="3" height="2"/><rect x="14" y="20" width="2" height="3"/><rect x="18" y="22" width="3" height="2"/>
+							<rect x="22" y="20" width="2" height="3"/><rect x="26" y="22" width="3" height="2"/><rect x="30" y="20" width="2" height="3"/>
+							<rect x="9" y="26" width="2" height="3"/><rect x="13" y="28" width="3" height="2"/><rect x="18" y="26" width="3" height="2"/>
+							<rect x="22" y="28" width="2" height="2"/><rect x="26" y="26" width="3" height="2"/><rect x="30" y="28" width="2" height="2"/>
+						</g>
+					</svg>
+				</div>
+			</div>
 
-        </div>
+			<div data-reveal data-reveal-delay="80">
+				<span class="eyebrow">Digi-ID</span>
+				<h2 id="digiid-title">Sign in with a scan. No password, no broker.</h2>
+				<p class="lead">Digi-ID is open-source, phishing-resistant, decentralized authentication. Your keys, your identity — your users never re-use a password again.</p>
+				<ul class="stack mt-5">
+					<li class="cluster"><i class="fas fa-key text-cyan"></i><span>Private — keys live only on the user's device.</span></li>
+					<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i><span>Phishing-resistant by cryptographic design.</span></li>
+					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span>Drop-in for web, mobile, IoT and physical access.</span></li>
+				</ul>
+				<div class="cluster mt-6">
+					<a class="btn btn--primary" href="https://www.digi-id.io" target="_blank" rel="noopener">Open Digi-ID.io <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener"><i class="fab fa-github"></i> Libraries</a>
+				</div>
 
-        
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
-        </div>
+				<div class="accordion mt-7">
+					<details>
+						<summary>How is it different from OAuth or "Sign in with X"?</summary>
+						<p>Digi-ID has no central identity provider. There is no Google, Apple, or Meta in the loop — the user signs a one-time challenge with their own key, end of story.</p>
+					</details>
+					<details>
+						<summary>Does it require a wallet?</summary>
+						<p>It only requires a Digi-ID-compatible app. Many DigiByte wallets include support, and standalone authenticators are available too.</p>
+					</details>
+					<details>
+						<summary>How do I integrate it?</summary>
+						<p>Drop-in libraries for Node.js, PHP, Python, Go and a WordPress plugin are linked in the developer hub below.</p>
+					</details>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    </footer>
+<!-- DEVELOPER HUB ============================================ -->
+<section id="devhub" class="s-devhub" aria-labelledby="dev-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Developer hub</span>
+			<h2 id="dev-title" class="gradient-text--brand">Build on the longest UTXO chain in production.</h2>
+			<p>Battle-tested RPC, predictable fees, no token approvals, no rug-pulls. Get a node running in five minutes and ship something real.</p>
+		</header>
 
+		<div class="s-devhub__layout">
+			<div data-reveal>
+				<div class="tabs">
+					<div class="tabs__list" role="tablist">
+						<button type="button" class="tabs__btn" role="tab" data-tab="cli" aria-selected="true" aria-controls="tab-cli" id="tabbtn-cli">CLI</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="node" aria-selected="false" aria-controls="tab-node" id="tabbtn-node">Node.js</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="py" aria-selected="false" aria-controls="tab-py" id="tabbtn-py">Python</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="curl" aria-selected="false" aria-controls="tab-curl" id="tabbtn-curl">cURL</button>
+					</div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/plugins1b.js"></script>
-    <script src="../js/main2o.js"></script>
-	
-	<!-- Cookie info message
-    ================================================== -->
-	<script type="text/javascript" id="cookieinfo" src="../js/cookieinfo.min.js"
-	data-font-size="14px"
-	data-font-family="Nunito Sans,sans-serif"
-	data-text-align="left"
-    data-fg="#545454"
-	data-bg="rgba(255, 255, 255, 0.9)"
-	data-link="#0066cc"
-	data-divlink="#ffffff"
-	data-divlinkbg="#0066cc"
-	data-position="bottom"
-	data-message="Chúng tôi sử dụng cookie để nâng cao kinh nghiệm của bạn. Bằng cách tiếp tục truy cập trang web này, bạn đồng ý với việc sử dụng cookie của chúng tôi."
-	data-linkmsg="Thông tin thêm"
-	data-moreinfo="../docs/PrivacyPolicy.pdf"
-	data-close-text="OK"
-	>
-    </script>
-    <script>
-        if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("/js/sw.js").then(function(reg) {
-                console.log("Service worker has been registered for scope: " + reg.scope);
-            });
-        }       
-    </script>
+					<div class="tabs__panel" data-tab="cli" data-active>
+						<div class="terminal">
+							<div class="terminal__bar"><span class="terminal__dot"></span><span class="terminal__title">~/digibyte — bash</span></div>
+							<div class="terminal__body">
+								<span class="line"><span class="comment"># Get current chain info</span></span>
+								<span class="line"><span class="prompt">$</span> <span class="cmd">digibyte-cli getblockchaininfo</span></span>
+								<span class="line"><span class="out">{</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"chain"</span><span class="out">: </span><span class="str">"main"</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"blocks"</span><span class="out">: </span><span class="num">21000000</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"difficulty"</span><span class="out">: </span><span class="num">128456.7</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"verificationprogress"</span><span class="out">: </span><span class="num">0.99999</span></span>
+								<span class="line"><span class="out">}</span><span class="terminal__cursor"></span></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="node">
+						<div class="codeblock">
+<pre><code>// Send 100 DGB via Core RPC (Node.js, no external deps)
+import http from 'node:http';
+const body = JSON.stringify({ jsonrpc: '1.0', id: 'web', method: 'sendtoaddress',
+  params: ['DXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 100] });
+
+const req = http.request({
+  hostname: '127.0.0.1', port: 14022, method: 'POST',
+  auth: 'rpcuser:rpcpass',
+  headers: { 'Content-Type': 'application/json', 'Content-Length': body.length }
+}, res =&gt; {
+  let d = ''; res.on('data', c =&gt; d += c);
+  res.on('end', () =&gt; console.log(JSON.parse(d)));
+});
+req.write(body); req.end();</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="py">
+						<div class="codeblock">
+<pre><code># Listen for new blocks (Python, requests)
+import requests, time
+
+URL = "http://rpcuser:rpcpass@127.0.0.1:14022"
+last = 0
+while True:
+    info = requests.post(URL, json={
+        "jsonrpc": "1.0", "id": "py", "method": "getblockchaininfo", "params": []
+    }).json()["result"]
+    if info["blocks"] != last:
+        print("new block:", info["blocks"])
+        last = info["blocks"]
+    time.sleep(5)</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="curl">
+						<div class="codeblock">
+<pre><code>curl -u rpcuser:rpcpass --data-binary \
+  '{"jsonrpc":"1.0","id":"sh","method":"getmempoolinfo","params":[]}' \
+  -H 'content-type: application/json;' http://127.0.0.1:14022/</code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="s-devhub__links">
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener">
+						<i class="fab fa-github devlink__icon"></i>
+						<span class="devlink__title">Core protocol</span>
+						<span class="devlink__meta">DigiByte-Core/digibyte</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener">
+						<i class="fas fa-server devlink__icon"></i>
+						<span class="devlink__title">Run a full node</span>
+						<span class="devlink__meta">5-minute guide</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">
+						<i class="fas fa-book devlink__icon"></i>
+						<span class="devlink__title">Wiki &amp; RPC docs</span>
+						<span class="devlink__meta">community-maintained</span>
+					</a>
+					<a class="devlink" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">
+						<i class="fas fa-comments devlink__icon"></i>
+						<span class="devlink__title">Discussions</span>
+						<span class="devlink__meta">ask, share, ship</span>
+					</a>
+					<a class="devlink" href="docs/integrationguide.pdf" target="_blank">
+						<i class="fas fa-plug devlink__icon"></i>
+						<span class="devlink__title">Integration guide</span>
+						<span class="devlink__meta">for exchanges &amp; services</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener">
+						<i class="fas fa-fingerprint devlink__icon"></i>
+						<span class="devlink__title">Digi-ID libraries</span>
+						<span class="devlink__meta">Node, PHP, Python, Go</span>
+					</a>
+				</div>
+			</div>
+
+			<div data-reveal data-reveal-delay="80">
+				<div class="release-card" data-github-release>
+					<div class="release-card__head">
+						<span class="release-card__tag is-loading">v—</span>
+						<span class="chip chip--violet">Latest</span>
+					</div>
+					<h3 class="card__title is-loading">DigiByte Core</h3>
+					<div class="release-card__notes is-loading">Loading release notes from GitHub…</div>
+				</div>
+
+				<div class="card mt-5">
+					<span class="eyebrow">Why ship on DGB?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> No gas wars — fees in millicents.</li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> No token approvals to rug.</li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> Pure UTXO — composable, parallel, simple.</li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> Twelve-year uptime, zero re-orgs at depth.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- WALLETS ================================================== -->
+<section id="wallets" class="s-wallets" aria-labelledby="wallets-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Ecosystem</span>
+			<h2 id="wallets-title">Hold and use DGB anywhere.</h2>
+			<p>Software, hardware, mobile, exchange or web — pick the wallet that matches how you live.</p>
+		</header>
+
+		<div class="s-wallets__filters" data-wallet-filters role="toolbar" aria-label="Filter wallets">
+			<button class="btn btn--ghost btn--sm" data-filter="all" aria-pressed="true">All</button>
+			<button class="btn btn--ghost btn--sm" data-filter="hardware" aria-pressed="false">Hardware</button>
+			<button class="btn btn--ghost btn--sm" data-filter="mobile" aria-pressed="false">Mobile</button>
+			<button class="btn btn--ghost btn--sm" data-filter="desktop" aria-pressed="false">Desktop</button>
+			<button class="btn btn--ghost btn--sm" data-filter="web" aria-pressed="false">Web</button>
+		</div>
+
+		<div class="wallets-grid" data-reveal>
+			<a class="wallet-card" data-wallet="hardware" href="https://www.ledger.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/ledger.png" alt="" loading="lazy"><span>Ledger</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="hardware" href="https://www.bitfi.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/bitfi.png" alt="" loading="lazy"><span>Bitfi</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="hardware" href="https://shapeshift.com/keepkey" target="_blank" rel="noopener">
+				<img src="../images/wallets/keepkey.png" alt="" loading="lazy"><span>KeepKey</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="hardware" href="https://safepal.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/safepal.png" alt="" loading="lazy"><span>SafePal</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="hardware" href="https://secuxtech.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/secux.png" alt="" loading="lazy"><span>SecuX</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="hardware" href="https://dcentwallet.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/dcent.png" alt="" loading="lazy"><span>D'CENT</span><span class="wallet-card__type">Hardware</span></a>
+			<a class="wallet-card" data-wallet="mobile desktop" href="https://www.exodus.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/exodus.png" alt="" loading="lazy"><span>Exodus</span><span class="wallet-card__type">Mobile · Desktop</span></a>
+			<a class="wallet-card" data-wallet="mobile desktop" href="https://atomicwallet.io" target="_blank" rel="noopener">
+				<img src="../images/wallets/atomic.png" alt="" loading="lazy"><span>Atomic</span><span class="wallet-card__type">Mobile · Desktop</span></a>
+			<a class="wallet-card" data-wallet="mobile" href="https://trustwallet.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/trust.png" alt="" loading="lazy"><span>Trust Wallet</span><span class="wallet-card__type">Mobile</span></a>
+			<a class="wallet-card" data-wallet="mobile" href="https://crypto.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/cryptocom.png" alt="" loading="lazy"><span>Crypto.com</span><span class="wallet-card__type">Mobile</span></a>
+			<a class="wallet-card" data-wallet="mobile" href="https://edge.app" target="_blank" rel="noopener">
+				<img src="../images/wallets/edge.png" alt="" loading="lazy"><span>Edge</span><span class="wallet-card__type">Mobile</span></a>
+			<a class="wallet-card" data-wallet="mobile desktop web" href="https://guarda.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/guarda1.png" alt="" loading="lazy"><span>Guarda</span><span class="wallet-card__type">Multi</span></a>
+			<a class="wallet-card" data-wallet="web" href="https://uphold.com" target="_blank" rel="noopener">
+				<img src="../images/wallets/upholdcard.png" alt="" loading="lazy"><span>Uphold</span><span class="wallet-card__type">Web</span></a>
+		</div>
+	</div>
+</section>
+
+<!-- ROADMAP / MILESTONES ===================================== -->
+<section id="roadmap" class="s-roadmap" aria-labelledby="roadmap-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Track record</span>
+			<h2 id="roadmap-title">A decade of blockchain firsts.</h2>
+			<p>Every milestone shipped, mainnet-tested and merged in public.</p>
+		</header>
+
+		<div class="timeline" data-reveal>
+			<article class="timeline__item">
+				<span class="timeline__year">2014</span>
+				<h3 class="timeline__title">Genesis</h3>
+				<p>DigiByte launched January 10, 2014 with a 60-second public mining window — no premine, no ICO.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2014</span>
+				<h3 class="timeline__title">DigiShield</h3>
+				<p>Real-time difficulty re-targeting — later adopted across dozens of chains.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2014</span>
+				<h3 class="timeline__title">MultiAlgo</h3>
+				<p>Five mining algorithms in parallel — protecting against 51% concentration.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2017</span>
+				<h3 class="timeline__title">SegWit</h3>
+				<p>First major UTXO chain to activate Segregated Witness.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2019</span>
+				<h3 class="timeline__title">Odocrypt &amp; Dandelion++</h3>
+				<p>Self-mutating ASIC-resistant algorithm and privacy-preserving transaction relay.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2020+</span>
+				<h3 class="timeline__title">DigiAssets &amp; Digi-ID</h3>
+				<p>Native asset issuance and decentralized authentication go mainstream across the wallet ecosystem.</p>
+			</article>
+			<article class="timeline__item">
+				<span class="timeline__year">2025</span>
+				<h3 class="timeline__title">Core v8.26.2</h3>
+				<p>Bitcoin Core 26 base, modernized build, sustained security and performance work.</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+<!-- COMMUNITY ================================================ -->
+<section id="community" class="s-community" aria-labelledby="community-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Community</span>
+			<h2 id="community-title">No company. No CEO. Just builders.</h2>
+			<p>Thousands of volunteers across 40+ languages keep DigiByte shipping. Plug in where you can — code, translate, run a node, teach.</p>
+		</header>
+
+		<div class="community-grid">
+			<a class="community-tile" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-reveal>
+				<i class="fab fa-github"></i><div><strong>GitHub</strong><br><small class="text-ink-3">Discussions &amp; PRs</small></div>
+			</a>
+			<a class="community-tile" href="https://www.reddit.com/r/Digibyte/" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
+				<i class="fab fa-reddit"></i><div><strong>Reddit</strong><br><small class="text-ink-3">r/Digibyte</small></div>
+			</a>
+			<a class="community-tile" href="https://twitter.com/DigiByteCoin" target="_blank" rel="noopener" data-reveal data-reveal-delay="120">
+				<i class="fa-brands fa-x-twitter"></i><div><strong>X / Twitter</strong><br><small class="text-ink-3">@DigiByteCoin</small></div>
+			</a>
+			<a class="community-tile" href="https://t.me/DigiByteCoin" target="_blank" rel="noopener" data-reveal data-reveal-delay="180">
+				<i class="fab fa-telegram"></i><div><strong>Telegram</strong><br><small class="text-ink-3">DigiByteCoin</small></div>
+			</a>
+			<a class="community-tile" href="https://dsc.gg/DigiByteDiscord" target="_blank" rel="noopener" data-reveal data-reveal-delay="240">
+				<i class="fab fa-discord"></i><div><strong>Discord</strong><br><small class="text-ink-3">Live chat</small></div>
+			</a>
+			<a class="community-tile" href="https://www.youtube.com/results?search_query=digibyte" target="_blank" rel="noopener" data-reveal data-reveal-delay="300">
+				<i class="fab fa-youtube"></i><div><strong>YouTube</strong><br><small class="text-ink-3">Talks &amp; tutorials</small></div>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- DOWNLOADS ================================================ -->
+<section id="downloads" class="s-downloads bg-grid" aria-labelledby="downloads-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Get DigiByte</span>
+			<h2 id="downloads-title">Pick your client.</h2>
+			<p>Run the full node for maximum security and to support the network, or grab the mobile app for everyday transactions, DigiAssets and Digi-ID.</p>
+		</header>
+
+		<div class="downloads-grid">
+			<article class="download-card" data-reveal>
+				<header>
+					<span class="eyebrow">Full node</span>
+					<h3 class="card__title">DigiByte Core</h3>
+				</header>
+				<ul class="stack-sm">
+					<li><i class="fas fa-check text-cyan"></i> Full validation</li>
+					<li><i class="fas fa-check text-cyan"></i> Supports the network</li>
+					<li><i class="fas fa-check text-cyan"></i> SegWit, Bech32, RPC</li>
+					<li><i class="fas fa-check text-cyan"></i> Latest: <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v8.26.2</a></li>
+				</ul>
+				<div class="download-card__platforms">
+					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-win64-setup.exe" target="_blank" rel="noopener" aria-label="Download for Windows"><i class="fab fa-windows"></i> Windows</a>
+					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Download for macOS"><i class="fab fa-apple"></i> macOS</a>
+					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Download for Linux"><i class="fab fa-linux"></i> Linux</a>
+					<a class="btn btn--ghost btn--sm" href="https://snapcraft.io/digibyte-core" target="_blank" rel="noopener"><i class="fas fa-box"></i> Snap</a>
+				</div>
+				<div class="cluster">
+					<a class="btn btn--primary btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> Run a node</a>
+					<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">Checksums</a>
+				</div>
+			</article>
+
+			<article class="download-card" data-reveal data-reveal-delay="80">
+				<header>
+					<span class="eyebrow">Mobile</span>
+					<h3 class="card__title">DigiByte Mobile</h3>
+				</header>
+				<ul class="stack-sm">
+					<li><i class="fas fa-check text-cyan"></i> SPV wallet, fast sync</li>
+					<li><i class="fas fa-check text-cyan"></i> Digi-ID built in</li>
+					<li><i class="fas fa-check text-cyan"></i> DigiAssets supported</li>
+					<li><i class="fas fa-check text-cyan"></i> 30+ languages</li>
+				</ul>
+				<div class="download-card__platforms">
+					<a class="btn btn--ghost btn--sm" href="https://apps.apple.com/app/digibyte/id1378061425" target="_blank" rel="noopener"><i class="fab fa-app-store-ios"></i> App Store</a>
+					<a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=io.digibyte" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Play Store</a>
+				</div>
+				<div class="cluster">
+					<a class="btn btn--primary btn--sm" href="https://testflight.apple.com/join/PfRnkwy9" target="_blank" rel="noopener"><i class="fab fa-apple"></i> TestFlight</a>
+					<a class="btn btn--outline btn--sm" href="https://digisweep.digiassetx.com" target="_blank" rel="noopener"><i class="fas fa-life-ring"></i> Recovery</a>
+				</div>
+			</article>
+		</div>
+
+		<aside id="docs" class="card mt-9" data-reveal>
+			<div class="cluster justify-between-children">
+				<div>
+					<span class="eyebrow"><i class="fas fa-books"></i> Docs &amp; Guides</span>
+					<h3 class="card__title mt-2">Everything you need to integrate.</h3>
+				</div>
+			</div>
+			<div class="grid grid-3 mt-5">
+				<a class="devlink" href="docs/infopaper.pdf" target="_blank"><i class="fas fa-file-lines devlink__icon"></i><span class="devlink__title">Info paper</span><span class="devlink__meta">PDF · community</span></a>
+				<a class="devlink" href="docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title">Integration guide</span><span class="devlink__meta">For exchanges &amp; services</span></a>
+				<a class="devlink" href="docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title">Media sheet</span><span class="devlink__meta">PDF</span></a>
+				<a class="devlink" href="https://docs.google.com/presentation/d/16Hn2GfuS1yLjZpjeTYloW0S_JVkhevYzffkDZFqjbiU" target="_blank" rel="noopener"><i class="fas fa-display devlink__icon"></i><span class="devlink__title">Presentation</span><span class="devlink__meta">Google Slides</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title">Logos &amp; icons</span><span class="devlink__meta">brand kit</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title">Wiki</span><span class="devlink__meta">technical reference</span></a>
+			</div>
+		</aside>
+	</div>
+</section>
+
+<!-- NEWS ===================================================== -->
+<section id="news" class="s-news" aria-labelledby="news-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow">Latest</span>
+			<h2 id="news-title">News from the network.</h2>
+			<p>Releases, integrations, talks and community articles — straight from <a href="../news.xml">our RSS feed</a>.</p>
+		</header>
+		<div class="news-grid" data-news-feed data-limit="6" data-reveal>
+			<div class="news-card is-loading size-h-160"></div>
+			<div class="news-card is-loading size-h-160"></div>
+			<div class="news-card is-loading size-h-160"></div>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<!-- FOOTER =================================================== -->
+<footer class="footer" id="footer">
+	<div class="row">
+		<div class="footer__grid">
+			<div class="footer__brand">
+				<img src="../images/logo.svg" alt="DigiByte" width="180" height="32" class="mb-4">
+				<p class="text-ink-2">The longest, fastest, most decentralized UTXO blockchain. Built by a global community since 2014.</p>
+				<div class="footer__socials mt-5">
+					<a href="https://github.com/DigiByte-Core" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+					<a href="https://twitter.com/DigiByteCoin" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+					<a href="https://www.reddit.com/r/Digibyte/" target="_blank" rel="noopener" aria-label="Reddit"><i class="fab fa-reddit"></i></a>
+					<a href="https://t.me/DigiByteCoin" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+					<a href="https://dsc.gg/DigiByteDiscord" target="_blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a>
+				</div>
+			</div>
+			<div>
+				<h6>Protocol</h6>
+				<ul class="footer__list">
+					<li><a href="#features">Features</a></li>
+					<li><a href="#tokenomics">Tokenomics</a></li>
+					<li><a href="#chain">Live chain</a></li>
+					<li><a href="#roadmap">Roadmap</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6>Build</h6>
+				<ul class="footer__list">
+					<li><a href="#devhub">Developer hub</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener">Core repo</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">Wiki</a></li>
+					<li><a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">Discussions</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6>Use</h6>
+				<ul class="footer__list">
+					<li><a href="#wallets">Wallets</a></li>
+					<li><a href="#downloads">Downloads</a></li>
+					<li><a href="#digi-id">Digi-ID</a></li>
+					<li><a href="#digiassets">DigiAssets</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6>Resources</h6>
+				<ul class="footer__list">
+					<li><a href="../news.xml">RSS feed</a></li>
+					<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats</a></li>
+					<li><a href="../docs/infopaper.pdf" target="_blank">Info paper</a></li>
+					<li><a href="../docs/integrationguide.pdf" target="_blank">Integration</a></li>
+					<li><a href="../legaldisclaimer.html">Legal disclaimer</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<span>© 2014–<span class="year-now">2026</span> DigiByte — community-built. No central entity.</span>
+			<span class="cluster">
+				<a href="../legaldisclaimer.html">Disclaimer</a>
+				<a href="../privacy-app.html">Privacy</a>
+				<a href="../terms-app.html">Terms</a>
+			</span>
+		</div>
+	</div>
+</footer>
+
+<!-- App scripts -->
+<script type="module" src="../js/app.js"></script>
+<script>document.querySelectorAll('.year-now').forEach(e => e.textContent = new Date().getFullYear());</script>
+
 </body>
-	
 </html>
