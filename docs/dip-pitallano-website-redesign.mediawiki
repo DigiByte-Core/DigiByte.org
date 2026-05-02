@@ -511,6 +511,11 @@ User-visible compatibility considerations on the website itself:
 
 ==Reference implementation==
 
+* '''Live working preview:''' [https://dg-bio.vercel.app/ https://dg-bio.vercel.app/]
+  &mdash; an unauthenticated Vercel deployment of the
+  <code>redesign-2026</code> branch. Reviewers are encouraged to click
+  through, run their own Lighthouse audit, and inspect the live chain
+  telemetry before reading the rest of this section.
 * Repository: [https://github.com/DigiByte-Core/DGBio
   DigiByte-Core/DGBio]
 * Branch: <code>redesign-2026</code>
@@ -532,7 +537,18 @@ The reference implementation includes:
 
 ==Verification==
 
-Reviewers can reproduce the claims in this DIP locally:
+Reviewers can verify the claims in this DIP either against the live
+preview or locally.
+
+'''Against the live preview''' (fastest):
+
+<pre>
+npx lighthouse https://dg-bio.vercel.app/ \
+  --only-categories=performance,accessibility,best-practices,seo \
+  --chrome-flags="--headless"
+</pre>
+
+'''Locally''':
 
 <pre>
 git clone https://github.com/DigiByte-Core/DGBio.git
@@ -570,6 +586,7 @@ DigiByte Foundation.
 
 ==See Also==
 
+* [https://dg-bio.vercel.app/ Live working preview of the redesign]
 * [https://github.com/DigiByte-Core/DGBio DigiByte-Core/DGBio]
 * [https://github.com/DigiByte-Core/dips/blob/main/dip-0001.mediawiki DIP 1: DIP Purpose and Guidelines]
 * [https://digiexplorer.info/ DigiExplorer (Esplora API source)]
