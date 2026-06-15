@@ -283,14 +283,8 @@ function boot() {
 		if ('requestIdleCallback' in window) requestIdleCallback(startHero, { timeout: 1500 });
 		else setTimeout(startHero, 250);
 	}
-	if ($('[data-coin-3d]')) {
-		const io = new IntersectionObserver((entries, obs) => {
-			if (entries.some(e => e.isIntersecting)) {
-				import('./coin-3d.js').then(m => m.init?.()).catch(() => {});
-				obs.disconnect();
-			}
-		}, { rootMargin: '200px' });
-		$$('[data-coin-3d]').forEach(el => io.observe(el));
+	if ($('[data-tokenomics-chart]')) {
+		import('./tokenomics-chart.js').then(m => m.init?.()).catch(() => {});
 	}
 	if ($('[data-chain-dashboard]')) {
 		import('./chain-dashboard.js').then(m => m.init?.()).catch(() => {});

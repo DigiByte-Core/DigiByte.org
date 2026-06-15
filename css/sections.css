@@ -141,10 +141,10 @@
 /* Hero ------------------------------------------------------------------ */
 .hero {
 	position: relative;
-	min-height: clamp(640px, 90vh, 960px);
-	display: flex; align-items: center;
+	display: flex; align-items: flex-start;
 	overflow: hidden;
 	isolation: isolate;
+	padding-block: 0;
 }
 .hero__canvas {
 	position: absolute; inset: 0;
@@ -153,19 +153,34 @@
 .hero__canvas canvas { width: 100%; height: 100%; display: block; }
 .hero__overlay {
 	position: absolute; inset: 0;
-	background: radial-gradient(ellipse at 60% 40%, transparent 30%, rgba(5, 7, 13, 0.6) 80%);
+	background:
+		radial-gradient(ellipse 70% 60% at 28% 50%, rgba(5, 7, 13, 0.78), rgba(5, 7, 13, 0.35) 55%, transparent 80%),
+		radial-gradient(ellipse at 60% 40%, transparent 30%, rgba(5, 7, 13, 0.55) 80%);
 	z-index: -1;
 	pointer-events: none;
 }
 .hero__inner {
 	display: grid;
-	gap: var(--s-7);
+	gap: var(--s-6);
 	grid-template-columns: minmax(0, 1fr);
-	align-items: center;
-	padding-block: clamp(4rem, 10vh, 8rem);
+	align-items: start;
+	padding-block: var(--s-5) var(--s-7);
+	width: 100%;
 }
 @media (min-width: 1024px) {
 	.hero__inner { grid-template-columns: 1.2fr 1fr; }
+}
+
+/* Glass slab behind the hero copy column for legibility over animation */
+.hero__content {
+	position: relative;
+	padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 4vw, 2.75rem);
+	border-radius: var(--r-5);
+	background: linear-gradient(135deg, rgba(8, 12, 24, 0.62), rgba(5, 7, 13, 0.42));
+	border: 1px solid rgba(0, 229, 255, 0.10);
+	-webkit-backdrop-filter: blur(14px) saturate(140%);
+	backdrop-filter: blur(14px) saturate(140%);
+	box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 .hero__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-block-end: var(--s-5); }
 .hero__title {
@@ -173,6 +188,7 @@
 	letter-spacing: var(--ls-tight);
 	line-height: 1.04;
 	margin-block-end: var(--s-5);
+	text-shadow: 0 2px 24px rgba(5, 7, 13, 0.55);
 }
 .hero__title .accent { background: var(--g-brand); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero__lead {
@@ -180,16 +196,37 @@
 	color: var(--c-ink-1);
 	max-width: 56ch;
 	margin-block-end: var(--s-6);
+	text-shadow: 0 1px 16px rgba(5, 7, 13, 0.6);
 }
-.hero__ctas { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block-end: var(--s-6); }
+.hero__ctas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: var(--s-3);
+	margin-block-end: var(--s-6);
+}
 .hero__metrics {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 	gap: var(--s-3);
 	max-width: 600px;
+	margin-inline: auto;
+	justify-items: center;
 }
-.hero__metric { padding: var(--s-3) var(--s-4); }
+.hero__metric {
+	padding: var(--s-3) var(--s-4);
+	background: rgba(5, 7, 13, 0.5);
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
+	text-align: center;
+	width: 100%;
+}
 .hero__metric .stat__value { font-size: var(--fs-4); }
+@media (min-width: 1024px) {
+	.hero__ctas, .hero__metrics { justify-content: flex-start; margin-inline: 0; }
+	.hero__metrics { justify-items: stretch; }
+	.hero__metric { text-align: left; }
+}
 
 /* Hero side art (3D coin / glyph) */
 .hero__art {
@@ -216,27 +253,6 @@
 .hero__art-ring--2 { inset: -25%; border-color: rgba(20, 80, 255, 0.2); animation-duration: 60s; animation-direction: reverse; }
 @keyframes ring-spin { to { transform: rotate(360deg); } }
 
-.hero__scroll-cue {
-	position: absolute;
-	bottom: var(--s-6); left: 50%;
-	transform: translateX(-50%);
-	width: 24px; height: 40px;
-	border: 2px solid rgba(255, 255, 255, 0.3);
-	border-radius: 14px;
-	display: grid; place-items: start center;
-	padding-block-start: 6px;
-}
-.hero__scroll-cue::after {
-	content: ""; width: 3px; height: 8px;
-	background: var(--c-neon-cyan); border-radius: 2px;
-	animation: scroll-cue 1.6s var(--ease-in-out) infinite;
-}
-@keyframes scroll-cue {
-	0% { transform: translateY(0); opacity: 1; }
-	80% { transform: translateY(14px); opacity: 0; }
-	100% { opacity: 0; }
-}
-
 /* Trust marquee --------------------------------------------------------- */
 .s-trust { padding-block: var(--s-7); border-block: 1px solid var(--c-border); }
 .s-trust .container { display: grid; gap: var(--s-5); }
@@ -248,18 +264,91 @@
 	object-fit: contain;
 	opacity: 0.75;
 	filter: brightness(0) invert(1) opacity(0.85);
-	transition: opacity var(--d-2) var(--ease-out), filter var(--d-2) var(--ease-out), transform var(--d-2) var(--ease-out);
-}
-.s-trust .marquee img:hover {
-	opacity: 1;
-	filter: brightness(0) invert(1) opacity(1) drop-shadow(0 0 10px rgba(0, 229, 255, 0.55));
-	transform: translateY(-2px);
+	pointer-events: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 /* Features grid --------------------------------------------------------- */
 .s-features .grid {
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	gap: var(--s-5);
+}
+
+/* Why DigiByte — alternating thematic rows */
+.feature-rows { display: grid; gap: var(--s-8); }
+.feature-row {
+	display: grid;
+	gap: var(--s-6);
+	align-items: center;
+	grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 860px) {
+	.feature-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+	.feature-row--reverse .feature-row__visual { order: 2; }
+	.feature-row--reverse .feature-row__body   { order: 1; }
+}
+.feature-row__visual {
+	position: relative;
+	width: clamp(220px, 70%, 300px);
+	aspect-ratio: 1;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--s-3);
+	padding: var(--s-6);
+	border-radius: var(--r-5);
+	background:
+		radial-gradient(circle at 50% 50%, rgba(0, 229, 255, 0.18), transparent 60%),
+		linear-gradient(135deg, rgba(20, 80, 255, 0.10), rgba(0, 229, 255, 0.05));
+	border: 1px solid rgba(0, 229, 255, 0.15);
+	overflow: hidden;
+}
+.feature-row__visual::before {
+	content: "";
+	position: absolute;
+	inset: -2px;
+	border-radius: inherit;
+	border: 1px dashed rgba(0, 229, 255, 0.18);
+	animation: ring-spin 80s linear infinite;
+	pointer-events: none;
+}
+.feature-row__icon {
+	font-size: clamp(2rem, 4vw, 2.6rem);
+	color: var(--c-neon-cyan);
+	filter: drop-shadow(0 0 14px rgba(0, 229, 255, 0.45));
+	line-height: 1;
+}
+.feature-row__stat {
+	font-family: var(--ff-display);
+	font-weight: 700;
+	font-size: clamp(3rem, 7vw, 4.6rem);
+	line-height: 1;
+	background: var(--g-brand);
+	-webkit-background-clip: text;
+	        background-clip: text;
+	color: transparent;
+	letter-spacing: -0.02em;
+}
+.feature-row__stat-unit {
+	font-family: var(--ff-mono);
+	font-size: var(--fs-1);
+	color: var(--c-ink-3);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+.feature-row__body h3 {
+	font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+	letter-spacing: var(--ls-tight);
+	margin-block: var(--s-2) var(--s-3);
+	line-height: 1.15;
+}
+.feature-row__body p {
+	color: var(--c-ink-2);
+	font-size: var(--fs-2);
+	max-width: 60ch;
 }
 
 /* Live dashboard -------------------------------------------------------- */
@@ -283,12 +372,55 @@
 .s-tokenomics__visual {
 	position: sticky;
 	top: calc(var(--nav-h) + var(--s-4));
-	aspect-ratio: 1;
-	max-width: 520px;
+	max-width: 560px;
 	margin-inline: auto;
 }
 .s-tokenomics__visual canvas,
 .s-tokenomics__visual img { width: 100%; height: 100%; }
+
+/* Tokenomics emission-schedule chart */
+.tokenomics-chart {
+	position: relative;
+	padding: var(--s-4);
+	background: var(--glass-bg);
+	border: 1px solid var(--glass-border);
+	border-radius: var(--r-4);
+	-webkit-backdrop-filter: blur(var(--glass-blur));
+	backdrop-filter: blur(var(--glass-blur));
+	box-shadow: var(--shadow-card);
+	margin: 0;
+}
+.tokenomics-chart__caption {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--s-3);
+	margin-block-end: var(--s-3);
+}
+.tokenomics-chart__live {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--s-2);
+}
+.tokenomics-chart__price {
+	font-family: var(--ff-mono);
+	font-size: var(--fs-2);
+	color: var(--c-neon-cyan);
+	font-variant-numeric: tabular-nums;
+}
+.tokenomics-chart svg { display: block; width: 100%; height: auto; }
+.tokenomics-chart__legend {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--s-4);
+	margin-block-start: var(--s-3);
+	color: var(--c-ink-3);
+	font-family: var(--ff-mono);
+	font-size: var(--fs-0);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.tokenomics-chart__legend i { font-size: 0.5em; vertical-align: middle; margin-inline-end: 4px; }
 .s-tokenomics__stats {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -318,6 +450,9 @@
 	-webkit-text-stroke: 1px var(--c-neon-cyan);
 }
 .flow-step h3 { font-size: var(--fs-3); margin-block-end: var(--s-2); }
+/* Flow-step cards are visual-only — no hover affordance */
+.flow-step.card { cursor: default; }
+.flow-step.card:hover { transform: none; border-color: var(--glass-border); box-shadow: var(--shadow-card); }
 
 /* Digi-ID --------------------------------------------------------------- */
 .s-digiid__layout {
@@ -399,11 +534,40 @@
 	color: var(--c-neon-cyan);
 	font-size: var(--fs-2);
 }
-.release-card__notes { color: var(--c-ink-2); font-size: var(--fs-1); max-height: 12em; overflow: hidden; position: relative; }
-.release-card__notes::after {
-	content: "";
-	position: absolute; left: 0; right: 0; bottom: 0; height: 4em;
-	background: linear-gradient(180deg, transparent, var(--c-bg-2));
+/* Release notes — click to expand */
+.release-card__notes {
+	color: var(--c-ink-2);
+	font-size: var(--fs-1);
+	border-top: 1px solid var(--c-border);
+	padding-block-start: var(--s-3);
+}
+.release-card__notes > summary {
+	cursor: pointer;
+	list-style: none;
+	display: inline-flex;
+	align-items: center;
+	gap: var(--s-2);
+	color: var(--c-neon-cyan);
+	font-family: var(--ff-mono);
+	font-size: var(--fs-0);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+.release-card__notes > summary::-webkit-details-marker { display: none; }
+.release-card__notes > summary::after {
+	content: "+";
+	display: inline-grid;
+	place-items: center;
+	width: 18px; height: 18px;
+	border: 1px solid currentColor;
+	border-radius: 50%;
+	font-size: 14px;
+	line-height: 1;
+}
+.release-card__notes[open] > summary::after { content: "–"; }
+.release-card__notes__body {
+	margin-block-start: var(--s-3);
+	white-space: pre-wrap;
 }
 
 /* Wallets --------------------------------------------------------------- */
@@ -473,6 +637,162 @@
 }
 .timeline__year { font-family: var(--ff-mono); color: var(--c-neon-cyan); font-size: var(--fs-1); }
 .timeline__title { font-size: var(--fs-3); margin-block: var(--s-1) var(--s-2); }
+
+/* Roadmap: wavy neon road with milestone cards & animated DGB cars ----- */
+.roadmap { margin-block-start: var(--s-6); }
+
+/* Shared road path (in lane viewBox coordinates: 220 wide, 1760 tall).
+   8 milestones, alternating sides every 220px row. */
+:root {
+	--road-path: path("M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650");
+}
+
+/* Desktop stage = 3-column grid: card | road-lane | card.
+   Cards alternate columns; lane spans all 8 rows. */
+.roadmap__stage {
+	position: relative;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 220px minmax(0, 1fr);
+	grid-template-rows: repeat(8, 220px);
+	column-gap: var(--s-4);
+	align-items: center;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+.roadmap__items {
+	display: contents;
+	list-style: none;
+	margin: 0; padding: 0;
+}
+.roadmap__item {
+	position: relative;
+	padding: var(--s-4);
+	background: var(--glass-bg);
+	border: 1px solid var(--glass-border);
+	border-radius: var(--r-3);
+	-webkit-backdrop-filter: blur(var(--glass-blur));
+	backdrop-filter: blur(var(--glass-blur));
+	box-shadow: var(--shadow-card);
+	max-width: 380px;
+	width: 100%;
+	align-self: center;
+}
+.roadmap__item:nth-child(1) { grid-column: 1; grid-row: 1; justify-self: end; }
+.roadmap__item:nth-child(2) { grid-column: 3; grid-row: 2; justify-self: start; }
+.roadmap__item:nth-child(3) { grid-column: 1; grid-row: 3; justify-self: end; }
+.roadmap__item:nth-child(4) { grid-column: 3; grid-row: 4; justify-self: start; }
+.roadmap__item:nth-child(5) { grid-column: 1; grid-row: 5; justify-self: end; }
+.roadmap__item:nth-child(6) { grid-column: 3; grid-row: 6; justify-self: start; }
+.roadmap__item:nth-child(7) { grid-column: 1; grid-row: 7; justify-self: end; }
+.roadmap__item:nth-child(8) { grid-column: 3; grid-row: 8; justify-self: start; }
+/* Connector stub from each card toward the pin in the road lane */
+.roadmap__item::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: var(--s-3);
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(0, 229, 255, 0.5));
+}
+.roadmap__item:nth-child(odd)::after  { right: calc(-1 * var(--s-3)); transform: translateY(-50%); }
+.roadmap__item:nth-child(even)::after { left: calc(-1 * var(--s-3));  transform: translateY(-50%); background: linear-gradient(90deg, rgba(0, 229, 255, 0.5), transparent); }
+.roadmap__item--finale {
+	border-color: rgba(0, 229, 255, 0.45);
+	box-shadow: var(--shadow-pop), 0 0 24px rgba(0, 229, 255, 0.18);
+}
+.roadmap__year { font-family: var(--ff-mono); color: var(--c-neon-cyan); font-size: var(--fs-1); }
+.roadmap__title { font-size: var(--fs-3); margin-block: var(--s-1) var(--s-2); display: flex; align-items: center; gap: var(--s-2); flex-wrap: wrap; }
+
+/* Road lane: column 2, spans all 8 explicit rows = 1760px tall.
+   SVG viewBox 220x1760 maps 1:1 to rendered pixels. */
+.roadmap__lane {
+	grid-column: 2;
+	grid-row: 1 / -1;
+	position: relative;
+	width: 220px;
+	height: 100%;
+}
+.roadmap__road {
+	display: block;
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Animated DGB-logo "cars" driving along the road inside the lane.
+   Lane is 220x1760 in CSS px on desktop, matching the SVG viewBox 1:1,
+   so offset-path coordinates line up with the rendered road. */
+.roadmap__car {
+	position: absolute;
+	top: 0; left: 0;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	filter: drop-shadow(0 0 14px rgba(0, 229, 255, 0.7));
+	offset-path: var(--road-path);
+	offset-rotate: auto;
+	offset-anchor: center;
+	animation: roadmap-drive 22s linear infinite;
+	pointer-events: none;
+	z-index: 2;
+}
+.roadmap__car--2 {
+	width: 32px;
+	height: 32px;
+	animation-duration: 30s;
+	animation-delay: -11s;
+	opacity: 0.85;
+	filter: drop-shadow(0 0 10px rgba(20, 80, 255, 0.7));
+}
+@keyframes roadmap-drive {
+	from { offset-distance: 0%; }
+	to   { offset-distance: 100%; }
+}
+
+/* Phone/tablet: collapse to single-column stack, hide the road graphic */
+@media (max-width: 860px) {
+	.roadmap__stage {
+		display: flex;
+		flex-direction: column;
+		gap: var(--s-4);
+		grid-auto-rows: auto;
+	}
+	.roadmap__items { display: contents; }
+	.roadmap__lane { display: none; }
+	.roadmap__item {
+		max-width: none;
+		justify-self: stretch;
+	}
+	.roadmap__item::after { display: none; }
+}
+
+/* Reduced-motion: freeze the cars at fixed positions along the road */
+@media (prefers-reduced-motion: reduce) {
+	.roadmap__car { animation: none; offset-distance: 35%; }
+	.roadmap__car--2 { offset-distance: 72%; }
+}
+
+/* Fallback: browsers without offset-path support */
+@supports not (offset-path: path("M0 0")) {
+	.roadmap__car { display: none; }
+}
+
+/* RTL: the SVG road renders L-to-R regardless of direction.
+   Mirror the road graphic horizontally and flip card column assignments
+   so each card stays paired with its pin. Pin number text is flipped
+   back so digits remain readable. */
+[dir="rtl"] .roadmap__road { transform: scaleX(-1); transform-origin: center; }
+[dir="rtl"] .roadmap__road g text { transform: scaleX(-1); transform-box: fill-box; transform-origin: center; }
+[dir="rtl"] .roadmap__item:nth-child(1) { grid-column: 3; justify-self: start; }
+[dir="rtl"] .roadmap__item:nth-child(2) { grid-column: 1; justify-self: end; }
+[dir="rtl"] .roadmap__item:nth-child(3) { grid-column: 3; justify-self: start; }
+[dir="rtl"] .roadmap__item:nth-child(4) { grid-column: 1; justify-self: end; }
+[dir="rtl"] .roadmap__item:nth-child(5) { grid-column: 3; justify-self: start; }
+[dir="rtl"] .roadmap__item:nth-child(6) { grid-column: 1; justify-self: end; }
+[dir="rtl"] .roadmap__item:nth-child(7) { grid-column: 3; justify-self: start; }
+[dir="rtl"] .roadmap__item:nth-child(8) { grid-column: 1; justify-self: end; }
 
 /* Community ------------------------------------------------------------- */
 .community-grid {
@@ -547,6 +867,15 @@
 	.footer__grid { grid-template-columns: 1fr; }
 }
 .footer__brand { max-width: 320px; }
+.footer__brand-link { display: inline-block; transition: opacity var(--d-2) var(--ease-out); }
+.footer__brand-link:hover { opacity: 0.85; }
+.footer__logo {
+	display: block;
+	width: auto;
+	height: clamp(48px, 6vw, 64px);
+	max-width: 100%;
+	filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.18));
+}
 .footer h6 { margin-block-end: var(--s-3); color: var(--c-ink-2); }
 .footer__list { display: flex; flex-direction: column; gap: var(--s-2); }
 .footer__list a { color: var(--c-ink-2); font-size: var(--fs-1); }

@@ -13,7 +13,7 @@ export async function init() {
 		const name = j.name || tag;
 		const date = j.published_at ? new Date(j.published_at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : '';
 		const url = j.html_url || 'https://github.com/DigiByte-Core/digibyte/releases';
-		const body = (j.body || '').slice(0, 500);
+		const body = (j.body || '').slice(0, 1500);
 		const assetCount = (j.assets || []).length;
 
 		host.innerHTML = `
@@ -23,7 +23,10 @@ export async function init() {
 				<span class="text-ink-3 fs-mono">${escapeHTML(date)}</span>
 			</div>
 			<h3 class="card__title">${escapeHTML(name)}</h3>
-			<div class="release-card__notes">${escapeHTML(body)}</div>
+			<details class="release-card__notes">
+				<summary>Release notes</summary>
+				<div class="release-card__notes__body">${escapeHTML(body)}</div>
+			</details>
 			<div class="cluster">
 				<a class="btn btn--primary btn--sm" href="${escapeAttr(url)}" target="_blank" rel="noopener">View on GitHub →</a>
 				<span class="chip">${assetCount} downloads</span>
