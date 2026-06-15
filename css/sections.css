@@ -184,9 +184,9 @@
 }
 .hero__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-block-end: var(--s-5); }
 .hero__title {
-	font-size: var(--fs-8);
+	font-size: clamp(2.2rem, 1.6rem + 3.2vw, 4rem);
 	letter-spacing: var(--ls-tight);
-	line-height: 1.04;
+	line-height: 1.08;
 	margin-block-end: var(--s-5);
 	text-shadow: 0 2px 24px rgba(5, 7, 13, 0.55);
 }
