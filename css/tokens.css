@@ -5,10 +5,10 @@
 
 :root {
 	/* ---------- Brand & semantic palette (dark-first) ---------- */
-	--c-bg-0: #05070d;          /* deep space */
-	--c-bg-1: #0a0e1a;          /* base canvas */
-	--c-bg-2: #0f1626;          /* card base */
-	--c-bg-3: #16203a;          /* elevated */
+	--c-bg-0: #03102a;          /* deep navy canvas (DGB logo) */
+	--c-bg-1: #061a3d;          /* base canvas */
+	--c-bg-2: #0a2350;          /* card base */
+	--c-bg-3: #133072;          /* elevated */
 	--c-ink-0: #ffffff;
 	--c-ink-1: #e6ecf7;
 	--c-ink-2: #aab4c8;
@@ -39,11 +39,12 @@
 	--c-border-strong: rgba(255, 255, 255, 0.16);
 
 	/* Gradients */
-	--g-hero: radial-gradient(ellipse at 20% 0%, rgba(20, 80, 255, 0.28), transparent 60%),
-	          radial-gradient(ellipse at 80% 30%, rgba(0, 229, 255, 0.20), transparent 55%),
-	          linear-gradient(180deg, #05070d 0%, #0a0e1a 100%);
-	--g-brand: linear-gradient(135deg, var(--c-neon-cyan) 0%, var(--c-brand-blue) 55%, #0a3aa8 100%);
-	--g-brand-soft: linear-gradient(135deg, rgba(0, 229, 255, 0.18), rgba(20, 80, 255, 0.18));
+	--g-hero: radial-gradient(ellipse at 20% 0%, rgba(31, 123, 232, 0.30), transparent 60%),
+	          radial-gradient(ellipse at 80% 30%, rgba(10, 79, 191, 0.28), transparent 55%),
+	          radial-gradient(ellipse at 50% 100%, rgba(78, 163, 255, 0.12), transparent 60%),
+	          linear-gradient(180deg, #03102a 0%, #061a3d 60%, #03102a 100%);
+	--g-brand: linear-gradient(135deg, #4ea3ff 0%, #1f7be8 45%, #0a4fbf 100%);
+	--g-brand-soft: linear-gradient(135deg, rgba(78, 163, 255, 0.20), rgba(10, 79, 191, 0.18));
 	--g-divider: linear-gradient(90deg, transparent, var(--c-neon-cyan), transparent);
 	--g-text: linear-gradient(135deg, #ffffff 0%, #aef0ff 50%, #b5d6ff 100%);
 
@@ -140,6 +141,23 @@
 	--z-overlay: 500;
 	--z-modal: 1000;
 	--z-toast: 1500;
+
+	/* ---------- Blue surface (digibyte.org-style alternating panels) ---------- */
+	--c-surface-blue: #0066cc;
+	--c-surface-blue-2: #0a4fbf;
+	--c-on-blue-0: #ffffff;
+	--c-on-blue-1: #d8e8f8;
+	--c-on-blue-2: #a8c8e8;
+	--c-on-blue-border: rgba(255, 255, 255, 0.18);
+	--glass-blue: rgba(255, 255, 255, 0.10);
+	--glass-blue-strong: rgba(255, 255, 255, 0.16);
+	--g-blue-fade: linear-gradient(180deg, var(--c-surface-blue) 0%, var(--c-surface-blue-2) 100%);
+
+	/* DGB-logo aligned button gradient (bright top, deep navy bottom) */
+	--g-button: linear-gradient(180deg, #1f7be8 0%, #0a4fbf 100%);
+	--g-button-hover: linear-gradient(180deg, #2f8aff 0%, #0e5bd1 100%);
+	--shadow-button: inset 0 1px 0 rgba(255, 255, 255, 0.30), 0 4px 14px rgba(10, 79, 191, 0.40);
+	--shadow-button-hover: inset 0 1px 0 rgba(255, 255, 255, 0.40), 0 10px 28px rgba(10, 79, 191, 0.55);
 }
 
 /* Reduced motion */

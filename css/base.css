@@ -104,6 +104,7 @@ h6, .h6 {
 	background: var(--g-brand);
 	-webkit-background-clip: text; background-clip: text;
 	color: transparent;
+	filter: drop-shadow(0 2px 18px rgba(31, 123, 232, 0.35));
 }
 
 /* Paragraph & links ----------------------------------------------------- */
@@ -139,7 +140,7 @@ section + section::before {
 	transform: translateX(-50%);
 	width: min(80%, 1100px);
 	height: 1px;
-	background: linear-gradient(90deg, transparent 0%, rgba(0, 229, 255, 0.18) 30%, rgba(20, 80, 255, 0.22) 70%, transparent 100%);
+	background: linear-gradient(90deg, transparent 0%, rgba(78, 163, 255, 0.20) 30%, rgba(31, 123, 232, 0.30) 70%, transparent 100%);
 	pointer-events: none;
 }
 .section-pad-sm { padding-block: clamp(2.5rem, 5vw, 4rem); }
