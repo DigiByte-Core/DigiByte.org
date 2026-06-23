@@ -1,0 +1,12 @@
+{
+  "hero.chip.openSource": "Open source · MIT",
+  "hero.chip.since": "Since 2014",
+  "hero.title": "Engineered for continuous operation.",
+  "hero.lead": "DigiByte is a highly secure, multi-algorithm UTXO blockchain built for scale. Operating with 15-second block times and a twelve-year history of uninterrupted uptime, the network provides a battle-tested foundation for DGB, DigiAssets, decentralized Digi-ID authentication, and — very soon — DigiDollar.",
+  "hero.cta.get": "Get DigiByte",
+  "hero.cta.build": "Build on DGB",
+  "hero.metric.blockTime": "Block time",
+  "hero.metric.algorithms": "Algorithms",
+  "hero.metric.yearsLive": "Years live",
+  "hero.metric.maxSupply": "Max supply"
+}
