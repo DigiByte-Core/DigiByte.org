@@ -52,13 +52,10 @@ for (const locale of [...new Set(['en', ...readdirSync(LOCALES_DIR, { withFileTy
 const EN = CATALOGS.en || {};
 
 // HTML-escape a translation value before inserting into innerHTML.
-// Allow a small whitelist of inline markup (em-dash already Unicode; we keep <br>, <strong>, <em>).
-function escapeForInner(value) {
-	return value
-		.replace(/&/g, '&amp;')
-		.replace(/</g, '&lt;')
-		.replace(/>/g, '&gt;');
-}
+// Catalog values for inner content are treated as trusted HTML (they live
+// in-repo and are reviewed via PR), so inline markup like <strong>, <em>,
+// <a>, <br> and entities like &mdash; are preserved verbatim.
+// Attribute values still get escaped to keep quoting safe.
 function escapeForAttr(value) {
 	return value
 		.replace(/&/g, '&amp;')
@@ -83,7 +80,7 @@ function applyCatalog(html, locale) {
 		(match, tag, attrs, key, inner) => {
 			const v = lookup(key);
 			if (v == null) return match;
-			return `<${tag}${attrs}>${escapeForInner(v)}</${tag}>`;
+			return `<${tag}${attrs}>${v}</${tag}>`;
 		}
 	);
 
