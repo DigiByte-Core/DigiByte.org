@@ -1029,24 +1029,35 @@
 	display: flex; flex-wrap: wrap; gap: var(--s-2);
 }
 
-/* News ------------------------------------------------------------------ */
-.news-grid {
+/* Featured (solo) variant — used when only one download card is shown.
+   Constrains overall width and splits internals into a 2-column layout
+   so the card doesn't stretch awkwardly across the full grid. */
+.download-card--featured {
+	max-width: 1080px;
+	margin-inline: auto;
 	display: grid;
-	gap: var(--s-4);
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: clamp(1.5rem, 3vw, 2.5rem);
+	grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+	align-items: start;
 }
-.news-card {
-	display: flex; flex-direction: column; gap: var(--s-3);
-	padding: var(--s-5);
-	background: var(--glass-bg);
-	border: 1px solid var(--glass-border);
-	border-radius: var(--r-3);
-	transition: transform var(--d-2) var(--ease-out), border-color var(--d-2) var(--ease-out);
+.download-card--featured > .download-card__main,
+.download-card--featured > .download-card__aside {
+	display: flex; flex-direction: column; gap: var(--s-4);
+	min-width: 0;
 }
-.news-card:hover { transform: translateY(-3px); border-color: var(--c-neon-cyan); }
-.news-card__date { font-family: var(--ff-mono); font-size: var(--fs-0); color: var(--c-ink-3); }
-.news-card__title { font-size: var(--fs-3); color: var(--c-ink-0); }
-.news-card__excerpt { color: var(--c-ink-2); font-size: var(--fs-1); }
+.download-card--featured > .download-card__aside {
+	padding-inline-start: clamp(1.5rem, 3vw, 2.5rem);
+	border-inline-start: 1px solid var(--glass-border);
+}
+@media (max-width: 760px) {
+	.download-card--featured { grid-template-columns: 1fr; }
+	.download-card--featured > .download-card__aside {
+		padding-inline-start: 0;
+		border-inline-start: 0;
+		padding-block-start: var(--s-5);
+		border-block-start: 1px solid var(--glass-border);
+	}
+}
 
 /* Footer ---------------------------------------------------------------- */
 .footer {
