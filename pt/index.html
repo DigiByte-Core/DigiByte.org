@@ -862,27 +862,37 @@ while True:
 		</header>
 
 		<div class="downloads-grid">
-			<article class="download-card" data-reveal>
-				<header>
-					<span class="eyebrow" data-i18n="downloads.core.eyebrow">Full Node</span>
-					<h3 class="card__title">DigiByte Core</h3>
-					<p class="text-ink-2 mt-2" data-i18n="downloads.core.subtitle">Validação de blocos completa e independente.</p>
-				</header>
-				<ul class="stack-sm">
-					<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet1">Ancora e protege directamente a rede</span></li>
-					<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet2">SegWit, Bech32 e interfaces RPC integrados</span></li>
-					<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Pronto para produção:</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v8.26.2</a></li>
-				</ul>
-				<div class="download-card__platforms">
-					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-win64-setup.exe" target="_blank" rel="noopener" aria-label="Transferir para Windows" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
-					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Transferir para macOS" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
-					<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Transferir para Linux" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
-					<a class="btn btn--ghost btn--sm" href="https://snapcraft.io/digibyte-core" target="_blank" rel="noopener"><i class="fas fa-box"></i> Snap</a>
+			<article class="download-card download-card--featured" data-reveal>
+				<div class="download-card__main">
+					<header>
+						<span class="eyebrow" data-i18n="downloads.core.eyebrow">Full Node</span>
+						<h3 class="card__title">DigiByte Core</h3>
+						<p class="text-ink-2 mt-2" data-i18n="downloads.core.subtitle">Validação de blocos completa e independente.</p>
+					</header>
+					<ul class="stack-sm">
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet1">Ancora e protege directamente a rede</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet2">SegWit, Bech32 e interfaces RPC integrados</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Pronto para produção:</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v8.26.2</a></li>
+					</ul>
+					<div class="cluster">
+						<a class="btn btn--primary btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">Executar um nó</span></a>
+						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener" data-i18n="downloads.core.checksums">Checksums</a>
+					</div>
 				</div>
-				<div class="cluster">
-					<a class="btn btn--primary btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">Executar um nó</span></a>
-					<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener" data-i18n="downloads.core.checksums">Checksums</a>
-				</div>
+				<aside class="download-card__aside">
+					<span class="eyebrow" data-i18n="downloads.core.whyValidate">Porquê auto-validar?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i> <span data-i18n="downloads.core.why1">Verificação trustless — sem depender da visão da chain de terceiros.</span></li>
+						<li class="cluster"><i class="fas fa-network-wired text-cyan"></i> <span data-i18n="downloads.core.why2">Reforce a descentralização com cada novo peer.</span></li>
+						<li class="cluster"><i class="fas fa-eye-slash text-cyan"></i> <span data-i18n="downloads.core.why3">Privacidade de primeira para as suas carteiras e consultas.</span></li>
+					</ul>
+					<div class="download-card__platforms mt-4">
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-win64-setup.exe" target="_blank" rel="noopener" aria-label="Transferir para Windows" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Transferir para macOS" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Transferir para Linux" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
+						<a class="btn btn--ghost btn--sm" href="https://snapcraft.io/digibyte-core" target="_blank" rel="noopener"><i class="fas fa-box"></i> Snap</a>
+					</div>
+				</aside>
 			</article>
 		</div>
 
