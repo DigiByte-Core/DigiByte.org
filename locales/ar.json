@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "الويكي",
   "downloads.docs.wiki.meta": "مرجع تقني",
 
-  "news.eyebrow": "الأحدث",
-  "news.title": "أخبار من الشبكة.",
-  "news.lead": "إصدارات، تكاملات، محاضرات ومقالات مجتمعية — مباشرة من <a href=\"/news.xml\">تغذية RSS الخاصة بنا</a>.",
 
   "footer.aria.backToTop": "العودة إلى الأعلى",
   "footer.tagline": "بنية UTXO تحتية متواصلة. صمّمها ووسّعها مجتمع مفتوح المصدر لامركزي منذ 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "موارد",
-  "footer.resources.rss": "تغذية RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "تكامل",

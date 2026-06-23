@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "teknisk referens",
 
-  "news.eyebrow": "Senaste",
-  "news.title": "Nyheter från nätverket.",
-  "news.lead": "Releaser, integrationer, talks och artiklar från gemenskapen — direkt från <a href=\"/news.xml\">vårt RSS-flöde</a>.",
 
   "footer.aria.backToTop": "Tillbaka till toppen",
   "footer.tagline": "Oavbruten UTXO-infrastruktur. Konstruerad och skalad av en decentraliserad, open source-gemenskap sedan 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resurser",
-  "footer.resources.rss": "RSS-flöde",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integration",

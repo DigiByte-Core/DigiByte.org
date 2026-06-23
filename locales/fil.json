@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "teknikal na sanggunian",
 
-  "news.eyebrow": "Pinakabago",
-  "news.title": "Balita mula sa network.",
-  "news.lead": "Mga release, integrasyon, talks at artikulo ng komunidad — direkta mula sa <a href=\"/news.xml\">aming RSS feed</a>.",
 
   "footer.aria.backToTop": "Bumalik sa itaas",
   "footer.tagline": "Walang patid na UTXO infrastructure. Idinisenyo at pinalawak ng desentralisadong open-source na komunidad mula 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Mga mapagkukunan",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasyon",

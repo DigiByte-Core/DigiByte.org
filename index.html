@@ -88,9 +88,6 @@
 	<link rel="stylesheet" href="/css/sections.css">
 	<link rel="stylesheet" href="/css/utilities.css">
 
-	<!-- RSS -->
-	<link rel="alternate" type="application/rss+xml" title="DigiByte News" href="/news.xml">
-
 	<!-- Language router (preserves existing behaviour) -->
 	<script src="/js/lang-router.js" defer></script>
 
@@ -932,22 +929,6 @@ while True:
 	</div>
 </section>
 
-<!-- NEWS ===================================================== -->
-<section id="news" class="s-news" aria-labelledby="news-title">
-	<div class="row">
-		<header class="section-header" data-reveal>
-			<span class="eyebrow" data-i18n="news.eyebrow">Latest</span>
-			<h2 id="news-title" data-i18n="news.title">News from the network.</h2>
-			<p data-i18n="news.lead">Releases, integrations, talks and community articles — straight from <a href="/news.xml">our RSS feed</a>.</p>
-		</header>
-		<div class="news-grid" data-news-feed data-limit="6" data-reveal>
-			<div class="news-card is-loading size-h-160"></div>
-			<div class="news-card is-loading size-h-160"></div>
-			<div class="news-card is-loading size-h-160"></div>
-		</div>
-	</div>
-</section>
-
 </main>
 
 <!-- FOOTER =================================================== -->
@@ -997,7 +978,6 @@ while True:
 			<div>
 				<h6 data-i18n="footer.resources.heading">Resources</h6>
 				<ul class="footer__list">
-					<li><a href="/news.xml" data-i18n="footer.resources.rss">RSS feed</a></li>
 					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
 					<li><a href="/docs/infopaper.pdf" target="_blank" data-i18n="footer.resources.infoPaper">Info paper</a></li>
 					<li><a href="/docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">Integration</a></li>

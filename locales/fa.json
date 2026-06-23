@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "ویکی",
   "downloads.docs.wiki.meta": "مرجع فنی",
 
-  "news.eyebrow": "جدیدترین",
-  "news.title": "اخبار از شبکه.",
-  "news.lead": "انتشارها، ادغام‌ها، سخنرانی‌ها و مقاله‌های جامعه — مستقیماً از <a href=\"/news.xml\">فید RSS ما</a>.",
 
   "footer.aria.backToTop": "بازگشت به بالا",
   "footer.tagline": "زیرساخت UTXO بی‌وقفه. از ۲۰۱۴ توسط جامعه‌ای غیرمتمرکز و متن‌باز طراحی و مقیاس‌پذیر شده است.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "منابع",
-  "footer.resources.rss": "فید RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "ادغام",

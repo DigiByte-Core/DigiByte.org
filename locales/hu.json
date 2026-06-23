@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "műszaki referencia",
 
-  "news.eyebrow": "Legfrissebb",
-  "news.title": "Hírek a hálózatból.",
-  "news.lead": "Kiadások, integrációk, előadások és közösségi cikkek — közvetlenül <a href=\"/news.xml\">RSS folyamunkból</a>.",
 
   "footer.aria.backToTop": "Vissza a tetejére",
   "footer.tagline": "Megszakítás nélküli UTXO infrastruktúra. Decentralizált, nyílt forráskódú közösség tervezi és skálázza 2014 óta.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Erőforrások",
-  "footer.resources.rss": "RSS folyam",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integráció",

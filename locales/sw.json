@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "rejeleo la kiufundi",
 
-  "news.eyebrow": "Mpya",
-  "news.title": "Habari kutoka mtandaoni.",
-  "news.lead": "Toleo, muunganisho, hotuba na makala za jumuiya — moja kwa moja kutoka <a href=\"/news.xml\">mlisho wetu wa RSS</a>.",
 
   "footer.aria.backToTop": "Rudi juu",
   "footer.tagline": "Miundombinu isiyokatika ya UTXO. Imebuniwa na imepanuliwa na jumuiya iliyogatuliwa ya chanzo huria tangu 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Rasilimali",
-  "footer.resources.rss": "Mlisho wa RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Muunganisho",

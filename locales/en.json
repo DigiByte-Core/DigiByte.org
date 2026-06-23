@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "technical reference",
 
-  "news.eyebrow": "Latest",
-  "news.title": "News from the network.",
-  "news.lead": "Releases, integrations, talks and community articles — straight from <a href=\"/news.xml\">our RSS feed</a>.",
 
   "footer.aria.backToTop": "Back to top",
   "footer.tagline": "Uninterrupted UTXO infrastructure. Engineered and scaled by a decentralized, open-source community since 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resources",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integration",

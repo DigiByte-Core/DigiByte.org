@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "rujukan teknikal",
 
-  "news.eyebrow": "Terkini",
-  "news.title": "Berita dari rangkaian.",
-  "news.lead": "Keluaran, integrasi, ucapan dan artikel komuniti — terus dari <a href=\"/news.xml\">suapan RSS kami</a>.",
 
   "footer.aria.backToTop": "Kembali ke atas",
   "footer.tagline": "Infrastruktur UTXO tanpa henti. Direka dan diskalakan oleh komuniti sumber terbuka yang terdesentralisasi sejak 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Sumber",
-  "footer.resources.rss": "Suapan RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasi",

@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tekninen viite",
 
-  "news.eyebrow": "Uusimmat",
-  "news.title": "Verkon uutiset.",
-  "news.lead": "Julkaisut, integraatiot, esitelmät ja yhteisöartikkelit — suoraan <a href=\"/news.xml\">RSS-syötteestämme</a>.",
 
   "footer.aria.backToTop": "Takaisin ylös",
   "footer.tagline": "Katkeamaton UTXO-infrastruktuuri. Suunniteltu ja skaalattu hajautetun, avoimen lähdekoodin yhteisön voimin vuodesta 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resurssit",
-  "footer.resources.rss": "RSS-syöte",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integraatio",
