@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "技术参考",
 
-  "news.eyebrow": "最新",
-  "news.title": "来自网络的资讯。",
-  "news.lead": "发布、集成、演讲以及社区文章 — 直接来自<a href=\"/news.xml\">我们的 RSS 源</a>。",
 
   "footer.aria.backToTop": "回到顶部",
   "footer.tagline": "不间断的 UTXO 基础设施。由去中心化的开源社区自 2014 年以来设计与扩展。",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "资源",
-  "footer.resources.rss": "RSS 源",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "信息白皮",
   "footer.resources.integration": "集成",

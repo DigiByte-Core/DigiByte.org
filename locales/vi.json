@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tham khảo kỹ thuật",
 
-  "news.eyebrow": "Mới nhất",
-  "news.title": "Tin tức từ mạng.",
-  "news.lead": "Phát hành, tích hợp, bài nói và bài viết cộng đồng — trực tiếp từ <a href=\"/news.xml\">RSS feed của chúng tôi</a>.",
 
   "footer.aria.backToTop": "Lên đầu trang",
   "footer.tagline": "Hạ tầng UTXO không gián đoạn. Được thiết kế và mở rộng bởi cộng đồng mã nguồn mở phi tập trung từ năm 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Tài nguyên",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Tích hợp",

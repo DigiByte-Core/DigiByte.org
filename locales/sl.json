@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tehnična referenca",
 
-  "news.eyebrow": "Najnovejše",
-  "news.title": "Novice iz omrežja.",
-  "news.lead": "Izdaje, integracije, predavanja in članki skupnosti — neposredno iz <a href=\"/news.xml\">našega RSS feeda</a>.",
 
   "footer.aria.backToTop": "Nazaj na vrh",
   "footer.tagline": "Neprekinjena UTXO infrastruktura. Zasnovana in skalirana s strani decentralizirane odprtokodne skupnosti od leta 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Viri",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integracija",

@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "τεχνική αναφορά",
 
-  "news.eyebrow": "Πρόσφατα",
-  "news.title": "Νέα από το δίκτυο.",
-  "news.lead": "Εκδόσεις, ενσωματώσεις, ομιλίες και άρθρα της κοινότητας — απευθείας από το <a href=\"/news.xml\">RSS feed μας</a>.",
 
   "footer.aria.backToTop": "Επιστροφή στην κορυφή",
   "footer.tagline": "Αδιάκοπη υποδομή UTXO. Σχεδιασμένη και κλιμακούμενη από μια αποκεντρωμένη κοινότητα ανοιχτού κώδικα από το 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Πόροι",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Ενσωμάτωση",

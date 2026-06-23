@@ -13,7 +13,6 @@ const PRECACHE = [
 	'/js/hero-network.js',
 	'/js/tokenomics-chart.js',
 	'/js/chain-dashboard.js',
-	'/js/news-feed.js',
 	'/js/github-release.js',
 	'/js/lang-router.js',
 	'/images/logo.svg',

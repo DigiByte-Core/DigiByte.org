@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "技術リファレンス",
 
-  "news.eyebrow": "最新",
-  "news.title": "ネットワークからのニュース。",
-  "news.lead": "リリース、統合事例、講演、コミュニティ記事 — <a href=\"/news.xml\">RSSフィード</a>から直接配信。",
 
   "footer.aria.backToTop": "ページ上部に戻る",
   "footer.tagline": "途切れないUTXOインフラ。2014年から、分散型でオープンソースなコミュニティが設計・拡張してきました。",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "リソース",
-  "footer.resources.rss": "RSSフィード",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "統合",

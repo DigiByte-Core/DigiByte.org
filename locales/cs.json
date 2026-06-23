@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "technická reference",
 
-  "news.eyebrow": "Nejnovější",
-  "news.title": "Zprávy ze sítě.",
-  "news.lead": "Vydání, integrace, přednášky a komunitní články — přímo z <a href=\"/news.xml\">našeho RSS feedu</a>.",
 
   "footer.aria.backToTop": "Nahoru",
   "footer.tagline": "Nepřerušená UTXO infrastruktura. Navržená a škálovaná decentralizovanou open-source komunitou od roku 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Zdroje",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrace",

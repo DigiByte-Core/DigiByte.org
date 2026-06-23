@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "referință tehnică",
 
-  "news.eyebrow": "Noutăți",
-  "news.title": "Știri din rețea.",
-  "news.lead": "Lansări, integrări, conferințe și articole din comunitate — direct din <a href=\"/news.xml\">feed-ul nostru RSS</a>.",
 
   "footer.aria.backToTop": "Înapoi sus",
   "footer.tagline": "Infrastructură UTXO neîntreruptă. Concepută și scalată de o comunitate descentralizată, open source, din 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resurse",
-  "footer.resources.rss": "Feed RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrare",

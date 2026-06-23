@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "teknik referans",
 
-  "news.eyebrow": "Son",
-  "news.title": "Ağdan haberler.",
-  "news.lead": "Yayınlar, entegrasyonlar, konuşmalar ve topluluk makaleleri — doğrudan <a href=\"/news.xml\">RSS akışımızdan</a>.",
 
   "footer.aria.backToTop": "Yukarı dön",
   "footer.tagline": "Kesintisiz UTXO altyapısı. 2014'ten beri merkeziyetsiz, açık kaynaklı bir topluluk tarafından tasarlandı ve ölçeklendi.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Kaynaklar",
-  "footer.resources.rss": "RSS akışı",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Entegrasyon",

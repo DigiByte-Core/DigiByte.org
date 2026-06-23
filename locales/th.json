@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "การอ้างอิงทางเทคนิค",
 
-  "news.eyebrow": "ล่าสุด",
-  "news.title": "ข่าวสารจากเครือข่าย",
-  "news.lead": "การปล่อยรุ่น การผสานรวม บรรยาย และบทความของชุมชน — โดยตรงจาก <a href=\"/news.xml\">RSS feed ของเรา</a>",
 
   "footer.aria.backToTop": "กลับไปด้านบน",
   "footer.tagline": "โครงสร้างพื้นฐาน UTXO ที่ไม่หยุดทำงาน ออกแบบและสเกลโดยชุมชนโอเพ่นซอร์สแบบกระจายอำนาจตั้งแต่ปี 2014",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "ทรัพยากร",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "การผสานรวม",

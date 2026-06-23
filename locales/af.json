@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tegniese verwysing",
 
-  "news.eyebrow": "Jongste",
-  "news.title": "Nuus uit die netwerk.",
-  "news.lead": "Vrystellings, integrasies, praatjies en gemeenskapsartikels — direk uit <a href=\"/news.xml\">ons RSS-voer</a>.",
 
   "footer.aria.backToTop": "Terug na bo",
   "footer.tagline": "Ononderbroke UTXO-infrastruktuur. Ontwerp en geskaal deur 'n gedesentraliseerde, oopbron-gemeenskap sedert 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Hulpbronne",
-  "footer.resources.rss": "RSS-voer",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasie",

@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "technische referentie",
 
-  "news.eyebrow": "Laatste",
-  "news.title": "Nieuws uit het netwerk.",
-  "news.lead": "Releases, integraties, talks en community-artikelen — rechtstreeks uit <a href=\"/news.xml\">onze RSS-feed</a>.",
 
   "footer.aria.backToTop": "Terug naar boven",
   "footer.tagline": "Ononderbroken UTXO-infrastructuur. Ontworpen en geschaald door een gedecentraliseerde, open-source community sinds 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Bronnen",
-  "footer.resources.rss": "RSS-feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integratie",

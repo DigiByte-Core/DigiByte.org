@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tehnička referenca",
 
-  "news.eyebrow": "Najnovije",
-  "news.title": "Vijesti iz mreže.",
-  "news.lead": "Izdanja, integracije, predavanja i članci zajednice — izravno iz <a href=\"/news.xml\">našeg RSS feeda</a>.",
 
   "footer.aria.backToTop": "Natrag na vrh",
   "footer.tagline": "Neprekinuta UTXO infrastruktura. Dizajnirana i skalirana od strane decentralizirane, open source zajednice od 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resursi",
-  "footer.resources.rss": "RSS feed",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integracija",

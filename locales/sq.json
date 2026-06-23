@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "referencë teknike",
 
-  "news.eyebrow": "Më të rejat",
-  "news.title": "Lajme nga rrjeti.",
-  "news.lead": "Lëshime, integrime, fjalime dhe artikuj të komunitetit — drejtpërdrejt nga <a href=\"/news.xml\">feed-i ynë RSS</a>.",
 
   "footer.aria.backToTop": "Kthehu lart",
   "footer.tagline": "Infrastrukturë UTXO e pandërprerë. E projektuar dhe e shkallëzuar nga një komunitet i decentralizuar me kod të hapur që nga 2014.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Burime",
-  "footer.resources.rss": "Feed RSS",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrim",

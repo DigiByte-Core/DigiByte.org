@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "техническа справка",
 
-  "news.eyebrow": "Последно",
-  "news.title": "Новини от мрежата.",
-  "news.lead": "Издания, интеграции, лекции и статии от общността — директно от <a href=\"/news.xml\">нашия RSS канал</a>.",
 
   "footer.aria.backToTop": "Към върха",
   "footer.tagline": "Непрекъсната UTXO инфраструктура. Проектирана и мащабирана от децентрализирана общност с отворен код от 2014 г.",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Ресурси",
-  "footer.resources.rss": "RSS канал",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Интеграция",

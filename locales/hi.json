@@ -221,9 +221,6 @@
   "downloads.docs.wiki.title": "विकी",
   "downloads.docs.wiki.meta": "तकनीकी संदर्भ",
 
-  "news.eyebrow": "नवीनतम",
-  "news.title": "नेटवर्क से समाचार।",
-  "news.lead": "रिलीज़, एकीकरण, टॉक्स और सामुदायिक लेख — सीधे <a href=\"/news.xml\">हमारे RSS फ़ीड से</a>।",
 
   "footer.aria.backToTop": "ऊपर वापस जाएं",
   "footer.tagline": "निर्बाध UTXO बुनियादी ढांचा। 2014 से एक विकेन्द्रीकृत, ओपन-सोर्स समुदाय द्वारा डिज़ाइन और स्केल किया गया।",
@@ -243,7 +240,6 @@
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "संसाधन",
-  "footer.resources.rss": "RSS फ़ीड",
   "footer.resources.digistats": "DigiStats",
   "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "एकीकरण",
