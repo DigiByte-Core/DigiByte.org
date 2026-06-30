@@ -240,10 +240,62 @@ Specific changes contributing to the improvements:
 
 ===External links updated===
 
-* Telegram → <code>https://t.me/DigiByteCoin</code>
-* Discord → <code>https://dsc.gg/DigiByteDiscord</code>
-* DigiStats → <code>https://digibyte.io/</code>
-* GitHub, Reddit, X (Twitter) unchanged.
+This proposal aligns with [https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki
+DIP-0002] (Final, 2024) which directs <code>digibyte.org</code> to
+relocate third-party social platforms and advocacy-group content to the
+community-maintained [https://dgbwiki.com/index.php?title=DigiByte
+DigiByte Wiki] and the
+[https://github.com/orgs/DigiByte-Core/discussions DigiByte-Core GitHub
+Discussions forum]. Concretely, on the redesigned site:
+
+* The Community section is reduced to two tiles: '''GitHub Discussions'''
+  and the '''DigiByte Wiki''' (prominently displayed per DIP-0002
+  "Community: Social Media").
+* All Reddit, Telegram, Discord, YouTube and X/Twitter tiles are removed
+  from the Community section.
+* The footer social row is reduced to GitHub, GitHub Discussions and the
+  DigiByte Wiki; Telegram, Discord, Reddit and X/Twitter icons are
+  removed from the footer.
+* The footer Resources column gains a '''DigiByte Wiki''' link and
+  retains DigiStats (<code>https://digibyte.io/</code>); "Contact Us"
+  remains absent (DIP-0002 Page Footer: Resources).
+* The <code>schema.org</code> <code>Organization.sameAs</code> array no
+  longer references Twitter or Reddit; it lists GitHub, GitHub
+  Discussions and the DigiByte Wiki.
+* No <code>news.xml</code> consumption is rendered on the homepage
+  (DIP-0002 Page Header).
+* No Alliance, DGBAT, Awareness Team, Blockchain&nbsp;2035, "Meet the
+  creator", Uphold or "Contact Us" modules or links appear (DIP-0002
+  Community / Debit Cards / Page Footer).
+
+Legacy social URLs that previously appeared in the codebase
+(<code>twitter.com/DigiByteCoin</code>, <code>t.me/DigiByteCoin</code>,
+<code>dsc.gg/DigiByteDiscord</code>, <code>reddit.com/r/Digibyte</code>,
+<code>youtube.com/...</code>) have been removed from the homepage and
+relocated, per DIP-0002, to the
+[https://dgbwiki.com/index.php?title=DigiByte DigiByte Wiki].
+
+===Relationship to DIP-0002===
+
+This Informational DIP does '''not''' amend, supersede or relax
+DIP-0002. Where the two proposals overlap (community-section content,
+third-party social links, footer resources), DIP-0002 governs and this
+redesign implements its directives in the new visual system. The only
+additive items relative to DIP-0002 are:
+
+* A '''DigiStats''' link to <code>https://digibyte.io/</code> in the
+  primary navigation and footer Resources column. DigiStats is a
+  first-party network statistics portal operated within the
+  DigiByte-Core ecosystem and is not a third-party social or advocacy
+  link.
+* '''Live chain telemetry''' fetched from DigiExplorer and Coinpaprika.
+  These are read-only API consumptions, not promoted third-party
+  destinations, and are degraded gracefully when the upstream is
+  unavailable.
+
+Any future re-introduction of a third-party social platform on
+<code>digibyte.org</code> would require its own DIP that either amends
+or supersedes DIP-0002.
 
 ===Files removed===
 
@@ -474,14 +526,17 @@ loader with a GA4 measurement ID provided by the DigiByte Foundation.
 
 '''Why these external link choices?'''
 
-* Telegram <code>DigiByteCoin</code> is the verified group in the official
-  Telegram directory at <code>@OfficialDigiByteGroups</code>.
-* Discord <code>dsc.gg/DigiByteDiscord</code> is the permanent vanity
-  redirect for the DigiByte Global Community server (server ID
-  <code>878200503815782400</code>, referenced by
-  <code>chainparams.cpp</code> in the Core repository).
-* DigiStats redirects to <code>digibyte.io</code> as the canonical
-  community statistics portal.
+* '''GitHub Discussions''' (<code>github.com/orgs/DigiByte-Core/discussions</code>)
+  is the canonical discussion forum mandated by DIP-0002.
+* '''DigiByte Wiki''' (<code>dgbwiki.com</code>) is the
+  community-maintained authoritative reference mandated by DIP-0002 for
+  social channels, history and advocacy-group content.
+* '''DigiStats''' (<code>digibyte.io</code>) is the canonical
+  community statistics portal and is not a third-party social link.
+* Third-party social platforms (Telegram, Discord, Reddit, X/Twitter,
+  YouTube, Facebook, LinkedIn, Instagram, Medium) are deliberately
+  '''not''' linked from the homepage, per DIP-0002. Visitors seeking
+  those channels are routed to the DigiByte Wiki social-media page.
 
 ==Backwards compatibility==
 
@@ -589,6 +644,9 @@ DigiByte Foundation.
 * [https://dg-bio.vercel.app/ Live working preview of the redesign]
 * [https://github.com/DigiByte-Core/DGBio DigiByte-Core/DGBio]
 * [https://github.com/DigiByte-Core/dips/blob/main/dip-0001.mediawiki DIP 1: DIP Purpose and Guidelines]
+* [https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki DIP 2: Remove Third-Party Links from DigiByte.org]
+* [https://dgbwiki.com/index.php?title=DigiByte DigiByte Wiki]
+* [https://github.com/orgs/DigiByte-Core/discussions DigiByte-Core GitHub Discussions]
 * [https://digiexplorer.info/ DigiExplorer (Esplora API source)]
 * [https://api.coinpaprika.com/v1/tickers/dgb-digibyte Coinpaprika DGB ticker]
 * Before/after screenshot gallery: to be posted as a comment on the
