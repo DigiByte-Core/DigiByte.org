@@ -64,10 +64,13 @@ in this thread.
 - Mobile burger menu rewrite, full 36-locale parity, PWA service worker
 - Lighthouse: Perf 56→95, A11y 78→86, BP 73→100, SEO 92→100
 
-Updated community links:
-- Telegram → `t.me/DigiByteCoin`
-- Discord → `dsc.gg/DigiByteDiscord`
-- DigiStats → `digibyte.io`
+Community / external links (aligned with [DIP-0002](https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki)):
+- Community section reduced to **GitHub Discussions** + **[DigiByte Wiki](https://dgbwiki.com/index.php?title=DigiByte)** only
+- Footer socials reduced to GitHub, GitHub Discussions, DigiByte Wiki
+- All Telegram, Discord, Reddit, X/Twitter, YouTube, Facebook, LinkedIn,
+  Instagram and Medium links removed from the homepage and relocated to
+  the DigiByte Wiki, per DIP-0002
+- DigiStats → `digibyte.io` (first-party, not a third-party social link)
 
 ## What this DIP deliberately does NOT do
 
@@ -90,3 +93,73 @@ Before/after screenshot gallery will follow as a comment on this thread.
 5. Concerns about DigiExplorer or Coinpaprika as data sources?
 
 Thanks for reading — happy to revise based on feedback before opening the PR.
+
+---
+
+# Standalone notice: redesign follows DIP-0002
+
+> **Paste this into:** the existing DIP-0002 discussion thread
+> ([dips#7](https://github.com/DigiByte-Core/dips/discussions/7)) and/or
+> the `redesign-2026` discussion thread, as a short status update.
+>
+> **Title (if new thread):** `digibyte.org redesign now fully follows DIP-0002`
+>
+> Delete this blockquote before posting.
+
+Hi all,
+
+Quick heads-up for anyone tracking the `digibyte.org` redesign
+([redesign-2026 branch](https://github.com/DigiByte-Core/DGBio/tree/redesign-2026),
+live preview: https://dg-bio.vercel.app/):
+
+The redesign now **fully implements
+[DIP-0002](https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki)**
+(*Remove Third-Party Links from DigiByte.org*, Final, 2024). No new
+proposal, no amendment — we're just following what the community already
+ratified.
+
+**What changed on the homepage (root + all 36 locales):**
+
+- Community section is now exactly two tiles: **GitHub Discussions** and
+  the **[DigiByte Wiki](https://dgbwiki.com/index.php?title=DigiByte)**.
+- All Telegram, Discord, Reddit, X/Twitter and YouTube tiles removed.
+- Footer socials reduced to GitHub, GitHub Discussions and DigiByte
+  Wiki. Telegram, Discord, Reddit and X/Twitter icons removed.
+- Footer Resources gained a **DigiByte Wiki** link; Contact Us stays
+  absent.
+- `schema.org` `Organization.sameAs` no longer lists Twitter or Reddit;
+  it lists GitHub, GitHub Discussions and the Wiki.
+- No Alliance, DGBAT, Awareness Team, Blockchain 2035, "Meet the
+  creator", Uphold, AntumID, news XML feed or pipeline references
+  anywhere on the page.
+- A short inline note on the Community section credits DIP-0002 and
+  directs visitors to the Wiki for the social-media index.
+
+**Audited:** zero matches across root `index.html` and all 36 locale
+homepages for `t.me`, `dsc.gg`, `reddit.com/r/Digibyte`,
+`facebook|linkedin|instagram|medium|uphold|gitter|antumid|alliance|awareness|dgbat|blockchain.?2035`,
+or `fa-discord|fa-telegram|fa-reddit|fa-youtube|fa-x-twitter` icons.
+
+**Implication for translators:** four new i18n keys to backfill when you
+have a minute (English fallback in the meantime):
+`community.dip0002`, `community.tile.github.title`,
+`community.tile.wiki.title`, `community.tile.wiki.meta`,
+`footer.resources.wiki`.
+
+**Implication for the Wiki maintainers:** the homepage now funnels all
+third-party social discovery to
+[dgbwiki.com](https://dgbwiki.com/index.php?title=DigiByte). If the
+social-media index page on the Wiki needs a refresh (e.g. confirming
+canonical Telegram / Discord / X / Reddit URLs), now's a good time —
+happy to coordinate.
+
+Nothing about this changes the broader redesign DIP
+([draft](https://github.com/DigiByte-Core/DGBio/blob/redesign-2026/docs/dip-pitallano-website-redesign.mediawiki));
+it just makes the implementation match DIP-0002 verbatim. Any future
+re-introduction of a third-party social link on the homepage would need
+its own DIP that amends or supersedes DIP-0002.
+
+Feedback welcome here or on the
+[redesign-2026 thread](https://github.com/DigiByte-Core/dips/discussions/categories/dip-discussions).
+
+— Dennis
