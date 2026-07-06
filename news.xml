@@ -13,7 +13,7 @@
       <title>DigiByte News</title>
       <link>https://digibyte.org</link>
     </image>
-    <lastBuildDate>Sat, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 21:52:37 GMT</lastBuildDate>
 
     <item>
       <title>DigiByte Core v9.26.4 Released</title>
@@ -22,7 +22,7 @@
       DigiByte Core v9.26.4 is a patch release on top of v9.26.3. It lets mining pools and users run a pruned node with DigiDollar — a full-validating node that keeps
 only a few gigabytes of blocks instead of the entire ~12-year, ~40 GB block history.
       </description>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 02 Jul 2026 21:52:37 GMT</pubDate>
     </item>
 
     <item>
