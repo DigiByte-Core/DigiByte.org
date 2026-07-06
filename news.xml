@@ -13,15 +13,15 @@
       <title>DigiByte News</title>
       <link>https://digibyte.org</link>
     </image>
-    <lastBuildDate>Sat, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 21:52:37 GMT</lastBuildDate>
 
     <item>
-      <title>DigiByte Core v8.26.2 Released</title>
-      <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v8.26.2</link>
+      <title>DigiByte Core v9.26.4 Released</title>
+      <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4</link>
       <description>
-      DigiByte Core v8.26.2 is now available. This maintenance release addresses two critical RPC bugs: a 6-10x performance regression in getblockchaininfo and incorrect difficulty reporting in getmininginfo. All users are strongly encouraged to upgrade for improved node performance and accurate mining statistics.
+      DigiByte Core v9.26.4 is now available. This patch release enables pruning support for DigiDollar and adds a narrowly scoped consensus rule so pruned and full nodes remain in agreement.
       </description>
-      <pubDate>Fri, 17 Jan 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 02 Jul 2026 21:52:37 GMT</pubDate>
     </item>
 
     <item>
