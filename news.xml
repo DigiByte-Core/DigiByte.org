@@ -19,7 +19,17 @@
       <title>DigiByte Core v9.26.4 Released</title>
       <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.4</link>
       <description>
-      DigiByte Core v9.26.4 is now available. This maintenance release addresses two critical RPC bugs: a 6-10x performance regression in getblockchaininfo and incorrect difficulty reporting in getmininginfo. All users are strongly encouraged to upgrade for improved node performance and accurate mining statistics.
+      DigiByte Core v9.26.4 is a patch release on top of v9.26.3. It lets mining pools and users run a pruned node with DigiDollar — a full-validating node that keeps
+only a few gigabytes of blocks instead of the entire ~12-year, ~40 GB block history.
+      </description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>DigiByte Core v8.26.2 Released</title>
+      <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v8.26.2</link>
+      <description>
+      DigiByte Core v8.26.2 is now available. This maintenance release addresses two critical RPC bugs: a 6-10x performance regression in getblockchaininfo and incorrect difficulty reporting in getmininginfo. All users are strongly encouraged to upgrade for improved node performance and accurate mining statistics.
       </description>
       <pubDate>Fri, 17 Jan 2026 00:00:00 GMT</pubDate>
     </item>
