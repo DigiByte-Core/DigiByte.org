@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Udviklere",
-  "nav.wallets": "Wallets",
   "nav.download": "Hent",
   "nav.langMenu.edit": "Redigér oversættelser på GitHub",
   "nav.cta.getDgb": "Hent DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "År live",
   "hero.metric.maxSupply": "Maks. udbud",
 
-  "trust.aria": "Brugt af",
-  "trust.label": "Tilgængelig på tværs af økosystemet",
 
   "features.eyebrow": "Hvorfor DigiByte",
   "features.title": "Designet til kryptos næste årti.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Signér &amp; udsend",
   "digiassets.step3.body": "Betal et par sats DGB i gebyr, udsend transaktionen, og aktivet er live på hele netværket.",
   "digiassets.step4.title": "Send overalt",
-  "digiassets.step4.body": "Overfør til enhver DGB-adresse. Indbygget i DigiByte Mobile, DigiAssetX, web-wallets og explorers fra start.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokol-dokumentation",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Approval-frie transaktioner: native UTXO-mekanik omgår sikkerhedsrisici ved brede token-tilladelser.",
   "devhub.whyShip.point3": "Tilstandsløs udførelse: et rent UTXO-miljø muliggør enkel, parallel og komponérbar udvikling.",
 
-  "wallets.eyebrow": "Økosystem",
-  "wallets.title": "Universel wallet-understøttelse.",
-  "wallets.lead": "Administrér DGB med branchestandard hardware-, mobil-, desktop- eller web-interfaces. Økosystemet tilbyder mange valgmuligheder — fra langsigtet cold storage til daglig brug.",
-  "wallets.aria.filter": "Filtrér wallets",
-  "wallets.filter.all": "Alle",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobil",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Over et årtis kontinuerlig eksekvering.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-lag",
   "downloads.docs.media.title": "Mediekit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Præsentation",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logoer &amp; ikoner",
   "downloads.docs.logos.meta": "brand-kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskussioner",
   "footer.use.heading": "Brug",
-  "footer.use.wallets": "Wallets",
   "footer.use.downloads": "Downloads",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

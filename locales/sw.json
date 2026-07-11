@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Wabunifu",
-  "nav.wallets": "Pochi",
   "nav.download": "Pakua",
   "nav.langMenu.edit": "Hariri tafsiri kwenye GitHub",
   "nav.cta.getDgb": "Pata DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Miaka inayofanya kazi",
   "hero.metric.maxSupply": "Ugawaji wa juu",
 
-  "trust.aria": "Inaaminiwa na",
-  "trust.label": "Inapatikana katika mfumo wote wa ikolojia",
 
   "features.eyebrow": "Kwa nini DigiByte",
   "features.title": "Imebuniwa kwa muongo ujao wa cryptocurrency.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Saini &amp; tangaza",
   "digiassets.step3.body": "Lipa sats chache za DGB kama ada, tangaza muamala, na rasilimali iko hai katika mtandao mzima.",
   "digiassets.step4.title": "Tuma popote",
-  "digiassets.step4.body": "Hamishia kwa anwani yoyote ya DGB. Imeunganishwa moja kwa moja kwenye DigiByte Mobile, DigiAssetX, pochi za wavuti na wachunguzi.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Nyaraka za protokoli",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Miamala isiyohitaji idhini: mekaniki ya asili ya UTXO inakwepa hatari za usalama zinazohusiana na ruhusa pana za tokeni.",
   "devhub.whyShip.point3": "Utekelezaji bila hali: mazingira safi ya UTXO huruhusu maendeleo rahisi, sambamba na yanayoweza kujumuishwa.",
 
-  "wallets.eyebrow": "Mfumo wa ikolojia",
-  "wallets.title": "Usaidizi wa kina wa pochi.",
-  "wallets.lead": "Simamia DGB kwa kutumia miingiliano ya kiwango cha sekta — vifaa, simu, kompyuta au wavuti. Mfumo wa ikolojia hutoa chaguo nyingi za hifadhi baridi ya muda mrefu na matumizi ya kila siku.",
-  "wallets.aria.filter": "Chuja pochi",
-  "wallets.filter.all": "Zote",
-  "wallets.filter.hardware": "Vifaa",
-  "wallets.filter.mobile": "Simu",
-  "wallets.filter.desktop": "Kompyuta",
-  "wallets.filter.web": "Wavuti",
 
   "roadmap.eyebrow": "Historia",
   "roadmap.title": "Zaidi ya muongo wa utekelezaji wa kuendelea.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · safu ya stablecoin",
   "downloads.docs.media.title": "Kit ya vyombo vya habari",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Uwasilishaji",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Nembo &amp; aikoni",
   "downloads.docs.logos.meta": "kit ya chapa",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Majadiliano",
   "footer.use.heading": "Tumia",
-  "footer.use.wallets": "Pochi",
   "footer.use.downloads": "Vipakuliwa",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

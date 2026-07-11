@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Fejlesztőknek",
-  "nav.wallets": "Tárcák",
   "nav.download": "Letöltés",
   "nav.langMenu.edit": "Fordítások szerkesztése GitHubon",
   "nav.cta.getDgb": "DGB beszerzése",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Év üzemelés",
   "hero.metric.maxSupply": "Max. kínálat",
 
-  "trust.aria": "Használják",
-  "trust.label": "Elérhető az egész ökoszisztémában",
 
   "features.eyebrow": "Miért DigiByte",
   "features.title": "A kriptó következő évtizedére tervezve.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Aláírás &amp; sugárzás",
   "digiassets.step3.body": "Fizess néhány sats DGB-t díjként, küldd ki a tranzakciót, és az eszköz a teljes hálózaton aktív.",
   "digiassets.step4.title": "Küldd el bárhová",
-  "digiassets.step4.body": "Utald át bármilyen DGB címre. Indulásból integrálva a DigiByte Mobile-be, DigiAssetX-be, webes tárcákba és böngészőkbe.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokoll-dokumentáció",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Engedély nélküli tranzakciók: a natív UTXO mechanika megkerüli a széles körű token-engedélyekkel járó biztonsági kockázatokat.",
   "devhub.whyShip.point3": "Állapot nélküli végrehajtás: a tiszta UTXO környezet egyszerű, párhuzamos és kompozálható fejlesztést tesz lehetővé.",
 
-  "wallets.eyebrow": "Ökoszisztéma",
-  "wallets.title": "Univerzális tárcatámogatás.",
-  "wallets.lead": "Kezeld a DGB-t iparági szabványos hardver-, mobil-, asztali- vagy webes felületeken keresztül. Az ökoszisztéma változatos lehetőséget kínál hosszú távú hideg tárolásra és napi használatra egyaránt.",
-  "wallets.aria.filter": "Tárcák szűrése",
-  "wallets.filter.all": "Mind",
-  "wallets.filter.hardware": "Hardver",
-  "wallets.filter.mobile": "Mobil",
-  "wallets.filter.desktop": "Asztali",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Múlt",
   "roadmap.title": "Egy évtizednél is több folyamatos megvalósítás.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin réteg",
   "downloads.docs.media.title": "Sajtóanyag",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Bemutató",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logók &amp; ikonok",
   "downloads.docs.logos.meta": "márkacsomag",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Beszélgetések",
   "footer.use.heading": "Használd",
-  "footer.use.wallets": "Tárcák",
   "footer.use.downloads": "Letöltések",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

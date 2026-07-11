@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Lập trình viên",
-  "nav.wallets": "Ví",
   "nav.download": "Tải xuống",
   "nav.langMenu.edit": "Chỉnh sửa bản dịch trên GitHub",
   "nav.cta.getDgb": "Lấy DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Năm hoạt động",
   "hero.metric.maxSupply": "Cung tối đa",
 
-  "trust.aria": "Được tin dùng bởi",
-  "trust.label": "Có mặt trong toàn bộ hệ sinh thái",
 
   "features.eyebrow": "Tại sao chọn DigiByte",
   "features.title": "Thiết kế cho thập kỷ tiếp theo của crypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Ký &amp; phát sóng",
   "digiassets.step3.body": "Trả vài sats DGB làm phí, phát sóng giao dịch và tài sản hoạt động trên toàn mạng.",
   "digiassets.step4.title": "Gửi bất cứ đâu",
-  "digiassets.step4.body": "Chuyển đến bất kỳ địa chỉ DGB nào. Tích hợp sẵn trong DigiByte Mobile, DigiAssetX, ví web và trình duyệt khối.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Tài liệu giao thức",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Giao dịch không cần approval: cơ chế UTXO nguyên bản tránh được rủi ro bảo mật từ các quyền token rộng.",
   "devhub.whyShip.point3": "Thực thi stateless: môi trường UTXO thuần khiết cho phép phát triển đơn giản, song song và có thể kết hợp.",
 
-  "wallets.eyebrow": "Hệ sinh thái",
-  "wallets.title": "Hỗ trợ ví toàn diện.",
-  "wallets.lead": "Quản lý DGB bằng các giao diện chuẩn ngành — phần cứng, di động, máy tính hoặc web. Hệ sinh thái cung cấp lựa chọn đa dạng cho cả cold storage dài hạn và sử dụng hàng ngày.",
-  "wallets.aria.filter": "Lọc ví",
-  "wallets.filter.all": "Tất cả",
-  "wallets.filter.hardware": "Phần cứng",
-  "wallets.filter.mobile": "Di động",
-  "wallets.filter.desktop": "Máy tính",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Bề dày",
   "roadmap.title": "Hơn một thập kỷ thực thi liên tục.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · lớp stablecoin",
   "downloads.docs.media.title": "Bộ tài liệu truyền thông",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Bài thuyết trình",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo &amp; biểu tượng",
   "downloads.docs.logos.meta": "bộ thương hiệu",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Thảo luận",
   "footer.use.heading": "Sử dụng",
-  "footer.use.wallets": "Ví",
   "footer.use.downloads": "Tải xuống",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

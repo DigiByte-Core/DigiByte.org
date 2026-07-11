@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Vývojáři",
-  "nav.wallets": "Peněženky",
   "nav.download": "Stáhnout",
   "nav.langMenu.edit": "Upravit překlady na GitHubu",
   "nav.cta.getDgb": "Získat DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Let v provozu",
   "hero.metric.maxSupply": "Max. nabídka",
 
-  "trust.aria": "Důvěřují nám",
-  "trust.label": "Dostupný v celém ekosystému",
 
   "features.eyebrow": "Proč DigiByte",
   "features.title": "Navržen pro další dekádu krypta.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Podepište &amp; rozešlete",
   "digiassets.step3.body": "Zaplaťte pár satoshi DGB jako poplatek, rozešlete transakci a aktivum je živé v celé síti.",
   "digiassets.step4.title": "Pošlete kamkoli",
-  "digiassets.step4.body": "Přeneste na jakoukoli DGB adresu. Integrováno hned ve DigiByte Mobile, DigiAssetX, webových peněženkách a průzkumnících.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentace protokolu",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transakce bez approvals: nativní mechanika UTXO obchází bezpečnostní rizika spojená s rozsáhlými povoleními tokenů.",
   "devhub.whyShip.point3": "Bezstavové provádění: čisté UTXO prostředí umožňuje jednoduchý, paralelní a komponovatelný vývoj.",
 
-  "wallets.eyebrow": "Ekosystém",
-  "wallets.title": "Univerzální podpora peněženek.",
-  "wallets.lead": "Spravujte DGB pomocí oborových standardů — hardwarových, mobilních, desktopových nebo webových rozhraní. Ekosystém nabízí pestré možnosti pro dlouhodobé cold storage i každodenní použití.",
-  "wallets.aria.filter": "Filtrovat peněženky",
-  "wallets.filter.all": "Všechny",
-  "wallets.filter.hardware": "Hardwarové",
-  "wallets.filter.mobile": "Mobilní",
-  "wallets.filter.desktop": "Desktopové",
-  "wallets.filter.web": "Webové",
 
   "roadmap.eyebrow": "Historie",
   "roadmap.title": "Přes deset let nepřetržitého doručování.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · vrstva stablecoin",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Prezentace",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Loga &amp; ikony",
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskuse",
   "footer.use.heading": "Používat",
-  "footer.use.wallets": "Peněženky",
   "footer.use.downloads": "Stažení",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

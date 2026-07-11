@@ -102,7 +102,7 @@
 		"sameAs": [
 			"https://github.com/DigiByte-Core",
 			"https://github.com/orgs/DigiByte-Core/discussions",
-			"https://dgbwiki.com/index.php?title=DigiByte"
+			"https://github.com/DigiByte-Core/digibyte/wiki"
 		]
 	}
 	</script>
@@ -159,7 +159,6 @@
 				<li><a href="#digiassets" data-i18n="nav.digiassets">DigiAssets</a></li>
 				<li><a href="#digi-id" data-i18n="nav.digiId">Digi-ID</a></li>
 				<li><a href="#devhub" data-i18n="nav.developers">Développeurs</a></li>
-				<li><a href="#wallets" data-i18n="nav.wallets">Portefeuilles</a></li>
 				<li><a href="#downloads" data-i18n="nav.download">Télécharger</a></li>
 				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
 			</ul>
@@ -277,29 +276,6 @@
 		</div>
 	</div>
 
-</section>
-
-<!-- TRUST MARQUEE ============================================ -->
-<section class="s-trust" aria-label="Approuvé par" data-i18n-attr="aria-label:trust.aria">
-	<div class="row">
-		<p class="s-trust__label eyebrow" data-i18n="trust.label">Disponible dans tout l'écosystème</p>
-		<div class="marquee" aria-hidden="true">
-			<div class="marquee__track">
-				<img src="../images/wallets/ledger.png" alt="Ledger" loading="lazy">
-				<img src="../images/wallets/trust.png" alt="Trust Wallet" loading="lazy">
-				<img src="../images/wallets/exodus.png" alt="Exodus" loading="lazy">
-				<img src="../images/wallets/atomic.png" alt="Atomic Wallet" loading="lazy">
-				<img src="../images/wallets/cryptocom.png" alt="Crypto.com" loading="lazy">
-				<img src="../images/wallets/edge.png" alt="Edge" loading="lazy">
-				<img src="../images/wallets/keepkey.png" alt="KeepKey" loading="lazy">
-				<img src="../images/wallets/safepal.png" alt="SafePal" loading="lazy">
-				<img src="../images/wallets/secux.png" alt="SecuX" loading="lazy">
-				<img src="../images/wallets/bitfi.png" alt="Bitfi" loading="lazy">
-				<img src="../images/wallets/dcent.png" alt="D'CENT" loading="lazy">
-				<img src="../images/wallets/guarda1.png" alt="Guarda" loading="lazy">
-			</div>
-		</div>
-	</div>
 </section>
 
 <!-- WHY DIGIBYTE / FEATURES ================================== -->
@@ -459,12 +435,12 @@
 			</div>
 			<div class="flow-step card" data-reveal data-reveal-delay="240">
 				<h3 data-i18n="digiassets.step4.title">Envoyez n'importe où</h3>
-				<p data-i18n="digiassets.step4.body">Transférez vers n'importe quelle adresse DGB. Intégré dès le départ dans DigiByte Mobile, DigiAssetX, les portefeuilles web et les explorateurs.</p>
+				<p data-i18n="digiassets.step4.body">Transfer to any DGB address. Rendered natively by DigiAsset Core v3 nodes and asset-aware DigiByte wallets.</p>
 			</div>
 		</div>
 
 		<div class="cluster mt-7 justify-center-children" data-reveal>
-			<a class="btn btn--primary" href="https://digiassetx.com" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> <span data-i18n="digiassets.cta.digiAssetX">DigiAssetX</span></a>
+			<a class="btn btn--primary" href="https://github.com/DigiAsset-Core/DigiAsset_Core" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digiassets.cta.digiAssetCore">DigiAsset Core (v3)</span></a>
 			<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="digiassets.cta.docs">Docs du protocole</a>
 		</div>
 	</div>
@@ -670,52 +646,6 @@ while True:
 	</div>
 </section>
 
-<!-- WALLETS ================================================== -->
-<section id="wallets" class="s-wallets" aria-labelledby="wallets-title">
-	<div class="row">
-		<header class="section-header" data-reveal>
-			<span class="eyebrow" data-i18n="wallets.eyebrow">Écosystème</span>
-			<h2 id="wallets-title" data-i18n="wallets.title">Support de portefeuilles universel.</h2>
-			<p data-i18n="wallets.lead">Gérez DGB avec les standards du marché : matériel, mobile, desktop ou web. L'écosystème offre des options variées pour le stockage à froid à long terme comme pour un usage quotidien.</p>
-		</header>
-
-		<div class="s-wallets__filters" data-wallet-filters role="toolbar" aria-label="Filtrer les portefeuilles" data-i18n-attr="aria-label:wallets.aria.filter">
-			<button class="btn btn--ghost btn--sm" data-filter="all" aria-pressed="true" data-i18n="wallets.filter.all">Tous</button>
-			<button class="btn btn--ghost btn--sm" data-filter="hardware" aria-pressed="false" data-i18n="wallets.filter.hardware">Matériel</button>
-			<button class="btn btn--ghost btn--sm" data-filter="mobile" aria-pressed="false" data-i18n="wallets.filter.mobile">Mobile</button>
-			<button class="btn btn--ghost btn--sm" data-filter="desktop" aria-pressed="false" data-i18n="wallets.filter.desktop">Desktop</button>
-			<button class="btn btn--ghost btn--sm" data-filter="web" aria-pressed="false" data-i18n="wallets.filter.web">Web</button>
-		</div>
-
-		<div class="wallets-grid" data-reveal>
-			<a class="wallet-card" data-wallet="hardware" href="https://www.ledger.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/ledger.png" alt="" loading="lazy"><span>Ledger</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="hardware" href="https://www.bitfi.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/bitfi.png" alt="" loading="lazy"><span>Bitfi</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="hardware" href="https://shapeshift.com/keepkey" target="_blank" rel="noopener">
-				<img src="../images/wallets/keepkey.png" alt="" loading="lazy"><span>KeepKey</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="hardware" href="https://safepal.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/safepal.png" alt="" loading="lazy"><span>SafePal</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="hardware" href="https://secuxtech.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/secux.png" alt="" loading="lazy"><span>SecuX</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="hardware" href="https://dcentwallet.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/dcent.png" alt="" loading="lazy"><span>D'CENT</span><span class="wallet-card__type">Hardware</span></a>
-			<a class="wallet-card" data-wallet="mobile desktop" href="https://www.exodus.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/exodus.png" alt="" loading="lazy"><span>Exodus</span><span class="wallet-card__type">Mobile · Desktop</span></a>
-			<a class="wallet-card" data-wallet="mobile desktop" href="https://atomicwallet.io" target="_blank" rel="noopener">
-				<img src="../images/wallets/atomic.png" alt="" loading="lazy"><span>Atomic</span><span class="wallet-card__type">Mobile · Desktop</span></a>
-			<a class="wallet-card" data-wallet="mobile" href="https://trustwallet.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/trust.png" alt="" loading="lazy"><span>Trust Wallet</span><span class="wallet-card__type">Mobile</span></a>
-			<a class="wallet-card" data-wallet="mobile" href="https://crypto.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/cryptocom.png" alt="" loading="lazy"><span>Crypto.com</span><span class="wallet-card__type">Mobile</span></a>
-			<a class="wallet-card" data-wallet="mobile" href="https://edge.app" target="_blank" rel="noopener">
-				<img src="../images/wallets/edge.png" alt="" loading="lazy"><span>Edge</span><span class="wallet-card__type">Mobile</span></a>
-			<a class="wallet-card" data-wallet="mobile desktop web" href="https://guarda.com" target="_blank" rel="noopener">
-				<img src="../images/wallets/guarda1.png" alt="" loading="lazy"><span>Guarda</span><span class="wallet-card__type">Multi</span></a>
-		</div>
-	</div>
-</section>
-
 <!-- ROADMAP / MILESTONES ===================================== -->
 <section id="roadmap" class="s-roadmap" aria-labelledby="roadmap-title">
 	<div class="row">
@@ -834,8 +764,8 @@ while True:
 			<a class="community-tile" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-reveal>
 				<i class="fab fa-github"></i><div><strong data-i18n="community.tile.github.title">GitHub Discussions</strong><br><small class="text-ink-3" data-i18n="community.tile.github.meta">Discussions &amp; PRs</small></div>
 			</a>
-			<a class="community-tile" href="https://dgbwiki.com/index.php?title=DigiByte" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
-				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Social channels, history &amp; guides</small></div>
+			<a class="community-tile" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
+				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Technical reference &amp; guides</small></div>
 			</a>
 		</div>
 	</div>
@@ -861,7 +791,7 @@ while True:
 					<ul class="stack-sm">
 						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet1">Ancre et sécurise directement le réseau</span></li>
 						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet2">SegWit, Bech32 et interfaces RPC intégrés</span></li>
-						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Prêt pour la production :</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v8.26.2</a></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Prêt pour la production :</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v9.26.4</a></li>
 					</ul>
 					<div class="cluster">
 						<a class="btn btn--primary btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">Faire tourner un nœud</span></a>
@@ -876,9 +806,9 @@ while True:
 						<li class="cluster"><i class="fas fa-eye-slash text-cyan"></i> <span data-i18n="downloads.core.why3">Confidentialité haut de gamme pour vos propres portefeuilles et recherches.</span></li>
 					</ul>
 					<div class="download-card__platforms mt-4">
-						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-win64-setup.exe" target="_blank" rel="noopener" aria-label="Télécharger pour Windows" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
-						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Télécharger pour macOS" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
-						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v8.26.2/digibyte-8.26.2-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Télécharger pour Linux" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.4/digibyte-9.26.4-win64-setup.exe" target="_blank" rel="noopener" aria-label="Télécharger pour Windows" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.4/digibyte-9.26.4-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Télécharger pour macOS" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.4/digibyte-9.26.4-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Télécharger pour Linux" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
 						<a class="btn btn--ghost btn--sm" href="https://snapcraft.io/digibyte-core" target="_blank" rel="noopener"><i class="fas fa-box"></i> Snap</a>
 					</div>
 				</aside>
@@ -897,7 +827,6 @@ while True:
 				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">Guide d'intégration</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">Pour exchanges &amp; services</span></a>
 				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">Intégration DigiDollar</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · couche stablecoin</span></a>
 				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">Fiche presse</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
-				<a class="devlink" href="https://docs.google.com/presentation/d/16Hn2GfuS1yLjZpjeTYloW0S_JVkhevYzffkDZFqjbiU" target="_blank" rel="noopener"><i class="fas fa-display devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.presentation.title">Présentation</span><span class="devlink__meta" data-i18n="downloads.docs.presentation.meta">Google Slides</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">Logos &amp; icônes</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">kit de marque</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">Wiki</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">référence technique</span></a>
 			</div>
@@ -919,7 +848,7 @@ while True:
 				<div class="footer__socials mt-5">
 					<a href="https://github.com/DigiByte-Core" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
 					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" aria-label="GitHub Discussions"><i class="fas fa-comments"></i></a>
-					<a href="https://dgbwiki.com/index.php?title=DigiByte" target="_blank" rel="noopener" aria-label="DigiByte Wiki"><i class="fas fa-book-open"></i></a>
+					<a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" aria-label="DigiByte Wiki"><i class="fas fa-book-open"></i></a>
 				</div>
 			</div>
 			<div>
@@ -943,7 +872,6 @@ while True:
 			<div>
 				<h6 data-i18n="footer.use.heading">Utiliser</h6>
 				<ul class="footer__list">
-					<li><a href="#wallets" data-i18n="footer.use.wallets">Portefeuilles</a></li>
 					<li><a href="#downloads" data-i18n="footer.use.downloads">Téléchargements</a></li>
 					<li><a href="#digi-id" data-i18n="footer.use.digiId">Digi-ID</a></li>
 					<li><a href="#digiassets" data-i18n="footer.use.digiassets">DigiAssets</a></li>
@@ -952,7 +880,7 @@ while True:
 			<div>
 				<h6 data-i18n="footer.resources.heading">Ressources</h6>
 				<ul class="footer__list">
-					<li><a href="https://dgbwiki.com/index.php?title=DigiByte" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
 					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
 					<li><a href="../docs/infopaper.pdf" target="_blank" data-i18n="footer.resources.infoPaper">Info paper</a></li>
 					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">Intégration</a></li>

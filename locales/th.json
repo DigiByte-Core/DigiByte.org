@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "นักพัฒนา",
-  "nav.wallets": "กระเป๋าเงิน",
   "nav.download": "ดาวน์โหลด",
   "nav.langMenu.edit": "แก้ไขคำแปลบน GitHub",
   "nav.cta.getDgb": "รับ DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "ปีที่ทำงาน",
   "hero.metric.maxSupply": "อุปทานสูงสุด",
 
-  "trust.aria": "ได้รับความไว้วางใจจาก",
-  "trust.label": "พร้อมใช้งานทั่วทั้งระบบนิเวศ",
 
   "features.eyebrow": "ทำไมต้อง DigiByte",
   "features.title": "ออกแบบสำหรับทศวรรษถัดไปของคริปโต",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "เซ็น &amp; เผยแพร่",
   "digiassets.step3.body": "จ่าย sats DGB ไม่กี่หน่วยเป็นค่าธรรมเนียม เผยแพร่ธุรกรรม และสินทรัพย์จะใช้งานได้ทั่วทั้งเครือข่าย",
   "digiassets.step4.title": "ส่งได้ทุกที่",
-  "digiassets.step4.body": "โอนไปยังที่อยู่ DGB ใดก็ได้ ใช้งานทันทีใน DigiByte Mobile, DigiAssetX, กระเป๋าเงินบนเว็บ และเอ็กซ์พลอเรอร์",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "เอกสารโปรโตคอล",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "ธุรกรรมไม่ต้องมีการอนุมัติ: กลไก UTXO เนทีฟเลี่ยงความเสี่ยงด้านความปลอดภัยจากการอนุญาตโทเค็นที่กว้าง",
   "devhub.whyShip.point3": "การประมวลผลไร้สถานะ: สภาพแวดล้อม UTXO บริสุทธิ์เปิดทางให้พัฒนาแบบง่าย ขนาน และประกอบกันได้",
 
-  "wallets.eyebrow": "ระบบนิเวศ",
-  "wallets.title": "รองรับกระเป๋าเงินครบครัน",
-  "wallets.lead": "จัดการ DGB ด้วยอินเทอร์เฟซมาตรฐานอุตสาหกรรม — ฮาร์ดแวร์ มือถือ เดสก์ท็อป หรือเว็บ ระบบนิเวศมีตัวเลือกหลากหลายทั้งสำหรับ cold storage ระยะยาวและการใช้งานประจำวัน",
-  "wallets.aria.filter": "กรองกระเป๋าเงิน",
-  "wallets.filter.all": "ทั้งหมด",
-  "wallets.filter.hardware": "ฮาร์ดแวร์",
-  "wallets.filter.mobile": "มือถือ",
-  "wallets.filter.desktop": "เดสก์ท็อป",
-  "wallets.filter.web": "เว็บ",
 
   "roadmap.eyebrow": "ประวัติ",
   "roadmap.title": "กว่าหนึ่งทศวรรษของการดำเนินงานต่อเนื่อง",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · ชั้น stablecoin",
   "downloads.docs.media.title": "ชุดสื่อมวลชน",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "การนำเสนอ",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "โลโก้ &amp; ไอคอน",
   "downloads.docs.logos.meta": "ชุดแบรนด์",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "การสนทนา",
   "footer.use.heading": "ใช้งาน",
-  "footer.use.wallets": "กระเป๋าเงิน",
   "footer.use.downloads": "ดาวน์โหลด",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Zhvilluesit",
-  "nav.wallets": "Kuletat",
   "nav.download": "Shkarko",
   "nav.langMenu.edit": "Edito përkthimet në GitHub",
   "nav.cta.getDgb": "Merr DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Vjet aktiv",
   "hero.metric.maxSupply": "Furnizimi max.",
 
-  "trust.aria": "Përdoret nga",
-  "trust.label": "I disponueshëm në të gjithë ekosistemin",
 
   "features.eyebrow": "Pse DigiByte",
   "features.title": "I projektuar për dekadën e ardhshme të kriptos.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Nënshkruaj &amp; transmeto",
   "digiassets.step3.body": "Paguaj disa sats DGB si tarifë, transmeto transaksionin dhe aseti është aktiv në gjithë rrjetin.",
   "digiassets.step4.title": "Dërgo kudo",
-  "digiassets.step4.body": "Transfero te çdo adresë DGB. I integruar që nga fillimi në DigiByte Mobile, DigiAssetX, kuletat web dhe exploruesit.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentacion i protokollit",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transaksione pa approval: mekanika native UTXO anashkalon rreziqet e sigurisë që lidhen me lejet e gjera mbi tokenat.",
   "devhub.whyShip.point3": "Ekzekutim pa gjendje: një mjedis i pastër UTXO mundëson zhvillim të thjeshtë, paralel dhe të kompozueshëm.",
 
-  "wallets.eyebrow": "Ekosistemi",
-  "wallets.title": "Mbështetje universale për kuletat.",
-  "wallets.lead": "Menaxho DGB duke përdorur ndërfaqe standarde të industrisë — hardware, mobile, desktop ose web. Ekosistemi ofron opsione të larmishme si për cold storage afatgjatë ashtu edhe për përdorim të përditshëm.",
-  "wallets.aria.filter": "Filtroni kuletat",
-  "wallets.filter.all": "Të gjitha",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Histori",
   "roadmap.title": "Më shumë se një dekadë ekzekutim i vazhdueshëm.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · shtresa stablecoin",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Prezantim",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo &amp; ikona",
   "downloads.docs.logos.meta": "kit marke",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskutime",
   "footer.use.heading": "Përdor",
-  "footer.use.wallets": "Kuletat",
   "footer.use.downloads": "Shkarkimet",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Mga developer",
-  "nav.wallets": "Mga wallet",
   "nav.download": "I-download",
   "nav.langMenu.edit": "I-edit ang mga pagsasalin sa GitHub",
   "nav.cta.getDgb": "Kumuha ng DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Taong tumatakbo",
   "hero.metric.maxSupply": "Pinakamaraming supply",
 
-  "trust.aria": "Pinagkakatiwalaan ng",
-  "trust.label": "Magagamit sa buong ekosistema",
 
   "features.eyebrow": "Bakit DigiByte",
   "features.title": "Idinisenyo para sa susunod na dekada ng crypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Pirmahan &amp; ipasa",
   "digiassets.step3.body": "Magbayad ng ilang sats DGB bilang bayad, ipasa ang transaksyon at ang asset ay buhay sa buong network.",
   "digiassets.step4.title": "Ipadala kahit saan",
-  "digiassets.step4.body": "Ilipat sa anumang DGB address. Integrated sa DigiByte Mobile, DigiAssetX, web wallets at explorer mula sa simula.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentasyon ng protocol",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Walang approval na transaksyon: ang native UTXO mechanics ay umiiwas sa mga panganib sa seguridad na kaakibat ng malawak na token allowances.",
   "devhub.whyShip.point3": "Stateless na pag-execute: ang dalisay na UTXO environment ay nagbibigay-daan sa simple, parallel, at composable na pag-develop.",
 
-  "wallets.eyebrow": "Ekosistema",
-  "wallets.title": "Pangkalahatang suporta sa mga wallet.",
-  "wallets.lead": "Pamahalaan ang DGB gamit ang industriyang pamantayang hardware, mobile, desktop o web na interface. Nag-aalok ang ekosistema ng iba't ibang opsyon, para sa pangmatagalang cold storage at pang-araw-araw na paggamit.",
-  "wallets.aria.filter": "Mga filter ng wallet",
-  "wallets.filter.all": "Lahat",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Higit sa isang dekada ng tuluy-tuloy na pag-execute.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin layer",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Pagtatanghal",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Mga logo &amp; icon",
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Talakayan",
   "footer.use.heading": "Gamitin",
-  "footer.use.wallets": "Mga wallet",
   "footer.use.downloads": "Mga download",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Programeri",
-  "nav.wallets": "Novčanici",
   "nav.download": "Preuzmi",
   "nav.langMenu.edit": "Uredi prijevode na GitHubu",
   "nav.cta.getDgb": "Nabavi DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Godine rada",
   "hero.metric.maxSupply": "Maks. ponuda",
 
-  "trust.aria": "Koriste",
-  "trust.label": "Dostupan u cijelom ekosustavu",
 
   "features.eyebrow": "Zašto DigiByte",
   "features.title": "Stvoren za sljedeće desetljeće kripta.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Potpiši &amp; emitiraj",
   "digiassets.step3.body": "Plati nekoliko sata DGB-a kao naknadu, emitiraj transakciju i aset je živ u cijeloj mreži.",
   "digiassets.step4.title": "Pošalji bilo kamo",
-  "digiassets.step4.body": "Prenesi na bilo koju DGB adresu. Integrirano u DigiByte Mobile, DigiAssetX, web novčanike i explorere od početka.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentacija protokola",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transakcije bez approval-a: nativna UTXO mehanika zaobilazi sigurnosne rizike širokih dopuštenja tokenima.",
   "devhub.whyShip.point3": "Bez-stanjasti izvršni model: čisto UTXO okruženje omogućuje jednostavan, paralelan i kompozibilan razvoj.",
 
-  "wallets.eyebrow": "Ekosustav",
-  "wallets.title": "Univerzalna podrška za novčanike.",
-  "wallets.lead": "Upravljajte DGB-om koristeći industrijske standarde: hardverska, mobilna, desktop ili web sučelja. Ekosustav nudi raznolike opcije — od dugoročne hladne pohrane do svakodnevne uporabe.",
-  "wallets.aria.filter": "Filtriraj novčanike",
-  "wallets.filter.all": "Svi",
-  "wallets.filter.hardware": "Hardverski",
-  "wallets.filter.mobile": "Mobilni",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Povijest",
   "roadmap.title": "Više od desetljeća kontinuirane izvedbe.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · sloj stablecoina",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Prezentacija",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logotipi &amp; ikone",
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Rasprave",
   "footer.use.heading": "Koristi",
-  "footer.use.wallets": "Novčanici",
   "footer.use.downloads": "Preuzimanja",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

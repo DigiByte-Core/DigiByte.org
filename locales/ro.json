@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Dezvoltatori",
-  "nav.wallets": "Portofele",
   "nav.download": "Descărcare",
   "nav.langMenu.edit": "Editează traducerile pe GitHub",
   "nav.cta.getDgb": "Obține DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Ani activă",
   "hero.metric.maxSupply": "Ofertă max.",
 
-  "trust.aria": "Folosită de",
-  "trust.label": "Disponibilă în întregul ecosistem",
 
   "features.eyebrow": "De ce DigiByte",
   "features.title": "Construită pentru următorul deceniu al cripto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Semnează &amp; difuzează",
   "digiassets.step3.body": "Plătește câțiva sați de DGB drept taxe, difuzează tranzacția și activul este viu în toată rețeaua.",
   "digiassets.step4.title": "Trimite oriunde",
-  "digiassets.step4.body": "Transferă la orice adresă DGB. Vine integrat din start în DigiByte Mobile, DigiAssetX, portofele web și explorere.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Documentația protocolului",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Tranzacții fără aprobări: mecanica nativă UTXO ocolește riscurile de securitate legate de permisiunile ample asupra token-urilor.",
   "devhub.whyShip.point3": "Execuție fără stare: un mediu UTXO pur permite o dezvoltare simplă, paralelă și componibilă.",
 
-  "wallets.eyebrow": "Ecosistem",
-  "wallets.title": "Suport universal pentru portofele.",
-  "wallets.lead": "Gestionează DGB folosind interfețe standard de industrie: hardware, mobile, desktop sau web. Ecosistemul oferă opțiuni variate, atât pentru cold storage pe termen lung, cât și pentru uz zilnic.",
-  "wallets.aria.filter": "Filtrează portofele",
-  "wallets.filter.all": "Toate",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Istoric",
   "roadmap.title": "Peste un deceniu de execuție continuă.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · strat stablecoin",
   "downloads.docs.media.title": "Press kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Prezentare",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo-uri &amp; iconițe",
   "downloads.docs.logos.meta": "kit de brand",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Discuții",
   "footer.use.heading": "Folosește",
-  "footer.use.wallets": "Portofele",
   "footer.use.downloads": "Descărcări",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Geliştiriciler",
-  "nav.wallets": "Cüzdanlar",
   "nav.download": "İndir",
   "nav.langMenu.edit": "GitHub'da çevirileri düzenle",
   "nav.cta.getDgb": "DGB edinin",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Yıl aktif",
   "hero.metric.maxSupply": "Maks. arz",
 
-  "trust.aria": "Tarafından kullanılıyor",
-  "trust.label": "Tüm ekosistemde erişilebilir",
 
   "features.eyebrow": "Neden DigiByte",
   "features.title": "Kriptonun sonraki on yılı için tasarlandı.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "İmzala &amp; yayınla",
   "digiassets.step3.body": "Birkaç sats DGB ücret ödeyin, işlemi yayınlayın ve varlık tüm ağda canlıdır.",
   "digiassets.step4.title": "Her yere gönder",
-  "digiassets.step4.body": "Herhangi bir DGB adresine aktarın. Kutudan çıkar çıkmaz DigiByte Mobile, DigiAssetX, web cüzdanları ve gezginlere entegredir.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokol dokümantasyonu",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Onay gerektirmeyen işlemler: yerel UTXO mekaniği, geniş token izinlerinin yarattığı güvenlik risklerini atlar.",
   "devhub.whyShip.point3": "Durumsuz yürütme: saf UTXO ortamı basit, paralel ve birleştirilebilir geliştirmeye olanak tanır.",
 
-  "wallets.eyebrow": "Ekosistem",
-  "wallets.title": "Evrensel cüzdan desteği.",
-  "wallets.lead": "DGB'yi sektör standardı donanım, mobil, masaüstü veya web arayüzleriyle yönetin. Ekosistem hem uzun vadeli soğuk saklama hem de günlük kullanım için zengin seçenekler sunar.",
-  "wallets.aria.filter": "Cüzdanları filtrele",
-  "wallets.filter.all": "Tümü",
-  "wallets.filter.hardware": "Donanım",
-  "wallets.filter.mobile": "Mobil",
-  "wallets.filter.desktop": "Masaüstü",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Geçmiş performans",
   "roadmap.title": "On yılı aşkın kesintisiz uygulama.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin katmanı",
   "downloads.docs.media.title": "Medya kiti",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Sunum",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logolar &amp; simgeler",
   "downloads.docs.logos.meta": "marka kiti",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Tartışmalar",
   "footer.use.heading": "Kullan",
-  "footer.use.wallets": "Cüzdanlar",
   "footer.use.downloads": "İndirmeler",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
