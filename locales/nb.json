@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Utviklere",
-  "nav.wallets": "Lommebøker",
   "nav.download": "Last ned",
   "nav.langMenu.edit": "Rediger oversettelser på GitHub",
   "nav.cta.getDgb": "Skaff DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "År live",
   "hero.metric.maxSupply": "Maks tilbud",
 
-  "trust.aria": "Brukt av",
-  "trust.label": "Tilgjengelig i hele økosystemet",
 
   "features.eyebrow": "Hvorfor DigiByte",
   "features.title": "Konstruert for kryptoens neste tiår.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Signer &amp; kringkast",
   "digiassets.step3.body": "Betal noen få sats DGB i gebyr, kringkast transaksjonen, og aktivet er live i hele nettverket.",
   "digiassets.step4.title": "Send hvor som helst",
-  "digiassets.step4.body": "Overfør til hvilken som helst DGB-adresse. Innebygget i DigiByte Mobile, DigiAssetX, web-lommebøker og utforskere fra start.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokoll-dokumentasjon",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Approval-frie transaksjoner: den innebygde UTXO-mekanikken unngår sikkerhetsrisikoene ved brede token-tillatelser.",
   "devhub.whyShip.point3": "Stateless eksekvering: et rent UTXO-miljø gir enkel, parallell og komponerbar utvikling.",
 
-  "wallets.eyebrow": "Økosystem",
-  "wallets.title": "Universell lommebokstøtte.",
-  "wallets.lead": "Administrer DGB med industristandard maskinvare-, mobil-, desktop- eller web-grensesnitt. Økosystemet tilbyr variert utvalg, både for langsiktig cold storage og daglig bruk.",
-  "wallets.aria.filter": "Filtrer lommebøker",
-  "wallets.filter.all": "Alle",
-  "wallets.filter.hardware": "Maskinvare",
-  "wallets.filter.mobile": "Mobil",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Over et tiår med kontinuerlig levering.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-lag",
   "downloads.docs.media.title": "Mediekit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Presentasjon",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logoer &amp; ikoner",
   "downloads.docs.logos.meta": "brand-kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskusjoner",
   "footer.use.heading": "Bruk",
-  "footer.use.wallets": "Lommebøker",
   "footer.use.downloads": "Nedlastinger",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

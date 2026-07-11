@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Pengembang",
-  "nav.wallets": "Dompet",
   "nav.download": "Unduh",
   "nav.langMenu.edit": "Edit terjemahan di GitHub",
   "nav.cta.getDgb": "Dapatkan DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Tahun aktif",
   "hero.metric.maxSupply": "Pasokan maks.",
 
-  "trust.aria": "Dipercaya oleh",
-  "trust.label": "Tersedia di seluruh ekosistem",
 
   "features.eyebrow": "Mengapa DigiByte",
   "features.title": "Direkayasa untuk dekade kripto berikutnya.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Tandatangani &amp; siarkan",
   "digiassets.step3.body": "Bayar beberapa sats DGB sebagai biaya, siarkan transaksi, dan aset menjadi aktif di seluruh jaringan.",
   "digiassets.step4.title": "Kirim ke mana saja",
-  "digiassets.step4.body": "Transfer ke alamat DGB mana pun. Terintegrasi di DigiByte Mobile, DigiAssetX, dompet web, dan explorer sejak awal.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentasi protokol",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transaksi bebas approval: mekanika UTXO native menghindari risiko keamanan yang terkait dengan izin token yang luas.",
   "devhub.whyShip.point3": "Eksekusi tanpa status: lingkungan UTXO murni memungkinkan pengembangan sederhana, paralel, dan dapat dikomposisi.",
 
-  "wallets.eyebrow": "Ekosistem",
-  "wallets.title": "Dukungan dompet universal.",
-  "wallets.lead": "Kelola DGB menggunakan antarmuka standar industri — hardware, mobile, desktop, atau web. Ekosistem menawarkan beragam pilihan untuk cold storage jangka panjang maupun penggunaan harian.",
-  "wallets.aria.filter": "Filter dompet",
-  "wallets.filter.all": "Semua",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Rekam jejak",
   "roadmap.title": "Lebih dari satu dekade eksekusi berkelanjutan.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · lapisan stablecoin",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Presentasi",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo &amp; ikon",
   "downloads.docs.logos.meta": "kit merek",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskusi",
   "footer.use.heading": "Gunakan",
-  "footer.use.wallets": "Dompet",
   "footer.use.downloads": "Unduhan",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

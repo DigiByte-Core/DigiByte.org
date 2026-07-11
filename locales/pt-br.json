@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Desenvolvedores",
-  "nav.wallets": "Carteiras",
   "nav.download": "Baixar",
   "nav.langMenu.edit": "Editar traduções no GitHub",
   "nav.cta.getDgb": "Obter DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Anos no ar",
   "hero.metric.maxSupply": "Oferta máx.",
 
-  "trust.aria": "Confiado por",
-  "trust.label": "Disponível em todo o ecossistema",
 
   "features.eyebrow": "Por que DigiByte",
   "features.title": "Projetada para a próxima década do cripto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Assine &amp; transmita",
   "digiassets.step3.body": "Pague alguns sats de DGB em taxas, transmita a transação e o ativo entra no ar em toda a rede.",
   "digiassets.step4.title": "Envie para qualquer lugar",
-  "digiassets.step4.body": "Transfira para qualquer endereço DGB. Já vem integrado em DigiByte Mobile, DigiAssetX, carteiras web e exploradores.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Docs do protocolo",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transações sem aprovação: a mecânica nativa UTXO contorna os riscos de segurança ligados a permissões amplas de tokens.",
   "devhub.whyShip.point3": "Execução sem estado: um ambiente UTXO puro permite desenvolvimento simples, paralelo e componível.",
 
-  "wallets.eyebrow": "Ecossistema",
-  "wallets.title": "Suporte universal a carteiras.",
-  "wallets.lead": "Gerencie DGB em interfaces padrão da indústria: hardware, mobile, desktop ou web. O ecossistema oferece opções variadas tanto para cold storage de longo prazo quanto para uso diário.",
-  "wallets.aria.filter": "Filtrar carteiras",
-  "wallets.filter.all": "Todas",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Histórico",
   "roadmap.title": "Mais de uma década de execução contínua.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · camada stablecoin",
   "downloads.docs.media.title": "Press kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Apresentação",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logos &amp; ícones",
   "downloads.docs.logos.meta": "kit de marca",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Discussões",
   "footer.use.heading": "Usar",
-  "footer.use.wallets": "Carteiras",
   "footer.use.downloads": "Downloads",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

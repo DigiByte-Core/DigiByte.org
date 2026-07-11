@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "开发者",
-  "nav.wallets": "钱包",
   "nav.download": "下载",
   "nav.langMenu.edit": "在 GitHub 上编辑翻译",
   "nav.cta.getDgb": "获取 DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "运行年数",
   "hero.metric.maxSupply": "最大供应量",
 
-  "trust.aria": "受信任合作",
-  "trust.label": "在生态中广泛可用",
 
   "features.eyebrow": "为什么选 DigiByte",
   "features.title": "为加密世界下一个十年而设计。",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "签名 &amp; 广播",
   "digiassets.step3.body": "支付几 sats 的 DGB 作为手续费,广播交易后,资产立即在网络中生效。",
   "digiassets.step4.title": "随处发送",
-  "digiassets.step4.body": "可发送至任何 DGB 地址。DigiByte Mobile、DigiAssetX、网页钱包和浏览器均开箱即用。",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "协议文档",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "免授权交易:原生 UTXO 机制绕开了广泛代币授权所带来的安全风险。",
   "devhub.whyShip.point3": "无状态执行:纯 UTXO 环境支持简单、并行、可组合的开发。",
 
-  "wallets.eyebrow": "生态",
-  "wallets.title": "全方位钱包支持。",
-  "wallets.lead": "使用业界标准的硬件、移动、桌面或网页钱包管理 DGB。生态系统提供多样选择,兼顾长期冷存与日常交易。",
-  "wallets.aria.filter": "筛选钱包",
-  "wallets.filter.all": "全部",
-  "wallets.filter.hardware": "硬件",
-  "wallets.filter.mobile": "移动",
-  "wallets.filter.desktop": "桌面",
-  "wallets.filter.web": "网页",
 
   "roadmap.eyebrow": "运营记录",
   "roadmap.title": "十余年持续执行。",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · 稳定币层",
   "downloads.docs.media.title": "媒体资料",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "演示文稿",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo &amp; 图标",
   "downloads.docs.logos.meta": "品牌套件",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "讨论",
   "footer.use.heading": "使用",
-  "footer.use.wallets": "钱包",
   "footer.use.downloads": "下载",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

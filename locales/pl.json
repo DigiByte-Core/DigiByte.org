@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Programiści",
-  "nav.wallets": "Portfele",
   "nav.download": "Pobierz",
   "nav.langMenu.edit": "Edytuj tłumaczenia na GitHubie",
   "nav.cta.getDgb": "Zdobądź DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Lata działania",
   "hero.metric.maxSupply": "Maks. podaż",
 
-  "trust.aria": "Używany przez",
-  "trust.label": "Dostępny w całym ekosystemie",
 
   "features.eyebrow": "Dlaczego DigiByte",
   "features.title": "Stworzony na kolejną dekadę krypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Podpisz &amp; rozgłoś",
   "digiassets.step3.body": "Zapłać kilka satoshich DGB jako opłatę, rozgłoś transakcję, a aktywo będzie żywe w całej sieci.",
   "digiassets.step4.title": "Wyślij gdziekolwiek",
-  "digiassets.step4.body": "Przenoś do dowolnego adresu DGB. Wbudowane w DigiByte Mobile, DigiAssetX, portfele webowe i eksplorery od razu.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentacja protokołu",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transakcje bez approval: natywna mechanika UTXO omija ryzyka bezpieczeństwa szerokich uprawnień do tokenów.",
   "devhub.whyShip.point3": "Wykonanie bezstanowe: czyste środowisko UTXO umożliwia proste, równoległe i kompozycyjne tworzenie aplikacji.",
 
-  "wallets.eyebrow": "Ekosystem",
-  "wallets.title": "Uniwersalne wsparcie portfeli.",
-  "wallets.lead": "Zarządzaj DGB za pomocą standardów branżowych: sprzętowych, mobilnych, desktopowych lub webowych interfejsów. Ekosystem oferuje różnorodne opcje zarówno do długoterminowego cold storage, jak i codziennego użytku.",
-  "wallets.aria.filter": "Filtruj portfele",
-  "wallets.filter.all": "Wszystkie",
-  "wallets.filter.hardware": "Sprzętowe",
-  "wallets.filter.mobile": "Mobilne",
-  "wallets.filter.desktop": "Desktopowe",
-  "wallets.filter.web": "Webowe",
 
   "roadmap.eyebrow": "Historia",
   "roadmap.title": "Ponad dekada nieprzerwanej realizacji.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · warstwa stablecoin",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Prezentacja",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo &amp; ikony",
   "downloads.docs.logos.meta": "zestaw marki",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Dyskusje",
   "footer.use.heading": "Używaj",
-  "footer.use.wallets": "Portfele",
   "footer.use.downloads": "Pobrania",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

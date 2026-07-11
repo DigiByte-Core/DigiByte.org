@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Desarrolladores",
-  "nav.wallets": "Carteras",
   "nav.download": "Descargar",
   "nav.langMenu.edit": "Editar traducciones en GitHub",
   "nav.cta.getDgb": "Obtener DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Años activos",
   "hero.metric.maxSupply": "Suministro máx.",
 
-  "trust.aria": "Confiado por",
-  "trust.label": "Disponible en todo el ecosistema",
 
   "features.eyebrow": "Por qué DigiByte",
   "features.title": "Diseñada para la próxima década del cripto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Firma &amp; difunde",
   "digiassets.step3.body": "Paga unos pocos sats de DGB de comisión, difunde la transacción y el activo queda activo en toda la red.",
   "digiassets.step4.title": "Envíalo a cualquier lugar",
-  "digiassets.step4.body": "Transfiere a cualquier dirección DGB. Integrado de fábrica en DigiByte Mobile, DigiAssetX, carteras web y exploradores.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Documentación del protocolo",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transacciones sin aprobaciones: la mecánica nativa de UTXO evita los riesgos de seguridad asociados a permisos amplios sobre tokens.",
   "devhub.whyShip.point3": "Ejecución sin estado: un entorno UTXO puro permite desarrollo simple, paralelo y componible.",
 
-  "wallets.eyebrow": "Ecosistema",
-  "wallets.title": "Soporte universal de carteras.",
-  "wallets.lead": "Gestiona DGB usando interfaces estándar de hardware, móvil, escritorio o web. El ecosistema ofrece opciones diversas tanto para almacenamiento en frío a largo plazo como para uso transaccional diario.",
-  "wallets.aria.filter": "Filtrar carteras",
-  "wallets.filter.all": "Todas",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Móvil",
-  "wallets.filter.desktop": "Escritorio",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Trayectoria",
   "roadmap.title": "Más de una década de ejecución continua.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · capa stablecoin",
   "downloads.docs.media.title": "Hoja de prensa",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Presentación",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logos &amp; iconos",
   "downloads.docs.logos.meta": "kit de marca",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Discusiones",
   "footer.use.heading": "Usar",
-  "footer.use.wallets": "Carteras",
   "footer.use.downloads": "Descargas",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Razvijalci",
-  "nav.wallets": "Denarnice",
   "nav.download": "Prenos",
   "nav.langMenu.edit": "Uredi prevode na GitHubu",
   "nav.cta.getDgb": "Pridobi DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Let v živo",
   "hero.metric.maxSupply": "Maks. ponudba",
 
-  "trust.aria": "Uporabljajo",
-  "trust.label": "Na voljo v celotnem ekosistemu",
 
   "features.eyebrow": "Zakaj DigiByte",
   "features.title": "Zasnovano za naslednje desetletje kripta.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Podpiši &amp; oddaj",
   "digiassets.step3.body": "Plačajte nekaj sats DGB za provizijo, oddajte transakcijo in sredstvo je živo v celotnem omrežju.",
   "digiassets.step4.title": "Pošlji kamorkoli",
-  "digiassets.step4.body": "Prenesite na katerikoli DGB naslov. Vgrajeno v DigiByte Mobile, DigiAssetX, spletne denarnice in raziskovalce že iz škatle.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Dokumentacija protokola",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transakcije brez approval-ov: domorodna UTXO mehanika se izogne varnostnim tveganjem širokih dovoljenj žetonov.",
   "devhub.whyShip.point3": "Brezstanjska izvedba: čisto UTXO okolje omogoča preprost, vzporeden in sestavljiv razvoj.",
 
-  "wallets.eyebrow": "Ekosistem",
-  "wallets.title": "Univerzalna podpora denarnicam.",
-  "wallets.lead": "Upravljajte DGB s standardi industrije — strojnimi, mobilnimi, namiznimi ali spletnimi vmesniki. Ekosistem ponuja raznolike možnosti tako za dolgoročno hladno hrambo kot za vsakdanjo uporabo.",
-  "wallets.aria.filter": "Filtriraj denarnice",
-  "wallets.filter.all": "Vse",
-  "wallets.filter.hardware": "Strojne",
-  "wallets.filter.mobile": "Mobilne",
-  "wallets.filter.desktop": "Namizne",
-  "wallets.filter.web": "Spletne",
 
   "roadmap.eyebrow": "Zgodovina",
   "roadmap.title": "Več kot desetletje neprekinjene izvedbe.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · sloj stablecoin",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Predstavitev",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logotipi &amp; ikone",
   "downloads.docs.logos.meta": "blagovni komplet",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Razprave",
   "footer.use.heading": "Uporabi",
-  "footer.use.wallets": "Denarnice",
   "footer.use.downloads": "Prenosi",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

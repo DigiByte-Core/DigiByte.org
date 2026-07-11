@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "توسعه‌دهندگان",
-  "nav.wallets": "کیف‌پول‌ها",
   "nav.download": "دانلود",
   "nav.langMenu.edit": "ویرایش ترجمه‌ها در GitHub",
   "nav.cta.getDgb": "دریافت DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "سال فعّال",
   "hero.metric.maxSupply": "حداکثر عرضه",
 
-  "trust.aria": "مورد اعتماد",
-  "trust.label": "در سراسر اکوسیستم در دسترس",
 
   "features.eyebrow": "چرا DigiByte",
   "features.title": "طراحی‌شده برای دههٔ بعدی کریپتو.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "امضا &amp; ارسال",
   "digiassets.step3.body": "چند sats DGB کارمزد بپردازید، تراکنش را ارسال کنید و دارایی در سراسر شبکه فعّال می‌شود.",
   "digiassets.step4.title": "به هر کجا بفرستید",
-  "digiassets.step4.body": "به هر آدرس DGB انتقال دهید. به‌صورت پیش‌فرض در DigiByte Mobile، DigiAssetX، کیف‌پول‌های وب و کاوشگرها ادغام شده است.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "مستندات پروتکل",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "تراکنش‌های بدون approval: مکانیک بومی UTXO خطرات امنیتی ناشی از مجوزهای گستردهٔ توکن را دور می‌زند.",
   "devhub.whyShip.point3": "اجرای بدون حالت: محیط خالص UTXO امکان توسعهٔ ساده، موازی و قابل ترکیب را فراهم می‌کند.",
 
-  "wallets.eyebrow": "اکوسیستم",
-  "wallets.title": "پشتیبانی کیف‌پول جهانی.",
-  "wallets.lead": "DGB را با رابط‌های استاندارد صنعت — سخت‌افزاری، موبایلی، دسکتاپ یا وب — مدیریت کنید. اکوسیستم برای ذخیره‌سازی سرد طولانی‌مدت و استفادهٔ روزمره گزینه‌های متنوعی ارائه می‌دهد.",
-  "wallets.aria.filter": "فیلتر کیف‌پول‌ها",
-  "wallets.filter.all": "همه",
-  "wallets.filter.hardware": "سخت‌افزاری",
-  "wallets.filter.mobile": "موبایل",
-  "wallets.filter.desktop": "دسکتاپ",
-  "wallets.filter.web": "وب",
 
   "roadmap.eyebrow": "سابقه",
   "roadmap.title": "بیش از یک دهه اجرای پیوسته.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · لایهٔ استیبل‌کوین",
   "downloads.docs.media.title": "کیت رسانه‌ای",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "ارائه",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "لوگوها &amp; آیکن‌ها",
   "downloads.docs.logos.meta": "کیت برند",
   "downloads.docs.wiki.title": "ویکی",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "ویکی",
   "footer.build.discussions": "گفت‌وگوها",
   "footer.use.heading": "استفاده کنید",
-  "footer.use.wallets": "کیف‌پول‌ها",
   "footer.use.downloads": "دانلودها",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

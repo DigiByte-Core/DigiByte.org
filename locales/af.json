@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Ontwikkelaars",
-  "nav.wallets": "Beursies",
   "nav.download": "Aflaai",
   "nav.langMenu.edit": "Wysig vertalings op GitHub",
   "nav.cta.getDgb": "Kry DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Jare lewendig",
   "hero.metric.maxSupply": "Maks. voorraad",
 
-  "trust.aria": "Vertrou deur",
-  "trust.label": "Beskikbaar regdeur die ekosisteem",
 
   "features.eyebrow": "Hoekom DigiByte",
   "features.title": "Ontwerp vir die volgende dekade van krypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Teken &amp; uitsaai",
   "digiassets.step3.body": "Betaal 'n paar sats DGB as fooie, saai die transaksie uit en die bate is regdeur die netwerk lewend.",
   "digiassets.step4.title": "Stuur enige plek",
-  "digiassets.step4.body": "Stuur na enige DGB-adres. Reeds geïntegreer in DigiByte Mobile, DigiAssetX, web-beursies en verkenners.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokol-dokumentasie",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Goedkeur-vry transaksies: die inheemse UTXO-meganisme omseil sekuriteitsrisiko's verbonde aan breë token-toestemmings.",
   "devhub.whyShip.point3": "Toestandlose uitvoering: 'n suiwer UTXO-omgewing gee eenvoudige, parallelle en samestelbare ontwikkeling.",
 
-  "wallets.eyebrow": "Ekosisteem",
-  "wallets.title": "Universele beursie-ondersteuning.",
-  "wallets.lead": "Bestuur DGB met bedryfstandaard hardeware-, mobiele-, lessenaar- of webkoppelvlakke. Die ekosisteem bied uiteenlopende keuses, vir langtermyn-koue stoor sowel as daaglikse gebruik.",
-  "wallets.aria.filter": "Filtreer beursies",
-  "wallets.filter.all": "Alle",
-  "wallets.filter.hardware": "Hardeware",
-  "wallets.filter.mobile": "Mobiel",
-  "wallets.filter.desktop": "Lessenaar",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Rekord",
   "roadmap.title": "Meer as 'n dekade van deurlopende uitvoering.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-laag",
   "downloads.docs.media.title": "Media-blad",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Voorlegging",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo's &amp; ikone",
   "downloads.docs.logos.meta": "handelsmerk-stel",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Besprekings",
   "footer.use.heading": "Gebruik",
-  "footer.use.wallets": "Beursies",
   "footer.use.downloads": "Aflaaie",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

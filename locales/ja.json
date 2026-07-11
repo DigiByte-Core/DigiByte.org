@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "開発者",
-  "nav.wallets": "ウォレット",
   "nav.download": "ダウンロード",
   "nav.langMenu.edit": "GitHubで翻訳を編集",
   "nav.cta.getDgb": "DGBを入手",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "稼働年数",
   "hero.metric.maxSupply": "最大供給量",
 
-  "trust.aria": "採用エコシステム",
-  "trust.label": "エコシステム全体で利用可能",
 
   "features.eyebrow": "DigiByteを選ぶ理由",
   "features.title": "暗号資産の次の10年に向けて設計。",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "署名 &amp; ブロードキャスト",
   "digiassets.step3.body": "わずかな数satsのDGBを手数料として支払い、トランザクションをブロードキャストすれば、アセットはネットワーク上で有効になります。",
   "digiassets.step4.title": "どこへでも送信",
-  "digiassets.step4.body": "任意のDGBアドレスへ送信可能。DigiByte Mobile、DigiAssetX、各種ウェブウォレット、エクスプローラに最初から組み込まれています。",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "プロトコルドキュメント",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "承認不要のトランザクション:ネイティブなUTXOの仕組みが、広範なトークン許可に伴うセキュリティリスクを回避します。",
   "devhub.whyShip.point3": "ステートレス実行:純粋なUTXO環境により、シンプルで並列・合成可能な開発が可能です。",
 
-  "wallets.eyebrow": "エコシステム",
-  "wallets.title": "あらゆるウォレットに対応。",
-  "wallets.lead": "ハードウェア、モバイル、デスクトップ、ウェブの業界標準インターフェースでDGBを管理できます。長期コールドストレージから日常的な取引まで、エコシステムは多様な選択肢を提供します。",
-  "wallets.aria.filter": "ウォレットを絞り込む",
-  "wallets.filter.all": "すべて",
-  "wallets.filter.hardware": "ハードウェア",
-  "wallets.filter.mobile": "モバイル",
-  "wallets.filter.desktop": "デスクトップ",
-  "wallets.filter.web": "ウェブ",
 
   "roadmap.eyebrow": "実績",
   "roadmap.title": "10年以上にわたる継続的な実行。",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · ステーブルコイン層",
   "downloads.docs.media.title": "メディアシート",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "プレゼンテーション",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "ロゴ &amp; アイコン",
   "downloads.docs.logos.meta": "ブランドキット",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "ディスカッション",
   "footer.use.heading": "活用",
-  "footer.use.wallets": "ウォレット",
   "footer.use.downloads": "ダウンロード",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

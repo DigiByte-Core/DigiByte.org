@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Développeurs",
-  "nav.wallets": "Portefeuilles",
   "nav.download": "Télécharger",
   "nav.langMenu.edit": "Modifier les traductions sur GitHub",
   "nav.cta.getDgb": "Obtenir DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Années en ligne",
   "hero.metric.maxSupply": "Offre max.",
 
-  "trust.aria": "Approuvé par",
-  "trust.label": "Disponible dans tout l'écosystème",
 
   "features.eyebrow": "Pourquoi DigiByte",
   "features.title": "Conçue pour la prochaine décennie du crypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Signez &amp; diffusez",
   "digiassets.step3.body": "Payez quelques sats de DGB de frais, diffusez la transaction et l'actif est actif sur l'ensemble du réseau.",
   "digiassets.step4.title": "Envoyez n'importe où",
-  "digiassets.step4.body": "Transférez vers n'importe quelle adresse DGB. Intégré dès le départ dans DigiByte Mobile, DigiAssetX, les portefeuilles web et les explorateurs.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Docs du protocole",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Transactions sans approbation : la mécanique UTXO native évite les risques de sécurité liés aux larges autorisations de tokens.",
   "devhub.whyShip.point3": "Exécution sans état : un environnement UTXO pur favorise un développement simple, parallèle et composable.",
 
-  "wallets.eyebrow": "Écosystème",
-  "wallets.title": "Support de portefeuilles universel.",
-  "wallets.lead": "Gérez DGB avec les standards du marché : matériel, mobile, desktop ou web. L'écosystème offre des options variées pour le stockage à froid à long terme comme pour un usage quotidien.",
-  "wallets.aria.filter": "Filtrer les portefeuilles",
-  "wallets.filter.all": "Tous",
-  "wallets.filter.hardware": "Matériel",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Historique",
   "roadmap.title": "Plus d'une décennie d'exécution continue.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · couche stablecoin",
   "downloads.docs.media.title": "Fiche presse",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Présentation",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logos &amp; icônes",
   "downloads.docs.logos.meta": "kit de marque",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Discussions",
   "footer.use.heading": "Utiliser",
-  "footer.use.wallets": "Portefeuilles",
   "footer.use.downloads": "Téléchargements",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

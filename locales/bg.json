@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Разработчици",
-  "nav.wallets": "Портфейли",
   "nav.download": "Изтегли",
   "nav.langMenu.edit": "Редактирайте преводите в GitHub",
   "nav.cta.getDgb": "Вземи DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Години активна",
   "hero.metric.maxSupply": "Макс. предлагане",
 
-  "trust.aria": "Използват",
-  "trust.label": "Налична в цялата екосистема",
 
   "features.eyebrow": "Защо DigiByte",
   "features.title": "Създаден за следващото десетилетие в крипто.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Подпиши &amp; излъчи",
   "digiassets.step3.body": "Платете няколко сатоши DGB като такса, излъчете транзакцията и активът е активен в цялата мрежа.",
   "digiassets.step4.title": "Изпрати където и да е",
-  "digiassets.step4.body": "Прехвърлете към всеки DGB адрес. Интегрирано в DigiByte Mobile, DigiAssetX, уеб портфейли и експлорери още от началото.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Документация на протокола",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Транзакции без approvals: нативната UTXO механика заобикаля рисковете за сигурността от широки разрешения за токени.",
   "devhub.whyShip.point3": "Изпълнение без състояние: чистата UTXO среда позволява прост, паралелен и съставен начин на разработка.",
 
-  "wallets.eyebrow": "Екосистема",
-  "wallets.title": "Универсална поддръжка на портфейли.",
-  "wallets.lead": "Управлявайте DGB чрез индустриални стандарти — хардуерни, мобилни, настолни или уеб интерфейси. Екосистемата предлага разнообразни опции както за дългосрочно cold storage, така и за ежедневна употреба.",
-  "wallets.aria.filter": "Филтриране на портфейли",
-  "wallets.filter.all": "Всички",
-  "wallets.filter.hardware": "Хардуерни",
-  "wallets.filter.mobile": "Мобилни",
-  "wallets.filter.desktop": "Настолни",
-  "wallets.filter.web": "Уеб",
 
   "roadmap.eyebrow": "История",
   "roadmap.title": "Над десетилетие непрекъснато изпълнение.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · стейбълкойн слой",
   "downloads.docs.media.title": "Медия пакет",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Презентация",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Лога &amp; икони",
   "downloads.docs.logos.meta": "марков пакет",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Дискусии",
   "footer.use.heading": "Използвай",
-  "footer.use.wallets": "Портфейли",
   "footer.use.downloads": "Изтегляния",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

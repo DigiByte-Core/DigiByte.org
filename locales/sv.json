@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Utvecklare",
-  "nav.wallets": "Plånböcker",
   "nav.download": "Ladda ner",
   "nav.langMenu.edit": "Redigera översättningar på GitHub",
   "nav.cta.getDgb": "Skaffa DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "År live",
   "hero.metric.maxSupply": "Max utbud",
 
-  "trust.aria": "Använd av",
-  "trust.label": "Tillgänglig i hela ekosystemet",
 
   "features.eyebrow": "Varför DigiByte",
   "features.title": "Konstruerad för kryptons nästa decennium.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Signera &amp; sänd",
   "digiassets.step3.body": "Betala ett par sats DGB i avgift, sänd transaktionen och tillgången är aktiv i hela nätverket.",
   "digiassets.step4.title": "Skicka var som helst",
-  "digiassets.step4.body": "Överför till valfri DGB-adress. Inbyggt i DigiByte Mobile, DigiAssetX, web-plånböcker och utforskare från start.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokoll-dokumentation",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Approval-fria transaktioner: den inbyggda UTXO-mekaniken undviker säkerhetsriskerna med breda token-godkännanden.",
   "devhub.whyShip.point3": "Stateless exekvering: en ren UTXO-miljö gör enkel, parallell och komponerbar utveckling möjlig.",
 
-  "wallets.eyebrow": "Ekosystem",
-  "wallets.title": "Universellt plånboksstöd.",
-  "wallets.lead": "Hantera DGB med branschstandard inom hårdvara, mobil, desktop eller webb. Ekosystemet erbjuder mångsidiga alternativ för både långsiktig cold storage och daglig användning.",
-  "wallets.aria.filter": "Filtrera plånböcker",
-  "wallets.filter.all": "Alla",
-  "wallets.filter.hardware": "Hårdvara",
-  "wallets.filter.mobile": "Mobil",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Webb",
 
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Över ett decennium av kontinuerlig leverans.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-lager",
   "downloads.docs.media.title": "Mediekit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Presentation",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logotyper &amp; ikoner",
   "downloads.docs.logos.meta": "brand-kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Diskussioner",
   "footer.use.heading": "Använd",
-  "footer.use.wallets": "Plånböcker",
   "footer.use.downloads": "Nedladdningar",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

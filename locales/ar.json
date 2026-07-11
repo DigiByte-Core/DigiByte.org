@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "المطوّرون",
-  "nav.wallets": "المحافظ",
   "nav.download": "تحميل",
   "nav.langMenu.edit": "تعديل الترجمات على GitHub",
   "nav.cta.getDgb": "احصل على DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "سنوات تشغيل",
   "hero.metric.maxSupply": "العرض الأقصى",
 
-  "trust.aria": "موثوق من قبل",
-  "trust.label": "متاح في جميع أنحاء المنظومة",
 
   "features.eyebrow": "لماذا DigiByte",
   "features.title": "مصمم لعقد العملات المشفّرة القادم.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "وقّع &amp; ابثّ",
   "digiassets.step3.body": "ادفع بضع sats من DGB كرسوم، ابثّ المعاملة، وسيكون الأصل نشطًا في الشبكة بأكملها.",
   "digiassets.step4.title": "أرسل إلى أي مكان",
-  "digiassets.step4.body": "حوّل إلى أي عنوان DGB. مدمج جاهزًا في DigiByte Mobile، DigiAssetX، محافظ الويب والمستكشفات.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "توثيق البروتوكول",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "معاملات دون أذونات: آلية UTXO الأصلية تتجاوز المخاطر الأمنية المرتبطة بأذونات الرموز الواسعة.",
   "devhub.whyShip.point3": "تنفيذ بدون حالة: بيئة UTXO نقية تتيح تطويرًا بسيطًا ومتوازيًا وقابلًا للتركيب.",
 
-  "wallets.eyebrow": "المنظومة",
-  "wallets.title": "دعم محافظ شامل.",
-  "wallets.lead": "أدِر DGB عبر واجهات قياسية في الصناعة — أجهزة، جوّال، سطح مكتب، أو ويب. تقدم المنظومة خيارات متنوعة لتخزين بارد طويل الأمد وللاستخدام اليومي.",
-  "wallets.aria.filter": "تصفية المحافظ",
-  "wallets.filter.all": "الكل",
-  "wallets.filter.hardware": "أجهزة",
-  "wallets.filter.mobile": "جوّال",
-  "wallets.filter.desktop": "سطح مكتب",
-  "wallets.filter.web": "ويب",
 
   "roadmap.eyebrow": "السجل",
   "roadmap.title": "أكثر من عقد من التنفيذ المتواصل.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · طبقة العملة المستقرة",
   "downloads.docs.media.title": "حقيبة إعلامية",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "عرض تقديمي",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "شعارات &amp; أيقونات",
   "downloads.docs.logos.meta": "حقيبة العلامة التجارية",
   "downloads.docs.wiki.title": "الويكي",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "الويكي",
   "footer.build.discussions": "نقاشات",
   "footer.use.heading": "استخدم",
-  "footer.use.wallets": "المحافظ",
   "footer.use.downloads": "التحميلات",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

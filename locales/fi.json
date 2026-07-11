@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Kehittäjille",
-  "nav.wallets": "Lompakot",
   "nav.download": "Lataa",
   "nav.langMenu.edit": "Muokkaa käännöksiä GitHubissa",
   "nav.cta.getDgb": "Hanki DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Vuotta käytössä",
   "hero.metric.maxSupply": "Maksimitarjonta",
 
-  "trust.aria": "Käytössä",
-  "trust.label": "Saatavilla koko ekosysteemissä",
 
   "features.eyebrow": "Miksi DigiByte",
   "features.title": "Suunniteltu kryptojen seuraavalle vuosikymmenelle.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Allekirjoita &amp; lähetä",
   "digiassets.step3.body": "Maksa muutama satoshi DGB:tä palkkioksi, lähetä tapahtuma, ja vara on käytössä koko verkossa.",
   "digiassets.step4.title": "Lähetä minne tahansa",
-  "digiassets.step4.body": "Siirrä mihin tahansa DGB-osoitteeseen. Integroitu vakiona DigiByte Mobileen, DigiAssetX:ään, web-lompakoihin ja selaimiin.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protokolladokumentaatio",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Hyväksyntävapaat tapahtumat: natiivi UTXO-mekaniikka kiertää laajojen token-valtuuksien tietoturvariskit.",
   "devhub.whyShip.point3": "Tilaton suoritus: puhdas UTXO-ympäristö mahdollistaa yksinkertaisen, rinnakkaisen ja koostettavan kehityksen.",
 
-  "wallets.eyebrow": "Ekosysteemi",
-  "wallets.title": "Yleinen lompakkotuki.",
-  "wallets.lead": "Hallinnoi DGB:tä alan standardeilla — laite-, mobiili-, työpöytä- tai web-rajapinnoilla. Ekosysteemi tarjoaa monipuolisia vaihtoehtoja niin pitkäaikaiseen kylmävarastointiin kuin päivittäiseen käyttöön.",
-  "wallets.aria.filter": "Suodata lompakoita",
-  "wallets.filter.all": "Kaikki",
-  "wallets.filter.hardware": "Laite",
-  "wallets.filter.mobile": "Mobiili",
-  "wallets.filter.desktop": "Työpöytä",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Saavutukset",
   "roadmap.title": "Yli vuosikymmen jatkuvaa toteutusta.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-kerros",
   "downloads.docs.media.title": "Mediakit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Esitys",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logot &amp; ikonit",
   "downloads.docs.logos.meta": "brändipaketti",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Keskustelut",
   "footer.use.heading": "Käytä",
-  "footer.use.wallets": "Lompakot",
   "footer.use.downloads": "Lataukset",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

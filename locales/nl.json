@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Ontwikkelaars",
-  "nav.wallets": "Wallets",
   "nav.download": "Downloaden",
   "nav.langMenu.edit": "Vertalingen bewerken op GitHub",
   "nav.cta.getDgb": "DGB ophalen",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Jaren live",
   "hero.metric.maxSupply": "Max. supply",
 
-  "trust.aria": "Vertrouwd door",
-  "trust.label": "Beschikbaar in het hele ecosysteem",
 
   "features.eyebrow": "Waarom DigiByte",
   "features.title": "Ontworpen voor het volgende decennium aan crypto.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Onderteken &amp; verzend",
   "digiassets.step3.body": "Betaal een paar sats DGB aan fees, verzend de transactie en het asset is live in het hele netwerk.",
   "digiassets.step4.title": "Stuur waar dan ook heen",
-  "digiassets.step4.body": "Stuur naar elk DGB-adres. Out-of-the-box geïntegreerd in DigiByte Mobile, DigiAssetX, web-wallets en explorers.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Protocol-documentatie",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Approval-vrije transacties: de native UTXO-mechaniek omzeilt de veiligheidsrisico's van brede token-allowances.",
   "devhub.whyShip.point3": "Stateless uitvoering: een pure UTXO-omgeving maakt eenvoudige, parallelle en samenstelbare ontwikkeling mogelijk.",
 
-  "wallets.eyebrow": "Ecosysteem",
-  "wallets.title": "Universele wallet-ondersteuning.",
-  "wallets.lead": "Beheer DGB met industriestandaard hardware-, mobiele, desktop- of webinterfaces. Het ecosysteem biedt diverse opties, zowel voor langetermijn cold storage als voor dagelijks gebruik.",
-  "wallets.aria.filter": "Wallets filteren",
-  "wallets.filter.all": "Alle",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobiel",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Meer dan een decennium continue uitvoering.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin-laag",
   "downloads.docs.media.title": "Mediakit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Presentatie",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Logo's &amp; iconen",
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Discussies",
   "footer.use.heading": "Gebruiken",
-  "footer.use.wallets": "Wallets",
   "footer.use.downloads": "Downloads",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

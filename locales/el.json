@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Προγραμματιστές",
-  "nav.wallets": "Πορτοφόλια",
   "nav.download": "Λήψη",
   "nav.langMenu.edit": "Επεξεργασία μεταφράσεων στο GitHub",
   "nav.cta.getDgb": "Απόκτησε DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Έτη ενεργό",
   "hero.metric.maxSupply": "Μέγιστη προσφορά",
 
-  "trust.aria": "Εμπιστεύονται",
-  "trust.label": "Διαθέσιμο σε όλο το οικοσύστημα",
 
   "features.eyebrow": "Γιατί DigiByte",
   "features.title": "Σχεδιασμένο για την επόμενη δεκαετία του κρύπτο.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Υπογραφή &amp; μετάδοση",
   "digiassets.step3.body": "Πληρώστε μερικά sats DGB ως προμήθεια, μεταδώστε τη συναλλαγή και το στοιχείο είναι ζωντανό σε όλο το δίκτυο.",
   "digiassets.step4.title": "Στείλτε οπουδήποτε",
-  "digiassets.step4.body": "Μεταφέρετε σε οποιαδήποτε διεύθυνση DGB. Ενσωματωμένο εξ ορισμού στο DigiByte Mobile, DigiAssetX, web πορτοφόλια και explorers.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Τεκμηρίωση πρωτοκόλλου",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Συναλλαγές χωρίς approvals: η εγγενής UTXO μηχανική παρακάμπτει τους κινδύνους ασφαλείας από ευρείες άδειες tokens.",
   "devhub.whyShip.point3": "Άνευ κατάστασης εκτέλεση: ένα καθαρό UTXO περιβάλλον επιτρέπει απλή, παράλληλη και συνθέσιμη ανάπτυξη.",
 
-  "wallets.eyebrow": "Οικοσύστημα",
-  "wallets.title": "Καθολική υποστήριξη πορτοφολιών.",
-  "wallets.lead": "Διαχειριστείτε DGB μέσω βιομηχανικών προτύπων — hardware, mobile, desktop ή web. Το οικοσύστημα προσφέρει ποικίλες επιλογές, τόσο για μακροπρόθεσμη ψυχρή αποθήκευση όσο και για καθημερινή χρήση.",
-  "wallets.aria.filter": "Φιλτράρισμα πορτοφολιών",
-  "wallets.filter.all": "Όλα",
-  "wallets.filter.hardware": "Hardware",
-  "wallets.filter.mobile": "Mobile",
-  "wallets.filter.desktop": "Desktop",
-  "wallets.filter.web": "Web",
 
   "roadmap.eyebrow": "Ιστορικό",
   "roadmap.title": "Πάνω από μια δεκαετία συνεχούς εκτέλεσης.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · stablecoin layer",
   "downloads.docs.media.title": "Media kit",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Παρουσίαση",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Λογότυπα &amp; εικονίδια",
   "downloads.docs.logos.meta": "πακέτο επωνυμίας",
   "downloads.docs.wiki.title": "Wiki",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Wiki",
   "footer.build.discussions": "Συζητήσεις",
   "footer.use.heading": "Χρήση",
-  "footer.use.wallets": "Πορτοφόλια",
   "footer.use.downloads": "Λήψεις",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

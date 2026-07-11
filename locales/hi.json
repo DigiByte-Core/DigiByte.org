@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "डेवलपर्स",
-  "nav.wallets": "वॉलेट",
   "nav.download": "डाउनलोड",
   "nav.langMenu.edit": "GitHub पर अनुवाद संपादित करें",
   "nav.cta.getDgb": "DGB प्राप्त करें",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "वर्षों से सक्रिय",
   "hero.metric.maxSupply": "अधिकतम आपूर्ति",
 
-  "trust.aria": "द्वारा उपयोग किया जाता है",
-  "trust.label": "पूरे इकोसिस्टम में उपलब्ध",
 
   "features.eyebrow": "DigiByte क्यों",
   "features.title": "क्रिप्टो के अगले दशक के लिए डिज़ाइन किया गया।",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "हस्ताक्षर &amp; प्रसारित करें",
   "digiassets.step3.body": "शुल्क के रूप में कुछ sats DGB का भुगतान करें, लेन-देन प्रसारित करें और एसेट पूरे नेटवर्क पर सक्रिय हो जाएगा।",
   "digiassets.step4.title": "कहीं भी भेजें",
-  "digiassets.step4.body": "किसी भी DGB पते पर स्थानांतरित करें। DigiByte Mobile, DigiAssetX, वेब वॉलेट और एक्सप्लोरर में बॉक्स से बाहर एकीकृत है।",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "प्रोटोकॉल दस्तावेज़",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "अनुमोदन-मुक्त लेन-देन: मूल UTXO यांत्रिकी व्यापक टोकन अनुमतियों से जुड़े सुरक्षा जोखिमों को बायपास करती है।",
   "devhub.whyShip.point3": "स्टेटलेस निष्पादन: एक शुद्ध UTXO वातावरण सरल, समानांतर और संयोज्य विकास की अनुमति देता है।",
 
-  "wallets.eyebrow": "इकोसिस्टम",
-  "wallets.title": "सार्वभौमिक वॉलेट समर्थन।",
-  "wallets.lead": "DGB को उद्योग-मानक हार्डवेयर, मोबाइल, डेस्कटॉप या वेब इंटरफ़ेस का उपयोग करके प्रबंधित करें। इकोसिस्टम दीर्घकालिक कोल्ड स्टोरेज और दैनिक उपयोग दोनों के लिए विविध विकल्प प्रदान करता है।",
-  "wallets.aria.filter": "वॉलेट फ़िल्टर करें",
-  "wallets.filter.all": "सभी",
-  "wallets.filter.hardware": "हार्डवेयर",
-  "wallets.filter.mobile": "मोबाइल",
-  "wallets.filter.desktop": "डेस्कटॉप",
-  "wallets.filter.web": "वेब",
 
   "roadmap.eyebrow": "ट्रैक रिकॉर्ड",
   "roadmap.title": "एक दशक से अधिक का निरंतर निष्पादन।",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · स्टेबलकॉइन परत",
   "downloads.docs.media.title": "मीडिया किट",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "प्रस्तुति",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "लोगो &amp; आइकन",
   "downloads.docs.logos.meta": "ब्रांड किट",
   "downloads.docs.wiki.title": "विकी",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "विकी",
   "footer.build.discussions": "चर्चाएं",
   "footer.use.heading": "उपयोग",
-  "footer.use.wallets": "वॉलेट",
   "footer.use.downloads": "डाउनलोड",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",

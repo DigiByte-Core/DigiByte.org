@@ -28,7 +28,6 @@
   "nav.digiassets": "DigiAssets",
   "nav.digiId": "Digi-ID",
   "nav.developers": "Разработчикам",
-  "nav.wallets": "Кошельки",
   "nav.download": "Скачать",
   "nav.langMenu.edit": "Редактировать переводы на GitHub",
   "nav.cta.getDgb": "Получить DGB",
@@ -44,8 +43,6 @@
   "hero.metric.yearsLive": "Лет в работе",
   "hero.metric.maxSupply": "Макс. эмиссия",
 
-  "trust.aria": "Используется в",
-  "trust.label": "Доступен во всей экосистеме",
 
   "features.eyebrow": "Почему DigiByte",
   "features.title": "Создан для следующего десятилетия криптовалют.",
@@ -103,8 +100,6 @@
   "digiassets.step3.title": "Подпишите &amp; отправьте",
   "digiassets.step3.body": "Заплатите несколько сатов DGB в качестве комиссии, отправьте транзакцию — и актив активен по всей сети.",
   "digiassets.step4.title": "Отправляйте куда угодно",
-  "digiassets.step4.body": "Переводите на любой DGB-адрес. Встроено «из коробки» в DigiByte Mobile, DigiAssetX, веб-кошельки и обозреватели.",
-  "digiassets.cta.digiAssetX": "DigiAssetX",
   "digiassets.cta.docs": "Документация протокола",
 
   "digiId.eyebrow": "Digi-ID",
@@ -145,15 +140,6 @@
   "devhub.whyShip.point2": "Транзакции без approvals: нативная UTXO-механика устраняет риски, связанные с широкими разрешениями токенов.",
   "devhub.whyShip.point3": "Безсостояное исполнение: чистая UTXO-среда даёт простую, параллельную и компонуемую разработку.",
 
-  "wallets.eyebrow": "Экосистема",
-  "wallets.title": "Поддержка любых кошельков.",
-  "wallets.lead": "Управляйте DGB через стандартные интерфейсы: аппаратные, мобильные, десктопные или веб-кошельки. Экосистема предлагает варианты как для долгосрочного холодного хранения, так и для повседневных операций.",
-  "wallets.aria.filter": "Фильтр кошельков",
-  "wallets.filter.all": "Все",
-  "wallets.filter.hardware": "Аппаратные",
-  "wallets.filter.mobile": "Мобильные",
-  "wallets.filter.desktop": "Десктопные",
-  "wallets.filter.web": "Веб",
 
   "roadmap.eyebrow": "Опыт",
   "roadmap.title": "Более десяти лет непрерывного исполнения.",
@@ -212,8 +198,6 @@
   "downloads.docs.digidollar.meta": "PDF · слой стейблкоина",
   "downloads.docs.media.title": "Медиа-кит",
   "downloads.docs.media.meta": "PDF",
-  "downloads.docs.presentation.title": "Презентация",
-  "downloads.docs.presentation.meta": "Google Slides",
   "downloads.docs.logos.title": "Логотипы &amp; иконки",
   "downloads.docs.logos.meta": "брендкит",
   "downloads.docs.wiki.title": "Вики",
@@ -233,7 +217,6 @@
   "footer.build.wiki": "Вики",
   "footer.build.discussions": "Обсуждения",
   "footer.use.heading": "Использование",
-  "footer.use.wallets": "Кошельки",
   "footer.use.downloads": "Загрузки",
   "footer.use.digiId": "Digi-ID",
   "footer.use.digiassets": "DigiAssets",
