@@ -902,6 +902,27 @@
 }
 .roadmap__year { font-family: var(--ff-mono); color: var(--c-neon-cyan); font-size: var(--fs-1); }
 .roadmap__title { font-size: var(--fs-3); margin-block: var(--s-1) var(--s-2); display: flex; align-items: center; gap: var(--s-2); flex-wrap: wrap; }
+.roadmap__bullets {
+	list-style: none;
+	padding: 0;
+	margin: var(--s-2) 0 0;
+	display: grid;
+	gap: var(--s-1);
+	font-family: var(--ff-mono);
+	font-size: var(--fs-0);
+	color: var(--c-ink-2);
+}
+.roadmap__bullets li { position: relative; padding-inline-start: 1.25rem; }
+.roadmap__bullets li::before {
+	content: "";
+	position: absolute;
+	inset-inline-start: 0;
+	top: 0.55em;
+	width: 6px; height: 6px;
+	border-radius: 50%;
+	background: var(--c-neon-cyan);
+	box-shadow: 0 0 6px rgba(0, 229, 255, 0.6);
+}
 
 /* Road lane: column 2, spans all 8 explicit rows = 1760px tall.
    SVG viewBox 220x1760 maps 1:1 to rendered pixels. */

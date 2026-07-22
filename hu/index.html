@@ -212,7 +212,7 @@
 			<a class="btn btn--ghost btn--sm nav__cta-extra" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" aria-label="GitHub">
 				<i class="fab fa-github"></i> GitHub
 			</a>
-			<a class="btn btn--primary btn--sm" href="#downloads" data-i18n="nav.cta.getDgb">DGB beszerzése</a>
+			<a class="btn btn--primary btn--sm" href="#docs" data-i18n="nav.cta.docs">Docs &amp; Guides</a>
 			<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menü" data-i18n-attr="aria-label:nav.aria.menu">
 				<span></span>
 			</button>
@@ -231,7 +231,7 @@
 		<div class="hero__content">
 			<div class="hero__chips">
 				<span class="chip chip--live">Live · Block <span data-block-height class="is-loading">—</span></span>
-				<span class="chip chip--violet" data-i18n="hero.chip.openSource">Nyílt forráskódú · MIT</span>
+				<a class="chip chip--violet chip--link" href="https://opensource.org/license/mit" target="_blank" rel="noopener" data-i18n="hero.chip.openSource" data-i18n-attr="aria-label:hero.chip.openSource.aria" aria-label="Released under the MIT license (opens in new tab)">Nyílt forráskódú · MIT</a>
 				<span class="chip" data-i18n="hero.chip.since">2014 óta</span>
 			</div>
 			<h1 id="hero-title" class="hero__title">
@@ -692,6 +692,11 @@ while True:
 						<span class="roadmap__year">2025</span>
 						<h3 class="roadmap__title" data-i18n="roadmap.core.title">Core v9.26.4</h3>
 						<p data-i18n="roadmap.core.body">Modernizált csomópont-infrastruktúra a Bitcoin Core 26 keretrendszerre építve.</p>
+						<ul class="roadmap__bullets">
+							<li data-i18n="roadmap.core.taproot.bip340">BIP340 — Schnorr signatures</li>
+							<li data-i18n="roadmap.core.taproot.bip341">BIP341 — Pay-to-Taproot (P2TR)</li>
+							<li data-i18n="roadmap.core.taproot.bip342">BIP342 — Tapscript</li>
+						</ul>
 					</li>
 					<li class="roadmap__item roadmap__item--finale">
 						<span class="roadmap__year">2026</span>
@@ -764,8 +769,8 @@ while True:
 			<a class="community-tile" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-reveal>
 				<i class="fab fa-github"></i><div><strong data-i18n="community.tile.github.title">GitHub Discussions</strong><br><small class="text-ink-3" data-i18n="community.tile.github.meta">Beszélgetések &amp; PR-ek</small></div>
 			</a>
-			<a class="community-tile" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
-				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Technical reference &amp; guides</small></div>
+			<a class="community-tile" href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
+				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki Community</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Curated community index</small></div>
 			</a>
 		</div>
 	</div>
@@ -826,6 +831,7 @@ while True:
 				<a class="devlink" href="../docs/infopaper.pdf" target="_blank"><i class="fas fa-file-lines devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.infoPaper.title">Info paper</span><span class="devlink__meta" data-i18n="downloads.docs.infoPaper.meta">PDF · közösség</span></a>
 				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">Integrációs útmutató</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">Tőzsdéknek &amp; szolgáltatóknak</span></a>
 				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">DigiDollar integráció</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · stablecoin réteg</span></a>
+				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">Technical architecture</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · security &amp; ecosystem</span></a>
 				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">Sajtóanyag</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">Logók &amp; ikonok</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">márkacsomag</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">Wiki</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">műszaki referencia</span></a>
@@ -885,6 +891,7 @@ while True:
 					<li><a href="../docs/infopaper.pdf" target="_blank" data-i18n="footer.resources.infoPaper">Info paper</a></li>
 					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">Integráció</a></li>
 					<li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" data-i18n="footer.resources.digidollar">DigiDollar útmutató</a></li>
+					<li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" data-i18n="footer.resources.techArch">Technical architecture</a></li>
 					<li><a href="../legaldisclaimer.html" data-i18n="footer.resources.legal">Jogi nyilatkozat</a></li>
 				</ul>
 			</div>
@@ -904,4 +911,4 @@ while True:
 <script type="module" src="../js/app.js"></script>
 
 </body>
-</html>
+https://github.com/DigiByte-Core/dips/discussions/16</html>
