@@ -102,6 +102,12 @@
 }
 .chip--cyan { color: var(--c-neon-cyan); border-color: rgba(0, 229, 255, 0.35); }
 .chip--violet { color: var(--c-neon-violet); border-color: rgba(20, 80, 255, 0.4); }
+a.chip, .chip--link { text-decoration: none; transition: color var(--dur-2) var(--ease-out), border-color var(--dur-2) var(--ease-out), background var(--dur-2) var(--ease-out); }
+a.chip:hover, a.chip:focus-visible, .chip--link:hover, .chip--link:focus-visible {
+	color: var(--c-neon-cyan);
+	border-color: rgba(0, 229, 255, 0.55);
+	background: rgba(0, 229, 255, 0.08);
+}
 
 @keyframes chip-pulse {
 	0% { box-shadow: 0 0 0 0 rgba(41, 227, 163, 0.55); }
