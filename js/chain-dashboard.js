@@ -10,6 +10,7 @@
 const ENDPOINTS = {
 	tip: 'https://digiexplorer.info/api/blocks/tip',
 	tipHeight: 'https://digiexplorer.info/api/blocks/tip/height',
+	blockTxs: (hash) => `https://digiexplorer.info/api/block/${hash}/txs/0`,
 	price: 'https://api.coinpaprika.com/v1/tickers/dgb-digibyte',
 };
 
@@ -71,12 +72,14 @@ function animate(sel, target) {
 async function refreshChain() {
 	let height = null;
 	let difficulty = null;
+	let tipHash = null;
 
 	try {
 		const tip = await fetchJSON(ENDPOINTS.tip);
 		if (Array.isArray(tip) && tip.length) {
 			height = tip[0].height ?? null;
 			difficulty = tip[0].difficulty ?? null;
+			tipHash = tip[0].id ?? tip[0].hash ?? null;
 		}
 	} catch { /* fall through */ }
 
@@ -96,6 +99,21 @@ async function refreshChain() {
 		setText('[data-stat="difficulty"]', formatNumber(difficulty, { maximumFractionDigits: 2 }));
 		// Approximate network hashrate: difficulty * 2^32 / blockTime (15s)
 		setText('[data-stat="network-hashrate"]', formatHashrate(difficulty * Math.pow(2, 32) / 15));
+	}
+
+	// Last block reward = sum of coinbase vout values (block subsidy + tx fees).
+	if (tipHash && document.querySelector('[data-stat="block-reward"]')) {
+		try {
+			const txs = await fetchJSON(ENDPOINTS.blockTxs(tipHash));
+			const coinbase = Array.isArray(txs) ? txs[0] : null;
+			if (coinbase && Array.isArray(coinbase.vout)) {
+				const sats = coinbase.vout.reduce((sum, v) => sum + (Number(v.value) || 0), 0);
+				const dgb = sats / 1e8;
+				if (Number.isFinite(dgb) && dgb > 0) {
+					setText('[data-stat="block-reward"]', dgb.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+				}
+			}
+		} catch { /* silent */ }
 	}
 
 	// Static-ish info — exposed via legacy data-stat ids on existing markup
