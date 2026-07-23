@@ -570,10 +570,15 @@
 	.s-tokenomics__layout { grid-template-columns: 1fr 1fr; }
 }
 .s-tokenomics__visual {
-	position: sticky;
-	top: calc(var(--nav-h) + var(--s-4));
 	max-width: 560px;
 	margin-inline: auto;
+	width: 100%;
+}
+@media (min-width: 1024px) {
+	.s-tokenomics__visual {
+		position: sticky;
+		top: calc(var(--nav-h) + var(--s-4));
+	}
 }
 .s-tokenomics__visual canvas,
 .s-tokenomics__visual img { width: 100%; height: 100%; }
