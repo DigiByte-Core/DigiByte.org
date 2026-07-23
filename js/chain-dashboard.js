@@ -10,6 +10,7 @@
 const ENDPOINTS = {
 	tip: 'https://digiexplorer.info/api/blocks/tip',
 	tipHeight: 'https://digiexplorer.info/api/blocks/tip/height',
+	blocksFrom: (height) => `https://digiexplorer.info/api/blocks/${height}`,
 	blockTxs: (hash) => `https://digiexplorer.info/api/block/${hash}/txs/0`,
 	price: 'https://api.coinpaprika.com/v1/tickers/dgb-digibyte',
 };
@@ -47,6 +48,22 @@ function formatHashrate(hashps) {
 	return hashps.toFixed(2) + ' ' + units[i];
 }
 
+/* DigiByte encodes the mining algorithm in bits 8-11 of the block header
+ * version field. Mask = 15 << 8 = 0xF00. See
+ * digibyte/src/primitives/block.h (BLOCK_VERSION_ALGO). */
+const BLOCK_VERSION_ALGO = 0xF00;
+const ALGO_NAMES = {
+	0x000: 'Scrypt',
+	0x200: 'SHA256d',
+	0x400: 'Groestl', // retired via the v9.26.2 algolock; blocks still parse
+	0x600: 'Skein',
+	0x800: 'Qubit',
+	0xE00: 'Odocrypt',
+};
+function algoOf(version) {
+	return ALGO_NAMES[Number(version) & BLOCK_VERSION_ALGO] ?? null;
+}
+
 function setText(sel, text, root = document) {
 	root.querySelectorAll(sel).forEach(el => { el.textContent = text; el.classList.remove('is-loading'); });
 }
@@ -78,8 +95,28 @@ async function refreshChain() {
 		const tip = await fetchJSON(ENDPOINTS.tip);
 		if (Array.isArray(tip) && tip.length) {
 			height = tip[0].height ?? null;
-			difficulty = tip[0].difficulty ?? null;
 			tipHash = tip[0].id ?? tip[0].hash ?? null;
+
+			/* DigiByte has 5 mining algorithms, so tip[0].difficulty is the
+			 * difficulty of whichever algo happened to mine the latest block -
+			 * the number can swing wildly between refreshes (e.g. ~230K for
+			 * Odocrypt vs ~780M for SHA256d). Pin to SHA256d instead, which is
+			 * the convention on most crypto sites and the most stable of the
+			 * five. /blocks/tip returns 10 blocks; SHA256d usually appears in
+			 * that window but not always, so page back one more batch when it
+			 * doesn't. */
+			let window = tip;
+			let sha256dBlock = window.find(b => algoOf(b.version) === 'SHA256d');
+			if (!sha256dBlock && Number.isFinite(height)) {
+				try {
+					const prev = await fetchJSON(ENDPOINTS.blocksFrom(height - 10));
+					if (Array.isArray(prev)) {
+						window = window.concat(prev);
+						sha256dBlock = window.find(b => algoOf(b.version) === 'SHA256d');
+					}
+				} catch { /* silent */ }
+			}
+			difficulty = sha256dBlock?.difficulty ?? tip[0].difficulty ?? null;
 		}
 	} catch { /* fall through */ }
 
@@ -97,8 +134,9 @@ async function refreshChain() {
 
 	if (Number.isFinite(difficulty)) {
 		setText('[data-stat="difficulty"]', formatNumber(difficulty, { maximumFractionDigits: 2 }));
-		// Approximate network hashrate: difficulty * 2^32 / blockTime (15s)
-		setText('[data-stat="network-hashrate"]', formatHashrate(difficulty * Math.pow(2, 32) / 15));
+		/* Per-algo hashrate = difficulty * 2^32 / algo target. On a 5-algo
+		 * chain with 15s combined target, each algo targets ~75s. */
+		setText('[data-stat="network-hashrate"]', formatHashrate(difficulty * Math.pow(2, 32) / 75));
 	}
 
 	// Last block reward = sum of coinbase vout values (block subsidy + tx fees).
