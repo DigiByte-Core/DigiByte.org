@@ -191,6 +191,7 @@
   "downloads.core.bullet2": "Built-in SegWit, Bech32, and RPC interfaces",
   "downloads.core.bullet3": "Production-ready:",
   "downloads.core.runNode": "Run a node",
+  "downloads.core.easyDownloads": "Easy downloads",
   "downloads.core.checksums": "Checksums",
   "downloads.core.aria.windows": "Download for Windows",
   "downloads.core.aria.macos": "Download for macOS",
