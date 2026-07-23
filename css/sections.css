@@ -660,6 +660,13 @@
 .flow-step.card:hover { transform: none; border-color: var(--glass-border); box-shadow: var(--shadow-card); }
 
 /* Digi-ID --------------------------------------------------------------- */
+.s-digiid {
+	background:
+		radial-gradient(ellipse at 15% 30%, rgba(0, 229, 255, 0.10), transparent 55%),
+		radial-gradient(ellipse at 85% 80%, rgba(20, 80, 255, 0.10), transparent 55%),
+		linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0));
+	border-block: 1px solid var(--glass-border);
+}
 .s-digiid__layout {
 	display: grid;
 	gap: var(--s-7);
@@ -691,6 +698,10 @@
 	0% { top: 12%; }
 	50% { top: 86%; }
 	100% { top: 12%; }
+}
+/* Hide the QR demo on mobile - it eats a lot of real estate for a decorative element. */
+@media (max-width: 767px) {
+	.s-digiid__visual { display: none; }
 }
 
 /* Developer hub --------------------------------------------------------- */
