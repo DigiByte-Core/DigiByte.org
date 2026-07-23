@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "fairer Start · Giveaways & Dev",
   "tokenomics.cta.wiki": "Wiki lesen",
-  "tokenomics.cta.infoPaper": "Info Paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Eigene Assets auf einer sicheren UTXO-Chain ausgeben.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Metadaten definieren",
   "digiassets.step2.body": "Setze Name, Angebot, Teilbarkeit und IPFS-verankerte Metadaten, damit Wallets und Explorer das Asset nativ darstellen können.",
   "digiassets.step3.title": "Signieren &amp; Senden",
-  "digiassets.step3.body": "Zahle ein paar Sats DGB an Gebühren, sende die Transaktion und das Asset ist netzwerkweit live.",
+  "digiassets.step3.body": "Zahle ein paar Digis DGB an Gebühren, sende die Transaktion und das Asset ist netzwerkweit live.",
   "digiassets.step4.title": "Überall senden",
   "digiassets.cta.docs": "Protokoll-Dokumentation",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Erstklassige Privatsphäre für deine eigenen Wallets und Lookups.",
   "downloads.docs.eyebrow": "Docs &amp; Guides",
   "downloads.docs.title": "Alles, was du zur Integration brauchst.",
-  "downloads.docs.infoPaper.title": "Info Paper",
-  "downloads.docs.infoPaper.meta": "PDF · Community",
   "downloads.docs.integration.title": "Integrationsleitfaden",
   "downloads.docs.integration.meta": "Für Exchanges &amp; Services",
   "downloads.docs.digidollar.title": "DigiDollar-Integration",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Ressourcen",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info Paper",
   "footer.resources.integration": "Integration",
   "footer.resources.digidollar": "DigiDollar-Guide",
   "footer.resources.legal": "Rechtlicher Hinweis",

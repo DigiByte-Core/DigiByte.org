@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Voormynbou",
   "tokenomics.premine.delta": "regverdige bekendstelling · weggee & ontwikkeling",
   "tokenomics.cta.wiki": "Lees die wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Gee eie bates op 'n veilige UTXO-ketting uit.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Definieer metadata",
   "digiassets.step2.body": "Stel naam, voorraad, deelbaarheid en IPFS-veranker metadata in sodat beursies en verkenners dit inheems kan vertoon.",
   "digiassets.step3.title": "Teken &amp; uitsaai",
-  "digiassets.step3.body": "Betaal 'n paar sats DGB as fooie, saai die transaksie uit en die bate is regdeur die netwerk lewend.",
+  "digiassets.step3.body": "Betaal 'n paar digis DGB as fooie, saai die transaksie uit en die bate is regdeur die netwerk lewend.",
   "digiassets.step4.title": "Stuur enige plek",
   "digiassets.cta.docs": "Protokol-dokumentasie",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Beste-in-klas privaatheid vir jou eie beursies en opsoek.",
   "downloads.docs.eyebrow": "Dokumente &amp; Gidse",
   "downloads.docs.title": "Alles wat jy nodig het om te integreer.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · gemeenskap",
   "downloads.docs.integration.title": "Integrasie-gids",
   "downloads.docs.integration.meta": "Vir beurse &amp; dienste",
   "downloads.docs.digidollar.title": "DigiDollar-integrasie",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Hulpbronne",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasie",
   "footer.resources.digidollar": "DigiDollar-gids",
   "footer.resources.legal": "Regsvrywaring",

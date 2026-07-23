@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "预挖",
   "tokenomics.premine.delta": "公平启动 · 赠礼与开发",
   "tokenomics.cta.wiki": "阅读 Wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "在安全的 UTXO 链上发行自定义资产。",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "定义元数据",
   "digiassets.step2.body": "设置名称、供应量、可分割性以及锚定 IPFS 的元数据,让钱包和浏览器能够原生呈现。",
   "digiassets.step3.title": "签名 &amp; 广播",
-  "digiassets.step3.body": "支付几 sats 的 DGB 作为手续费,广播交易后,资产立即在网络中生效。",
+  "digiassets.step3.body": "支付几 digis 的 DGB 作为手续费,广播交易后,资产立即在网络中生效。",
   "digiassets.step4.title": "随处发送",
   "digiassets.cta.docs": "协议文档",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "为你的钱包和查询提供顶级隐私。",
   "downloads.docs.eyebrow": "文档 &amp; 指南",
   "downloads.docs.title": "集成所需的一切。",
-  "downloads.docs.infoPaper.title": "信息白皮",
-  "downloads.docs.infoPaper.meta": "PDF · 社区",
   "downloads.docs.integration.title": "集成指南",
   "downloads.docs.integration.meta": "面向交易所 &amp; 服务商",
   "downloads.docs.digidollar.title": "DigiDollar 集成",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "资源",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "信息白皮",
   "footer.resources.integration": "集成",
   "footer.resources.digidollar": "DigiDollar 指南",
   "footer.resources.legal": "法律免责声明",

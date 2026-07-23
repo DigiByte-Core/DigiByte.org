@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "δίκαιη εκκίνηση · giveaways & ανάπτυξη",
   "tokenomics.cta.wiki": "Διάβασε το wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Έκδοση προσαρμοσμένων στοιχείων σε μια ασφαλή UTXO αλυσίδα.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Ορίστε metadata",
   "digiassets.step2.body": "Ρυθμίστε όνομα, προσφορά, διαιρετότητα και metadata αγκυρωμένα σε IPFS, ώστε τα πορτοφόλια και οι explorers να τα εμφανίζουν εγγενώς.",
   "digiassets.step3.title": "Υπογραφή &amp; μετάδοση",
-  "digiassets.step3.body": "Πληρώστε μερικά sats DGB ως προμήθεια, μεταδώστε τη συναλλαγή και το στοιχείο είναι ζωντανό σε όλο το δίκτυο.",
+  "digiassets.step3.body": "Πληρώστε μερικά digis DGB ως προμήθεια, μεταδώστε τη συναλλαγή και το στοιχείο είναι ζωντανό σε όλο το δίκτυο.",
   "digiassets.step4.title": "Στείλτε οπουδήποτε",
   "digiassets.cta.docs": "Τεκμηρίωση πρωτοκόλλου",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Κορυφαία στην κατηγορία ιδιωτικότητα για τα δικά σας πορτοφόλια και αναζητήσεις.",
   "downloads.docs.eyebrow": "Docs &amp; Οδηγοί",
   "downloads.docs.title": "Όλα όσα χρειάζεστε για ενσωμάτωση.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · κοινότητα",
   "downloads.docs.integration.title": "Οδηγός ενσωμάτωσης",
   "downloads.docs.integration.meta": "Για ανταλλακτήρια &amp; υπηρεσίες",
   "downloads.docs.digidollar.title": "Ενσωμάτωση DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Πόροι",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Ενσωμάτωση",
   "footer.resources.digidollar": "Οδηγός DigiDollar",
   "footer.resources.legal": "Νομική αποποίηση",

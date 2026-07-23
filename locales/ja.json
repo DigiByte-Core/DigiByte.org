@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "プレマイン",
   "tokenomics.premine.delta": "公正な開始 · ギブアウェイ＆開発",
   "tokenomics.cta.wiki": "Wikiを読む",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "安全なUTXOチェーン上でカスタムアセットを発行。",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "メタデータを定義",
   "digiassets.step2.body": "名前、供給量、可分性、IPFS固定のメタデータを設定すれば、ウォレットやエクスプローラがネイティブに表示できます。",
   "digiassets.step3.title": "署名 &amp; ブロードキャスト",
-  "digiassets.step3.body": "わずかな数satsのDGBを手数料として支払い、トランザクションをブロードキャストすれば、アセットはネットワーク上で有効になります。",
+  "digiassets.step3.body": "わずかな数digisのDGBを手数料として支払い、トランザクションをブロードキャストすれば、アセットはネットワーク上で有効になります。",
   "digiassets.step4.title": "どこへでも送信",
   "digiassets.cta.docs": "プロトコルドキュメント",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "自分のウォレットとルックアップに最高クラスのプライバシー。",
   "downloads.docs.eyebrow": "ドキュメント &amp; ガイド",
   "downloads.docs.title": "統合に必要なものはすべて。",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · コミュニティ",
   "downloads.docs.integration.title": "統合ガイド",
   "downloads.docs.integration.meta": "取引所 &amp; サービス向け",
   "downloads.docs.digidollar.title": "DigiDollar統合",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "リソース",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "統合",
   "footer.resources.digidollar": "DigiDollarガイド",
   "footer.resources.legal": "法的免責事項",

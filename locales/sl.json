@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "pošten zagon · giveaway-i & razvoj",
   "tokenomics.cta.wiki": "Preberi wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Izdaj lastna sredstva na varni UTXO verigi.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Določi metapodatke",
   "digiassets.step2.body": "Nastavite ime, ponudbo, deljivost in metapodatke, zasidrane v IPFS, da jih bodo denarnice in raziskovalci prikazovali domorodno.",
   "digiassets.step3.title": "Podpiši &amp; oddaj",
-  "digiassets.step3.body": "Plačajte nekaj sats DGB za provizijo, oddajte transakcijo in sredstvo je živo v celotnem omrežju.",
+  "digiassets.step3.body": "Plačajte nekaj digis DGB za provizijo, oddajte transakcijo in sredstvo je živo v celotnem omrežju.",
   "digiassets.step4.title": "Pošlji kamorkoli",
   "digiassets.cta.docs": "Dokumentacija protokola",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Najboljša v razredu zasebnost za vaše lastne denarnice in iskanja.",
   "downloads.docs.eyebrow": "Docs &amp; Vodniki",
   "downloads.docs.title": "Vse, kar potrebujete za integracijo.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · skupnost",
   "downloads.docs.integration.title": "Vodnik za integracijo",
   "downloads.docs.integration.meta": "Za borze &amp; storitve",
   "downloads.docs.digidollar.title": "DigiDollar integracija",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Viri",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integracija",
   "footer.resources.digidollar": "DigiDollar vodnik",
   "footer.resources.legal": "Pravna izjava",

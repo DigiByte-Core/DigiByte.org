@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "راه‌اندازی منصفانه · giveaway و توسعه",
   "tokenomics.cta.wiki": "ویکی را بخوانید",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "روی یک زنجیرهٔ UTXO امن دارایی‌های سفارشی منتشر کنید.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "متادیتا را تعریف کنید",
   "digiassets.step2.body": "نام، عرضه، تقسیم‌پذیری و متادیتای متصل به IPFS را تنظیم کنید تا کیف‌پول‌ها و کاوشگرها آن را به‌صورت بومی نمایش دهند.",
   "digiassets.step3.title": "امضا &amp; ارسال",
-  "digiassets.step3.body": "چند sats DGB کارمزد بپردازید، تراکنش را ارسال کنید و دارایی در سراسر شبکه فعّال می‌شود.",
+  "digiassets.step3.body": "چند digis DGB کارمزد بپردازید، تراکنش را ارسال کنید و دارایی در سراسر شبکه فعّال می‌شود.",
   "digiassets.step4.title": "به هر کجا بفرستید",
   "digiassets.cta.docs": "مستندات پروتکل",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "بهترین حریم خصوصی در نوع خود برای کیف‌پول‌ها و جست‌وجوهای شما.",
   "downloads.docs.eyebrow": "Docs &amp; راهنماها",
   "downloads.docs.title": "هر آنچه برای ادغام نیاز دارید.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · جامعه",
   "downloads.docs.integration.title": "راهنمای ادغام",
   "downloads.docs.integration.meta": "برای صرافی‌ها &amp; خدمات",
   "downloads.docs.digidollar.title": "ادغام DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "منابع",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "ادغام",
   "footer.resources.digidollar": "راهنمای DigiDollar",
   "footer.resources.legal": "سلب مسئولیت حقوقی",

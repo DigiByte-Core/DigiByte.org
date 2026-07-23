@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "เริ่มต้นยุติธรรม · giveaway & การพัฒนา",
   "tokenomics.cta.wiki": "อ่าน wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "ออกสินทรัพย์เฉพาะตัวบนเชน UTXO ที่ปลอดภัย",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "กำหนดเมตาดาตา",
   "digiassets.step2.body": "ตั้งชื่อ อุปทาน ความสามารถในการแบ่ง และเมตาดาตาที่ยึดไว้ที่ IPFS เพื่อให้กระเป๋าเงินและเอ็กซ์พลอเรอร์แสดงผลแบบเนทีฟ",
   "digiassets.step3.title": "เซ็น &amp; เผยแพร่",
-  "digiassets.step3.body": "จ่าย sats DGB ไม่กี่หน่วยเป็นค่าธรรมเนียม เผยแพร่ธุรกรรม และสินทรัพย์จะใช้งานได้ทั่วทั้งเครือข่าย",
+  "digiassets.step3.body": "จ่าย digis DGB ไม่กี่หน่วยเป็นค่าธรรมเนียม เผยแพร่ธุรกรรม และสินทรัพย์จะใช้งานได้ทั่วทั้งเครือข่าย",
   "digiassets.step4.title": "ส่งได้ทุกที่",
   "digiassets.cta.docs": "เอกสารโปรโตคอล",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "ความเป็นส่วนตัวระดับชั้นนำสำหรับกระเป๋าเงินและการค้นหาของคุณเอง",
   "downloads.docs.eyebrow": "Docs &amp; คู่มือ",
   "downloads.docs.title": "ทุกสิ่งที่ต้องการสำหรับการผสานรวม",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · ชุมชน",
   "downloads.docs.integration.title": "คู่มือการผสานรวม",
   "downloads.docs.integration.meta": "สำหรับกระดานเทรด &amp; บริการ",
   "downloads.docs.digidollar.title": "การผสานรวม DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "ทรัพยากร",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "การผสานรวม",
   "footer.resources.digidollar": "คู่มือ DigiDollar",
   "footer.resources.legal": "ข้อปฏิเสธความรับผิดชอบทางกฎหมาย",

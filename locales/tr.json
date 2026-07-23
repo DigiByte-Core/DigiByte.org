@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "adil başlangıç · giveaway & geliştirme",
   "tokenomics.cta.wiki": "Wiki'yi oku",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Güvenli bir UTXO zincirinde özel varlıklar yayımlayın.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Üst veriyi tanımla",
   "digiassets.step2.body": "İsim, arz, bölünebilirlik ve IPFS'de sabitlenmiş üst veriler belirleyin ki cüzdanlar ve gezginler bunu yerel olarak gösterebilsin.",
   "digiassets.step3.title": "İmzala &amp; yayınla",
-  "digiassets.step3.body": "Birkaç sats DGB ücret ödeyin, işlemi yayınlayın ve varlık tüm ağda canlıdır.",
+  "digiassets.step3.body": "Birkaç digis DGB ücret ödeyin, işlemi yayınlayın ve varlık tüm ağda canlıdır.",
   "digiassets.step4.title": "Her yere gönder",
   "digiassets.cta.docs": "Protokol dokümantasyonu",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Kendi cüzdanlarınız ve sorgularınız için sınıfının en iyisi gizlilik.",
   "downloads.docs.eyebrow": "Docs &amp; Kılavuzlar",
   "downloads.docs.title": "Entegrasyon için ihtiyacınız olan her şey.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · topluluk",
   "downloads.docs.integration.title": "Entegrasyon kılavuzu",
   "downloads.docs.integration.meta": "Borsalar &amp; hizmetler için",
   "downloads.docs.digidollar.title": "DigiDollar entegrasyonu",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Kaynaklar",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Entegrasyon",
   "footer.resources.digidollar": "DigiDollar kılavuzu",
   "footer.resources.legal": "Yasal sorumluluk reddi",

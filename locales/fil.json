@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "patas na simula · giveaway & development",
   "tokenomics.cta.wiki": "Basahin ang wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Maglabas ng custom na asset sa ligtas na UTXO chain.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Tukuyin ang metadata",
   "digiassets.step2.body": "Itakda ang pangalan, supply, divisibility at IPFS-anchored na metadata para natively itong maipakita ng mga wallet at explorer.",
   "digiassets.step3.title": "Pirmahan &amp; ipasa",
-  "digiassets.step3.body": "Magbayad ng ilang sats DGB bilang bayad, ipasa ang transaksyon at ang asset ay buhay sa buong network.",
+  "digiassets.step3.body": "Magbayad ng ilang digis DGB bilang bayad, ipasa ang transaksyon at ang asset ay buhay sa buong network.",
   "digiassets.step4.title": "Ipadala kahit saan",
   "digiassets.cta.docs": "Dokumentasyon ng protocol",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Pinakamahusay sa klase na privacy para sa sariling wallets at queries.",
   "downloads.docs.eyebrow": "Docs &amp; Patnubay",
   "downloads.docs.title": "Lahat ng kailangan mo para mag-integrate.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · komunidad",
   "downloads.docs.integration.title": "Gabay sa integrasyon",
   "downloads.docs.integration.meta": "Para sa exchanges &amp; serbisyo",
   "downloads.docs.digidollar.title": "Integrasyon ng DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Mga mapagkukunan",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasyon",
   "footer.resources.digidollar": "Gabay sa DigiDollar",
   "footer.resources.legal": "Legal na disclaimer",

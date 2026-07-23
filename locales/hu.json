@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "fair indulás · giveaway & fejlesztés",
   "tokenomics.cta.wiki": "Wiki olvasása",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Bocsáss ki egyedi eszközöket biztonságos UTXO láncon.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Add meg a metaadatokat",
   "digiassets.step2.body": "Állítsd be a nevet, kínálatot, oszthatóságot és IPFS-hez rögzített metaadatokat, hogy a tárcák és böngészők natívan jelenítsék meg.",
   "digiassets.step3.title": "Aláírás &amp; sugárzás",
-  "digiassets.step3.body": "Fizess néhány sats DGB-t díjként, küldd ki a tranzakciót, és az eszköz a teljes hálózaton aktív.",
+  "digiassets.step3.body": "Fizess néhány digis DGB-t díjként, küldd ki a tranzakciót, és az eszköz a teljes hálózaton aktív.",
   "digiassets.step4.title": "Küldd el bárhová",
   "digiassets.cta.docs": "Protokoll-dokumentáció",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Csúcskategóriás adatvédelem a saját tárcáidnak és lekérdezéseidnek.",
   "downloads.docs.eyebrow": "Docs &amp; Útmutatók",
   "downloads.docs.title": "Minden, ami az integrációhoz kell.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · közösség",
   "downloads.docs.integration.title": "Integrációs útmutató",
   "downloads.docs.integration.meta": "Tőzsdéknek &amp; szolgáltatóknak",
   "downloads.docs.digidollar.title": "DigiDollar integráció",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Erőforrások",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integráció",
   "footer.resources.digidollar": "DigiDollar útmutató",
   "footer.resources.legal": "Jogi nyilatkozat",
