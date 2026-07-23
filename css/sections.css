@@ -1225,6 +1225,9 @@ position: absolute;
 top: calc(100% + 8px);
 right: 0;
 width: min(540px, 92vw);
+max-height: calc(100vh - var(--nav-h) - 24px);
+overflow-y: auto;
+overscroll-behavior: contain;
 padding: var(--s-5);
 background: var(--c-bg-2);
 border: 1px solid var(--c-border-strong);
@@ -1262,6 +1265,12 @@ text-align: center;
 @keyframes lang-pop {
 from { opacity: 0; transform: translateY(-8px); }
 to { opacity: 1; transform: translateY(0); }
+}
+/* On narrow screens tighten padding, and give tap targets a bit more room. */
+@media (max-width: 480px) {
+	.lang-menu__panel { padding: var(--s-4); width: 96vw; }
+	.lang-menu__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.lang-menu__grid a { padding: 0.6rem 0.7rem; }
 }
 
 /* Scroll-to-top button -------------------------------------------------- */
