@@ -1267,8 +1267,21 @@ from { opacity: 0; transform: translateY(-8px); }
 to { opacity: 1; transform: translateY(0); }
 }
 /* On narrow screens tighten padding, and give tap targets a bit more room. */
-@media (max-width: 480px) {
-	.lang-menu__panel { padding: var(--s-4); width: 96vw; }
+@media (max-width: 767px) {
+	.lang-menu__panel {
+		/* Break out of the header's positioning context so the panel is
+		   pinned to the viewport, not to the globe button on the right edge.
+		   Previously it was anchored right: 0 of .lang-menu and rendered
+		   at 92-96vw wide, which clipped the left half off-screen. */
+		position: fixed;
+		top: calc(var(--nav-h) + 8px);
+		left: 8px;
+		right: 8px;
+		width: auto;
+		max-width: none;
+		max-height: calc(100vh - var(--nav-h) - 24px);
+		padding: var(--s-4);
+	}
 	.lang-menu__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 	.lang-menu__grid a { padding: 0.6rem 0.7rem; }
 }
