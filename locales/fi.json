@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "reilu aloitus · arvonnat & kehitys",
   "tokenomics.cta.wiki": "Lue wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Laske liikkeelle omia varoja turvallisessa UTXO-ketjussa.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Määrittele metatiedot",
   "digiassets.step2.body": "Aseta nimi, tarjonta, jaettavuus ja IPFS-ankkuroidut metatiedot, jotta lompakot ja selaimet voivat näyttää sen natiivisti.",
   "digiassets.step3.title": "Allekirjoita &amp; lähetä",
-  "digiassets.step3.body": "Maksa muutama satoshi DGB:tä palkkioksi, lähetä tapahtuma, ja vara on käytössä koko verkossa.",
+  "digiassets.step3.body": "Maksa muutama digis DGB:tä palkkioksi, lähetä tapahtuma, ja vara on käytössä koko verkossa.",
   "digiassets.step4.title": "Lähetä minne tahansa",
   "digiassets.cta.docs": "Protokolladokumentaatio",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Luokkansa paras yksityisyys omille lompakoillesi ja hauillesi.",
   "downloads.docs.eyebrow": "Dokumentit &amp; Oppaat",
   "downloads.docs.title": "Kaikki tarvittava integraatioon.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · yhteisö",
   "downloads.docs.integration.title": "Integraatio-opas",
   "downloads.docs.integration.meta": "Pörsseille &amp; palveluille",
   "downloads.docs.digidollar.title": "DigiDollar-integraatio",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resurssit",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integraatio",
   "footer.resources.digidollar": "DigiDollar-opas",
   "footer.resources.legal": "Oikeudellinen vastuuvapaus",

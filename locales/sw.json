@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "uzinduzi wa haki · giveaway & maendeleo",
   "tokenomics.cta.wiki": "Soma wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Toa rasilimali maalum kwenye chain salama ya UTXO.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Fafanua metadata",
   "digiassets.step2.body": "Weka jina, ugawaji, ugawanyiko na metadata iliyofungiwa kwa IPFS ili pochi na wachunguzi waweze kuyaonyesha kwa asili.",
   "digiassets.step3.title": "Saini &amp; tangaza",
-  "digiassets.step3.body": "Lipa sats chache za DGB kama ada, tangaza muamala, na rasilimali iko hai katika mtandao mzima.",
+  "digiassets.step3.body": "Lipa digis chache za DGB kama ada, tangaza muamala, na rasilimali iko hai katika mtandao mzima.",
   "digiassets.step4.title": "Tuma popote",
   "digiassets.cta.docs": "Nyaraka za protokoli",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Faragha bora zaidi katika daraja kwa pochi na utafutaji wako mwenyewe.",
   "downloads.docs.eyebrow": "Docs &amp; Miongozo",
   "downloads.docs.title": "Kila kitu unachohitaji kwa muunganisho.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · jumuiya",
   "downloads.docs.integration.title": "Mwongozo wa muunganisho",
   "downloads.docs.integration.meta": "Kwa exchange &amp; huduma",
   "downloads.docs.digidollar.title": "Muunganisho wa DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Rasilimali",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Muunganisho",
   "footer.resources.digidollar": "Mwongozo wa DigiDollar",
   "footer.resources.legal": "Kanusho la kisheria",

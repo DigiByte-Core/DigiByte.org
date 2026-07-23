@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "rettferdig start · giveaways & utvikling",
   "tokenomics.cta.wiki": "Les wikien",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Utsted egne aktiva på en sikker UTXO-kjede.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Definer metadata",
   "digiassets.step2.body": "Sett navn, tilbud, delelighet og IPFS-forankret metadata slik at lommebøker og utforskere kan vise det nativt.",
   "digiassets.step3.title": "Signer &amp; kringkast",
-  "digiassets.step3.body": "Betal noen få sats DGB i gebyr, kringkast transaksjonen, og aktivet er live i hele nettverket.",
+  "digiassets.step3.body": "Betal noen få digis DGB i gebyr, kringkast transaksjonen, og aktivet er live i hele nettverket.",
   "digiassets.step4.title": "Send hvor som helst",
   "digiassets.cta.docs": "Protokoll-dokumentasjon",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Best i klassen-personvern for dine egne wallets og oppslag.",
   "downloads.docs.eyebrow": "Docs &amp; Guider",
   "downloads.docs.title": "Alt du trenger for å integrere.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · fellesskap",
   "downloads.docs.integration.title": "Integrasjonsguide",
   "downloads.docs.integration.meta": "For børser &amp; tjenester",
   "downloads.docs.digidollar.title": "DigiDollar-integrasjon",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Ressurser",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasjon",
   "footer.resources.digidollar": "DigiDollar-guide",
   "footer.resources.legal": "Juridisk ansvarsfraskrivelse",

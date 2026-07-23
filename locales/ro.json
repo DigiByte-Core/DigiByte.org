@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "lansare echitabilă · giveaways & dev",
   "tokenomics.cta.wiki": "Citește wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Emite active personalizate pe un lanț UTXO sigur.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Definește metadatele",
   "digiassets.step2.body": "Setează nume, ofertă, divizibilitate și metadate ancorate în IPFS pentru ca portofelele și explorerele să le afișeze nativ.",
   "digiassets.step3.title": "Semnează &amp; difuzează",
-  "digiassets.step3.body": "Plătește câțiva sați de DGB drept taxe, difuzează tranzacția și activul este viu în toată rețeaua.",
+  "digiassets.step3.body": "Plătește câțiva digis de DGB drept taxe, difuzează tranzacția și activul este viu în toată rețeaua.",
   "digiassets.step4.title": "Trimite oriunde",
   "digiassets.cta.docs": "Documentația protocolului",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Confidențialitate de top pentru portofelele și interogările tale.",
   "downloads.docs.eyebrow": "Documentație &amp; Ghiduri",
   "downloads.docs.title": "Tot ce ai nevoie pentru integrare.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · comunitate",
   "downloads.docs.integration.title": "Ghid de integrare",
   "downloads.docs.integration.meta": "Pentru exchange-uri &amp; servicii",
   "downloads.docs.digidollar.title": "Integrare DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Resurse",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrare",
   "footer.resources.digidollar": "Ghid DigiDollar",
   "footer.resources.legal": "Disclaimer legal",

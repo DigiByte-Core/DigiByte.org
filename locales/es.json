@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "lanzamiento justo · sorteos y dev",
   "tokenomics.cta.wiki": "Leer la wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Emite activos personalizados en una cadena UTXO segura.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Define los metadatos",
   "digiassets.step2.body": "Configura nombre, suministro, divisibilidad y metadatos anclados a IPFS para que carteras y exploradores los rendericen de forma nativa.",
   "digiassets.step3.title": "Firma &amp; difunde",
-  "digiassets.step3.body": "Paga unos pocos sats de DGB de comisión, difunde la transacción y el activo queda activo en toda la red.",
+  "digiassets.step3.body": "Paga unos pocos digis de DGB de comisión, difunde la transacción y el activo queda activo en toda la red.",
   "digiassets.step4.title": "Envíalo a cualquier lugar",
   "digiassets.cta.docs": "Documentación del protocolo",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Privacidad de primera clase para tus wallets y consultas.",
   "downloads.docs.eyebrow": "Docs &amp; guías",
   "downloads.docs.title": "Todo lo que necesitas para integrar.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · comunidad",
   "downloads.docs.integration.title": "Guía de integración",
   "downloads.docs.integration.meta": "Para exchanges &amp; servicios",
   "downloads.docs.digidollar.title": "Integración DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Recursos",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integración",
   "footer.resources.digidollar": "Guía DigiDollar",
   "footer.resources.legal": "Aviso legal",

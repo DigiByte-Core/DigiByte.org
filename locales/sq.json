@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "nisje e drejtë · giveaway & zhvillim",
   "tokenomics.cta.wiki": "Lexo wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Lësho asete të personalizuara në një zinxhir UTXO të sigurt.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Përcakto metadatat",
   "digiassets.step2.body": "Vendos emrin, furnizimin, ndashmërinë dhe metadata të ankoruara në IPFS, që kuletat dhe exploruesit t'i shfaqin në mënyrë native.",
   "digiassets.step3.title": "Nënshkruaj &amp; transmeto",
-  "digiassets.step3.body": "Paguaj disa sats DGB si tarifë, transmeto transaksionin dhe aseti është aktiv në gjithë rrjetin.",
+  "digiassets.step3.body": "Paguaj disa digis DGB si tarifë, transmeto transaksionin dhe aseti është aktiv në gjithë rrjetin.",
   "digiassets.step4.title": "Dërgo kudo",
   "digiassets.cta.docs": "Dokumentacion i protokollit",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Privatësi më e mira në klasë për kuletat dhe kërkimet tuaja.",
   "downloads.docs.eyebrow": "Docs &amp; Udhëzues",
   "downloads.docs.title": "Gjithçka që ju nevojitet për integrim.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · komunitet",
   "downloads.docs.integration.title": "Udhëzues integrimi",
   "downloads.docs.integration.meta": "Për bursa &amp; shërbime",
   "downloads.docs.digidollar.title": "Integrim DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Burime",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrim",
   "footer.resources.digidollar": "Udhëzues DigiDollar",
   "footer.resources.legal": "Mohim ligjor",

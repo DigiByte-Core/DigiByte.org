@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "eerlijke start · giveaways & dev",
   "tokenomics.cta.wiki": "Lees de wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Geef eigen assets uit op een veilige UTXO-keten.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Bepaal de metadata",
   "digiassets.step2.body": "Stel naam, supply, deelbaarheid en IPFS-verankerde metadata in zodat wallets en explorers het asset native kunnen weergeven.",
   "digiassets.step3.title": "Onderteken &amp; verzend",
-  "digiassets.step3.body": "Betaal een paar sats DGB aan fees, verzend de transactie en het asset is live in het hele netwerk.",
+  "digiassets.step3.body": "Betaal een paar digis DGB aan fees, verzend de transactie en het asset is live in het hele netwerk.",
   "digiassets.step4.title": "Stuur waar dan ook heen",
   "digiassets.cta.docs": "Protocol-documentatie",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Beste-in-klasse privacy voor je eigen wallets en lookups.",
   "downloads.docs.eyebrow": "Docs &amp; Gidsen",
   "downloads.docs.title": "Alles wat je nodig hebt om te integreren.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · community",
   "downloads.docs.integration.title": "Integratiegids",
   "downloads.docs.integration.meta": "Voor exchanges &amp; services",
   "downloads.docs.digidollar.title": "DigiDollar-integratie",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Bronnen",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integratie",
   "footer.resources.digidollar": "DigiDollar-gids",
   "footer.resources.legal": "Juridische disclaimer",

@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Премайн",
   "tokenomics.premine.delta": "честен старт · giveaways & разработка",
   "tokenomics.cta.wiki": "Прочети уикито",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Емитирайте собствени активи на сигурна UTXO верига.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Дефинирайте метаданни",
   "digiassets.step2.body": "Задайте име, предлагане, делимост и метаданни, закотвени в IPFS, така че портфейлите и експлорерите да ги показват нативно.",
   "digiassets.step3.title": "Подпиши &amp; излъчи",
-  "digiassets.step3.body": "Платете няколко сатоши DGB като такса, излъчете транзакцията и активът е активен в цялата мрежа.",
+  "digiassets.step3.body": "Платете няколко digis DGB като такса, излъчете транзакцията и активът е активен в цялата мрежа.",
   "digiassets.step4.title": "Изпрати където и да е",
   "digiassets.cta.docs": "Документация на протокола",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Най-добра в класа поверителност за вашите портфейли и запитвания.",
   "downloads.docs.eyebrow": "Docs &amp; Ръководства",
   "downloads.docs.title": "Всичко необходимо за интеграция.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · общност",
   "downloads.docs.integration.title": "Ръководство за интеграция",
   "downloads.docs.integration.meta": "За борси &amp; услуги",
   "downloads.docs.digidollar.title": "Интеграция на DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Ресурси",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Интеграция",
   "footer.resources.digidollar": "Ръководство за DigiDollar",
   "footer.resources.legal": "Правна декларация",

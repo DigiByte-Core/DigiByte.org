@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "प्रीमाइन",
   "tokenomics.premine.delta": "निष्पक्ष लॉन्च · giveaway और विकास",
   "tokenomics.cta.wiki": "विकी पढ़ें",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "सुरक्षित UTXO चेन पर कस्टम एसेट जारी करें।",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "मेटाडेटा परिभाषित करें",
   "digiassets.step2.body": "नाम, आपूर्ति, विभाज्यता और IPFS-एंकर्ड मेटाडेटा सेट करें ताकि वॉलेट और एक्सप्लोरर इसे मूल रूप से दिखा सकें।",
   "digiassets.step3.title": "हस्ताक्षर &amp; प्रसारित करें",
-  "digiassets.step3.body": "शुल्क के रूप में कुछ sats DGB का भुगतान करें, लेन-देन प्रसारित करें और एसेट पूरे नेटवर्क पर सक्रिय हो जाएगा।",
+  "digiassets.step3.body": "शुल्क के रूप में कुछ digis DGB का भुगतान करें, लेन-देन प्रसारित करें और एसेट पूरे नेटवर्क पर सक्रिय हो जाएगा।",
   "digiassets.step4.title": "कहीं भी भेजें",
   "digiassets.cta.docs": "प्रोटोकॉल दस्तावेज़",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "अपने वॉलेट और लुकअप के लिए वर्ग में सर्वश्रेष्ठ गोपनीयता।",
   "downloads.docs.eyebrow": "Docs &amp; गाइड",
   "downloads.docs.title": "एकीकरण के लिए वह सब कुछ जो आपको चाहिए।",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · समुदाय",
   "downloads.docs.integration.title": "एकीकरण गाइड",
   "downloads.docs.integration.meta": "एक्सचेंज &amp; सेवाओं के लिए",
   "downloads.docs.digidollar.title": "DigiDollar एकीकरण",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "संसाधन",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "एकीकरण",
   "footer.resources.digidollar": "DigiDollar गाइड",
   "footer.resources.legal": "कानूनी अस्वीकरण",

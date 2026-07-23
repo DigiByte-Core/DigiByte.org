@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "férový start · giveaways & vývoj",
   "tokenomics.cta.wiki": "Číst wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Vydejte vlastní aktiva na bezpečném UTXO řetězci.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Definujte metadata",
   "digiassets.step2.body": "Nastavte název, nabídku, dělitelnost a metadata ukotvená v IPFS, aby je peněženky a průzkumníci zobrazovali nativně.",
   "digiassets.step3.title": "Podepište &amp; rozešlete",
-  "digiassets.step3.body": "Zaplaťte pár satoshi DGB jako poplatek, rozešlete transakci a aktivum je živé v celé síti.",
+  "digiassets.step3.body": "Zaplaťte pár digis DGB jako poplatek, rozešlete transakci a aktivum je živé v celé síti.",
   "digiassets.step4.title": "Pošlete kamkoli",
   "digiassets.cta.docs": "Dokumentace protokolu",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Nejlepší ve své třídě soukromí pro vlastní peněženky a vyhledávání.",
   "downloads.docs.eyebrow": "Docs &amp; Návody",
   "downloads.docs.title": "Vše, co potřebujete k integraci.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · komunita",
   "downloads.docs.integration.title": "Průvodce integrací",
   "downloads.docs.integration.meta": "Pro burzy &amp; služby",
   "downloads.docs.digidollar.title": "Integrace DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Zdroje",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrace",
   "footer.resources.digidollar": "Průvodce DigiDollar",
   "footer.resources.legal": "Právní upozornění",

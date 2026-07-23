@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "khởi đầu công bằng · giveaway & phát triển",
   "tokenomics.cta.wiki": "Đọc wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Phát hành tài sản tùy chỉnh trên chuỗi UTXO an toàn.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Xác định metadata",
   "digiassets.step2.body": "Đặt tên, cung, khả năng chia nhỏ và metadata gắn IPFS để ví và trình duyệt khối có thể hiển thị nguyên bản.",
   "digiassets.step3.title": "Ký &amp; phát sóng",
-  "digiassets.step3.body": "Trả vài sats DGB làm phí, phát sóng giao dịch và tài sản hoạt động trên toàn mạng.",
+  "digiassets.step3.body": "Trả vài digis DGB làm phí, phát sóng giao dịch và tài sản hoạt động trên toàn mạng.",
   "digiassets.step4.title": "Gửi bất cứ đâu",
   "digiassets.cta.docs": "Tài liệu giao thức",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Quyền riêng tư hàng đầu cho ví và truy vấn của riêng bạn.",
   "downloads.docs.eyebrow": "Docs &amp; Hướng dẫn",
   "downloads.docs.title": "Mọi thứ bạn cần để tích hợp.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · cộng đồng",
   "downloads.docs.integration.title": "Hướng dẫn tích hợp",
   "downloads.docs.integration.meta": "Cho sàn giao dịch &amp; dịch vụ",
   "downloads.docs.digidollar.title": "Tích hợp DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Tài nguyên",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Tích hợp",
   "footer.resources.digidollar": "Hướng dẫn DigiDollar",
   "footer.resources.legal": "Tuyên bố pháp lý",

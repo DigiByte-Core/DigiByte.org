@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "peluncuran adil · giveaway & pengembangan",
   "tokenomics.cta.wiki": "Baca wiki",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Terbitkan aset kustom di chain UTXO yang aman.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "Tetapkan metadata",
   "digiassets.step2.body": "Atur nama, pasokan, kemampuan dibagi, dan metadata yang ditambatkan ke IPFS agar dompet dan explorer dapat menampilkannya secara native.",
   "digiassets.step3.title": "Tandatangani &amp; siarkan",
-  "digiassets.step3.body": "Bayar beberapa sats DGB sebagai biaya, siarkan transaksi, dan aset menjadi aktif di seluruh jaringan.",
+  "digiassets.step3.body": "Bayar beberapa digis DGB sebagai biaya, siarkan transaksi, dan aset menjadi aktif di seluruh jaringan.",
   "digiassets.step4.title": "Kirim ke mana saja",
   "digiassets.cta.docs": "Dokumentasi protokol",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "Privasi terbaik di kelasnya untuk dompet dan kueri Anda sendiri.",
   "downloads.docs.eyebrow": "Docs &amp; Panduan",
   "downloads.docs.title": "Semua yang Anda butuhkan untuk berintegrasi.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · komunitas",
   "downloads.docs.integration.title": "Panduan integrasi",
   "downloads.docs.integration.meta": "Untuk bursa &amp; layanan",
   "downloads.docs.digidollar.title": "Integrasi DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "Sumber daya",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "Integrasi",
   "footer.resources.digidollar": "Panduan DigiDollar",
   "footer.resources.legal": "Sanggahan hukum",

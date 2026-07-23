@@ -88,7 +88,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "إطلاق عادل · هدايا وتطوير",
   "tokenomics.cta.wiki": "اقرأ الويكي",
-  "tokenomics.cta.infoPaper": "Info paper",
 
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "أصدر أصولًا مخصصة على سلسلة UTXO آمنة.",
@@ -98,7 +97,7 @@
   "digiassets.step2.title": "حدّد البيانات الوصفية",
   "digiassets.step2.body": "حدّد الاسم والعرض والقابلية للقسمة والبيانات الوصفية المثبتة على IPFS كي تعرضها المحافظ والمستكشفات بشكل أصلي.",
   "digiassets.step3.title": "وقّع &amp; ابثّ",
-  "digiassets.step3.body": "ادفع بضع sats من DGB كرسوم، ابثّ المعاملة، وسيكون الأصل نشطًا في الشبكة بأكملها.",
+  "digiassets.step3.body": "ادفع بضع digis من DGB كرسوم، ابثّ المعاملة، وسيكون الأصل نشطًا في الشبكة بأكملها.",
   "digiassets.step4.title": "أرسل إلى أي مكان",
   "digiassets.cta.docs": "توثيق البروتوكول",
 
@@ -190,8 +189,6 @@
   "downloads.core.why3": "خصوصية فائقة لمحافظك واستعلاماتك.",
   "downloads.docs.eyebrow": "Docs &amp; أدلة",
   "downloads.docs.title": "كل ما تحتاجه للتكامل.",
-  "downloads.docs.infoPaper.title": "Info paper",
-  "downloads.docs.infoPaper.meta": "PDF · المجتمع",
   "downloads.docs.integration.title": "دليل التكامل",
   "downloads.docs.integration.meta": "للبورصات &amp; الخدمات",
   "downloads.docs.digidollar.title": "تكامل DigiDollar",
@@ -222,7 +219,6 @@
   "footer.use.digiassets": "DigiAssets",
   "footer.resources.heading": "موارد",
   "footer.resources.digistats": "DigiStats",
-  "footer.resources.infoPaper": "Info paper",
   "footer.resources.integration": "تكامل",
   "footer.resources.digidollar": "دليل DigiDollar",
   "footer.resources.legal": "إخلاء مسؤولية قانوني",

@@ -673,6 +673,22 @@
 	grid-template-columns: minmax(0, 1fr);
 }
 @media (min-width: 1024px) { .s-digiid__layout { grid-template-columns: 1fr 1fr; } }
+
+/* Benefit list rows: keep the icon in a fixed leading column and let the
+   label wrap in place, so long items don't push the whole span to a new
+   row and orphan the icon (visible on narrow mobile viewports). */
+.s-digiid ul.stack > li.cluster {
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+.s-digiid ul.stack > li.cluster > i {
+	flex: 0 0 auto;
+	padding-block-start: 0.25em;
+}
+.s-digiid ul.stack > li.cluster > span {
+	flex: 1 1 0;
+	min-width: 0;
+}
 .qr-demo {
 	aspect-ratio: 1;
 	max-width: 360px;
