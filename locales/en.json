@@ -163,7 +163,7 @@
   "roadmap.odocrypt.body": "ASIC-resistant consensus and privacy-preserving transaction routing.",
   "roadmap.digiAssetsId.title": "DigiAssets &amp; Digi-ID",
   "roadmap.digiAssetsId.body": "Ecosystem-wide integration for on-chain assets and decentralized authentication.",
-  "roadmap.core.title": "Core v9.26.4",
+  "roadmap.core.title": "Core v9.26.5",
   "roadmap.core.body": "Modernized node infrastructure built on the Bitcoin Core 26 framework, inheriting the Taproot upgrade suite.",
   "roadmap.core.taproot.bip340": "BIP340 — Schnorr signatures",
   "roadmap.core.taproot.bip341": "BIP341 — Pay-to-Taproot (P2TR)",
