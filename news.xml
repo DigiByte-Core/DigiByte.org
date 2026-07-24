@@ -13,7 +13,16 @@
       <title>DigiByte News</title>
       <link>https://digibyte.org</link>
     </image>
-    <lastBuildDate>Thu, 02 Jul 2026 21:52:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 15:52:56 GMT</lastBuildDate>
+
+    <item>
+      <title>DigiByte Core v9.26.5 Released</title>
+      <link>https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5</link>
+      <description>
+      DigiByte Core v9.26.5 is a patch release on top of v9.26.4 — the first release after DigiDollar activated on mainnet at block 23,869,440 on 17 July 2026. It fixes the ~15-minute DigiDollar oracle startup hang (now completes in ~3 seconds) and buries the Taproot, DigiDollar, and AlgoLock deployments (BIP90) with hardcoded activation heights. Drop-in upgrade: no reindex, no config changes required for full or pruned nodes.
+      </description>
+      <pubDate>Thu, 23 Jul 2026 15:52:56 GMT</pubDate>
+    </item>
 
     <item>
       <title>DigiByte Core v9.26.4 Released</title>

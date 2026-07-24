@@ -156,7 +156,7 @@ async function refreshChain() {
 
 	// Static-ish info — exposed via legacy data-stat ids on existing markup
 	setText('[data-stat="connections"]', '5 algos');
-	setText('[data-stat="version"]', 'v9.26.4');
+	setText('[data-stat="version"]', 'v9.26.5');
 }
 
 async function refreshPrice() {
