@@ -1,0 +1,654 @@
+<pre>
+  DIP: ?
+  Title: digibyte.org Website Redesign 2026
+  Author: Dennis Pitallano <dennis@digibyte.org>
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/DigiByte-Core/dips/wiki/Comments:DIP-XXXX
+                https://github.com/DigiByte-Core/dips/discussions/categories/dip-discussions
+  Status: Draft
+  Type: Informational
+  Created: 2026-05-02
+  License: BSD-2-Clause
+           CC-BY-SA-4.0
+  License-Code: MIT
+</pre>
+
+__TOC__
+
+==Summary==
+
+Replace the legacy <code>digibyte.org</code> codebase with a dark-only,
+blue-only, dependency-free static site featuring live chain telemetry,
+36-locale parity, and Lighthouse 95/86/100/100 — positioned as a community
+growth and developer-acquisition funnel rather than a brochure refresh.
+
+==Abstract==
+
+This Informational DIP proposes a complete visual and technical redesign
+of <code>https://digibyte.org/</code> (repository:
+[https://github.com/DigiByte-Core/DGBio DGBio]). The redesign replaces a
+legacy jQuery + nine-plugin stack with a dependency-free vanilla
+ES-module implementation, removes a partially-themed light mode in
+favour of a consistent dark experience, introduces live on-chain
+telemetry from public DigiByte explorer APIs, and lifts Lighthouse
+scores from 56/78/73/92 to 95/86/100/100.
+
+Because <code>digibyte.org</code> is the project's primary onboarding
+surface for users, developers, exchanges and journalists, the proposal
+is positioned as a community-growth and developer-acquisition
+initiative: live block height, hashrate and price answer the implicit
+"is this project still active?" question on first viewport, while a
+DevHub section with copy-pasteable API examples and a zero-build static
+architecture lower the barrier for new front-end contributors who
+historically become Core contributors. The DIP does not affect
+consensus, P2P, RPC or wallet behaviour and is therefore Informational.
+
+Discussion of this DIP takes place in the
+[https://github.com/DigiByte-Core/dips/discussions/categories/dip-discussions
+DIP discussion forum] prior to PR submission, per DIP-0001.
+
+==Why a DIP and not just a pull request?==
+
+DIP-0001 notes that small per-project patches typically do not require a
+DIP. This proposal is intentionally scoped beyond a single patch:
+
+* It establishes a '''brand and design direction''' (blue-only palette,
+  dark-only theme, isometric blockchain visual language) that is intended
+  to outlive any specific implementation and bind future site maintainers.
+* It defines a '''site contribution workflow''' (zero-build static, locale
+  sync tool, PR-based deployment) that future maintainers should preserve.
+* It commits to '''measurable success criteria''' that the community can
+  evaluate, rather than relying on a single maintainer's judgement.
+* It is the first proposal in a planned '''website-DIP track''' covering
+  follow-up topics such as analytics platform migration and a first-party
+  DigiAssets explorer.
+
+For these reasons the proposal is submitted as an Informational DIP for
+community ratification, not as a solo maintainer merge.
+
+==Copyright==
+
+This DIP is dual-licensed under the [https://opensource.org/licenses/BSD-2-Clause
+OSI-approved BSD 2-Clause License] and the
+[https://creativecommons.org/licenses/by-sa/4.0/ Creative Commons
+Attribution-ShareAlike 4.0 International license]. Source code referenced by
+this DIP is licensed under the [https://opensource.org/licenses/MIT MIT
+license], matching the upstream DGBio repository.
+
+==Motivation==
+
+<code>digibyte.org</code> is the single highest-traffic surface the DigiByte
+project controls and is the first artefact prospective users, developers,
+exchanges and journalists encounter. Two motivations drive this proposal:
+'''(a) eliminate accumulated technical debt''' that has made the site
+increasingly difficult to maintain, and '''(b) convert the site into an
+active funnel for new community members and developers''' rather than a
+static brochure.
+
+The previous iteration of <code>digibyte.org</code> shipped in 2018–2019
+and had accumulated technical debt that has made it stylistically out of
+step with peer blockchain project websites and increasingly difficult to
+maintain:
+
+# '''Outdated visual identity.''' The hero used a static low-resolution
+  parallax image, the palette mixed neon violet with brand blue
+  inconsistently, and typography combined three serif/sans-serif families
+  with no clear hierarchy.
+# '''Heavy legacy JavaScript stack.''' The site loaded jQuery 3.5.1,
+  Modernizr, Pace, AOS, Slick Slider, Lity, Waypoints, Parallax.js and a
+  bundled <code>plugins1b.js</code> totalling roughly 380 KB of
+  uncompressed JavaScript before any DigiByte-specific code executed.
+# '''Broken light mode.''' A light theme existed in CSS but key sections
+  (code blocks, hero, chain dashboard) were never themed; light mode was
+  effectively dark mode with broken contrast in three places.
+# '''Stale chain data.''' The "Live network" section pointed at endpoints
+  that no longer existed (<code>/api/status</code> on the deprecated
+  explorer); block height, hashrate, difficulty and price were all dashes.
+# '''Failing locale routing.''' The language router caused a redirect loop
+  on locale subpaths (<code>/en-us/</code> → <code>/en-us/en-us/</code>)
+  whenever the same script ran on already-localised pages.
+# '''Poor mobile experience.''' The burger menu clipped outside the
+  viewport and the footer collapsed unpredictably below 720&nbsp;px.
+# '''Outdated community links.''' Telegram, Discord and DigiStats links
+  had drifted from their canonical destinations.
+# '''Lighthouse scores.''' Performance 56, Accessibility 78, Best
+  Practices 73, SEO 92 on the production site at the time of this proposal.
+
+==Specification==
+
+The redesign is implemented entirely within the <code>DGBio</code>
+repository on a feature branch named <code>redesign-2026</code>. The
+following components define the proposal:
+
+===Visual identity===
+
+* '''Palette.''' Dark-only theme. Brand gradient is restricted to a
+  blue-only ramp: <code>cyan #00e5ff → brand blue #1450ff → deep blue
+  #0a3aa8</code>. The previous neon-violet accent token has been
+  re-mapped to electric blue (<code>#1450ff</code>) for backwards
+  compatibility with existing component class names.
+* '''Typography.''' Space&nbsp;Grotesk for display, Inter for body, JetBrains
+  Mono for monospace (block heights, hashes, code). All three are loaded
+  non-blocking via <code>media="print" onload</code> swap with a
+  <code>&lt;noscript&gt;</code> fallback.
+* '''Iconography.''' Font Awesome 6.7.1 loaded non-blocking from CDN with
+  Subresource Integrity (SRI) hashes.
+
+===Hero and motion===
+
+* A 2D HTML Canvas hero renders an isometric blockchain scene: drifting
+  cube blocks (rounded faces with gradient fills), gradient chain links
+  between consecutive blocks, periodic confirmation pulses traveling along
+  the chain, an ambient particle network, and faint hex-string glyphs
+  (<code>0x…</code>) drifting in the background. Approximately 25&nbsp;%
+  of cubes display the DigiByte symbol inside their volume; the remainder
+  display a synthetic block height label (e.g. <code>#23,417,602</code>).
+* The hero canvas pauses when offscreen via
+  <code>IntersectionObserver</code>, caps device pixel ratio at 2, and
+  renders a single static frame when the user has set
+  <code>prefers-reduced-motion: reduce</code>.
+* Hero initialisation is deferred to <code>requestIdleCallback</code> so
+  it does not compete with First Contentful Paint.
+
+===Chain telemetry===
+
+* Live data is fetched from public DigiByte explorer APIs:
+** Block tip and difficulty: <code>https://digiexplorer.info/api/blocks/tip</code>
+   (Esplora-style array response, falls back to
+   <code>/api/blocks/tip/height</code> for plain-text height).
+** Network hashrate: derived from difficulty as
+   <code>difficulty &times; 2<sup>32</sup> &divide; 15</code>.
+** USD price and 24-hour change: Coinpaprika
+   <code>https://api.coinpaprika.com/v1/tickers/dgb-digibyte</code> (chosen
+   over CoinGecko due to permissive CORS headers).
+* The dashboard refreshes every 60 seconds and on
+  <code>document.visibilitychange</code>.
+
+===Information architecture===
+
+* The single-page index now exposes the following anchored sections in
+  order: Hero, Top Ticker, Chain Stats, Features, Tokenomics, DigiAssets,
+  Digi-ID, DevHub, Wallets (filterable: Hardware / Mobile / Desktop /
+  Web), Downloads, Trust marquee, News, Community, Footer.
+* A new <code>DigiStats</code> link in both the primary navigation and the
+  footer Resources column points to <code>https://digibyte.io/</code>.
+
+===Internationalisation===
+
+* Thirty-six locales are mirrored automatically by
+  <code>tools/sync-locales.mjs</code>; CSS and JavaScript are served from
+  the workspace root and shared across all locales.
+* The language router (<code>js/lang-router.js</code>, renamed from
+  <code>languagerouter.js</code>) now early-exits when the first path
+  segment matches a known locale, eliminating the redirect loop.
+* All thirty-six locale homepages have been verified to return HTTP 200.
+
+===Service worker===
+
+* Cache name bumped to <code>dgb-v2026-05-22</code>.
+* Network-first strategy now applies to HTML, JS and CSS so iterative
+  CSS/JS edits propagate without requiring users to clear cache.
+* The <code>/stats/</code> path is always bypassed.
+* A one-time self-heal flag in <code>localStorage</code>
+  (<code>dgb_sw_reset_v2</code>) unregisters legacy service workers and
+  evicts pre-2026 caches on first visit.
+
+===Performance, accessibility and SEO===
+
+Lighthouse scores were measured under the following methodology:
+
+* '''Tool:''' Google Lighthouse 12.x (Chrome 124, incognito, no extensions).
+* '''Device profile:''' Mobile, simulated Moto&nbsp;G&nbsp;Power.
+* '''Network:''' Simulated throttled Slow&nbsp;4G (1.6&nbsp;Mbps down,
+  750&nbsp;Kbps up, 150&nbsp;ms RTT).
+* '''Before URL:''' <code>https://digibyte.org/</code>, captured
+  2026-05-01.
+* '''After URL:''' Local <code>npx serve .</code> of branch
+  <code>redesign-2026</code> at commit <code>ab254622</code>, captured
+  2026-05-02.
+* '''Runs:''' Median of three consecutive runs per URL.
+
+{| class="wikitable"
+! Category !! Before !! After !! Delta
+|-
+| Performance || 56 || 95 || +39
+|-
+| Accessibility || 78 || 86 || +8
+|-
+| Best Practices || 73 || 100 || +27
+|-
+| SEO || 92 || 100 || +8
+|}
+
+Specific changes contributing to the improvements:
+
+* Render-blocking webfonts and Font Awesome converted to non-blocking.
+* Google Analytics deferred to <code>requestIdleCallback</code> instead
+  of immediate <code>async</code> load.
+* Hero canvas deferred to idle.
+* All legacy vendor scripts removed (jQuery, Modernizr, Pace,
+  <code>plugins1b.js</code>, <code>main2o.js</code>, <code>vendor1g.css</code>,
+  <code>main3p.css</code>, <code>hashcatcher.js</code>,
+  <code>cookieinfo.min.js</code>).
+* Muted text token contrast lifted from 4.18:1 to ≈5.4:1 against the
+  page background, passing WCAG AA.
+* Primary CTA text colour set to white with a subtle 1&nbsp;px text
+  shadow for legibility on the cyan gradient.
+* <code>color-scheme</code> meta restricted to <code>dark</code>.
+* Robots, sitemap and hreflang alternates regenerated for all locales
+  (<code>node tools/build-sitemap.mjs</code>).
+
+===External links updated===
+
+This proposal aligns with [https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki
+DIP-0002] (Final, 2024) which directs <code>digibyte.org</code> to
+relocate third-party social platforms and advocacy-group content to the
+community-maintained [https://dgbwiki.com/index.php?title=DigiByte
+DigiByte Wiki] and the
+[https://github.com/orgs/DigiByte-Core/discussions DigiByte-Core GitHub
+Discussions forum]. Concretely, on the redesigned site:
+
+* The Community section is reduced to two tiles: '''GitHub Discussions'''
+  and the '''DigiByte Wiki''' (prominently displayed per DIP-0002
+  "Community: Social Media").
+* All Reddit, Telegram, Discord, YouTube and X/Twitter tiles are removed
+  from the Community section.
+* The footer social row is reduced to GitHub, GitHub Discussions and the
+  DigiByte Wiki; Telegram, Discord, Reddit and X/Twitter icons are
+  removed from the footer.
+* The footer Resources column gains a '''DigiByte Wiki''' link and
+  retains DigiStats (<code>https://digibyte.io/</code>); "Contact Us"
+  remains absent (DIP-0002 Page Footer: Resources).
+* The <code>schema.org</code> <code>Organization.sameAs</code> array no
+  longer references Twitter or Reddit; it lists GitHub, GitHub
+  Discussions and the DigiByte Wiki.
+* No <code>news.xml</code> consumption is rendered on the homepage
+  (DIP-0002 Page Header).
+* No Alliance, DGBAT, Awareness Team, Blockchain&nbsp;2035, "Meet the
+  creator", Uphold or "Contact Us" modules or links appear (DIP-0002
+  Community / Debit Cards / Page Footer).
+
+Legacy social URLs that previously appeared in the codebase
+(<code>twitter.com/DigiByteCoin</code>, <code>t.me/DigiByteCoin</code>,
+<code>dsc.gg/DigiByteDiscord</code>, <code>reddit.com/r/Digibyte</code>,
+<code>youtube.com/...</code>) have been removed from the homepage and
+relocated, per DIP-0002, to the
+[https://dgbwiki.com/index.php?title=DigiByte DigiByte Wiki].
+
+===Relationship to DIP-0002===
+
+This Informational DIP does '''not''' amend, supersede or relax
+DIP-0002. Where the two proposals overlap (community-section content,
+third-party social links, footer resources), DIP-0002 governs and this
+redesign implements its directives in the new visual system. The only
+additive items relative to DIP-0002 are:
+
+* A '''DigiStats''' link to <code>https://digibyte.io/</code> in the
+  primary navigation and footer Resources column. DigiStats is a
+  first-party network statistics portal operated within the
+  DigiByte-Core ecosystem and is not a third-party social or advocacy
+  link.
+* '''Live chain telemetry''' fetched from DigiExplorer and Coinpaprika.
+  These are read-only API consumptions, not promoted third-party
+  destinations, and are degraded gracefully when the upstream is
+  unavailable.
+
+Any future re-introduction of a third-party social platform on
+<code>digibyte.org</code> would require its own DIP that either amends
+or supersedes DIP-0002.
+
+===Files removed===
+
+The following legacy assets are deleted from the repository:
+
+* <code>js/main2o.js</code>
+* <code>js/plugins1b.js</code>
+* <code>js/jquery-3.5.1.min.js</code>
+* <code>js/modernizr.js</code>
+* <code>js/pace.min.js</code>
+* <code>js/hashcatcher.js</code>
+* <code>js/cookieinfo.min.js</code>
+* <code>css/main3p.css</code>
+* <code>css/vendor1g.css</code>
+
+==Advantages==
+
+===For end users and newcomers===
+
+* '''Faster on every device.''' Lighthouse mobile Performance moves from
+  56 to 95; First Contentful Paint and Largest Contentful Paint both drop
+  by more than half, which directly affects bounce rate on mobile networks
+  where most newcomer traffic originates.
+* '''Live proof of activity.''' Real-time block height, network hashrate,
+  difficulty and USD price answer the implicit "is this project still
+  alive?" question within the first viewport, before the visitor has to
+  read anything.
+* '''Wallet discovery in one click.''' The Wallets section is filterable
+  by Hardware / Mobile / Desktop / Web, replacing a long unsorted grid
+  with a guided choice that matches how newcomers actually shop for a
+  wallet.
+* '''36-locale parity.''' Every English change is mirrored to 35 other
+  locales automatically, so non-English newcomers see the same modern
+  site rather than a stale translation.
+* '''Accessibility.''' WCAG AA contrast on muted text, white CTA labels,
+  full <code>prefers-reduced-motion</code> and <code>forced-colors</code>
+  support, and a keyboard-navigable language menu and wallet filter.
+
+===For developers and integrators===
+
+* '''Reference architecture.''' The site itself is a working example of a
+  modern, dependency-free, MIT-licensed crypto site: vanilla ES modules,
+  Canvas 2D, Service Worker, IntersectionObserver-driven lazy init. Any
+  developer can <code>view-source</code> and learn the pattern without
+  decoding a webpack bundle.
+* '''Live API examples.''' The chain dashboard's source
+  (<code>js/chain-dashboard.js</code>) is a copy-pasteable integration
+  sample for the public DigiExplorer Esplora endpoints and the Coinpaprika
+  ticker — exactly the snippet a new integrator would otherwise have to
+  write from scratch.
+* '''DevHub as a launchpad.''' A dedicated section links DigiByte Core
+  (build, RPC, REST), DigiAssets, Digi-ID, and the public block explorers,
+  so a developer landing on the homepage is two clicks from a working
+  development environment.
+* '''Zero-build contribution loop.''' Clone, edit <code>index.html</code>
+  in any editor, open it in a browser, ship a PR. No <code>npm install</code>,
+  no toolchain version pinning, no transpile step. This is the single
+  highest-leverage change for attracting first-time front-end
+  contributors who later become Core contributors.
+* '''PWA on a static host.''' The service worker demonstrates network-first
+  caching, locale bypass and one-time self-heal migration on plain GitHub
+  Pages — a useful template for other community projects.
+
+===For exchanges, custodians and partners===
+
+* '''Credible first impression''' during due-diligence visits: modern
+  visual identity, accurate links, live network telemetry, and a SOC-style
+  Trust marquee of integrating partners (hardware wallets, exchanges).
+* '''Single canonical link surface.''' Telegram, Discord, GitHub, Reddit,
+  X, DigiStats and the explorers are consolidated and verified, removing
+  the long-standing problem of partner sites pointing at dead community
+  links.
+* '''Brand consistency''' with hardware-wallet integrations (Ledger,
+  SafePal, SecuX) whose marketing surfaces already use the DigiByte
+  blue-only palette.
+
+===For translators and contributors===
+
+* '''Locale sync removes the copy-paste tax.''' <code>tools/sync-locales.mjs</code>
+  propagates English HTML changes across 35 locales while preserving each
+  locale's translated strings, so translators only edit prose, not markup.
+* '''Shared root CSS and JS.''' A one-line styling fix takes effect on
+  every locale homepage simultaneously, eliminating a class of
+  "the French site looks broken" bug reports.
+* '''Lower barrier for new locale maintainers.''' Adding a new locale is
+  a single directory copy plus a translation pass; no code changes
+  required.
+
+==Community growth and developer acquisition==
+
+This section enumerates the concrete mechanisms by which the redesign is
+expected to grow the DigiByte community and, in particular, attract new
+developers.
+
+===Mechanisms===
+
+# '''Expanded organic search surface.''' <code>sitemap.xml</code> is
+   regenerated with all 36 hreflang alternates, canonical URLs are
+   preserved, semantic headings are restored, and SEO Lighthouse rises
+   from 92 to 100. Result: search engines re-crawl the site as a healthy,
+   internationalised property rather than a stale single-language brochure.
+# '''First-impression conversion.''' Replacing the static parallax hero
+   with live block height and price addresses the "is this project still
+   active?" objection within 1–2 seconds of page load — the window in
+   which most newcomer bounce decisions are made.
+# '''Developer onboarding funnel.''' DevHub links + working API samples
+   in the chain dashboard mean a curious developer can move from "I just
+   heard of DigiByte" to "I have a script hitting the network" without
+   leaving the homepage.
+# '''Site-contribution funnel.''' The zero-build, MIT-licensed, plain-HTML
+   architecture is deliberately optimised so that a first-time contributor
+   can ship a meaningful PR (a translation fix, a wallet addition, a
+   styling tweak) on their first evening with the repo. Empirically, sites
+   that lower this bar convert site contributors into protocol contributors
+   over 12–24 months.
+# '''Social shareability.''' Open Graph and Twitter card metadata are
+   refreshed; community link targets are corrected so screenshots shared
+   on social media route into '''live''' Telegram and Discord channels
+   rather than dead invites.
+# '''Partner referrability.''' Exchanges, hardware wallets and journalists
+   linking to <code>digibyte.org</code> now point at a site that visually
+   matches the calibre of the integrations themselves, removing a
+   long-standing friction in partner outreach.
+
+===Suggested success metrics===
+
+The following 12-month targets are proposed for community ratification in
+the DIP discussion thread. They are intentionally measurable so that the
+impact of this proposal can be evaluated rather than asserted.
+
+* '''+25%''' unique visitors to <code>digibyte.org</code> (baseline:
+  current Google Analytics property, assuming GA4 migration during the
+  proposal window).
+* '''+50%''' inbound joins to the official Discord and Telegram from
+  organic web referrals.
+* '''≥10''' new external contributors with merged PRs to
+  <code>DigiByte-Core/DGBio</code>.
+* '''≥3''' new active locale maintainers (one merged translation PR or
+  more in the trailing 90 days).
+* '''≥5''' developer-facing PRs across the broader
+  <code>DigiByte-Core</code> organisation that cite the redesigned site
+  or its DevHub as the entry point.
+
+These numbers are starting points; the community is invited to ratify,
+adjust or reject them in the [https://github.com/DigiByte-Core/dips/discussions/categories/dip-discussions
+DIP discussion thread] before the DIP is finalised.
+
+===Risks and non-goals===
+
+To set reviewer expectations, this redesign deliberately does '''not'''
+attempt the following, any of which could be the subject of a future DIP
+or PR:
+
+* '''No CMS or blog migration.''' News continues to be sourced from the
+  existing <code>news.xml</code> feed; a full editorial CMS is out of
+  scope.
+* '''No DigiAssets explorer.''' The site links to existing community
+  explorers; building a first-party explorer is out of scope.
+* '''No web wallet.''' The site continues to direct users to vetted
+  third-party wallets rather than hosting one.
+* '''No analytics platform change.''' The Universal Analytics property
+  is preserved (deferred-loaded) until the Foundation provides a GA4 (or
+  privacy-preserving alternative) measurement ID.
+* '''No backend.''' All dynamic data is sourced from public APIs at
+  request time; the site remains 100% static-hostable.
+
+Key risks worth naming explicitly:
+
+* '''API dependency.''' The chain dashboard depends on DigiExplorer and
+  Coinpaprika; both are public and free, but if either becomes
+  unavailable the dashboard degrades to dashes. Mitigation: the
+  dashboard is non-blocking and the rest of the site renders normally.
+* '''Light-theme removal''' may disappoint users who explicitly preferred
+  it. Mitigation: <code>forced-colors</code> support covers the
+  accessibility-driven use case.
+* '''Brand approval.''' The blue-only palette assumes the DigiByte
+  Foundation's current brand direction; this DIP should be reviewed by
+  Foundation representatives before merge.
+
+==Rationale==
+
+'''Why a redesign rather than incremental patches?'''
+
+The cumulative debt across the legacy stack (jQuery + nine plugins, partial
+light theme, dead API endpoints, broken router) made incremental patching
+more expensive than a clean rewrite. The visible portion of the rewrite
+(HTML structure, CSS tokens, ES module entry points) is approximately
+3,000 lines net; the deletions exceed the additions because nine vendor
+files totalling ≈400&nbsp;KB are dropped.
+
+'''Why blue-only?'''
+
+The DigiByte symbol uses a blue gradient. The previous site introduced
+neon violet (<code>#8936ff</code>) as a secondary accent, but this never
+appeared in any official mark, social header or hardware wallet
+integration. Removing it tightens brand recognition and matches the
+direction taken by the DigiByte Foundation in 2024–2025.
+
+'''Why not React/Next.js/Astro/etc.?'''
+
+The site is content-focused, has no authenticated state, and benefits
+from being inspectable as plain HTML by every locale contributor. Static
+HTML with vanilla ES modules ships fewer bytes, builds in zero seconds,
+runs from any static host (currently GitHub Pages with a custom domain),
+and removes a class of supply-chain risk associated with npm dependency
+graphs. The trade-off is that layout primitives are reimplemented rather
+than reused; for a site of this size that is acceptable.
+
+'''Why dark-only?'''
+
+The previous light mode was incomplete (chain dashboard, code blocks and
+hero were never themed). Completing it would have roughly doubled the CSS
+surface for marginal benefit; the canvas-driven hero is fundamentally a
+dark composition. Users who require light text on light backgrounds for
+accessibility reasons are served by browser-level forced-colors mode,
+which the site honours via <code>prefers-contrast</code> and
+<code>forced-colors</code> media queries.
+
+'''Why deferred analytics?'''
+
+Universal Analytics (UA-) was sunset by Google on 1 July 2023
+([https://support.google.com/analytics/answer/11583528 official notice]).
+The deferred load
+preserves continuity for the existing measurement ID until the project
+migrates to GA4 (or removes analytics entirely), without penalising
+First&nbsp;Contentful&nbsp;Paint. A future DIP or PR may replace the
+loader with a GA4 measurement ID provided by the DigiByte Foundation.
+
+'''Why these external link choices?'''
+
+* '''GitHub Discussions''' (<code>github.com/orgs/DigiByte-Core/discussions</code>)
+  is the canonical discussion forum mandated by DIP-0002.
+* '''DigiByte Wiki''' (<code>dgbwiki.com</code>) is the
+  community-maintained authoritative reference mandated by DIP-0002 for
+  social channels, history and advocacy-group content.
+* '''DigiStats''' (<code>digibyte.io</code>) is the canonical
+  community statistics portal and is not a third-party social link.
+* Third-party social platforms (Telegram, Discord, Reddit, X/Twitter,
+  YouTube, Facebook, LinkedIn, Instagram, Medium) are deliberately
+  '''not''' linked from the homepage, per DIP-0002. Visitors seeking
+  those channels are routed to the DigiByte Wiki social-media page.
+
+==Backwards compatibility==
+
+This proposal is fully backwards compatible at the protocol, wallet and
+exchange-integration level because no consensus, RPC, peer-protocol or
+wallet behaviour is touched.
+
+User-visible compatibility considerations on the website itself:
+
+# '''Bookmarks.''' All section anchors retain their previous IDs
+   (<code>#features</code>, <code>#wallets</code>, <code>#downloads</code>,
+   <code>#digi-id</code>, <code>#digiassets</code>, <code>#tokenomics</code>,
+   <code>#devhub</code>, <code>#chain</code>). Locale path segments
+   (<code>/en/</code>, <code>/es/</code>, …) are unchanged.
+# '''Service-worker upgrade.''' Returning users on a previous service-worker
+   cache are migrated automatically by the one-time
+   <code>dgb_sw_reset_v2</code> self-heal logic; no manual cache clearing
+   is required.
+# '''Light-mode users.''' Users who explicitly preferred light mode lose
+   that option. The dark theme respects <code>prefers-reduced-motion</code>
+   and <code>forced-colors</code>, which covers the accessibility-driven
+   use case.
+# '''JavaScript-disabled users.''' The site degrades gracefully: text
+   content, navigation, downloads and external links work without
+   JavaScript. The hero canvas, language menu and live ticker require JS;
+   their absence is non-fatal.
+
+==Reference implementation==
+
+* '''Live working preview:''' [https://dg-bio.vercel.app/ https://dg-bio.vercel.app/]
+  &mdash; an unauthenticated Vercel deployment of the
+  <code>redesign-2026</code> branch. Reviewers are encouraged to click
+  through, run their own Lighthouse audit, and inspect the live chain
+  telemetry before reading the rest of this section.
+* Repository: [https://github.com/DigiByte-Core/DGBio
+  DigiByte-Core/DGBio]
+* Branch: <code>redesign-2026</code>
+* Commit at time of writing: <code>ab254622</code>
+* Production deployment target: <code>https://digibyte.org/</code> via
+  GitHub Pages with the existing <code>CNAME</code>.
+
+The reference implementation includes:
+
+* All HTML, CSS, JavaScript and image assets required to render the site.
+* <code>tools/sync-locales.mjs</code> &mdash; mirrors English changes to
+  35 additional locales while rewriting root-relative paths.
+* <code>tools/build-sitemap.mjs</code> &mdash; generates
+  <code>sitemap.xml</code> with all locale and static URLs.
+* <code>tools/restyle-static.mjs</code> &mdash; applies the new design
+  system to the standalone <code>404.html</code>, <code>offline.html</code>,
+  <code>legaldisclaimer.html</code>, <code>privacy-app.html</code> and
+  <code>terms-app.html</code> documents.
+
+==Verification==
+
+Reviewers can verify the claims in this DIP either against the live
+preview or locally.
+
+'''Against the live preview''' (fastest):
+
+<pre>
+npx lighthouse https://dg-bio.vercel.app/ \
+  --only-categories=performance,accessibility,best-practices,seo \
+  --chrome-flags="--headless"
+</pre>
+
+'''Locally''':
+
+<pre>
+git clone https://github.com/DigiByte-Core/DGBio.git
+cd DGBio
+git checkout redesign-2026
+npx serve .
+</pre>
+
+Then, in a separate terminal:
+
+<pre>
+npx lighthouse http://localhost:3000/ \
+  --preset=desktop --only-categories=performance,accessibility,best-practices,seo \
+  --chrome-flags="--headless"
+</pre>
+
+Expected results, median of three runs (mobile profile, throttled Slow
+4G), are listed in the table under
+[[#Performance, accessibility and SEO|Specification &gt; Performance,
+accessibility and SEO]]. Locale parity can be verified with:
+
+<pre>
+node tools/sync-locales.mjs --check
+</pre>
+
+which exits non-zero if any locale homepage drifts from the English
+source structure.
+
+==Acknowledgements==
+
+This DIP builds on the original digibyte.org work by Yoshi, Josiah Spackman,
+Olly Stedall and the broader DigiByte community of translators and
+maintainers. Brand direction follows the visual language established by the
+DigiByte Foundation.
+
+==See Also==
+
+* [https://dg-bio.vercel.app/ Live working preview of the redesign]
+* [https://github.com/DigiByte-Core/DGBio DigiByte-Core/DGBio]
+* [https://github.com/DigiByte-Core/dips/blob/main/dip-0001.mediawiki DIP 1: DIP Purpose and Guidelines]
+* [https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki DIP 2: Remove Third-Party Links from DigiByte.org]
+* [https://dgbwiki.com/index.php?title=DigiByte DigiByte Wiki]
+* [https://github.com/orgs/DigiByte-Core/discussions DigiByte-Core GitHub Discussions]
+* [https://digiexplorer.info/ DigiExplorer (Esplora API source)]
+* [https://api.coinpaprika.com/v1/tickers/dgb-digibyte Coinpaprika DGB ticker]
+* Before/after screenshot gallery: to be posted as a comment on the
+  associated [https://github.com/DigiByte-Core/dips/discussions/categories/dip-discussions
+  DIP discussion thread]

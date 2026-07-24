@@ -1,1199 +1,911 @@
 <!DOCTYPE html>
-<html class="no-js" lang="hi">
+<html lang="hi" dir="ltr">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title data-i18n="meta.title">DigiByte — तेज़, सुरक्षित और भविष्योन्मुख ब्लॉकचेन | DGB · DigiAssets · Digi-ID</title>
+	<meta name="description" content="DigiByte सबसे लंबे समय से चलने वाला, सबसे तेज़ और सबसे विकेन्द्रीकृत UTXO ब्लॉकचेन है। DigiAssets के साथ निर्माण करें, Digi-ID से साइन इन करें, नोड चलाएं और एक वैश्विक ओपन सोर्स समुदाय से जुड़ें।" data-i18n-attr="content:meta.description">
+	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
+	<meta name="theme-color" content="#05070d">
+	<meta name="color-scheme" content="dark">
+	<link rel="canonical" href="https://digibyte.org/hi/">
 	<link rel="manifest" href="../manifest.json">
-	<script src="../js/hashcatcher.js"></script>
-	
-	<!--- Google analytics
-    ================================================== -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129492671-3"></script>
-    <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
-    </script>
 
-    <!--- Basic page needs
-    ================================================== -->
-    <title>डिजीबाइट ब्लॉकचैन (DigiByte Blockchain) | डीजीबी कोईन (DGB Coin) | DigiAssets | Digi-ID</title>
-    <meta charset="utf-8">
-    <meta name="description" content="DigiByte आधिकारिक वेबसाइट। डिजीबाइट (DigiByte) एक ओपन-सोर्स और अत्यधिक विकेंद्रीकृत वैश्विक ब्लॉकचेन है होस्ट डीजीबी कॉइन (DGB Coin), डिजीएसेट्स (DigiAssets), डिजी-आईडी (Digi-ID) और बहुत कुछ है।">
-	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, Coin, Asset, Digital, Crypto, Currency, DigiAssets, Digi-ID, साइबरस्पेस, ऑथेंटिकेशन, स्मार्ट कॉन्ट्रैक्ट, dApp, पेमेंट्स, वॉलेट, कम्युनिटी, एक्सचेंज, खरीदें, कीमत, आधिकारिक">
-    <link rel="canonical" href="https://digibyte.org/hi/" />
+	<!-- Hreflang for 40 locales -->
+	<link rel="alternate" hreflang="x-default" href="https://digibyte.org/">
+	<link rel="alternate" hreflang="en" href="https://digibyte.org/en/">
+	<link rel="alternate" hreflang="en-us" href="https://digibyte.org/en-us/">
+	<link rel="alternate" hreflang="af" href="https://digibyte.org/af/">
+	<link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/">
+	<link rel="alternate" hreflang="bg" href="https://digibyte.org/bg/">
+	<link rel="alternate" hreflang="cs" href="https://digibyte.org/cs/">
+	<link rel="alternate" hreflang="da" href="https://digibyte.org/da/">
+	<link rel="alternate" hreflang="de" href="https://digibyte.org/de/">
+	<link rel="alternate" hreflang="el" href="https://digibyte.org/el/">
+	<link rel="alternate" hreflang="es" href="https://digibyte.org/es/">
+	<link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/">
+	<link rel="alternate" hreflang="fi" href="https://digibyte.org/fi/">
+	<link rel="alternate" hreflang="fil" href="https://digibyte.org/fil/">
+	<link rel="alternate" hreflang="fr" href="https://digibyte.org/fr/">
+	<link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/">
+	<link rel="alternate" hreflang="hr" href="https://digibyte.org/hr/">
+	<link rel="alternate" hreflang="hu" href="https://digibyte.org/hu/">
+	<link rel="alternate" hreflang="id" href="https://digibyte.org/id/">
+	<link rel="alternate" hreflang="it" href="https://digibyte.org/it/">
+	<link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/">
+	<link rel="alternate" hreflang="ms" href="https://digibyte.org/ms/">
+	<link rel="alternate" hreflang="nb" href="https://digibyte.org/nb/">
+	<link rel="alternate" hreflang="nl" href="https://digibyte.org/nl/">
+	<link rel="alternate" hreflang="pl" href="https://digibyte.org/pl/">
+	<link rel="alternate" hreflang="pt" href="https://digibyte.org/pt/">
+	<link rel="alternate" hreflang="pt-br" href="https://digibyte.org/pt-br/">
+	<link rel="alternate" hreflang="ro" href="https://digibyte.org/ro/">
+	<link rel="alternate" hreflang="ru" href="https://digibyte.org/ru/">
+	<link rel="alternate" hreflang="sl" href="https://digibyte.org/sl/">
+	<link rel="alternate" hreflang="sq" href="https://digibyte.org/sq/">
+	<link rel="alternate" hreflang="sv" href="https://digibyte.org/sv/">
+	<link rel="alternate" hreflang="sw" href="https://digibyte.org/sw/">
+	<link rel="alternate" hreflang="th" href="https://digibyte.org/th/">
+	<link rel="alternate" hreflang="tr" href="https://digibyte.org/tr/">
+	<link rel="alternate" hreflang="vi" href="https://digibyte.org/vi/">
+	<link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/">
 
-    <!-- Mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+	<link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#00e5ff">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/vendor1g.css">
-    <link rel="stylesheet" href="../css/main3p.css">
-
-    <!-- Scripts
-    ================================================== -->
-    <script src="../js/modernizr.js"></script>
-    <script src="../js/pace.min.js"></script>
-	
-	<!-- RSS Feed
-    ================================================== -->
-    <link rel="alternate" type="application/rss+xml" title="DigiByte News" href="https://digibyte.org/news.xml" />
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
-    <link rel="manifest" href="../favicons/site.webmanifest">
-    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#002352">
-    <meta name="apple-mobile-web-app-title" content="DigiByte">
-    <meta name="application-name" content="DigiByte">
-    <meta name="msapplication-TileColor" content="#002352">
-    <meta name="msapplication-config" content="favicons/browserconfig.xml">
-    <meta name="theme-color" content="#002352">
-	
-	<!-- Twitter preview
-    ================================================== -->
-	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="डिजीबाइट ब्लॉकचैन (DigiByte Blockchain) | डीजीबी कोईन (DGB Coin) | DigiAssets | Digi-ID" />
-    <meta name="twitter:description" content="डिजीबाइट (DigiByte) एक ओपन-सोर्स और अत्यधिक विकेंद्रीकृत वैश्विक ब्लॉकचेन है होस्ट डीजीबी कॉइन (DGB Coin), डिजीएसेट्स (DigiAssets), डिजी-आईडी (Digi-ID) और बहुत कुछ है।" />
-    <meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png" />
-	
-	<!-- Facebook preview
-    ================================================== -->
+	<!-- Open Graph / Twitter -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="DigiByte — तेज़, सुरक्षित और भविष्योन्मुख ब्लॉकचेन" data-i18n-attr="content:meta.og.title">
+	<meta property="og:description" content="सबसे लंबे समय से चलने वाला, सबसे तेज़ और सबसे विकेन्द्रीकृत UTXO ब्लॉकचेन। DigiAssets के साथ निर्माण करें, Digi-ID से साइन इन करें।" data-i18n-attr="content:meta.og.description">
+	<meta property="og:url" content="https://digibyte.org/hi/">
 	<meta property="og:image" content="https://digibyte.org/favicons/og-image.jpg">
-    <meta property="og:image:width" content="955">
-    <meta property="og:image:height" content="500">
-    <meta property="og:description" content="डिजीबाइट (DigiByte) एक ओपन-सोर्स और अत्यधिक विकेंद्रीकृत वैश्विक ब्लॉकचेन है होस्ट डीजीबी कॉइन (DGB Coin), डिजीएसेट्स (DigiAssets), डिजी-आईडी (Digi-ID) और बहुत कुछ है।">
-    <meta property="og:title" content="डिजीबाइट ब्लॉकचैन (DigiByte Blockchain) | डीजीबी कोईन (DGB Coin) | DigiAssets | Digi-ID">
-    <meta property="og:url" content="https://digibyte.org/">
+	<meta property="og:image:width" content="955">
+	<meta property="og:image:height" content="500">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="DigiByte — तेज़, सुरक्षित और भविष्योन्मुख ब्लॉकचेन" data-i18n-attr="content:meta.twitter.title">
+	<meta name="twitter:description" content="सबसे लंबे समय से चलने वाला, सबसे तेज़ और सबसे विकेन्द्रीकृत UTXO ब्लॉकचेन। DGB पर निर्माण करें, लेन-देन करें और प्रमाणीकरण करें।" data-i18n-attr="content:meta.twitter.description">
+	<meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png">
 
+	<!-- Fonts (non-blocking) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
+
+	<!-- Icons (Font Awesome, non-blocking) -->
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></noscript>
+
+	<!-- Design system -->
+	<link rel="stylesheet" href="../css/tokens.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/components.css">
+	<link rel="stylesheet" href="../css/sections.css">
+	<link rel="stylesheet" href="../css/utilities.css">
+
+	<!-- Language router (preserves existing behaviour) -->
+	<script src="../js/lang-router.js" defer></script>
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "DigiByte",
+		"url": "https://digibyte.org/",
+		"logo": "https://digibyte.org/images/logo.svg",
+		"sameAs": [
+			"https://github.com/DigiByte-Core",
+			"https://github.com/orgs/DigiByte-Core/discussions",
+			"https://github.com/DigiByte-Core/digibyte/wiki"
+		]
+	}
+	</script>
+
+	<!-- Google Analytics (deferred to idle to protect FCP/LCP) -->
+	<script>
+		(function(){
+			window.dataLayer = window.dataLayer || [];
+			window.gtag = function(){ dataLayer.push(arguments); };
+			gtag('js', new Date());
+			gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
+			var load = function(){
+				var s = document.createElement('script');
+				s.async = true;
+				s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129492671-3';
+				document.head.appendChild(s);
+			};
+			if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 4000 });
+			else window.addEventListener('load', function(){ setTimeout(load, 1500); });
+		})();
+	</script>
 </head>
-
 <body id="top">
 
-    <!-- Preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-           <div><img src="../images/preloader.svg" loading="eager" alt="Preloader logo"></div>
-        </div>
-    </div> 
-	
-	<!-- Ticker
-    ================================================== -->
-	<header class="pticker">
-		<div class="row">
-			<div includeHTML="../langmenu/ticker.html"></div>
-		</div>
-	</header>
-	
-    <!-- Header
-    ================================================== -->
-    <header class="s-header">
+<a class="skip-link" href="#main" data-i18n="skipLink">सामग्री पर जाएं</a>
 
-        <div class="row">
-            <div class="header-logo">
-                <a class="site-logo smoothscroll" href="#top" onClick="homeButton()"><img src="../images/logo.svg" loading="eager" alt="Home">
-                </a>
-            </div>
-    
-            <nav class="header-nav-wrap">
-                <ul class="header-main-nav">
-                    <li id="dbc"><a class="ssbc" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li id="mbc"><a class="ssbcm" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li><a class="smoothscroll" href="#currency" title="मुद्रा">मुद्रा</a></li>
-                    <li><a class="smoothscroll" href="#digiassets" title="DigiAssets">DigiAssets</a></li>
-                    <li><a class="smoothscroll" href="#digi-id" title="Digi-ID">Digi-ID</a></li>
-                    <li><a class="smoothscroll" href="#community" title="समुदाय">समुदाय</a></li>
-					<li><a class="smoothscroll" href="#downloads" title="डाउनलोड">डाउनलोड</a></li>
-                    <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">Wiki</a></li>
-				</ul>
-				
-					<div class="dropdown header-cta" id="langmenu">
-					   <a href="javascript:void(0)" onclick="lmenu()" class="dropbtn" id="lmenuname"></a>
-                       <div includeHTML="../langmenu/desktop.html"></div>
-                    </div>
-					
-					<div includeHTML="../langmenu/mobile.html"></div>
-            </nav>
-    
-            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-        </div>
+<!-- Top live ticker -->
+<div class="top-ticker" role="status" aria-live="polite" aria-label="DigiByte नेटवर्क का लाइव टिकर" data-i18n-attr="aria-label:ticker.aria">
+	<div class="top-ticker__track">
+		<span class="top-ticker__item"><span>DGB</span> <strong data-stat="price">—</strong> <span class="up" data-stat="price-change">—</span></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.block">ब्लॉक</span> <strong data-stat="blocks" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.hashrate">हैशरेट</span> <strong data-stat="network-hashrate" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.difficulty">कठिनाई</span> <strong data-stat="difficulty" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.connections">कनेक्शन</span> <strong data-stat="connections" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.core">Core</span> <strong data-stat="version" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><i class="fas fa-shield-halved"></i> <span data-i18n="ticker.algos">5 माइनिंग एल्गोरिदम</span></span>
+		<span class="top-ticker__item"><i class="fas fa-bolt"></i> <span data-i18n="ticker.blocks">15 सेकंड के ब्लॉक</span></span>
+		<span class="top-ticker__item"><i class="fas fa-globe"></i> <span data-i18n="ticker.global">वैश्विक, विकेन्द्रीकृत</span></span>
+	</div>
+</div>
 
-    </header>
-
-
-    <!-- Home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../images/hero-bg4.jpg" data-natural-width="3200" data-natural-height="1590" data-position-y="center" data-speed="0.0" data-z-index="1">
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-				
-				<div class="mapps">
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/software.svg" loading="eager" alt="Software Wallets">
-					</a>
-				  </div>
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/hardware.svg" loading="eager" alt="Hardware Wallets">
-					</a>
-				  </div>
+<!-- Sticky nav -->
+<header class="nav" id="nav">
+	<div class="row nav__row">
+		<a class="nav__brand" href="#top" aria-label="DigiByte होम" data-i18n-attr="aria-label:nav.aria.brand">
+			<img class="nav__symbol" src="../images/dgb-logo.png" alt="DigiByte" width="44" height="44">
+			<span class="nav__brand-text">DigiByte</span>
+		</a>
+		<nav aria-label="मुख्य नेविगेशन" data-i18n-attr="aria-label:nav.aria.primary">
+			<ul class="nav__list">
+				<li><a href="#features" data-i18n="nav.whyDgb">DGB क्यों</a></li>
+				<li><a href="#chain" data-i18n="nav.liveChain">लाइव चेन</a></li>
+				<li><a href="#predictable-issuance" data-i18n="nav.dgb">DGB</a></li>
+				<li><a href="#digiassets" data-i18n="nav.digiassets">DigiAssets</a></li>
+				<li><a href="#digi-id" data-i18n="nav.digiId">Digi-ID</a></li>
+				<li><a href="#devhub" data-i18n="nav.developers">डेवलपर्स</a></li>
+				<li><a href="#downloads" data-i18n="nav.download">डाउनलोड</a></li>
+				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<div class="nav__cta">
+			<div class="lang-menu" data-lang-menu>
+				<button class="lang-menu__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="भाषा चुनें" data-i18n-attr="aria-label:nav.aria.langMenu">
+					<i class="fas fa-globe"></i>
+				</button>
+				<div class="lang-menu__panel" role="menu" hidden>
+					<div class="lang-menu__grid">
+						<a href="../en/" hreflang="en">English</a>
+						<a href="../af/" hreflang="af">Afrikaans</a>
+						<a href="../cs/" hreflang="cs">Čeština</a>
+						<a href="../da/" hreflang="da">Dansk</a>
+						<a href="../de/" hreflang="de">Deutsch</a>
+						<a href="../es/" hreflang="es">Español</a>
+						<a href="../fr/" hreflang="fr">Français</a>
+						<a href="../hr/" hreflang="hr">Hrvatski</a>
+						<a href="../id/" hreflang="id">Indonesia</a>
+						<a href="../it/" hreflang="it">Italiano</a>
+						<a href="../sw/" hreflang="sw">Kiswahili</a>
+						<a href="../hu/" hreflang="hu">Magyar</a>
+						<a href="../ms/" hreflang="ms">Melayu</a>
+						<a href="../nl/" hreflang="nl">Nederlands</a>
+						<a href="../nb/" hreflang="nb">Norsk</a>
+						<a href="../fil/" hreflang="fil">Pilipino</a>
+						<a href="../pl/" hreflang="pl">Polski</a>
+						<a href="../pt/" hreflang="pt">Português</a>
+						<a href="../pt-br/" hreflang="pt-br">Português BR</a>
+						<a href="../ro/" hreflang="ro">Română</a>
+						<a href="../sq/" hreflang="sq">Shqip</a>
+						<a href="../sl/" hreflang="sl">Slovenščina</a>
+						<a href="../fi/" hreflang="fi">Suomi</a>
+						<a href="../sv/" hreflang="sv">Svenska</a>
+						<a href="../vi/" hreflang="vi">Tiếng Việt</a>
+						<a href="../tr/" hreflang="tr">Türkçe</a>
+						<a href="../ru/" hreflang="ru">Русский</a>
+						<a href="../bg/" hreflang="bg">български</a>
+						<a href="../el/" hreflang="el">Ελληνικά</a>
+						<a href="../hi/" hreflang="hi">हिन्दी</a>
+						<a href="../th/" hreflang="th">ไทย</a>
+						<a href="../ja/" hreflang="ja">日本語</a>
+						<a href="../zh/" hreflang="zh">简体中文</a>
+						<a href="../ar/" hreflang="ar">العربية</a>
+						<a href="../fa/" hreflang="fa">فارسی</a>
+					</div>
+					<a class="lang-menu__edit" href="https://github.com/DigiByte-Core/DGBio" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="nav.langMenu.edit">GitHub पर अनुवाद संपादित करें</span></a>
 				</div>
-
-                <div class="home-content__left">
-                    <h1>
-                    अधिक सुरक्षित, तेज़,<br/>
-                    आगे की सोच
-                    </h1>
-    
-                    <h3>
-                    DigiByte एक तेज़ डिजिटल मुद्रा से अधिक है।  यह एक अभिनव ब्लॉकचेन है जिसका उपयोग digital assets, smart contracts, decentralized applications औरsecure authentication के लिए किया जा सकता है।
-                    </h3>
-    
-                    <div class="home-content__btn-wrap">
-                        <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#community-driven-social-media" class="btn btn--primary home-content__btn">
-                            और अधिक जानें
-                        </a>
-						<a href="#docs" class="btn btn--primary home-content__btn smoothscrollup">
-                            प्रलेखन 
-                        </a>
-                    </div>
-					
-					<a href="../docs/integrationguide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> एकीकरण गाइड</a>
-					<a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> DigiDollar guide</a>
-					<a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> Technical Architecture guide</a>
-                </div>
-
-                <!-- <div class="home-content__right">
-                    <img src="../images/hero-app-screens-800.png" alt="DigiByte App" srcset="../images/hero-app-screens-800.png 1x, ../images/hero-app-screens-1600.png 2x">
-                </div> -->
-
-            </div>
-        </div>
-
-        <a href="#footer" class="home-scroll smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a> 
-
-    </section>
-
-
-    <!-- About
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-		<a href="#footer" class="home-scroll2 smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a>
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    क्या DigiByte को दूसरों की तुलना में मजबूत बनाता है?
-                </h1>
-                <p class="lead">
-                    DigiByte एक तेजी से बढ़ती ओपन सोर्स ब्लॉकचेन है, जो कि 2013 मे बनाई गई थी और 2014 की शुरुआत में रिलीज़ की गयी । <span class="year-diff"></span> साल के फॉरवर्ड थिंकिंग डेवलपमेंट के बाद, DigiByte अस्तित्व में सबसे सुरक्षित, सबसे तेज़, सबसे लंबे और सबसे विकेन्द्रीकृत <a href="https://wikipedia.org/wiki/Unspent_transaction_output" target="_blank">UTXO</a> ब्‍लॉकचेन में से एक बन गयी है।
-                </p>
-            </div>
-        </div>
-
-        <div class="row wide about-desc" data-aos="fade">
-
-            <div class="col-full slick-slider about-desc__slider">
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">सच में विकेंद्रीकृत</h3>
-
-                    <p>
-                    DigiByte को कभी भी <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> या <a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">पूर्व-जारी सिक्कों</a> की महत्वपूर्ण राशि के माध्यम से वित्त पोषित नहीं किया गया है। DigiByte ब्लॉकचैन को नियंत्रित करने वाला कोई सीईओ या कंपनी नहीं है। यह एक स्वयंसेवक आधारित और वैश्विक समुदाय संचालित परियोजना है।
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">ज्यादा सुरक्षित</h3>
-
-                    <p>
-					DigiByte पाँच तरह के एल्गोरिदम इस्तेमाल करता है जो कि <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">हर समय में कठिनाई व्यवस्थित</a> खते है ताकि  दुष्ट माईनर केन्द्रीकरण और हैश शक्ति की अस्थिरता को रोका जा सके। जिनमे से एक ओड़ोक्रिप्ट है जो अपने आप को हर 10 दिन मे बदल लेता है ASIC के प्रतिरोध मे।
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">काफी तेज</h3>
-
-                    <p>
-                    DigiByte ब्लॉक हर 15 सेकंड में होता है जो Bitcoin की तुलना में 40 गुना अधिक और Litecoin की तुलना में 10 गुना तेज होता है। प्रारम्भ में अमल किया गया <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a>  और ब्लॉकचेन की कठोरता न्यूनतम शुल्क के साथ प्रति सेकंड <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> ऑन-चेन लेनदेन की क्षमता प्रदान करती है।
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">आगे कि सोच</h3>
-
-                    <p>
-                    पिछले <span class="year-diff"></span> वर्षों में, DigiByte ने बार-बार खुद को कई ब्लॉकचेन फर्स्ट के साथ अलग किया है, जैसे कि <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a> गार्ड, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> माइनिंग, <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank">SegWit</a> कार्यान्वयन, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a> एल्गोरिथ्म, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a> गोपनीयता प्रोटोकॉल, <a href="#digiassets" class="smoothscroll">DigiAssets</a> और <a href="#digi-id" class="smoothscroll">Digi-ID</a>।
-                    </p>
-                </div> 
-
-            </div>
-            
-        </div>
-
-    </section>
-
-
-    <!-- What is DigiByte Video
-    ================================================== -->
-    <section class="s-about-how target-section" id="blockchain">
-
-        <div class="row">
-           <div class="col-full video-bg" data-aos="zoom-in">
-
-                <div class="shadow-overlay"></div>
-
-                <a class="btn-video" href="https://www.youtube.com/embed/bsHA7TBbbWE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity>
-                    <span class="video-icon"></span>
-                </a>
-
-                <div class="stats">
-                    <div class="item-stats">
-                        <span class="item-stats__num">
-                            DigiByte क्या है?
-                        </span>
-                        <span class="item-stats__title">
-                            परिचय के लिए वीडियो देखें
-                        </span>
-                    </div>
-                </div>
-		   
-           </div>
-        </div>
-	    
-    <!-- Blockchain
-    ================================================== -->
-	    
-        <div class="row process-wrap">
-			
-		<div class="section-header align-center has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    इस तरह से DigiByte blockchain काम करता है।
-                </h1>
-                <p class="lead">
-                    तीन परतें DigiByte ब्लॉकचैन के सबसे नवीन भाग हैं जो अत्याधुनिक गति के साथ कार्य करने के लिए नेटवर्क के बुनियादी ढाँचे, सुरक्षा और संचार प्रदान करते हैं।
-                </p>
-            </div>
-        </div>
-
-        <div class="process" data-aos="fade">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Applications / DigiAssets.</h3>
-                        <p>शीर्ष परत स्पष्ट वास्तविक दुनिया के उपयोग के साथ एक ऐप स्टोर की तरह है।  DigiByte ब्लॉकचैन के शीर्ष पर <a href="#digiassets" class="smoothscroll">DigiAssets</a> प्रोटोकॉल के साथ सभी प्रकार की digital assets बनाई जा सकती है। Decentralized applications (dApps) DigiByte blockchain के शीर्ष पर बनाए जा सकते हैं।  DigiByte blockchain की rigidity और security का लाभ उठाने वाले स्मार्ट अनुबंधों को आसानी से एन्कोड किया जा सकता है।
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Digital asset / Public ledger.</h3>
-                        <p>मध्य परत सुरक्षा और प्रशासन प्रदान करती है।  डेटा का एक <strong>Digi</strong>tal <strong>Byte</strong> बड़े डेटा या मान रखने वाली एक इकाई का प्रतिनिधित्व करता है, और नकली, डुप्लिकेट या हैक नहीं किया जा सकता है।  एक अपरिवर्तनीय सार्वजनिक नेतृत्वकर्ता जहां DigiBytes के सभी लेनदेन दर्ज किए जाते हैं।  DigiByte सुरक्षा के लिए <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">five proof of work algorithms</a> का उपयोग करता है।  नई DigiBytes केवल mining से आती हैं।
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">कोर प्रोटोकॉल / ग्लोबल नेटवर्क।</h3>
-                        <p>नीचे की परत संचार और संचालन प्रक्रिया प्रदान करती है।  DigiByte वैश्विक नेटवर्क संचार पर एक बहुत ही निम्न-स्तरीय तरीका नोड्स।  पूरे ग्रह में हजारों लोग DigiByte सॉफ्टवेयर चला रहे हैं।  DigiByte Network से जुड़ा कोई भी सर्वर, कंप्यूटर, टैबलेट या मोबाइल फोन एक नोड बन जाता है जो रिले लेनदेन में मदद करता है।
-			            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node#complete-port-forwarding" target="_blank">DigiByte blockchain में योगदान करना शुरू करें</a>।
-			            </p>
-		            </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">Open source / Permissionless.</h3>
-                        <p>की तरह <a href="https://github.com/DigiByte-Core/DGBio" target="_blank">इस वेबसाइट</a>, DigiByte blockchain पूरी तरह से खुला स्रोत है और <a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT लाइसेंस</a>, के तहत जारी उपयोग करने के लिए स्वतंत्र है, जो आपको सॉफ़्टवेयर को चलाने और संशोधित करने की शक्ति देता है।  पारदर्शिता बायनेरिज़ के स्वतंत्र सत्यापन और उनके संबंधित स्रोत कोड के लिए अनुमति देती है।<br />
-						<a href="https://github.com/DigiByte-Core/digibyte" target="_blank">GitHub पर DigiByte Protocol</a>।
-						<br />
-						<a href="https://github.com/DigiByte-Core" target="_blank">GitHub पर DigiByte Core Development</a>।
-                        </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-		
-		   <div class="row s-stats" data-aos="fade">
-		      <div class="stitle">DigiByte ब्लॉकचेन आँकड़े</div>
-		   <div class="block-1-3">
-
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="years-surpassed">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">वर्षों</a></div>
-              </div>
-			   
-			   <div class="col-block stats__col">
-                  <div class="stats__count" id="block-count" >0</div>
-                  <div class="stats_text"><a href="https://chainz.cryptoid.info/dgb/" target="_blank">ब्लॉक</a></div>
-              </div>
-			   
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="node-download-count">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">नोड डाउनलोड</a></div> 
-              </div>
-
-           </div>
-		   </div>
-
-		   <div class="testimonials-wrap" data-aos="fade" id="history">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">DigiByte का इतिहास।</h2>
-					<p class="lead">
-                    DigiByte ब्लॉकचैन के प्रमुख विकास मील के पत्थर की खोज करें।
-                    </p>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full slick-slider testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="../images/avatars/development.png" loading="lazy" width="72" height="72" alt="Development" class="testimonials__avatar">
-                        
-                        <p>DigiByte के भविष्य के निर्माण के लिए पूर्णकालिक विकास शुरू किया गया है।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">अक्टूबर, 2013</span>
-				            <a href="https://x.com/jaredctate/status/1190673943876841475" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/launch.png" loading="lazy" width="72" height="72" alt="Launch" class="testimonials__avatar">
-                        
-                        <p>उत्पत्ति ब्लॉक (Genesis block) का सफलतापूर्वक खनन किया गया और DigiByte blockchain आधिकारिक तौर पर लॉन्च किया गया।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">10 जनवरी 2014</span>
-							<a href="https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L40" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digishield.png" loading="lazy" width="72" height="72" alt="DigiShield" class="testimonials__avatar">
-                        
-                        <p>DigiShield हैश उतार-चढ़ाव के खिलाफ वास्तविक समय कठिनाई समायोजन का उपयोग करने के लिए सक्रिय।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">28 फरवरी, 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multialgo.png" loading="lazy" width="72" height="72" alt="MultiAlgo" class="testimonials__avatar">
-                        
-                        <p>MultiAlgo खनन केंद्रीकरण को रोकने के लिए 5 अलग-अलग एल्गोरिदम का उपयोग करने के लिए सक्रिय है।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">1 सितंबर 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multishield.png" loading="lazy" width="72" height="72" alt="MultiShield" class="testimonials__avatar">
-                        
-                        <p>MultiShield सभी 5 खनन एल्गोरिदम पर DigiShield संरक्षण का विस्तार करने के लिए सक्रिय है।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">10 दिसंबर 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multishield" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digispeed.png" loading="lazy" width="72" height="72" alt="DigiSpeed" class="testimonials__avatar">
-                        
-                        <p>DigiSpeed तेजी से लेनदेन के लिए ब्लॉक समय को 15 सेकंड तक कम करने के लिए सक्रिय हुआ।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">4 दिसंबर, 2015</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/segwit.png" loading="lazy" width="72" height="72" alt="SegWit" class="testimonials__avatar">
-                        
-                        <p>प्रभावी ब्लॉक आकार के उपयोग के लिए Bitcoin और Litecoin से पहले SegWit सक्रिय है।
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">28 अप्रैल, 2017</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digi-id.png" loading="lazy" width="72" height="72" alt="Digi-ID" class="testimonials__avatar">
-                        
-                        <p>Digi-ID को उपयोगकर्ताओं को अनायास वेबसाइटों और अन्य स्थानों पर साइन-इन करने के लिए सशक्त किया गया।
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">मई, 2018</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digi-id" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digiassets.png" loading="lazy" width="72" height="72" alt="DigiAssets" class="testimonials__avatar">
-                        
-                        <p>संपत्ति के और अधिक  विकेन्द्रीकृत जारी करने की अनुमति के लिए DigiAssets लॉन्च किया गया।
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">अप्रैल, 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digiassets" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/dandelion.png" loading="lazy" width="72" height="72" alt="Dandelion++" class="testimonials__avatar">
-                        
-                        <p>Dandelion++ protocol लागू किया गया जो आईपी और भौतिक स्थान ट्रैकिंग को रोकता है। 
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">3 मई 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-			
-					<div class="testimonials__slide">		
-                        <img src="../images/avatars/odocrypt.png" loading="lazy" width="72" height="72" alt="Odocrypt" class="testimonials__avatar">
-                        
-                        <p>Odocrypt सक्रिय हो गया जो बेहतर ASIC प्रतिरोध के लिए हर 10 दिनों में खुद को बदलता है।
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">21 जुलाई, 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank" class="testimonials__link">अधिक जानें</a>
-                        </div>
-                    </div>
-					
-                    <div class="testimonials__slide">		
-                        <img src="../images/avatars/roadmap.png" loading="lazy" width="72" height="72" alt="Roadmap" class="testimonials__avatar">
-                        
-                        <div>
-                            DigiByte प्रोटोकॉल में प्रस्तावित परिवर्तनों के बारे में अधिक जानने के लिए, कृपया DIPs रिपॉजिटरी पर जाएं: <a href="https://github.com/DigiByte-Core/DIPs" target="_blank" class="testimonials__link"> DigiByte DIPs रिपॉजिटरी</a>
-                        </div>
-                        <div>
-                            DigiByte विकास में आप कैसे योगदान दे सकते हैं, इसके बारे में अधिक जानने के लिए, कृपया GitHub चर्चा फोरम पर जाएं:<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" class="testimonials__link"> DigiByte GitHub चर्चा</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div> 
-
-        </div>
-
-    </section>
-
-
-    <!-- Currency
-    ================================================== -->
-    <section id="currency" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    एक डिजिटल मुद्रा<br/>जिसे आप बिल्कुल पसंद करेंगे।
-                </h1>
-                <p class="lead">
-                    DigiByte (DGB) एक अत्यधिक स्केलेबल पीयर-टू-पीयर digital currency है जो उद्योग-अग्रणी लेनदेन की गति को नगण्य शुल्क के साथ सक्षम बनाता है।  भुगतान के लिए DigiByte सबसे अच्छा तरीका है।
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/RSEijQXSfZQ?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> देख कर सीखो</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-phone-laptop"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">प्रयोग करने में आसान।</h3>
-                    <p>DigiByte का उपयोग करना शुरू करना एसएमएस भेजने से भी आसान है।  आप उन डिवाइसों का उपयोग करके डिजीबाइट्स भेज और प्राप्त कर सकते हैं जिन्हें आप पहले से जानते हैं और प्यार करते हैं।  आपको बस एक  <a class="smoothscroll" href="#downloads">DigiByte supported wallet</a> स्थापित करना है, फिर स्कैन पर क्लिक करें, क्यूआर कोड को स्कैन करें और डिजीबाइट भेजें।  यथा आसान 1..2..3।
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-thumbs-up"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">ICO नहीं है।</h3>
-                    <p>DigiByte ने <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> और ना ही ज्यादा मात्रा में पहले से माईन के द्वारा किसी प्रकार का निवेश नहीं लिया है (<a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">0% शेष</a>)। DigiByte का ना तो कोई प्रमुख है और ना ही इसे कोई कम्पनी नियंत्रित करती है। <a class="smoothscrollup" href="#developers">डेवलपर्स</a> और <a class="smoothscroll" href="#community">समुदाय</a> अवैतनिक स्वयंसेवक हैं जो दिवालिया होने के जोखिम को समाप्त करते हैं।
-                    </p>
-                </div>
-            </div> <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-tachometer-alt-fastest"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">काफी तेज।</h3>
-                    <p>DigiByte ट्रांसैक्शन की पुष्टि लगभग 15 सेकंड में कर लेता है, जो Bitcoin की तुलना में 40 गुना और Litecoin से 10 गुना तेज है। <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a> प्रति सेकंड <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> ट्रांसैक्शन ऑन-चेन करने में सक्षम बनाता है और कम शुल्क रोजाना भुगतान के लिए DigiByte को आदर्श मुद्रा बनाता है।
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>    
-                <div class="item-feature__text">
-                    <h3 class="item-title">हमेशा सुरक्षित।</h3>
-                    <p>DigiByte को Bitcoin Blockcahin की अनस्टॉपेबल तकनीक पर बनाया गया है और इस पर विभिन्न उन्नत संवर्द्धन जैसे <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a> गार्ड, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> खनन और <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a> एल्गोरिदम। अलावा <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a> गोपनीयता प्रोटोकॉल आपके आईपी और भौतिक स्थान को छिपाकर आपको सुरक्षित रखने में मदद करता है। <a href="https://github.com/DigiByte-Core/digibyte/wiki#key-features" target="_blank">अधिक जानें</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-digging"></i>
-                </div> 
-                <div class="item-feature__text">
-                    <h3 class="item-title">माइनेबल।</h3>
-                    <p>DigiByte एक 100% <a href="https://wikipedia.org/wiki/Proof_of_work" target="_blank">प्रूफ़ ऑफ़ वर्क</a> (PoW) ब्लॉकचैन है जिसे Sha256, Scrypt, Skein, Qubit और Odocrypt नामक पाँच एल्गोरिदम के साथ खनन किया जा सकता है। <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> खनन विकेन्द्रीकरण, नेटवर्क की सुरक्षा में योगदान देता है और आपको विभिन्न प्रकार के हार्डवेयर जैसे ASIC FPGA या GPU का उपयोग करने की स्वतंत्रता देता है। <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">अधिक जानें</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-coins"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">प्रबंधनीय इकाइयाँ।</h3>
-                    <p>21 मिलियन बिटकॉइन की तुलना में, 21 बिलियन डिजीबाइट (1000: 1 बीटीसी के अनुपात) को बड़े पैमाने पर गोद लेने के लिए तैयार किया गया है।  DigiByte ब्लॉक पुरस्कार हर 4 साल में रोकने के बजाय हर महीने 1% कम कर देता है।  सभी 21 बिलियन डिजीबाइट्स का वर्ष 2035 तक खनन किया जाएगा। 2035 के बाद खनिक फिर लेनदेन शुल्क पर भरोसा करेंगे। <a href="https://github.com/DigiByte-Core/digibyte/wiki/Technical-Specifications" target="_blank">अधिक जानें</a>.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="testimonials-wrap" data-aos="fade" id="ecosystem">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">DigiByte पारिस्थितिकी तंत्र से त्वरित की पसंद।</h2>
-					<p class="lead">
-                    DigiByte का समर्थन करने वाले सभी एक्सचेंज और सेवाएं <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank">DigiByte Wiki</a> पर पाई जा सकती हैं।
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- DigiAssets
-    ================================================== -->
-    <section id="digiassets" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                   एक सरलीकृत तरीका है<br/>डिजिटल संपत्ति बनाने के लिए।
-                </h1>
-                <p class="lead">
-                    DigiAssets एक सुरक्षित, स्केलेबल परत है, जो DigiByte blockchain के ऊपर है, जो संपत्ति, टोकन, स्मार्ट कॉन्ट्रैक्ट, डिजिटल पहचान और अन्य के विकेन्द्रीकृत जारी करने की अनुमति देता है।
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/JoqOn5gTiqE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> देख कर सीखो</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-photo-video"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">असीम संभावनाएं।</h3>
-                    <p>DigiAssets का उपयोग हम भौतिक दुनिया में पाई जाने वाली किसी भी चीज़ का सुरक्षित रूप से प्रतिनिधित्व करने के लिए कर सकते हैं, मूर्त संपत्ति जैसे अचल संपत्ति, कार से लेकर डिजिटल कला तक। हस्ताक्षरित दस्तावेज़ जैसे कर्म और चिकित्सा बिल संरक्षित किए जा सकते हैं।
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">आत्मविश्वास से बढ़ रहा है।</h3>
-                    <p>एक पारिस्थितिकी तंत्र और मंच के रूप में DigiAssets के पास पहले से ही इच्छुक पार्टियां हैं जो या तो रियल एस्टेट, वित्त, प्रेषण, पहचान, बिक्री के बिंदु, रेसिंग, व्यापार, स्वास्थ्य सेवा, आपूर्ति श्रृंखला, सरकार में प्लेटफ़ॉर्म के निर्माण या योजना बना रही हैं।
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-badge-check"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">ठोस तकनीक।</h3>
-                    <p>DigiAssets वास्तव में विकेन्द्रीकृत ब्लॉकचेन के अनूठे पहलुओं का लाभ उठाता है जो केवल डिजीबाइट जैसे अनुमतिहीन ब्लॉकचेन के भीतर पाया जाता है। यह डिजीएसेट्स को बाजार में किसी भी अन्य प्लेटफॉर्म की तुलना में अधिक सुरक्षित, स्केलेबल और विकेन्द्रीकृत करने की अनुमति देता है।
-                    </p>
-                </div>
-            </div>
-			
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">DigiAssets के साथ आरंभ करें।</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">प्रोटोकॉल जानें।</h3>
-                        <p>डिजीबाइट ब्लॉकचैन पर डिजिटल संपत्ति जारी करने और लेनदेन करने के लिए ओपन-सोर्स डिजीएसेट्स प्रोटोकॉल विनिर्देशों की खोज करें। 
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/web" target="_blank">गीथहब पर डिजीएसेट्स प्रोटोकॉल</a>
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/src/RPC/Methods" target="_blank">डिजीएसेट्स कोर के अधिरोहण और विस्तार</a>।
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">एक संपत्ति जारी करें।</h3>
-                        <p>डेवलपर नहीं है? निश्चित रूप से कोई समस्या नहीं है! कोई भी आसानी से प्रोटोकॉल के बारे में तकनीकी ज्ञान के बिना उपलब्ध उपकरणों में से एक का उपयोग करके डिजीएसेट को जारी कर सकता है। <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">DigiAssets समर्थित सेवाएं</a>।
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">दुकान / व्यापार।</h3>
-                        <p>आश्चर्य है कि DigiAssets का उपयोग कैसे करें? <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">DigiAssets समर्थित सेवाओं</a> का दौरा करें ताकि DigiAssets खरीदें, बेचें और बदलें।
-                        </p> 
-                    </div>
-					
-                    <div class="col-block step">
-                        <h3 class="item-title">क्या और मदद चाहिए?</h3>
-                        <p>क्या आपको DigiAssets के बारे में अधिक सहायता की आवश्यकता है? कृपया अपने सवाल पूछने या अपने विचारों को साझा करने के लिए GitHub पर DigiByte चर्चा फोरम में शामिल होने के लिए स्वतंत्र महसूस करें। <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">DigiByte GitHub चर्चा</a>।
-                        </p>
-                    </div>
-            </div>
-
-        </div>
-	    </div>
-		
-    </section>
-	
-	
-	<!-- Digi-ID
-    ================================================== -->
-    <section id="digi-id" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    सबसे अच्छा प्रमाणीकरण।
-                </h1>
-                <p class="lead">
-                    Digi-ID DigiByte ब्लॉकचेन तकनीक पर निर्मित एक सुरक्षा प्रोटोकॉल है जो उपयोगकर्ताओं को अनायास वेबसाइटों, एप्लिकेशन और यहां तक कि इंटरनेट की चीजों में साइन-इन करने का अधिकार देता है।
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/pLrQycud5GI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> देख कर सीखो</a>
-        </div>
-		
-		<div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-sign-in-alt"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">आसान प्रमाणीकरण।</h3>
-                    <p>Digi-ID प्रमाणीकरण के लिए उपयोगकर्ता नाम, पासवर्ड और 2fa आवश्यकताओं को समाप्त करता है। क्योंकि Digi-ID सार्वजनिक / निजी चाबी क्रिप्टोग्राफी का उपयोग करता है, इसलिए जोखिम में कोई पासवर्ड या उपयोगकर्ता नाम नहीं आता। यह विधि न केवल उपभोक्ता की सुरक्षा करती है, बल्कि यह उन सेवाओं की भी रक्षा करती है जो उपभोक्ता उपयोग करता है।
-
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-user-shield"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">त्रुटिहीन रक्षा।</h3>
-                    <p>Digi-ID blockchain पर उपयोगकर्ताओं के बारे में कोई डेटा संग्रहीत नहीं करता है। यह end-users के 'विश्वास को मजबूत करता है और कि उनके डेटा को न तो ट्रैक किया जाता है न ही दूसरों की लापरवाही से खतरा होता है'। आपके प्लेटफ़ॉर्म को नुकसान पहुँचाने का हैकर के पास कोई बाहरी केंद्र बिंदु नहीं है।</p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-smile-plus"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">सरल और स्वतंत्र।</h3>
-                    <p>Digi-ID पूरी तरह से मुफ्त है! कोई शुल्क, सदस्यता सेवाएं या रखरखाव लागत नहीं हैं। लेकिन लागत इसकी दूसरी सबसे अच्छी विशेषता है। इसकी प्राथमिक विशेषता यह है कि, DigiByte की सुरक्षा प्राथमिकता के अनुसार, Digi-ID एक अधिक सुरक्षित है, फिर भी वेबसाइटों, ऐप्स और अन्य में प्रवेश करने के लिए सरल विधि उपलब्ध है।
-                    </p>
-                </div>
-            </div>
-
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">यह इस तरह काम करता है।</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">पीढ़ी।</h3>
-                        <p>वेबसाइट, एप्लिकेशन और उत्पाद एक अद्वितीय Digi-ID क्यूआर कोड उत्पन्न करते हैं और इसे प्रस्तुत करते हैं।
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">स्कैनिंग।</h3>
-                        <p>
-                            उपयोगकर्ता किसी भी <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">डिजी-आईडी</a> समर्थित ऐप से QR कोड स्कैन करता है।
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">प्रमाणीकरण।</h3>
-                        <p>उपयोगकर्ता अपने पिन दर्ज करके या उनके फिंगरप्रिंट / चेहरे को स्कैन करके अनुरोध को प्रमाणित करता है।
-                        </p> 
-                    </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">पुष्टि।</h3>
-                        <p>Digi-ID क्रिप्टोग्राफिक-हस्ताक्षरित अनुरोध को वापस भेजता है और उपयोगकर्ता सफलतापूर्वक लॉग इन होता है।
-                        </p> 
-                    </div>
-
-                </div>
-              </div>
-			
-          </div>
-		
-		  <div data-aos="fade">
-		
-		  <h1 class="align-center">अक्सर पूछे जाने वाले प्रश्न।</h1>
-		
-		  <div class="row features block-1-2 block-m-1-2">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">मुझे और दस्तावेज़ कहाँ मिल सकते हैं?</h3>
-                    <p>शुरू करने के लिए सबसे अच्छी जगह <a href="https://www.digi-id.io" target="_blank">Digi-ID.io</a>है। यदि आप Digi-ID के विवरण और लाभों के बारे में अधिक जानना चाहते हैं, तो आप <a href="https://www.digi-id.io/faq" target="_blank">उपयोगकर्ता गाइड</a>, <a href="https://www.digi-id.io/vendor-info.html" target="_blank">विक्रेता गाइड"</a> और <a href="https://www.digi-id.io/integration.html" target="_blank">एकीकरण गाइड</a> का उल्लेख कर सकते हैं। यदि आप मीडिया किट की तलाश कर रहे हैं, तो कृपया <a href="../docs/digiidintro.pdf" target="_blank">परिचय पत्र</a> और <a href="https://github.com/DigiByte-Core/digibyte-logos/tree/master/Digi-ID%20Logos/Digi-ID_logos" target="_blank">लोगो</a> प्राप्त करें।
-                    </p>
-                </div>
-            </div>
-			  
-            <div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">एकीकरण पुस्तकालय कहां हैं?</h3>
-                    <p>चूंकि Digi-ID खुला स्रोत है, आप <a href="https://github.com/DigiByte-Core?q=digiid" target="_blank">DigiByte Core Development</a> पर जाकर अधिक जान सकते हैं। यदि आपको अधिक सहायता की आवश्यकता है, तो कृपया प्रश्न पूछने के लिए <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">GitHub पर DigiByte चर्चा मंच</a> से जुड़ें।
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">क्या मैं कोडिंग के बिना Digi-ID को संयुक्त कर सकता हूं?</h3>
-                    <p>यदि आप एक डेवलपर नहीं हैं, तो आप अपनी वेबसाइट या उत्पाद के लिए एकीकरण तैयार समाधान का उपयोग करना चाह सकते है। आप वर्डप्रेस प्लेटफार्मों के लिए <a href="https://wordpress.org/plugins/digi-id-authentication/" target="_blank">वर्डप्रेस प्लगइन</a> का भी उपयोग कर सकते हैं।
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">क्या कोई अन्य Digi-ID प्रमाणीकरण ऐप हैं?</h3>
-                    <p>बेशक! Digi-ID एक तेजी से बढ़ता हुआ प्लेटफॉर्म है। मल्टीपल स्टैंडअलोन ऑथेंटिकेशन ऐप और Digi-ID समर्थित वॉलेट <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">डाउनलोड</a>  सेक्शन में पाए जा सकते हैं।
-                    </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-
-    </section>
-	
-	
-	<!-- Community
-    ================================================== -->
-    <section id="community" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    सबसे भावुक<br/>कभी समुदाय!
-                </h1>
-                <p class="lead">
-                    दुनिया भर के हजारों स्वयंसेवकों ने वर्षों से अनगिनत तरीकों से डिजीबाइट में योगदान दिया है ताकि यह आज भी बना रहे। यह वास्तव में जमीनी स्तर का आंदोलन है। हम गर्मजोशी से आपका स्वागत करते हैं हमसे जुड़ने के लिए!
-                </p>
-            </div>
-		    <a class="btn btn--primary playb" href="https://www.youtube.com/embed/zODI3S9ZdUI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> देख कर सीखो</a>
-        </div>
-		
-		<div class="row features block-1-2 block-m-1-2" data-aos="fade">
-            <div class="col-block item-feature" id="developers">
-                <div class="item-feature__icon">
-                    <i class="fas fa-code"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">DigiByte डेवलपर्स</h3>
-                    <p>डिजीबाइट पर काम करने वाला हर कोई एक अवैतनिक स्वयंसेवक है। आज ही DGB के विकास में योगदान देना शुरू करें या DigiByte blockchain के शीर्ष पर अपना खुद का ऐप बनाएं।
-					<br />	
-					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">DigiByte डेवलपर्स GitHub Discussions पर</a>।
-					<br />
-					<a href="https://github.com/digibyte-core/digibyte" target="_blank">GitHub पर DigiByte Core Protocol</a>।
-                    </p>
-                </div>
-            </div>
-			<div class="col-block item-feature" id="wiki">
-                <div class="item-feature__icon">
-                    <i class="fab fa-wikipedia-w"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">DigiByte विकी</h3>
-                    <p><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">DigiByte विकी</a> <a href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank">समुदाय के लिए समुदाय द्वारा</a> निर्मित एक ऑनलाइन विश्वकोश है। इसमें उपयोगी और अद्यतित डेटा जैसे कि <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank"> DigiByte इकोसिस्टम</a> और <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank">गाइड कैसे करें</a> शामिल हैं। कोई भी मुफ्त उपयोगकर्ता खाता बनाकर विकी में सकारात्मक योगदान दे सकता है और DigiByte विकी पर जानकारी जोड़ना या अपडेट करना शुरू कर सकता है। <strong>चेतावनी</strong> <i class="fas fa-exclamation-circle"></i> बेशर्म आत्म-प्रचार और रेफरल लिंक से बचें। चेतावनी।</p>
-					<p class="jared">
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#technical-specifications" target="_blank"><i class="fab fa-wikipedia-w"></i> तकनीकी</a> 
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#framework" target="_blank"><i class="fab fa-wikipedia-w"></i> फ्रेमवर्क</a>
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#accomplishments" target="_blank"><i class="fab fa-wikipedia-w"></i> उपलब्धियां</a>
-					</p>
-                </div>
-            </div>
+			</div>
+			<a class="btn btn--ghost btn--sm nav__cta-extra" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" aria-label="GitHub">
+				<i class="fab fa-github"></i> GitHub
+			</a>
+			<a class="btn btn--primary btn--sm" href="#docs" data-i18n="nav.cta.docs">Docs &amp; Guides</a>
+			<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="मेनू" data-i18n-attr="aria-label:nav.aria.menu">
+				<span></span>
+			</button>
 		</div>
-	    
-	</section>
+	</div>
+</header>
 
+<main id="main">
 
-   <!-- Downloads
-    ================================================== -->
-    <section id="downloads" class="s-download target-section">
-	    
-	<!--- Downloads DigiByte Wallets
-    ================================================== -->
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    अपना ऐप चुनें।
-                </h1>
-                <p class="lead">
-                    Digi-ID का उपयोग करके अपने DigiBytes & DigiAssets को भेजने, स्वीकार करने और सुरक्षित रूप से प्रमाणित करने के लिए एक ऐप चुनें।<br /><a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank">Current DigiByte Core v9.26.5</a>
-                </p>
-            </div>
-			<a class="btn wb playb" href="https://www.youtube.com/embed/sRxpgJkvRK8?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> देख कर सीखो</a>
-        </div>
-		
-		<div data-aos="fade">
-            <h1 class="downtitle align-center">प्रोटोकॉल और वॉलेट <br>सब एक में</h1>
-            <div class="item-feature__text max830 align-center">
-                <p>DigiByte Core में ब्लॉकचेन की पूरी कॉपी होती है और यह नेटवर्क की रीढ़ की हड्डी का निर्माण करता है।
-                इसका आमतौर पर डेवलपर्स, एक्सचेंज, और अन्य व्यापारिक संस्थानों द्वारा, साथ ही सामुदायिक सदस्यों द्वारा भी, पूर्ण नोड चलाकर नेटवर्क को विकेंद्रीकृत करने के लिए इस्तेमाल किया जाता है।
-                यह एक सॉफ्टवेयर वॉलेट के रूप में भी काम करता है।
-                </p>
-            </div>
-            <div class="row features block-1-2 block-m-1-2 block-tab-full stack max880">
-                <div id="dgbcore">
-                    <div class="item-plan__block-wrapper">
-                        <div class="item-plan__block">
-                            <div id="dgbcore_symbol"></div>
-                            <div class="item-plan__top-part">
-                                <p class="item-plan__price">DigiByte Core</p>
-                            </div>
-                            <div class="item-plan__bottom-part">
-                                <ul class="item-plan__features">
-                                    <li><i class="fas fa-check blue"></i> पूर्ण सत्यापन</li>
-                                    <li><i class="fas fa-check blue"></i> नेटवर्क का समर्थन</li>
-                                    <li><i class="fas fa-check blue"></i> उच्च स्थिरता</li>
-                                    <li><i class="fas fa-check blue"></i> SegWit समर्थन</li>
-                                </ul>
-                                <div class="appsicon align-center">
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-win64-setup.exe" target="_blank"><i class="fab fa-windows zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-apple-darwin.zip" target="_blank"><i class="fab fa-apple zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-linux-gnu.tar.gz" target="_blank"><i class="fab fa-linux zoom"></i></a>
-                                    <a href="https://snapcraft.io/digibyte-core" target="_blank">
-                                        <svg class="zoom" width="44px" height="69px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: middle;">
-                                            <g id="[EN]-snap-store-white-uneditable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="logo" fill-rule="nonzero">
-                                                    <path d="M18.9875172,17.8017143 L18.9875172,7.33085714 L26.2054138,10.5525714 L18.9875172,17.8017143 Z M5.20774138,31.6411429 L14.058569,14.9742857 L17.9423276,18.852 L5.20774138,31.6411429 Z M0.160180862,0.233262857 L18.3753103,6.84571429 L18.3753103,18.4171429 L0.160180862,0.233262857 Z" id="body" fill="#06c"></path>
-                                                    <polygon id="head" fill="#06c" points="29.8968621 6.84514286 19.4057069 6.84514286 32.8936034 12.8657143"></polygon>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="supportline align-center">
-                                    <p class="item-plan__per">Windows, macOS, Linux और Snapcraft (64 बिट) के लिए उपलब्ध</p>
-                                </div>
-                                <div class="supportline align-center pt2">
-                                    <a href="https://dgbsupport.digiassetx.com" data-lity><i class="fas fa-user-headset"></i> समर्थन</a> - <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank"><i class="fas fa-info-circle"></i> पूरा नोड चलाएँ</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lrmargin25">
-                        <div class="item-feature__text max800 align-center">
-                            <p>
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <strong>वॉलेट अस्वीकरण</strong>
-                                <br>
-                                DigiByte Core को वॉलेट के रूप में केवल उन्नत उपयोगकर्ताओं द्वारा ही उपयोग किया जाना चाहिए जो जानते हैं कि अपने वॉलेट की सुरक्षा कैसे करें।
-                                यदि आप अनुभवी उपयोगकर्ता नहीं हैं, तो आप एक सरलीकृत <a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">सॉफ्टवेयर वॉलेट</a> का उपयोग करना चाह सकते हैं।
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-	    
-	    	<!--- Downloads Docs & Guides
-    ================================================== -->
-	    	<div class="lrmargin25" data-aos="fade"  id="docs">
-		
-			<h1 class="downtitle align-center"><i class="fas fa-books"></i> DigiByte दस्तावेज़ और मार्गदर्शिकाएँ।</h1>
-				
-			  <div class="item-feature__text max800 align-center">
-                  <p>अधिक प्रलेखन के लिए खोज रहे हैं? आप एक लेख के लिए बुनियादी जानकारी की जरूरत है, एक एकीकरण प्रक्रिया के लिए तकनीकी जानकारी या DigiByte बीज संयंत्र। आप नीचे दिए गए सभी आवश्यक "कैसे" गाइड, डाउनलोड और अन्य जानकारी तक पहुंच सकते हैं।
-                  </p>
-              </div>
-     
-		    <div class="row testimonials downslide">
+<!-- HERO ===================================================== -->
+<section class="hero" aria-labelledby="hero-title">
+	<div class="hero__canvas" data-hero-network aria-hidden="true"></div>
+	<div class="hero__overlay" aria-hidden="true"></div>
 
-                <div class="col-full slick-slider testimonials__slider">
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/infopaper.png" loading="lazy" width="72" height="72" alt="DigiByte Info Paper" class="testimonials__avatar">
-                        
-                        <p>DigiByte blockchain का विवरण "info paper" का उपयोग करके जानें।</p>
+	<div class="row hero__inner">
+		<div class="hero__content">
+			<div class="hero__chips">
+				<span class="chip chip--live">Live · Block <span data-block-height class="is-loading">—</span></span>
+				<a class="chip chip--violet chip--link" href="https://github.com/DigiByte-Core/DigiByte.org/blob/main/LICENSE" target="_blank" rel="noopener" data-i18n="hero.chip.openSource" data-i18n-attr="aria-label:hero.chip.openSource.aria" aria-label="Released under the MIT license (opens in new tab)">ओपन सोर्स · MIT</a>
+				<span class="chip" data-i18n="hero.chip.since">2014 से</span>
+			</div>
+			<h1 id="hero-title" class="hero__title">
+				<span class="accent" data-i18n="hero.title">निरंतर संचालन के लिए डिज़ाइन किया गया।</span>
+			</h1>
+			<p class="hero__lead" data-i18n="hero.lead">DigiByte एक अत्यंत सुरक्षित, मल्टी-एल्गोरिदम UTXO ब्लॉकचेन है, जो स्केल के लिए बनाया गया है। 15 सेकंड के ब्लॉक टाइम और बारह वर्षों के निर्बाध संचालन के इतिहास के साथ, यह नेटवर्क DGB, DigiAssets, विकेन्द्रीकृत Digi-ID प्रमाणीकरण और — बहुत जल्द ही — DigiDollar के लिए एक सिद्ध आधार प्रदान करता है।</p>
+			<div class="hero__ctas">
+				<a class="btn btn--primary btn--lg" href="#downloads">
+					<i class="fas fa-rocket"></i> <span data-i18n="hero.cta.get">DigiByte प्राप्त करें</span>
+				</a>
+				<a class="btn btn--ghost btn--lg" href="#devhub">
+					<i class="fas fa-terminal"></i> <span data-i18n="hero.cta.build">DGB पर निर्माण करें</span>
+				</a>
+			</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Info paper</span>
-                            <a href="../docs/infopaper.pdf" target="_blank" class="testimonials__link">डाउनलोड</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/integration.png" loading="lazy" width="72" height="72" alt="DigiByte Integration Guide" class="testimonials__avatar">
-                        
-                        <p>DigiByte ब्लॉकचेन को अपने एक्सचेंज, वॉलेट या सेवा में आसानी से एकीकृत करें।</p>
+			<div class="hero__metrics">
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.blockTime">ब्लॉक समय</span>
+					<span class="stat__value">15<small class="size-fs-half">s</small></span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.algorithms">एल्गोरिदम</span>
+					<span class="stat__value">5</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.yearsLive">वर्षों से सक्रिय</span>
+					<span class="stat__value year-diff">—</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.maxSupply">अधिकतम आपूर्ति</span>
+					<span class="stat__value">21B</span>
+				</div>
+			</div>
+		</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">एकीकरण गाइड</span>
-                            <a href="../docs/integrationguide.pdf" target="_blank" class="testimonials__link">डाउनलोड</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/digibyte_symbol_06c.svg" loading="lazy" width="72" height="72" alt="DigiByte DigiDollar Guide" class="testimonials__avatar">
-                        
-                        <p>Implement DigiDollar &mdash; DigiByte's native USD-pegged stablecoin &mdash; in your wallet, exchange or service.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">DigiDollar guide</span>
-                            <a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="testimonials__link">Download</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/digibyte_symbol_06c.svg" loading="lazy" width="72" height="72" alt="DigiByte Technical Architecture Guide" class="testimonials__avatar">
-                        
-                        <p>Explore DigiByte's technical architecture, security model and ecosystem in this comprehensive July 2026 guide.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Technical Architecture guide</span>
-                            <a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" class="testimonials__link">Download</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/mediag.png" loading="lazy" width="72" height="72" alt="DigiByte Media Sheet" class="testimonials__avatar">
-                        
-                        <p>मीडिया शीट द्वारा DigiByte ब्लॉकचैन के बारे में महत्वपूर्ण तथ्यों को जल्दी से जानें।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">मीडिया शीट</span>
-                            <a href="../docs/mediakit.pdf" target="_blank" class="testimonials__link">डाउनलोड</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-						<img src="../images/avatars/presentation.png" loading="lazy" width="72" height="72" alt="DigiByte Presentation" class="testimonials__avatar">
-                        
-                        <p>अपने दोस्तों को DigiByte को शुरू करने के लिए जानकारीपूर्ण ऑनलाइन प्रस्तुति का उपयोग करें।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">प्रस्तुतीकरण</span>
-                            <a href="https://docs.google.com/presentation/d/16Hn2GfuS1yLjZpjeTYloW0S_JVkhevYzffkDZFqjbiU" target="_blank" class="testimonials__link">Start</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/logos.png" loading="lazy" width="72" height="72" alt="DigiByte Logos & Icons" class="testimonials__avatar">
-                        
-                        <p>अपनी परियोजना के लिए DigiByte लोगो और आइकन को सही और अद्यतित करें।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">लोगो और प्रतीक</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" class="testimonials__link">GitHub पर जाएं।</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/howto.png" loading="lazy" width="72" height="72" alt="How to Guides" class="testimonials__avatar">
-                        
-                        <p>विकी गाइड का हवाला देकर अपना DigiByte फुल नोड या इनसाइट एक्सप्लोरर चलाएं।</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">कैसे मार्गदर्शन करें</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank" class="testimonials__link">DigiByte विकी पर जाएं</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
+		<div class="hero__art" aria-hidden="true">
+			<div class="hero__art-ring hero__art-ring--2"></div>
+			<div class="hero__art-ring"></div>
+			<div class="hero__art-coin">
+				<img src="../images/digibyte_symbol_06c.svg" alt="" width="420" height="420" class="coin-glow-soft">
+			</div>
+		</div>
 	</div>
 
-    </section>
+</section>
 
+<!-- WHY DIGIBYTE / FEATURES ================================== -->
+<section id="features" class="s-features" aria-labelledby="features-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="features.eyebrow">DigiByte क्यों</span>
+			<h2 id="features-title" data-i18n="features.title">क्रिप्टो के अगले दशक के लिए डिज़ाइन किया गया।</h2>
+			<p data-i18n="features.lead">एक शुद्ध प्रूफ-ऑफ-वर्क UTXO चेन जिसने 2014 से उद्योग की कई पहलें दी हैं — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets और Digi-ID।</p>
+		</header>
 
-    <!-- Footer
-    ================================================== -->
-    <footer id="footer" class="s-footer footer">
-		
-		<div class="align-center">
-			<a class="smoothscroll" href="#top"><img src="../images/footerlogo.png" loading="lazy" width="360" height="139" alt="DigiByte Blockchain" class="footerlogo"></a>
+		<div class="feature-rows">
+			<article class="feature-row" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-bolt feature-row__icon"></i>
+					<span class="feature-row__stat">15s</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.blockTime.eyebrow">ब्लॉक समय</span>
+					<h3 data-i18n="features.blockTime.title">15 सेकंड के ब्लॉक, तेज़ निपटान।</h3>
+					<p data-i18n="features.blockTime.body">Bitcoin से 40× तेज़ और Litecoin से 10× तेज़। पंद्रह सेकंड में पुष्टि का मतलब है कि POS भुगतान, एक्सचेंज जमा और एसेट ट्रांसफर इस वाक्य को पढ़ने के समय में पूरे हो जाते हैं — धीमी चेन के जाम या फीस स्पाइक के बिना।</p>
+				</div>
+			</article>
+
+			<article class="feature-row feature-row--reverse" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-shield-halved feature-row__icon"></i>
+					<span class="feature-row__stat">5</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.consensus.eyebrow">सहमति</span>
+					<h3 data-i18n="features.consensus.title">पांच माइनिंग एल्गोरिदम समानांतर में।</h3>
+					<p data-i18n="features.consensus.body">DigiByte पांच स्वतंत्र प्रूफ-ऑफ-वर्क एल्गोरिदम के माध्यम से ब्लॉकों को सुरक्षित करता है — <strong>SHA-256d</strong>, <strong>Scrypt</strong>, <strong>Skein</strong>, <strong>Qubit</strong> और <strong>Odocrypt</strong>। प्रत्येक एक अलग माइनिंग इकोसिस्टम (CPU, GPU, FPGA, ASIC) को लक्षित करता है और Odocrypt ASIC प्रभुत्व को रोकने के लिए हर 10 दिनों में स्वयं को फिर से यादृच्छिक करता है। चेन पर हमला करने का मतलब है पांच एल्गोरिदम पर एक साथ हमला करना।</p>
+				</div>
+			</article>
+
+			<article class="feature-row" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-coins feature-row__icon"></i>
+					<span class="feature-row__stat">21B</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.supply.eyebrow">आपूर्ति</span>
+					<h3 data-i18n="features.supply.title">कठोर सीमा, डिज़ाइन से दुर्लभ।</h3>
+					<p data-i18n="features.supply.body">DGB गणितीय रूप से 21 अरब सिक्कों तक सीमित है, जो पारदर्शी मासिक कमी कार्यक्रम के अनुसार जारी किए जाते हैं। कोई डेव टैक्स नहीं, कोई गवर्नेंस अनलॉक नहीं, कोई छिपा हुआ आवंटन नहीं। पूर्वानुमेय दुर्लभता ही किसी मौद्रिक संपत्ति को विश्वसनीय बनाती है — और यही कारण है कि DGB का प्रत्येक बाइट समय के साथ प्रमाणित, सत्यापन योग्य मूल्य रखता है।</p>
+				</div>
+			</article>
+
+			<article class="feature-row feature-row--reverse" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-tower-broadcast feature-row__icon"></i>
+					<span class="feature-row__stat year-diff">12</span>
+					<small class="feature-row__stat-unit" data-i18n="features.yearsLiveUnit">वर्षों से सक्रिय</small>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.trackRecord.eyebrow">ट्रैक रिकॉर्ड</span>
+					<h3 data-i18n="features.trackRecord.title">बारह साल सक्रिय। शून्य डाउनटाइम।</h3>
+					<p data-i18n="features.trackRecord.body">जनवरी 2014 से मेननेट हर पंद्रह सेकंड में ब्लॉक बनाता है, बिना किसी रुकावट के। कोई गहरे रि-ऑर्ग नहीं, कोई गवर्नेंस फोर्क नहीं, कोई आपातकालीन हार्ड फोर्क नहीं। यह अपटाइम, दुनिया भर में हजारों स्वतंत्र रूप से संचालित नोड्स के साथ मिलकर, ठीक उसी तरह का परिचालन ट्रैक रिकॉर्ड है जिसकी महत्वपूर्ण बुनियादी ढांचे को जरूरत होती है — और जिसे लगभग कोई दूसरा चेन नहीं दिखा सकता।</p>
+				</div>
+			</article>
 		</div>
-		
-		<div class="row footer__top max1000">
-            <div class="col-full footer__subscribe end">
-                <div class="subscribe-form">
-					<form id="de-form" class="group" method="get" target="_blank" action="https://chainz.cryptoid.info/dgb/search.dws?key=25ac5ef2ff1e">
-                       <input type="text" name="q" placeholder="ब्लॉक, ट्रांजेक्सन आईडी या वॉलेट एड्रेस के लिए खोजें" autocomplete="off" required>
-                       <a><input type="submit" value="खोज" class="btn btn--primary home-content__btn search"></a>
-                    </form>
-                </div>
-            </div>
-        </div>
+	</div>
+</section>
 
-        <div class="row footer__bottom">
+<!-- LIVE DASHBOARD =========================================== -->
+<section id="chain" class="s-dashboard bg-grid" aria-labelledby="chain-title" data-chain-dashboard>
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="chain.eyebrow">लाइव नेटवर्क</span>
+			<h2 id="chain-title" data-i18n="chain.title">मूल ऑन-चेन डेटा।</h2>
+			<p data-i18n="chain.lead">हर मिनट सीधे DigiByte नेटवर्क से लिया जाता है, सभी थर्ड-पार्टी API को बायपास करते हुए।</p>
+		</header>
 
-            <div class="footer__about col-five tab-full left">
+		<div class="s-dashboard__grid">
+			<div class="stat" data-reveal>
+				<span class="stat__label" data-i18n="chain.blockHeight.label">ब्लॉक ऊंचाई</span>
+				<span class="stat__value is-loading" data-stat="blocks">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.blockHeight.delta">औसत ब्लॉक समय 15 स</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="80">
+				<span class="stat__label" data-i18n="chain.hashrate.label">नेटवर्क हैशरेट</span>
+				<span class="stat__value is-loading" data-stat="network-hashrate">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.hashrate.delta.v2">SHA256d · 5-algo network</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="160">
+				<span class="stat__label" data-i18n="chain.difficulty.label">कठिनाई</span>
+				<span class="stat__value is-loading" data-stat="difficulty">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.difficulty.delta.v2">SHA256d · DigiShield-adjusted</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="240">
+				<span class="stat__label" data-i18n="chain.blockReward.label">Last block reward</span>
+				<span class="stat__value is-loading" data-stat="block-reward">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.blockReward.delta">DGB · coinbase + fees</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="320">
+				<span class="stat__label" data-i18n="chain.version.label">Core संस्करण</span>
+				<span class="stat__value is-loading size-fs-5" data-stat="version">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.version.delta">नवीनतम रिलीज़</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="400">
+				<span class="stat__label" data-i18n="chain.years.label">वर्ष ऑनलाइन</span>
+				<span class="stat__value year-diff">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.years.delta">जनवरी 2014 से</span>
+			</div>
+		</div>
+	</div>
+</section>
 
-                <h4>DigiByte के बारे में।</h4>
+<!-- TOKENOMICS + 3D COIN ===================================== -->
+<section id="predictable-issuance" class="s-tokenomics" aria-labelledby="predictable-issuance-title">
+	<div class="row">
+		<div class="s-tokenomics__layout">
+			<div class="s-tokenomics__visual" data-tokenomics-chart data-reveal></div>
 
-                <p>
-                DigiByte 2013 के अंत में बनाया गया एक तेजी से बढ़ता हुआ ओपन-सोर्स ब्लॉकचेन है और 2014 की शुरुआत में रिलीज़ किया गया। <span class="year-diff"></span> साल की आगे की सोच के विकास के बाद, DigiByte अस्तित्व में सबसे सुरक्षित, सबसे तेज़, सबसे लंबे और सबसे विकेंद्रीकृत UTXO ब्लॉकचेन में से एक बन गया है। DigiByte 100+ देशों में वैश्विक है।
-                </p>
+			<div data-reveal>
+				<span class="eyebrow" data-i18n="tokenomics.predictableIssuance">Predictable issuance</span>
+				<h2 id="predictable-issuance-title" data-i18n="tokenomics.title">DigiByte: तेज़ वेब के लिए ठोस पैसा।</h2>
+				<p class="lead" data-i18n="tokenomics.lead.v2">Governed by a strictly predictable issuance schedule, DGB is hard-capped at 21 billion coins and follows a fully transparent emission curve with a fixed, mathematical distribution.</p>
 
-                <ul class="footer__social">
-		            <li><a class="zoom" href="https://x.com/DigiByteCoin" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                </ul>
-            </div>
+				<div class="s-tokenomics__stats">
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.maxSupply.label">अधिकतम आपूर्ति</span><span class="stat__value">21B</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.blockReward.label">ब्लॉक इनाम</span><span class="stat__value" data-stat="block-reward">~259</span><span class="stat__delta" data-i18n="tokenomics.blockReward.delta">DGB / ब्लॉक</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.emission.label">उत्सर्जन</span><span class="stat__value">−1%/mo</span><span class="stat__delta" data-i18n="tokenomics.emission.delta">निरंतर, कोई halving नहीं</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.premine.label">प्रीमाइन</span><span class="stat__value text-success">0.5%</span><span class="stat__delta" data-i18n="tokenomics.premine.delta">निष्पक्ष लॉन्च · giveaway और विकास</span></div>
+				</div>
 
-            <div class="col-six md-seven tab-full right end">
-                <div class="row">
+				<div class="cluster mt-6">
+					<a class="btn btn--outline" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><span data-i18n="tokenomics.cta.wiki">विकी पढ़ें</span> <i class="fas fa-arrow-right"></i></a>
+					<a class="btn btn--ghost" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved"></i> <span data-i18n="tokenomics.cta.techArch">Technical architecture</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-                    <div class="footer__site-links col-six mob-full">
-                        <h4>DigiByte links.</h4>
+<!-- DIGIASSETS =============================================== -->
+<section id="digiassets" class="s-digiassets bg-grid" aria-labelledby="digiassets-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="digiassets.eyebrow">DigiAssets</span>
+			<h2 id="digiassets-title" data-i18n="digiassets.title">सुरक्षित UTXO चेन पर कस्टम एसेट जारी करें।</h2>
+			<p data-i18n="digiassets.lead">DigiByte नेटवर्क पर मूल रूप से कस्टम डिजिटल एसेट जारी करें — टोकन और स्टेबलकॉइन से लेकर पहचान रिकॉर्ड तक। हर एसेट 15 सेकंड में सेटल हो जाता है और वैश्विक प्रूफ-ऑफ-वर्क सहमति द्वारा सुरक्षित रहता है।</p>
+		</header>
 
-                        <ul class="footer__site-links">
-                            <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">DigiByte विकी</a></li>
-			                <li><a href="https://digiexplorer.info" rel="noopener" target="_blank">DigiExplorer</a></li>
-							<li><a href="https://digibyte.io" target="_blank">DigiStats</a></li>
-							<li><a href="https://github.com/DigiByte-Core/digibyte/wiki/Mining" target="_blank">DigiByte Mining</a></li>
-                        </ul>
-                    </div>
+		<div class="flow-steps">
+			<div class="flow-step card" data-reveal>
+				<h3 data-i18n="digiassets.step1.title">अपना एसेट चुनें</h3>
+				<p data-i18n="digiassets.step1.body">फंजिबल टोकन, संग्रहणीय वस्तु, प्रमाणपत्र, वाउचर — कोई भी चीज़ जो UTXO बेस लेयर पर मिंट की जा सके।</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="80">
+				<h3 data-i18n="digiassets.step2.title">मेटाडेटा परिभाषित करें</h3>
+				<p data-i18n="digiassets.step2.body">नाम, आपूर्ति, विभाज्यता और IPFS-एंकर्ड मेटाडेटा सेट करें ताकि वॉलेट और एक्सप्लोरर इसे मूल रूप से दिखा सकें।</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="160">
+				<h3 data-i18n="digiassets.step3.title">हस्ताक्षर &amp; प्रसारित करें</h3>
+				<p data-i18n="digiassets.step3.body">शुल्क के रूप में कुछ digis DGB का भुगतान करें, लेन-देन प्रसारित करें और एसेट पूरे नेटवर्क पर सक्रिय हो जाएगा।</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="240">
+				<h3 data-i18n="digiassets.step4.title">कहीं भी भेजें</h3>
+				<p data-i18n="digiassets.step4.body.v2">Transfer to any DGB address. Rendered natively by asset-aware DigiByte wallets.</p>
+			</div>
+		</div>
 
-                    <div class="footer__contact col-six mob-full">
-                        <h4>Resources.</h4>
+		<div class="cluster mt-7 justify-center-children" data-reveal>
+			<a class="btn btn--primary" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="digiassets.cta.docs">प्रोटोकॉल दस्तावेज़</a>
+		</div>
+	</div>
+</section>
 
-                        <ul class="footer__site-links">
-                            <li><a href="../docs/integrationguide.pdf" target="_blank">DGB एकीकरण गाइड</a></li>
-                            <li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank">DGB DigiDollar Guide</a></li>
-                            <li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank">DGB Technical Architecture Guide</a></li>
-                            <li><a href="../docs/mediakit.pdf" target="_blank">DGB मीडिया शीट</a></li>
-                            <li><a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank">DGB लोगो और प्रतीक</a></li>
-			                <li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank">DGB Protocol GitHub</a></li>
-                            <li><a href="https://github.com/digibyte-core" target="_blank">DGB Core GitHub</a></li>
-                        </ul>
-                    </div>		
+<!-- DIGI-ID ================================================== -->
+<section id="digi-id" class="s-digiid" aria-labelledby="digiid-title">
+	<div class="row">
+		<div class="s-digiid__layout">
+			<div class="s-digiid__visual" data-reveal>
+				<div class="qr-demo">
+					<div class="qr-demo__scan"></div>
+					<svg viewBox="0 0 33 33" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<rect width="33" height="33" fill="transparent"/>
+						<g fill="var(--c-ink-0)">
+							<rect x="0" y="0" width="7" height="7"/><rect x="2" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="26" y="0" width="7" height="7"/><rect x="28" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="0" y="26" width="7" height="7"/><rect x="2" y="28" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="9" y="0" width="2" height="2"/><rect x="13" y="0" width="3" height="2"/><rect x="18" y="0" width="2" height="2"/>
+							<rect x="9" y="9" width="2" height="2"/><rect x="13" y="11" width="3" height="2"/><rect x="18" y="9" width="3" height="3"/>
+							<rect x="22" y="11" width="2" height="3"/><rect x="11" y="14" width="2" height="3"/><rect x="14" y="14" width="3" height="2"/>
+							<rect x="20" y="16" width="2" height="2"/><rect x="24" y="14" width="3" height="3"/>
+							<rect x="9" y="20" width="3" height="2"/><rect x="14" y="20" width="2" height="3"/><rect x="18" y="22" width="3" height="2"/>
+							<rect x="22" y="20" width="2" height="3"/><rect x="26" y="22" width="3" height="2"/><rect x="30" y="20" width="2" height="3"/>
+							<rect x="9" y="26" width="2" height="3"/><rect x="13" y="28" width="3" height="2"/><rect x="18" y="26" width="3" height="2"/>
+							<rect x="22" y="28" width="2" height="2"/><rect x="26" y="26" width="3" height="2"/><rect x="30" y="28" width="2" height="2"/>
+						</g>
+					</svg>
+				</div>
+			</div>
 
-                </div>
-            </div>
+			<div data-reveal data-reveal-delay="80">
+				<span class="eyebrow" data-i18n="digiId.eyebrow">Digi-ID</span>
+				<h2 id="digiid-title" data-i18n="digiId.title">पासवर्ड-रहित, ओपन-सोर्स प्रमाणीकरण।</h2>
+				<p class="lead" data-i18n="digiId.lead">Digi-ID पारंपरिक पासवर्ड के बजाय विकेन्द्रीकृत क्रिप्टोग्राफिक हस्ताक्षरों पर निर्भर है, जो उपयोगकर्ता की पहचान को केंद्रीकृत बिचौलियों के बिना सुरक्षित करता है।</p>
+				<ul class="stack mt-5">
+					<li class="cluster"><i class="fas fa-key text-cyan"></i><span data-i18n="digiId.benefit1">पूर्ण गोपनीयता के लिए स्थानीय कुंजी भंडारण।</span></li>
+					<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i><span data-i18n="digiId.benefit2">मूल रूप से फ़िशिंग प्रतिरोधी डिज़ाइन।</span></li>
+					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span data-i18n="digiId.benefit3">डिजिटल और भौतिक पहुंच के लिए ड्रॉप-इन एकीकरण।</span></li>
+				</ul>
+				<div class="cluster mt-6">
+					<a class="btn btn--primary" href="https://www.digi-id.io" target="_blank" rel="noopener"><span data-i18n="digiId.cta.open">Digi-ID.io खोलें</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digiId.cta.libraries">लाइब्रेरीज़</span></a>
+				</div>
 
-            <div class="col-full ss-copyright"> 
-                <span>&copy; कॉपीराइट <span id="copyright-year"></span></span> 
-				<span>सभी अधिकार सुरक्षित</span> 
-                <span><a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT लाइसेंस</a></span> के तहत जारी
-				<span><a href="/legaldisclaimer.html">Legal Disclaimer</a>कानूनी अस्वीकरण</a> | <a href="../docs/PrivacyPolicy.pdf">गोपनीयता नीति</a></span>
-            </div>
+				<div class="accordion mt-7">
+					<details>
+						<summary data-i18n="digiId.faq1.q">यह OAuth या „X से साइन इन” से कैसे अलग है?</summary>
+						<p data-i18n="digiId.faq1.a">पारंपरिक सिंगल साइन-ऑन केंद्रीकृत डेटा ब्रोकरों पर निर्भर करता है। Digi-ID पूरी तरह से विकेन्द्रीकृत है: उपयोगकर्ता एक अद्वितीय चुनौती को सीधे अपने डिवाइस से हस्ताक्षरित करके प्रमाणित करते हैं, जिससे प्रक्रिया से थर्ड-पार्टी सर्वर पूरी तरह से हट जाते हैं।</p>
+					</details>
+					<details>
+						<summary data-i18n="digiId.faq2.q">क्या क्रिप्टोकरेंसी वॉलेट की आवश्यकता है?</summary>
+						<p data-i18n="digiId.faq2.a">नहीं, क्रिप्टो रखना वैकल्पिक है। कई DigiByte वॉलेट Digi-ID को मूल रूप से समर्थन देते हैं, लेकिन आप केवल सुरक्षित लॉगिन के लिए डिज़ाइन किए गए एक स्टैंडअलोन ऑथेंटिकेटर ऐप का भी उपयोग कर सकते हैं।</p>
+					</details>
+					<details>
+						<summary data-i18n="digiId.faq3.q">मैं इसे कैसे एकीकृत करूं?</summary>
+						<p data-i18n="digiId.faq3.a">डेवलपर्स हमारी ड्रॉप-इन लाइब्रेरीज़ का उपयोग Node.js, PHP, Python और Go के लिए कर सकते हैं, या मूल WordPress प्लगइन इंस्टॉल कर सकते हैं। पूर्ण संसाधन नीचे डेवलपर हब में हैं।</p>
+					</details>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-        </div>
+<!-- DEVELOPER HUB ============================================ -->
+<section id="devhub" class="s-devhub" aria-labelledby="dev-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="devhub.eyebrow">डेवलपर हब</span>
+			<h2 id="dev-title" class="gradient-text--brand" data-i18n="devhub.title">UTXO विकास के लिए बेजोड़ बुनियादी ढांचा।</h2>
+			<p data-i18n="devhub.lead">तय, पूर्वानुमेय शुल्क संरचनाओं के साथ एक विश्वसनीय, युद्ध-परीक्षित RPC तक पहुंच प्राप्त करें। DigiByte मिनटों में नोड्स को तैनात करने और वास्तव में विकेन्द्रीकृत नेटवर्क पर निर्माण करने का आधार प्रदान करता है।</p>
+		</header>
 
-        
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
-        </div>
+		<div class="s-devhub__layout">
+			<div data-reveal>
+				<div class="tabs">
+					<div class="tabs__list" role="tablist">
+						<button type="button" class="tabs__btn" role="tab" data-tab="cli" aria-selected="true" aria-controls="tab-cli" id="tabbtn-cli">CLI</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="node" aria-selected="false" aria-controls="tab-node" id="tabbtn-node">Node.js</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="py" aria-selected="false" aria-controls="tab-py" id="tabbtn-py">Python</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="curl" aria-selected="false" aria-controls="tab-curl" id="tabbtn-curl">cURL</button>
+					</div>
 
-    </footer>
+					<div class="tabs__panel" data-tab="cli" data-active>
+						<div class="terminal">
+							<div class="terminal__bar"><span class="terminal__dot"></span><span class="terminal__title">~/digibyte — bash</span></div>
+							<div class="terminal__body">
+								<span class="line"><span class="comment"># Get current chain info</span></span>
+								<span class="line"><span class="prompt">$</span> <span class="cmd">digibyte-cli getblockchaininfo</span></span>
+								<span class="line"><span class="out">{</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"chain"</span><span class="out">: </span><span class="str">"main"</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"blocks"</span><span class="out">: </span><span class="num">21000000</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"difficulty"</span><span class="out">: </span><span class="num">128456.7</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"verificationprogress"</span><span class="out">: </span><span class="num">0.99999</span></span>
+								<span class="line"><span class="out">}</span><span class="terminal__cursor"></span></span>
+							</div>
+						</div>
+					</div>
 
+					<div class="tabs__panel" data-tab="node">
+						<div class="codeblock">
+<pre><code>// Send 100 DGB via Core RPC (Node.js, no external deps)
+import http from 'node:http';
+const body = JSON.stringify({ jsonrpc: '1.0', id: 'web', method: 'sendtoaddress',
+  params: ['DXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 100] });
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/plugins1b.js"></script>
-    <script src="../js/main2o.js"></script>
-	
-	<!-- Cookie info message
-    ================================================== -->
-	<script type="text/javascript" id="cookieinfo" src="../js/cookieinfo.min.js"
-	data-font-size="14px"
-	data-font-family="Nunito Sans,sans-serif"
-	data-text-align="left"
-    data-fg="#545454"
-	data-bg="rgba(255, 255, 255, 0.9)"
-	data-link="#0066cc"
-	data-divlink="#ffffff"
-	data-divlinkbg="#0066cc"
-	data-position="bottom"
-	data-message="हम आपके अनुभव को बढ़ाने के लिए कुकीज़ का उपयोग करते हैं। इस साइट पर जाने के लिए आप कुकीज़ के हमारे उपयोग के लिए सहमत हैं।"
-	data-linkmsg="अधिक जानकारी"
-	data-moreinfo="docs/PrivacyPolicy.pdf"
-	data-close-text="ठीक है"
-	>
-    </script>
-    <script>
-        if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("/js/sw.js").then(function(reg) {
-                console.log("Service worker has been registered for scope: " + reg.scope);
-            });
-        }       
-    </script>
+const req = http.request({
+  hostname: '127.0.0.1', port: 14022, method: 'POST',
+  auth: 'rpcuser:rpcpass',
+  headers: { 'Content-Type': 'application/json', 'Content-Length': body.length }
+}, res =&gt; {
+  let d = ''; res.on('data', c =&gt; d += c);
+  res.on('end', () =&gt; console.log(JSON.parse(d)));
+});
+req.write(body); req.end();</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="py">
+						<div class="codeblock">
+<pre><code># Listen for new blocks (Python, requests)
+import requests, time
+
+URL = "http://rpcuser:rpcpass@127.0.0.1:14022"
+last = 0
+while True:
+    info = requests.post(URL, json={
+        "jsonrpc": "1.0", "id": "py", "method": "getblockchaininfo", "params": []
+    }).json()["result"]
+    if info["blocks"] != last:
+        print("new block:", info["blocks"])
+        last = info["blocks"]
+    time.sleep(5)</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="curl">
+						<div class="codeblock">
+<pre><code>curl -u rpcuser:rpcpass --data-binary \
+  '{"jsonrpc":"1.0","id":"sh","method":"getmempoolinfo","params":[]}' \
+  -H 'content-type: application/json;' http://127.0.0.1:14022/</code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="s-devhub__links">
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener">
+						<i class="fab fa-github devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.core.title">Core प्रोटोकॉल</span>
+						<span class="devlink__meta" data-i18n="devhub.link.core.meta">DigiByte-Core/digibyte</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener">
+						<i class="fas fa-server devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.node.title">फुल नोड चलाएं</span>
+						<span class="devlink__meta" data-i18n="devhub.link.node.meta">5 मिनट की गाइड</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">
+						<i class="fas fa-book devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.wiki.title">विकी &amp; RPC दस्तावेज़</span>
+						<span class="devlink__meta" data-i18n="devhub.link.wiki.meta">समुदाय द्वारा अनुरक्षित</span>
+					</a>
+					<a class="devlink" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">
+						<i class="fas fa-comments devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.discussions.title">चर्चाएं</span>
+						<span class="devlink__meta" data-i18n="devhub.link.discussions.meta">पूछें, साझा करें, शिप करें</span>
+					</a>
+					<a class="devlink" href="../docs/integrationguide.pdf" target="_blank">
+						<i class="fas fa-plug devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.integration.title">एकीकरण गाइड</span>
+						<span class="devlink__meta" data-i18n="devhub.link.integration.meta">एक्सचेंज &amp; सेवाओं के लिए</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener">
+						<i class="fas fa-fingerprint devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.digiId.title">Digi-ID लाइब्रेरीज़</span>
+						<span class="devlink__meta" data-i18n="devhub.link.digiId.meta">Node, PHP, Python, Go</span>
+					</a>
+				</div>
+			</div>
+
+			<div data-reveal data-reveal-delay="80">
+				<div class="release-card" data-github-release>
+					<div class="release-card__head">
+						<span class="release-card__tag is-loading">v&mdash;</span>
+						<span class="chip chip--violet" data-i18n="devhub.release.latest">नवीनतम</span>
+					</div>
+					<h3 class="card__title is-loading">DigiByte Core</h3>
+					<details class="release-card__notes is-loading">
+						<summary data-i18n="devhub.release.notes">रिलीज़ नोट्स</summary>
+						<div class="release-card__notes__body" data-i18n="devhub.release.loading">GitHub से रिलीज़ नोट्स लोड हो रहे हैं…</div>
+					</details>
+				</div>
+
+				<div class="card mt-5">
+					<span class="eyebrow" data-i18n="devhub.whyShip.eyebrow">DGB पर क्यों शिप करें?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point1">पूर्वानुमेय शुल्क बाज़ार: सेंट से कम लेन-देन लागत सस्टेनेबल ऐप स्केलिंग सुनिश्चित करती है।</span></li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point2">अनुमोदन-मुक्त लेन-देन: मूल UTXO यांत्रिकी व्यापक टोकन अनुमतियों से जुड़े सुरक्षा जोखिमों को बायपास करती है।</span></li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point3">स्टेटलेस निष्पादन: एक शुद्ध UTXO वातावरण सरल, समानांतर और संयोज्य विकास की अनुमति देता है।</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ROADMAP / MILESTONES ===================================== -->
+<section id="roadmap" class="s-roadmap" aria-labelledby="roadmap-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="roadmap.eyebrow">ट्रैक रिकॉर्ड</span>
+			<h2 id="roadmap-title" data-i18n="roadmap.title">एक दशक से अधिक का निरंतर निष्पादन।</h2>
+			<p data-i18n="roadmap.lead">प्रारंभिक SegWit सक्रियण से लेकर मल्टी-एल्गोरिदम सहमति तक। प्रत्येक प्रोटोकॉल अपग्रेड ओपन सोर्स, मेननेट-परीक्षित और बिना केंद्रीकृत फंडिंग के तैनात किया गया है।</p>
+		</header>
+
+		<div class="roadmap" data-reveal>
+			<div class="roadmap__stage">
+				<ol class="roadmap__items">
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.genesis.title">Genesis</h3>
+						<p data-i18n="roadmap.genesis.body">सार्वजनिक माइनिंग के माध्यम से उचित लॉन्च; 0.5% प्रीमाइन गिवअवे और विकास के लिए वितरित।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.digishield.title">DigiShield</h3>
+						<p data-i18n="roadmap.digishield.body">स्थिर ब्लॉक समय सुनिश्चित करने के लिए रीयल-टाइम कठिनाई पुनः-लक्ष्यण।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.multialgo.title">MultiAlgo</h3>
+						<p data-i18n="roadmap.multialgo.body">हैशरेट केंद्रीकरण को रोकने के लिए पांच समानांतर माइनिंग एल्गोरिदम।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2017</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.segwit.title">SegWit</h3>
+						<p data-i18n="roadmap.segwit.body">प्रोटोकॉल अपग्रेड जो क्षमता का अनुकूलन करता है और लेन-देन की मॉलिएबिलिटी को ठीक करता है।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2019</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.odocrypt.title">Odocrypt &amp; Dandelion++</h3>
+						<p data-i18n="roadmap.odocrypt.body">ASIC-प्रतिरोधी सहमति और गोपनीयता-संरक्षित लेन-देन रूटिंग।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2020+</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.digiAssetsId.title">DigiAssets &amp; Digi-ID</h3>
+						<p data-i18n="roadmap.digiAssetsId.body">ऑन-चेन एसेट और विकेन्द्रीकृत प्रमाणीकरण के लिए इकोसिस्टम-व्यापी एकीकरण।</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2025</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.core.title">Core v9.26.5</h3>
+						<p data-i18n="roadmap.core.body">Bitcoin Core 26 फ्रेमवर्क पर निर्मित आधुनिक नोड बुनियादी ढांचा।</p>
+						<ul class="roadmap__bullets">
+							<li data-i18n="roadmap.core.taproot.bip340">BIP340 — Schnorr signatures</li>
+							<li data-i18n="roadmap.core.taproot.bip341">BIP341 — Pay-to-Taproot (P2TR)</li>
+							<li data-i18n="roadmap.core.taproot.bip342">BIP342 — Tapscript</li>
+						</ul>
+					</li>
+					<li class="roadmap__item roadmap__item--finale">
+						<span class="roadmap__year">2026</span>
+						<h3 class="roadmap__title"><span data-i18n="roadmap.digidollar.title">DigiDollar</span> <span class="chip chip--live" data-i18n="roadmap.digidollar.live">Live on mainnet</span></h3>
+						<p data-i18n="roadmap.digidollar.body">एक पूरी तरह से नॉन-कस्टोडियल स्टेबलकॉइन जो टाइम-लॉक्ड DGB रिज़र्व के माध्यम से USD-पेग्ड तरलता उत्पन्न करता है।</p>
+						<a class="btn btn--primary btn--sm mt-3" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="roadmap.digidollar.cta">DigiDollar खोजें</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					</li>
+				</ol>
+
+				<div class="roadmap__lane" aria-hidden="true">
+					<svg class="roadmap__road" viewBox="0 0 220 1760" preserveAspectRatio="none">
+						<defs>
+							<linearGradient id="road-grad" x1="0" y1="0" x2="0" y2="1">
+								<stop offset="0%" stop-color="#00e5ff"/>
+								<stop offset="50%" stop-color="#2f80ff"/>
+								<stop offset="100%" stop-color="#1450ff"/>
+							</linearGradient>
+							<filter id="road-glow" x="-50%" y="-10%" width="200%" height="120%">
+								<feGaussianBlur stdDeviation="4" result="b"/>
+								<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+							</filter>
+						</defs>
+
+						<!-- Soft outer glow -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="url(#road-grad)" stroke-width="32" stroke-opacity="0.18" stroke-linecap="round"/>
+
+						<!-- Road body -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="url(#road-grad)" stroke-width="14" stroke-linecap="round" filter="url(#road-glow)"/>
+
+						<!-- Dashed center line -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7" stroke-dasharray="6 10" stroke-linecap="round"/>
+
+						<!-- Pins anchored to road points -->
+						<g font-family="ui-monospace, monospace" font-weight="700">
+							<g transform="translate(30 110)">  <circle r="18" fill="#05070d" stroke="#00e5ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#00e5ff" font-size="14">01</text></g>
+							<g transform="translate(190 330)"> <circle r="18" fill="#05070d" stroke="#00e5ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#00e5ff" font-size="14">02</text></g>
+							<g transform="translate(30 550)">  <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">03</text></g>
+							<g transform="translate(190 770)"> <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">04</text></g>
+							<g transform="translate(30 990)">  <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">05</text></g>
+							<g transform="translate(190 1210)"><circle r="18" fill="#05070d" stroke="#1450ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#1450ff" font-size="14">06</text></g>
+							<g transform="translate(30 1430)"> <circle r="18" fill="#05070d" stroke="#1450ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#1450ff" font-size="14">07</text></g>
+							<g transform="translate(190 1650)"><circle r="22" fill="#05070d" stroke="#00e5ff" stroke-width="2.5"/><text text-anchor="middle" dy="6" fill="#00e5ff" font-size="16">08</text></g>
+						</g>
+					</svg>
+
+					<!-- Animated DGB cars driving along the road -->
+					<img class="roadmap__car roadmap__car--1" src="../images/dgb-logo.png" alt="" aria-hidden="true" width="44" height="44" loading="lazy">
+					<img class="roadmap__car roadmap__car--2" src="../images/dgb-logo.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- COMMUNITY ================================================ -->
+<section id="community" class="s-community" aria-labelledby="community-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="community.eyebrow">समुदाय</span>
+			<h2 id="community-title" data-i18n="community.title">वैश्विक बिल्डरों का स्वतंत्र नेटवर्क।</h2>
+			<p data-i18n="community.lead">DigiByte एक शुद्ध ओपन सोर्स परियोजना है जिसमें कोई केंद्रीकृत संगठन नहीं है। वैश्विक विकास, नोड बुनियादी ढांचा और 40+ भाषाओं में स्थानीयकरण पूरी तरह से स्व-समन्वित स्वयंसेवकों द्वारा बनाए रखा जाता है।</p>
+			<p class="text-ink-2" data-i18n="community.getInvolved"><strong class="text-cyan">शामिल हों:</strong> कोड का ऑडिट करके, दस्तावेज़ का स्थानीयकरण करके, बुनियादी ढांचा चलाकर या शैक्षिक सामग्री बनाकर इकोसिस्टम में जुड़ें।</p>
+			<p class="text-ink-2" data-i18n="community.dip0002">Per <a href="https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki" target="_blank" rel="noopener">DIP-0002</a>, third-party social platforms and advocacy groups have been relocated to the community-maintained DigiByte Wiki and the official GitHub Discussions forum.</p>
+		</header>
+
+		<div class="community-grid">
+			<a class="community-tile" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-reveal>
+				<i class="fab fa-github"></i><div><strong data-i18n="community.tile.github.title">GitHub Discussions</strong><br><small class="text-ink-3" data-i18n="community.tile.github.meta">चर्चाएं &amp; PRs</small></div>
+			</a>
+			<a class="community-tile" href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
+				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki Community</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Curated community index</small></div>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- DOWNLOADS ================================================ -->
+<section id="downloads" class="s-downloads bg-grid" aria-labelledby="downloads-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="downloads.eyebrow">DigiByte प्राप्त करें</span>
+			<h2 id="downloads-title" data-i18n="downloads.title">नेटवर्क सॉफ़्टवेयर और क्लाइंट।</h2>
+			<p data-i18n="downloads.lead">पूर्ण सत्यापन नोड चलाकर नेटवर्क की विकेन्द्रीकृत सुरक्षा का समर्थन करें, या पोर्टेबल लेन-देन प्रबंधन, एसेट कस्टडी और सुरक्षित लॉगिन के लिए लाइट वॉलेट का उपयोग करें।</p>
+		</header>
+
+		<div class="downloads-grid">
+			<article class="download-card download-card--featured" data-reveal>
+				<div class="download-card__main">
+					<header>
+						<span class="eyebrow" data-i18n="downloads.core.eyebrow">फुल नोड</span>
+						<h3 class="card__title">DigiByte Core</h3>
+						<p class="text-ink-2 mt-2" data-i18n="downloads.core.subtitle">पूर्ण, स्वतंत्र ब्लॉक सत्यापन।</p>
+					</header>
+					<ul class="stack-sm">
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet1">नेटवर्क को सीधे एंकर और सुरक्षित करता है</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet2">अंतर्निहित SegWit, Bech32 और RPC इंटरफेस</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">उत्पादन के लिए तैयार:</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v9.26.5</a></li>
+					</ul>
+					<div class="cluster">
+						<a class="btn btn--primary btn--sm" href="https://digibyte.io/downloads" target="_blank" rel="noopener"><i class="fas fa-download"></i> <span data-i18n="downloads.core.easyDownloads">Easy downloads</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">नोड चलाएं</span></a>
+						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener" data-i18n="downloads.core.checksums">चेकसम</a>
+					</div>
+				</div>
+				<aside class="download-card__aside">
+					<span class="eyebrow" data-i18n="downloads.core.whyValidate">स्वयं सत्यापित क्यों करें?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i> <span data-i18n="downloads.core.why1">ट्रस्टलेस सत्यापन — चेन के तीसरे पक्ष के दृष्टिकोण पर कभी निर्भर न रहें।</span></li>
+						<li class="cluster"><i class="fas fa-network-wired text-cyan"></i> <span data-i18n="downloads.core.why2">हर नए पीयर के साथ विकेन्द्रीकरण मजबूत करें।</span></li>
+						<li class="cluster"><i class="fas fa-eye-slash text-cyan"></i> <span data-i18n="downloads.core.why3">अपने वॉलेट और लुकअप के लिए वर्ग में सर्वश्रेष्ठ गोपनीयता।</span></li>
+					</ul>
+					<div class="download-card__platforms mt-4">
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-win64-setup.exe" target="_blank" rel="noopener" aria-label="Windows के लिए डाउनलोड करें" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="macOS के लिए डाउनलोड करें" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Linux के लिए डाउनलोड करें" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
+					</div>
+				</aside>
+			</article>
+		</div>
+
+		<aside id="docs" class="card mt-9" data-reveal>
+			<div class="cluster justify-between-children">
+				<div>
+					<span class="eyebrow"><i class="fas fa-books"></i> <span data-i18n="downloads.docs.eyebrow">Docs &amp; गाइड</span></span>
+					<h3 class="card__title mt-2" data-i18n="downloads.docs.title">एकीकरण के लिए वह सब कुछ जो आपको चाहिए।</h3>
+				</div>
+			</div>
+			<div class="grid grid-3 mt-5">
+				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">एकीकरण गाइड</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">एक्सचेंज &amp; सेवाओं के लिए</span></a>
+				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">DigiDollar एकीकरण</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · स्टेबलकॉइन परत</span></a>
+				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">Technical architecture</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · security &amp; ecosystem</span></a>
+				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">मीडिया किट</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">लोगो &amp; आइकन</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">ब्रांड किट</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">विकी</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">तकनीकी संदर्भ</span></a>
+			</div>
+		</aside>
+	</div>
+</section>
+
+</main>
+
+<!-- FOOTER =================================================== -->
+<footer class="footer" id="footer">
+	<div class="row">
+		<div class="footer__grid">
+			<div class="footer__brand">
+				<a href="#top" class="footer__brand-link" aria-label="ऊपर वापस जाएं" data-i18n-attr="aria-label:footer.aria.backToTop">
+					<img src="../images/footerlogo.png" alt="DigiByte" width="220" height="60" class="footer__logo mb-4">
+				</a>
+				<p class="text-ink-2" data-i18n="footer.tagline">निर्बाध UTXO बुनियादी ढांचा। 2014 से एक विकेन्द्रीकृत, ओपन-सोर्स समुदाय द्वारा डिज़ाइन और स्केल किया गया।</p>
+				<div class="footer__socials mt-5">
+					<a href="https://github.com/DigiByte-Core" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" aria-label="GitHub Discussions"><i class="fas fa-comments"></i></a>
+					<a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" aria-label="DigiByte Wiki"><i class="fas fa-book-open"></i></a>
+				</div>
+			</div>
+			<div>
+				<h6 data-i18n="footer.protocol.heading">प्रोटोकॉल</h6>
+				<ul class="footer__list">
+					<li><a href="#features" data-i18n="footer.protocol.features">विशेषताएँ</a></li>
+					<li><a href="#predictable-issuance" data-i18n="footer.protocol.predictableIssuance">Predictable issuance</a></li>
+					<li><a href="#chain" data-i18n="footer.protocol.liveChain">लाइव चेन</a></li>
+					<li><a href="#roadmap" data-i18n="footer.protocol.roadmap">रोडमैप</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.build.heading">निर्माण</h6>
+				<ul class="footer__list">
+					<li><a href="#devhub" data-i18n="footer.build.devHub">डेवलपर हब</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" data-i18n="footer.build.coreRepo">Core रेपो</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.build.wiki">विकी</a></li>
+					<li><a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-i18n="footer.build.discussions">चर्चाएं</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.use.heading">उपयोग</h6>
+				<ul class="footer__list">
+					<li><a href="#downloads" data-i18n="footer.use.downloads">डाउनलोड</a></li>
+					<li><a href="#digi-id" data-i18n="footer.use.digiId">Digi-ID</a></li>
+					<li><a href="#digiassets" data-i18n="footer.use.digiassets">DigiAssets</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.resources.heading">संसाधन</h6>
+				<ul class="footer__list">
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
+					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
+					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">एकीकरण</a></li>
+					<li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" data-i18n="footer.resources.digidollar">DigiDollar गाइड</a></li>
+					<li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" data-i18n="footer.resources.techArch">Technical architecture</a></li>
+					<li><a href="../legaldisclaimer.html" data-i18n="footer.resources.legal">कानूनी अस्वीकरण</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<span data-i18n="footer.copyright">© 2014–2026 DigiByte — समुदाय द्वारा, समुदाय के लिए निर्मित।</span>
+			<span class="cluster">
+				<a href="../legaldisclaimer.html" data-i18n="footer.bottom.disclaimer">अस्वीकरण</a>
+				<a href="../privacy-app.html" data-i18n="footer.bottom.privacy">गोपनीयता</a>
+				<a href="../terms-app.html" data-i18n="footer.bottom.terms">शर्तें</a>
+			</span>
+		</div>
+	</div>
+</footer>
+
+<!-- App scripts -->
+<script type="module" src="../js/app.js"></script>
+
 </body>
-	
 </html>

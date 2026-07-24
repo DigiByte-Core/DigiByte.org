@@ -1,1201 +1,911 @@
 <!DOCTYPE html>
-<html class="no-js" lang="sw">
+<html lang="sw" dir="ltr">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title data-i18n="meta.title">DigiByte — Blockchain yenye kasi, salama na ya kifutathii zaidi | DGB · DigiAssets · Digi-ID</title>
+	<meta name="description" content="DigiByte ni blockchain ya UTXO inayofanya kazi muda mrefu zaidi, ya haraka zaidi na yenye ugatuzi mkubwa zaidi. Jenga na DigiAssets, ingia na Digi-ID, endesha node, na ujiunge na jumuiya ya kimataifa ya chanzo huria." data-i18n-attr="content:meta.description">
+	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
+	<meta name="theme-color" content="#05070d">
+	<meta name="color-scheme" content="dark">
+	<link rel="canonical" href="https://digibyte.org/sw/">
 	<link rel="manifest" href="../manifest.json">
-	<script src="../js/hashcatcher.js"></script>
-	
-	<!--- Google analytics
-    ================================================== -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129492671-3"></script>
-    <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
-    </script>
 
-    <!--- Basic page needs
-    ================================================== -->
-    <title>DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Tovuti rasmi ya DigiByte. DigiByte ni chanzo-wazi na chenye viwango vya kimataifa vya blockchain ambapo ndani yake kuna sarafu ya DGB, DigiAssets, Digi-ID na zaidi.">
-	<meta name="keywords" content="DigiByte, DGB, Blockchain,  Sarafu yenye madaraka/isiyohodhiwa , Mali, Digitali, Crypto, DigiAssets, Digi-ID, Ulinzi wa Kimtandao, Uthibitisho, Smart Contract, dApp, Malipo, Pochi, Jamii, Badilishana, Nunua, Bei, Rasmi">
-	<link rel="canonical" href="https://digibyte.org/sw/" />
+	<!-- Hreflang for 40 locales -->
+	<link rel="alternate" hreflang="x-default" href="https://digibyte.org/">
+	<link rel="alternate" hreflang="en" href="https://digibyte.org/en/">
+	<link rel="alternate" hreflang="en-us" href="https://digibyte.org/en-us/">
+	<link rel="alternate" hreflang="af" href="https://digibyte.org/af/">
+	<link rel="alternate" hreflang="ar" href="https://digibyte.org/ar/">
+	<link rel="alternate" hreflang="bg" href="https://digibyte.org/bg/">
+	<link rel="alternate" hreflang="cs" href="https://digibyte.org/cs/">
+	<link rel="alternate" hreflang="da" href="https://digibyte.org/da/">
+	<link rel="alternate" hreflang="de" href="https://digibyte.org/de/">
+	<link rel="alternate" hreflang="el" href="https://digibyte.org/el/">
+	<link rel="alternate" hreflang="es" href="https://digibyte.org/es/">
+	<link rel="alternate" hreflang="fa" href="https://digibyte.org/fa/">
+	<link rel="alternate" hreflang="fi" href="https://digibyte.org/fi/">
+	<link rel="alternate" hreflang="fil" href="https://digibyte.org/fil/">
+	<link rel="alternate" hreflang="fr" href="https://digibyte.org/fr/">
+	<link rel="alternate" hreflang="hi" href="https://digibyte.org/hi/">
+	<link rel="alternate" hreflang="hr" href="https://digibyte.org/hr/">
+	<link rel="alternate" hreflang="hu" href="https://digibyte.org/hu/">
+	<link rel="alternate" hreflang="id" href="https://digibyte.org/id/">
+	<link rel="alternate" hreflang="it" href="https://digibyte.org/it/">
+	<link rel="alternate" hreflang="ja" href="https://digibyte.org/ja/">
+	<link rel="alternate" hreflang="ms" href="https://digibyte.org/ms/">
+	<link rel="alternate" hreflang="nb" href="https://digibyte.org/nb/">
+	<link rel="alternate" hreflang="nl" href="https://digibyte.org/nl/">
+	<link rel="alternate" hreflang="pl" href="https://digibyte.org/pl/">
+	<link rel="alternate" hreflang="pt" href="https://digibyte.org/pt/">
+	<link rel="alternate" hreflang="pt-br" href="https://digibyte.org/pt-br/">
+	<link rel="alternate" hreflang="ro" href="https://digibyte.org/ro/">
+	<link rel="alternate" hreflang="ru" href="https://digibyte.org/ru/">
+	<link rel="alternate" hreflang="sl" href="https://digibyte.org/sl/">
+	<link rel="alternate" hreflang="sq" href="https://digibyte.org/sq/">
+	<link rel="alternate" hreflang="sv" href="https://digibyte.org/sv/">
+	<link rel="alternate" hreflang="sw" href="https://digibyte.org/sw/">
+	<link rel="alternate" hreflang="th" href="https://digibyte.org/th/">
+	<link rel="alternate" hreflang="tr" href="https://digibyte.org/tr/">
+	<link rel="alternate" hreflang="vi" href="https://digibyte.org/vi/">
+	<link rel="alternate" hreflang="zh" href="https://digibyte.org/zh/">
 
-    <!-- Mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+	<link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#00e5ff">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/vendor1g.css">
-    <link rel="stylesheet" href="../css/main3p.css">
-
-    <!-- Scripts
-    ================================================== -->
-    <script src="../js/modernizr.js"></script>
-    <script src="../js/pace.min.js"></script>
-	
-	<!-- RSS Feed
-    ================================================== -->
-    <link rel="alternate" type="application/rss+xml" title="DigiByte News" href="https://digibyte.org/news.xml" />
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
-    <link rel="manifest" href="../favicons/site.webmanifest">
-    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#002352">
-    <meta name="apple-mobile-web-app-title" content="DigiByte">
-    <meta name="application-name" content="DigiByte">
-    <meta name="msapplication-TileColor" content="#002352">
-    <meta name="msapplication-config" content="../favicons/browserconfig.xml">
-    <meta name="theme-color" content="#002352">
-	
-	<!-- Twitter preview
-    ================================================== -->
-	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID" />
-    <meta name="twitter:description" content="DigiByte ni chanzo-wazi na chenye viwango vya kimataifa vya blockchain ambapo ndani yake kuna sarafu ya DGB, DigiAssets, Digi-ID na zaidi." />
-    <meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png" />
-	
-	<!-- Facebook preview
-    ================================================== -->
+	<!-- Open Graph / Twitter -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="DigiByte — Blockchain yenye kasi, salama na ya kifutathii zaidi" data-i18n-attr="content:meta.og.title">
+	<meta property="og:description" content="Blockchain ya UTXO inayofanya kazi muda mrefu zaidi, ya haraka zaidi na yenye ugatuzi mkubwa zaidi. Jenga na DigiAssets, ingia na Digi-ID." data-i18n-attr="content:meta.og.description">
+	<meta property="og:url" content="https://digibyte.org/sw/">
 	<meta property="og:image" content="https://digibyte.org/favicons/og-image.jpg">
-    <meta property="og:image:width" content="955">
-    <meta property="og:image:height" content="500">
-    <meta property="og:description" content="DigiByte ni chanzo-wazi na chenye viwango vya kimataifa vya blockchain ambapo ndani yake kuna sarafu ya DGB, DigiAssets, Digi-ID na zaidi.">
-    <meta property="og:title" content="DigiByte Blockchain | DGB Coin | DigiAssets | Digi-ID">
-    <meta property="og:url" content="https://digibyte.org/">
+	<meta property="og:image:width" content="955">
+	<meta property="og:image:height" content="500">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="DigiByte — Blockchain yenye kasi, salama na ya kifutathii zaidi" data-i18n-attr="content:meta.twitter.title">
+	<meta name="twitter:description" content="Blockchain ya UTXO inayofanya kazi muda mrefu zaidi, ya haraka zaidi na yenye ugatuzi mkubwa zaidi. Jenga, fanya muamala na uthibitisha kwenye DGB." data-i18n-attr="content:meta.twitter.description">
+	<meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png">
 
+	<!-- Fonts (non-blocking) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
+
+	<!-- Icons (Font Awesome, non-blocking) -->
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></noscript>
+
+	<!-- Design system -->
+	<link rel="stylesheet" href="../css/tokens.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/components.css">
+	<link rel="stylesheet" href="../css/sections.css">
+	<link rel="stylesheet" href="../css/utilities.css">
+
+	<!-- Language router (preserves existing behaviour) -->
+	<script src="../js/lang-router.js" defer></script>
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "DigiByte",
+		"url": "https://digibyte.org/",
+		"logo": "https://digibyte.org/images/logo.svg",
+		"sameAs": [
+			"https://github.com/DigiByte-Core",
+			"https://github.com/orgs/DigiByte-Core/discussions",
+			"https://github.com/DigiByte-Core/digibyte/wiki"
+		]
+	}
+	</script>
+
+	<!-- Google Analytics (deferred to idle to protect FCP/LCP) -->
+	<script>
+		(function(){
+			window.dataLayer = window.dataLayer || [];
+			window.gtag = function(){ dataLayer.push(arguments); };
+			gtag('js', new Date());
+			gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
+			var load = function(){
+				var s = document.createElement('script');
+				s.async = true;
+				s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129492671-3';
+				document.head.appendChild(s);
+			};
+			if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 4000 });
+			else window.addEventListener('load', function(){ setTimeout(load, 1500); });
+		})();
+	</script>
 </head>
-
 <body id="top">
 
-    <!-- Preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-           <div><img src="../images/preloader.svg" loading="eager" alt="Preloader logo"></div>
-        </div>
-    </div> 
-	
-	<!-- Ticker
-    ================================================== -->
-	<header class="pticker">
-		<div class="row">
-			<div includeHTML="../langmenu/ticker.html"></div>
-		</div>
-	</header>
-	
-    <!-- Header
-    ================================================== -->
-    <header class="s-header">
+<a class="skip-link" href="#main" data-i18n="skipLink">Ruka kwenda kwa maudhui</a>
 
-        <div class="row">
-            <div class="header-logo">
-                <a class="site-logo smoothscroll" href="#top" onClick="homeButton()"><img src="../images/logo.svg" loading="eager" alt="Home">
-                </a>
-            </div>
-    
-            <nav class="header-nav-wrap">
-                <ul class="header-main-nav">
-                    <li id="dbc"><a class="ssbc" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li id="mbc"><a class="ssbcm" href="#blockchain" title="Blockchain">Blockchain</a></li>
-					<li><a class="smoothscroll" href="#currency" title="Sarafu">Sarafu</a></li>
-                    <li><a class="smoothscroll" href="#digiassets" title="DigiAssets">DigiAssets</a></li>
-                    <li><a class="smoothscroll" href="#digi-id" title="Digi-ID">Digi-ID</a></li>
-                    <li><a class="smoothscroll" href="#community" title="Jamii">Jamii</a></li>
-					<li><a class="smoothscroll" href="#downloads" title="Vipakuliwa">Vipakuliwa</a></li>
-                    <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">Wiki</a></li>
-				</ul>
-				
-					<div class="dropdown header-cta" id="langmenu">
-					   <a href="javascript:void(0)" onclick="lmenu()" class="dropbtn" id="lmenuname"></a>
-                       <div includeHTML="../langmenu/desktop.html"></div>
-                    </div>
-					
-					<div includeHTML="../langmenu/mobile.html"></div>
-            </nav>
-    
-            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-        </div>
+<!-- Top live ticker -->
+<div class="top-ticker" role="status" aria-live="polite" aria-label="Tikara ya moja kwa moja ya mtandao wa DigiByte" data-i18n-attr="aria-label:ticker.aria">
+	<div class="top-ticker__track">
+		<span class="top-ticker__item"><span>DGB</span> <strong data-stat="price">—</strong> <span class="up" data-stat="price-change">—</span></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.block">Bloku</span> <strong data-stat="blocks" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.hashrate">Hashrate</span> <strong data-stat="network-hashrate" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.difficulty">Ugumu</span> <strong data-stat="difficulty" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.connections">Miunganisho</span> <strong data-stat="connections" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><span data-i18n="ticker.core">Core</span> <strong data-stat="version" class="is-loading">—</strong></span>
+		<span class="top-ticker__item"><i class="fas fa-shield-halved"></i> <span data-i18n="ticker.algos">Algorithmu 5 za uchimbaji</span></span>
+		<span class="top-ticker__item"><i class="fas fa-bolt"></i> <span data-i18n="ticker.blocks">Bloku za sekunde 15</span></span>
+		<span class="top-ticker__item"><i class="fas fa-globe"></i> <span data-i18n="ticker.global">Ya kimataifa, iliyogatuliwa</span></span>
+	</div>
+</div>
 
-    </header>
-
-
-    <!-- Home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../images/hero-bg4.jpg" data-natural-width="3200" data-natural-height="1590" data-position-y="center" data-speed="0.0" data-z-index="1">
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-				
-				<div class="mapps">
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/software.svg" loading="eager" alt="Software Wallets">
-					</a>
-				  </div>
-				  <div class="mappscell">
-					<a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">
-				      <img class="mappsimg" src="../images/icons/hardware.svg" loading="eager" alt="Hardware Wallets">
-					</a>
-				  </div>
+<!-- Sticky nav -->
+<header class="nav" id="nav">
+	<div class="row nav__row">
+		<a class="nav__brand" href="#top" aria-label="Ukurasa wa nyumbani wa DigiByte" data-i18n-attr="aria-label:nav.aria.brand">
+			<img class="nav__symbol" src="../images/dgb-logo.png" alt="DigiByte" width="44" height="44">
+			<span class="nav__brand-text">DigiByte</span>
+		</a>
+		<nav aria-label="Urambazaji kuu" data-i18n-attr="aria-label:nav.aria.primary">
+			<ul class="nav__list">
+				<li><a href="#features" data-i18n="nav.whyDgb">Kwa nini DGB</a></li>
+				<li><a href="#chain" data-i18n="nav.liveChain">Chain ya moja kwa moja</a></li>
+				<li><a href="#predictable-issuance" data-i18n="nav.dgb">DGB</a></li>
+				<li><a href="#digiassets" data-i18n="nav.digiassets">DigiAssets</a></li>
+				<li><a href="#digi-id" data-i18n="nav.digiId">Digi-ID</a></li>
+				<li><a href="#devhub" data-i18n="nav.developers">Wabunifu</a></li>
+				<li><a href="#downloads" data-i18n="nav.download">Pakua</a></li>
+				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<div class="nav__cta">
+			<div class="lang-menu" data-lang-menu>
+				<button class="lang-menu__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Chagua lugha" data-i18n-attr="aria-label:nav.aria.langMenu">
+					<i class="fas fa-globe"></i>
+				</button>
+				<div class="lang-menu__panel" role="menu" hidden>
+					<div class="lang-menu__grid">
+						<a href="../en/" hreflang="en">English</a>
+						<a href="../af/" hreflang="af">Afrikaans</a>
+						<a href="../cs/" hreflang="cs">Čeština</a>
+						<a href="../da/" hreflang="da">Dansk</a>
+						<a href="../de/" hreflang="de">Deutsch</a>
+						<a href="../es/" hreflang="es">Español</a>
+						<a href="../fr/" hreflang="fr">Français</a>
+						<a href="../hr/" hreflang="hr">Hrvatski</a>
+						<a href="../id/" hreflang="id">Indonesia</a>
+						<a href="../it/" hreflang="it">Italiano</a>
+						<a href="../sw/" hreflang="sw">Kiswahili</a>
+						<a href="../hu/" hreflang="hu">Magyar</a>
+						<a href="../ms/" hreflang="ms">Melayu</a>
+						<a href="../nl/" hreflang="nl">Nederlands</a>
+						<a href="../nb/" hreflang="nb">Norsk</a>
+						<a href="../fil/" hreflang="fil">Pilipino</a>
+						<a href="../pl/" hreflang="pl">Polski</a>
+						<a href="../pt/" hreflang="pt">Português</a>
+						<a href="../pt-br/" hreflang="pt-br">Português BR</a>
+						<a href="../ro/" hreflang="ro">Română</a>
+						<a href="../sq/" hreflang="sq">Shqip</a>
+						<a href="../sl/" hreflang="sl">Slovenščina</a>
+						<a href="../fi/" hreflang="fi">Suomi</a>
+						<a href="../sv/" hreflang="sv">Svenska</a>
+						<a href="../vi/" hreflang="vi">Tiếng Việt</a>
+						<a href="../tr/" hreflang="tr">Türkçe</a>
+						<a href="../ru/" hreflang="ru">Русский</a>
+						<a href="../bg/" hreflang="bg">български</a>
+						<a href="../el/" hreflang="el">Ελληνικά</a>
+						<a href="../hi/" hreflang="hi">हिन्दी</a>
+						<a href="../th/" hreflang="th">ไทย</a>
+						<a href="../ja/" hreflang="ja">日本語</a>
+						<a href="../zh/" hreflang="zh">简体中文</a>
+						<a href="../ar/" hreflang="ar">العربية</a>
+						<a href="../fa/" hreflang="fa">فارسی</a>
+					</div>
+					<a class="lang-menu__edit" href="https://github.com/DigiByte-Core/DGBio" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="nav.langMenu.edit">Hariri tafsiri kwenye GitHub</span></a>
 				</div>
-
-                <div class="home-content__left">
-                    <h1>
-                    Ulinzi zaidi, Haraka,<br/>
-                    Ufikiriaji wa mbele.
-                    </h1>
-    
-                    <h3>
-                    DigiByte ni haraka zaidi ya sarafu ya kidigitali. Ni blockchain ya uvumbuzi kwa ajili ya mali za kigitaili, smart contracts, programu zenye madaraka na uthibitisho salama.
-                    </h3>
-    
-                    <div class="home-content__btn-wrap">
-                        <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#community-driven-social-media" class="btn btn--primary home-content__btn">
-                            Jifunze zaidi
-                        </a>
-						<a href="#docs" class="btn btn--primary home-content__btn smoothscrollup">
-                            nyaraka
-                        </a>
-                    </div>
-					
-					<a href="../docs/integrationguide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> Mwongozo wa ujumuishaji</a>
-					<a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> DigiDollar guide</a>
-					<a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" class="infopaper"><i class="fab fa-readme"></i> Technical Architecture guide</a>
-                </div>
-
-                <!-- <div class="home-content__right">
-                    <img src="../images/hero-app-screens-800.png" alt="DigiByte App" srcset="../images/hero-app-screens-800.png 1x, ../images/hero-app-screens-1600.png 2x">
-                </div> -->
-
-            </div>
-        </div>
-
-        <a href="#footer" class="home-scroll smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a> 
-
-    </section>
-
-
-    <!-- About
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-		<a href="#footer" class="home-scroll2 smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a>
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Kipi kinaifanya DigiByte kuwa na nguvu zaidi ya wengine?
-                </h1>
-                <p class="lead">
-                    DigiByte ni chanzo -wazi cha blockchain kinachokua kwa haraka kilichoundwa mwishoni mwa mwaka 2013 na kutolewa mapema mwaka 2014. Baada ya miaka <span class="year-diff"></span> ya maendeleo ya ufikiriaji wa mbele, DigiByte imekuwa moja ya blockchain yenye usalama, kasi, ndefu na <a href="https://wikipedia.org/wiki/Unspent_transaction_output" target="_blank">UTXO</a> blockchain yenye madaraka.
-                </p>
-            </div>
-        </div>
-
-        <div class="row wide about-desc" data-aos="fade">
-
-            <div class="col-full slick-slider about-desc__slider">
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Isiyohodhiwa kabisa</h3>
-
-                    <p>
-                    DigiByte haijawahi kufadhiliwa kupitia <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> au kiwango muhimu cha <a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">sarafu zilizochimbuliwa awali</a>. Hakuna Mkurugenzi Mtendaji au kampuni inayodhibiti blockchain ya DigiByte. Ni mradi wa kujitolea unaendeshwa kijamii.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Salama zaidi.</h3>
-
-                    <p>
-					DigiByte hutumia algorithms 5 za kimfumo na <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">marekebisho ya ugumu wa wakati halisi</a> ili kuzuia ujumuishaji mbaya wa uchimbaji na kushuka kwa hash power. Mojawapo ni Odocrypt inayojibadilisha yenyewe kila baada ya siku 10 kwa ukinzani wa ASIC.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Haraka zaidi.</h3>
-
-                    <p>
-                    DigiByte blocks zinatokea kila baada ya sekunde 15 ambayo ni mara 40 haraka zaidi ya Bitcoin na mara 10 haraka zaidi ya Litecoin. Utekelezaji wa mapema wa <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a> na ugumu wa blockchain unawezesha mpaka miamala <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> kwenye mnyororo Kwa sekunde kwa ada ambazo ni ndogo sana.
-                    </p>
-                </div>
-
-                <div class="about-desc__slide">
-                    <h3 class="item-title">Ufikiriaji wa mbele.</h3>
-
-                    <p>
-                    Kwa zaidi ya miaka <span class="year-diff"></span> sasa, DigiByte imekuwa ikijirudia yenyewe mbali na blockchain nyingi kama <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a>, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a>, utekelezaji wa <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank">SegWit</a>, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a> algorithm, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a> privacy protocol, <a href="#digiassets" class="smoothscroll">DigiAssets</a> na <a href="#digi-id" class="smoothscroll">Digi-ID</a>.
-                    </p>
-                </div> 
-
-            </div>
-            
-        </div>
-
-    </section>
-
-
-    <!-- What is DigiByte Video
-    ================================================== -->
-    <section class="s-about-how target-section" id="blockchain">
-
-        <div class="row">
-           <div class="col-full video-bg" data-aos="zoom-in">
-
-                <div class="shadow-overlay"></div>
-
-                <a class="btn-video" href="https://www.youtube.com/embed/bsHA7TBbbWE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity>
-                    <span class="video-icon"></span>
-                </a>
-
-                <div class="stats">
-                    <div class="item-stats">
-                        <span class="item-stats__num">
-                            Nini maana ya DigiByte?
-                        </span>
-                        <span class="item-stats__title">
-                            Angalia video ya utangulizi
-                        </span>
-                    </div>
-                </div>
-		   
-           </div>
-        </div>
-	    
-    <!-- Blockchain
-    ================================================== -->
-	    
-        <div class="row process-wrap">
-			
-		<div class="section-header align-center has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Hivi ndivyo blockchain ya DigiByte inavyofanya kazi.
-                </h1>
-                <p class="lead">
-                    Safu tatu ndizo sehemu kuu za uvumbuzi kwenye blockchain ya DigiByte zinazotoa miundombinu ya mtandao, ulinzi na mawasiliano katika ufanyaji kazi wa spidi ya ajabu.
-                </p>
-            </div>
-        </div>
-
-        <div class="process" data-aos="fade">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Programu / DigiAssets.</h3>
-                        <p>Safu ya juu ni kama stoo ya programu iliyo na mwonekano na matumizi halisi ya dunia. Aina zote za mali za kigitail zinaweza kuundwa kupitia itikadi ya <a href="#digiassets" class="smoothscroll">DigiAssets</a> juu ya blockchain ya DigiByte. Programu zilizo na madaraka (dApps) zinaweza kuundwa juu ya blockchain ya DigiByte. Pia smart contracts zilizo ngumu na salama juu blockchain ya DigiByte zinaweza kuundwa kwa urahisi.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Mali za kigitaili / Kitabu cha umma.</h3>
-                        <p>Safu/Tabaka la katikati hutoa usalama/ulinzi na utawala. <strong>Digi</strong>tal <strong>Byte</strong> ya data, huwakilisha data nyingi au kizio kinachoshikilia thamani na haiwezi kuwa bandia, kurudiwa au kufanyiwa utapeli. Kitabu/daftali la umma lenye ulinzi wa hali ya juu ambapo shughuli/miamala yote ya DigiByte inatunzwa. DigiByte inatumia <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">algorithm tano kuthibitisha kazi</a> kwa ajili ya ulinzi. DigiByte mpya hutokana na uchimbaji pekee.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Kiini cha itifaki / Mtandao wa ulimwengu.</h3>
-                        <p>Safu/Tabaka la chini hutoa mawasiliano na taratibu za ufanyaji kazi. Ni kiwango cha chini kabisa cha node kwenye DigiByte cha mawasiliano katika mtandao wa ulimwengu. Maelfu ya watu wanatumia programu ya DigiByte kote ulimwenguni. Seva, kompyuta, tablet au simu yoyote iliyounganishwa na mtandao wa DigiByte inakuwa node inayosaidia kupokea na kuruhusu miamala/shughuli.
-			            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node#complete-port-forwarding" target="_blank">Anza kuchangia kwenye blockchain ya DigiByte kwa njia bora</a>.
-			            </p>
-		            </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">Chanzo-wazi / Kisichohitaji ruhusa.</h3>
-                        <p>Kama ilivyo <a href="https://github.com/DigiByte-Core/DGBio" target="_blank">tovuti</a>,  DigiByte blockchain ni chanzo-wazi na kisicho na gharama kutumia kilichotolewa chini ya <a href="https://opensource.org/licenses/mit-license.php" target="_blank">leseni ya MIT</a>, ambacho kinakupa nguvu ya kuendesha na kubadilisha programu. Uwazi unaruhusu uthibitisho huru wa binary na chanzo cha misimbo/code zinazoendana.<br />
-						<a href="https://github.com/DigiByte-Core/digibyte" target="_blank">Itifaki ya DigiByte kwenye GitHub</a>.
-						<br />
-						<a href="https://github.com/DigiByte-Core" target="_blank">Kiini cha maendeleo ya DigiByte kwenye GitHub</a>.
-                        </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-		
-		   <div class="row s-stats" data-aos="fade">
-		      <div class="stitle">Stigi za DigiByte blockchain</div>
-		   <div class="block-1-3">
-
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="years-surpassed">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">miaka</a></div>
-              </div>
-			   
-			   <div class="col-block stats__col">
-                  <div class="stats__count" id="block-count" >0</div>
-                  <div class="stats_text"><a href="https://chainz.cryptoid.info/dgb/" target="_blank">vizuizi</a></div>
-              </div>
-			   
-              <div class="col-block stats__col">
-                  <div class="stats__count" id="node-download-count">0</div>
-                  <div class="stats_text"><a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">upakuaji wa nodi</a></div> 
-              </div>
-
-           </div>
-		   </div>
-
-		   <div class="testimonials-wrap" data-aos="fade" id="history">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">Historia ya DigiByte.</h2>
-					<p class="lead">
-                    Vumbua hatua muhimu za maendeleo makubwa ya blockchain ya DigiByte.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full slick-slider testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="../images/avatars/development.png" loading="lazy" width="72" height="72" alt="Development" class="testimonials__avatar">
-                        
-                        <p>Maendeleo ya muda wote yameanza ili kujenga blockchain ya DigiByte ya siku za usoni.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Oktoba, 2013</span>
-				            <a href="https://x.com/jaredctate/status/1190673943876841475" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/launch.png" loading="lazy" width="72" height="72" alt="Launch" class="testimonials__avatar">
-                        
-                        <p>Block ya mwanzo ilichimbwa kwa ukamilifu na blockchain ya DigiByte kuzinduliwa rasmi. </p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Januari 10, 2014</span>
-							<a href="https://github.com/digibyte/digibyte/blob/master/src/chainparams.cpp#L40" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digishield.png" loading="lazy" width="72" height="72" alt="DigiShield" class="testimonials__avatar">
-                        
-                        <p>GigiShield iliwezeshwa  kutumia mabadiliko ya muda kamili dhidi ya kupanda na kushuka kwa hash.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Februari 28, 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multialgo.png" loading="lazy" width="72" height="72" alt="MultiAlgo" class="testimonials__avatar">
-                        
-                        <p>MultiAlgo iliwezeshwa kutumia algorithms 5 tofauti ili kuzuia kuhodhiwa  kwa madaraka ya Uchimbaji.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Septemba 1, 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/multishield.png" loading="lazy" width="72" height="72" alt="MultiShield" class="testimonials__avatar">
-                        
-                        <p>MultiShield iliwezeshwa kupanua ulinzi wa DigiShield zaidi ya algorithm 5 za uchimbaji.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Desemba 10, 2014</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multishield" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digispeed.png" loading="lazy" width="72" height="72" alt="DigiSpeed" class="testimonials__avatar">
-                        
-                        <p>MultiSpeed iliwezeshwa kupunguza muda wa block mpaka sekunde 15 kwa kufanya miamala haraka.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Desemba 4, 2015</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/segwit.png" loading="lazy" width="72" height="72" alt="SegWit" class="testimonials__avatar">
-                        
-                        <p>SegWit iliwezeshwa kabla ya Bitcoin na Litecoin kwa ajili ya matumizi ya ukubwa wa block.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">April 28, 2017</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#3-segregated-witness-segwit" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digi-id.png" loading="lazy" width="72" height="72" alt="Digi-ID" class="testimonials__avatar">
-                        
-                        <p>Digi-ID ilizinduliwa kuwezesha watumiaji  kuweka jitihada kidogo kuingia kwenye tovuti na zaidi.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Mei, 2018</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digi-id" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/digiassets.png" loading="lazy" width="72" height="72" alt="DigiAssets" class="testimonials__avatar">
-                        
-                        <p>DigiAssets ilizinduliwa kuwezesha utoaji madaraka ya mali na zaidi.
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Aprili, 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki#digiassets" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/dandelion.png" loading="lazy" width="72" height="72" alt="Dandelion++" class="testimonials__avatar">
-                        
-                        <p>Protakali ya Dandelion++ ilianzishwa kuzuia  ufuatiliaji IP na eneo. 
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Mei 3, 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-			
-					<div class="testimonials__slide">		
-                        <img src="../images/avatars/odocrypt.png" loading="lazy" width="72" height="72" alt="Odocrypt" class="testimonials__avatar">
-                        
-                        <p>Odocrypt iliwezeshwa ambayo inabadilika yenyewe kila baada ya siku 10 Kwa ajili ya ukinzani wa ASIC wenye nguvu. 
-						</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Julai 21, 2019</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank" class="testimonials__link">Jifunze zaidi</a>
-                        </div>
-                    </div>
-					
-                    <div class="testimonials__slide">		
-                        <img src="../images/avatars/roadmap.png" loading="lazy" width="72" height="72" alt="Roadmap" class="testimonials__avatar">
-                        
-                        <div>
-                            Ili kujifunza zaidi kuhusu mabadiliko yanayopendekezwa kwa itifaki ya DigiByte, tafadhali tembelea hifadhi ya DIPs: <a href="https://github.com/DigiByte-Core/DIPs" target="_blank" class="testimonials__link"> Hifadhi ya DIPs ya DigiByte</a>
-                        </div>
-                        <div>
-                            Ili kujifunza zaidi kuhusu jinsi unavyoweza kuchangia maendeleo ya DigiByte, tafadhali tembelea jukwaa la Majadiliano la GitHub:<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" class="testimonials__link"> Majadiliano ya GitHub ya DigiByte</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div> 
-
-        </div>
-
-    </section>
-
-
-    <!-- Currency
-    ================================================== -->
-    <section id="currency" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Sarafu ya kidigitali ambayo<br/>utaipenda kwa ujumla.
-                </h1>
-                <p class="lead">
-                    DigiByte (DGB) ni sarafu ya kidigitali ambayo inaweza kupanuka kutoka hatua moja kwenda nyingine na inawezesha kasi kubwa ya ufanyaji miamala kwa ada ndogo sana. DigiByte ni njia nzuri ya kufanya malipo.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/RSEijQXSfZQ?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Jifunze kwa kutazama</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-phone-laptop"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Rahisi kutumia.</h3>
-                    <p>Kuanza kutumia DigiByte ni rahisi zaidi kuliko hata kutuma meseji. Unaweza kutuma na kupokea DigiByte kwa kutumia vifaa ambavyo tayari unavijua na kuvipenda. Unachotakiwa ni kuweka <a class="smoothscroll" href="#downloads">Pochi inayopokea DigiByte</a> kwenye kifaa chako alafu bonyeza scan, scan QR code na tuma DigiByte. Rahisi kama 1..2..3.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-thumbs-up"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Sio ICO.</h3>
-                    <p>DigiByte haijawahi kufadhiliwa kupitia <a href="https://wikipedia.org/wiki/Initial_coin_offering" target="_blank">ICO</a> au kiwango muhimu cha sarafu zilizochimbuliwa awali (<a href="https://github.com/DigiByte-Core/digibyte/wiki/Historic-Timeline" target="_blank">0% iliyobaki</a>). Hakuna Mkurugenzi Mtendaji au kampuni inayodhibiti DigiByte blockchain. <a class="smoothscrollup" href="#developers">Watengenezaji</a> na <a class="smoothscroll" href="#community">jamii</a> ni watu wanaojitolea wasio na malipo kitu ambacho kinaondoa hatari ya kufilisika.
-                    </p>
-                </div>
-            </div>
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-tachometer-alt-fastest"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Haraka zaidi.</h3>
-                    <p>Miamala ya DigiByte inathibitishwa ndani ya sekunde 15 kwa makadrio, ambayo ni mara 40 haraka zaidi ya Bitcoin na mara 10 haraka zaidi ya Litecoin. <a href="https://wikipedia.org/wiki/SegWit" target="_blank">SegWit</a> inawezesha mpaka miamala/shughuli <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digispeed" target="_blank">1066</a> kwenye mnyororo kwa sekunde na kwa ada ndogo sana kabisa na kuifanya DigiByte sarafu bora ya malipo ya kila siku.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>    
-                <div class="item-feature__text">
-                    <h3 class="item-title">Salama wakati wote.</h3>
-                    <p>DigiByte imeundwa kwenye teknolojia mahili ya blockchain ya Bitcoin na kuweka vitu mahili kabisa juu yake kama <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#digishield" target="_blank">DigiShield</a> guard, <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> mining na <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#odocrypt" target="_blank">Odocrypt</a> algorithm. Pia <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#Dandelion%2B%2B" target="_blank">Dandelion++</a> privacy protocol inasaidia kukuweka salama kwa kuficha IP na eneo ulilopo. <a href="https://github.com/DigiByte-Core/digibyte/wiki#key-features" target="_blank">Jifunze zaidi</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-digging"></i>
-                </div> 
-                <div class="item-feature__text">
-                    <h3 class="item-title">Inachimbwa.</h3>
-                    <p>DigiByte ni blockchain ambayo ni 100% <a href="https://wikipedia.org/wiki/Proof_of_work" target="_blank">Proof of Work</a> (PoW) na inaweza kuchimbwa kwa algorithms 5 zinazoitwa  Sha256, Scrypt, Skein, Qubit na Odocrypt. <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#multialgo" target="_blank">MultiAlgo</a> mining inachangia madaraka (kutohodhiwa), usalama wa mtandao na kukupa uhuru wa kutumia vifaa tofauti kama ASIC, FPGA au GPU. <a href="https://github.com/DigiByte-Core/digibyte/wiki/Terminology#asic-mining" target="_blank">Jifunze zaidi</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-coins"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Vizio vinavyothibitiwa.</h3>
-                    <p>Ukilinganisha na Bitcoin milioni 21, DigiByte bilioni 21 (1000:1 kwa uwiano na BTC) zimetengenezwa tayari kwa ajili ya kupokelewa na watu wengi. DigiByte block rewards hupunguza 1% kila mwezi ya DigiByte zote badala ya kupunguza nusu ya block  kila baada ya miaka 4. DigiBytes zote bilioni 21 zitakuwa zimechimbwa ifikapo mwaka 2035. Baada ya 2035 wachimbaji basi watategemea ada ya ununuzi peke yake. <a href="https://github.com/DigiByte-Core/digibyte/wiki/Technical-Specifications" target="_blank">Jifunze zaidi</a>.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="testimonials-wrap" data-aos="fade" id="ecosystem">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">Urahisi wa kuchagua kutoka kwenye mfumo wa DigiByte.</h2>
-					<p class="lead">
-                    Kubadilishana yote na huduma zote zinazowezesha DigiByte zinapatika kwenye <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank">DigiByte Wiki</a>.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- DigiAssets
-    ================================================== -->
-    <section id="digiassets" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                   Njia iliyorahisishwa<br/>kuunda mali.
-                </h1>
-                <p class="lead">
-                   DigiAssets ni salama, safu ya juu yenye kuweza kupanuliwa ya blockchain ya DigiByte ambayo inawezesha utoaji madaraka ya mali/sarafu, smart contracts, digital identity na zaidi.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/JoqOn5gTiqE?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Jifunze kwa kutazama</a>
-        </div>
-
-        <div class="row features block-1-3 block-m-1-2" data-aos="fade">
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-photo-video"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Uwezo usio na kikomo.</h3>
-                    <p>DigiAssets zinaweza kutumiwa kuwakilisha usalama wa kitu chochote tunachopata katika ulimwengu. Kutoka kwenye mali inayoonekana kama vile mali isiyohamishika au magari, kupitia kwa uhaba wa vipande vya sanaa vya kidigitali. Hati zilizosainiwa kama vile shughuli na bili za matibabu zinaweza kulindwa pia.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Kukua kwa ujasiri.</h3>
-                    <p>DigiAssets kama mfumo wa ikolojia na jukwaa tayari lina vyama vyenye nia ya kupanga au kujenga majukwaa katika mali zisizohamishika, fedha, malipo, utambulisho, sehemu ya kuuzia, mbio, biashara, huduma za afya, mnyororo wa usambazaji, serikali na zaidi.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-badge-check"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">Teknolojia yenye uwezo.</h3>
-                    <p>DigiAssets inaleta huduma za kipekee za blockchain zilizoidhinishwa kupatikana ndani ya blockchain isiyo na ruhusa kama DigiByte. Hii inaruhusu DigiAssets kuwa salama zaidi, kupanuliwa na zisizoingiliwa na mtu yeyote kuliko jukwaa lingine lolote kwenye soko.
-                    </p>
-                </div>
-            </div>
-			
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">Anza sasa na DigiAssets.</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Jifunze protakali.</h3>
-                        <p>Vumbua chanzo-wazi cha vigezo vya itifaki ya DigiAssets kwa ajili ya kutoa na kufanya miamala ya mali/sarafu za kidigitali kwa kutumia blockchain ya DigiByte. 
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/web" target="_blank">Itifaki ya DigiAssets kwenye GitHub</a>,
-                            <a href="https://github.com/DigiAsset-Core/DigiAsset_Core/tree/master/src/RPC/Methods" target="_blank">Mabadiliko na upanuzi wa DigiAssets Core</a>.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Toa Mali/Sarafu ya kidigitali yako.</h3>
-                        <p>Sio mwana-programu? Kwa kweli sio shida! Mtu yeyote anaweza kutoa DigiAsset kwa urahisi kwa kutumia moja ya vifaa vinavyopatikana bila kuwa na ujuzi wa kiufundi juu ya itifaki. <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">Huduma zinazoungwa mkono na DigiAssets</a>.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Tunza / Fanya biashara.</h3>
-                        <p>Unajiuliza jinsi ya kutumia DigiAssets? Tembelea <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">huduma zinazoungwa mkono na DigiAssets</a> kununua, kuuza na kubadilisha DigiAssets.
-                        </p> 
-                    </div>
-					
-                    <div class="col-block step">
-                        <h3 class="item-title">Unahitaji msaada zaidi?</h3>
-                        <p>Je, unahitaji msaada zaidi kuhusu DigiAssets? Jisikie huru kujiunga na jukwaa la majadiliano la DigiByte kwenye GitHub na uulize maswali yako au ushiriki mawazo yako. <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">DigiByte GitHub Majadiliano</a>.
-                        </p>
-                    </div>
-            </div>
-
-        </div>
-	    </div>
-		
-    </section>
-	
-	
-	<!-- Digi-ID
-    ================================================== -->
-    <section id="digi-id" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Uthibitisho bora.
-                </h1>
-                <p class="lead">
-                    Digi-ID ni itikadi ya usalama iliyojengwa juu ya teknolojia  ya blockchain ya DigiByte kuwezesha watumiaji  kuweka jitihada kidogo kuingia kwenye tovuti, programu na zaidi.
-                </p>
-            </div>
-			<a class="btn btn--primary playb" href="https://www.youtube.com/embed/pLrQycud5GI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Jifunze kwa kutazama</a>
-        </div>
-		
-		<div class="row features block-1-3 block-m-1-2" data-aos="fade">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-sign-in-alt"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Uthibitishaji rahisi.</h3>
-                    <p>Digi-ID  inaondoa jina la mtumiaji, nenosiri na mahitaji ya uthibitisho wa 2fa. Kwa sababu Digi-ID hutumia kifunguo cha umma / kibinafsi cha faragha, hakuna manenosiri au majina ya watumiaji yaliyo hatarini. Njia hii sio tu inalinda watumiaji, inalinda pia huduma ambazo mtumiaji hutumia.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-user-shield"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Usalama usio na usawa.</h3>
-                    <p>Digi-ID hahifadhi taarifa yoyote kuhusu watumiaji kwenye blockchain. Hii inaimarisha usalama na pia inazidisha ujasiri wa watumiaji wa mwisho kwamba taarifa zao hazifuatwi wala kuwa kwenye hatari kwa uzembe wa wengine. Hakuna hatua ya nje ya kutofaulu kwa mdadisi ili kulenga na kutumia jukwaa lako.</p>
-                </div>
-            </div>
-
-            <div class="col-block item-feature">
-                <div class="item-feature__icon">
-                    <i class="fas fa-smile-plus"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">Rahisi na bure.</h3>
-                    <p>Digi-ID ni bure kabisa! Hakuna ada, huduma za usajili, au gharama za matengenezo. Lakini gharama ni sehemu yake ya pili ya ubora wa Digi-ID. Kipengele chake cha msingi ni kwamba, kulingana na kipaumbele cha usalama wa DigiByte, Digi-ID ni njia salama zaidi, lakini rahisi kupatikana kwa tovuti, programu na zaidi.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-		
-		<div class="lrmargin25" data-aos="fade">
-			
-		   <h1 align="center">Inafanya kazi kama hivi.</h1>
-			
-		   <div class="process">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Kizazi.</h3>
-                        <p>Tovuti, programu au bidhaa hutoa nambari ya kipekee ya Digi-ID QR na kuiwasilisha.
-                        </p> 
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title">Ku-scan.</h3>
-                        <p>
-                            Mtumiaji huchambua nambari ya QR kutoka kwa programu yoyote <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">inayoungwa mkono na Digi-ID</a>.
-                        </p> 
-                    </div>
-               
-                    <div class="col-block step">
-                        <h3 class="item-title">Uthibitisho.</h3>
-                        <p>Mtumiaji huthibitisha ombi kwa kuingiza PIN yake au kwa ku-scan alama za vidole/uso wake.
-                        </p> 
-                    </div>
-					
-					<div class="col-block step">
-                        <h3 class="item-title">Uthibitisho.</h3>
-                        <p>Digi-ID hutuma ombi lililosainiwa kwa njia ya maandishi na mtumiaji atafanikiwa kuingia.
-                        </p> 
-                    </div>
-
-                </div>
-              </div>
-			
-          </div>
-		
-		  <div data-aos="fade">
-		
-		  <h1 class="align-center">Maswali yanayoulizwa mara kwa mara.</h1>
-		
-		  <div class="row features block-1-2 block-m-1-2">
-			
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Ninaweza kupata wapi nyaraka zaidi?</h3>
-                    <p>Sehemu nzuri ya kuanzia ni <a href="https://www.digi-id.io" target="_blank">Digi-ID.io</a>. Ikiwa unataka kujua zaidi juu ya maelezo na faida za Digi-ID, unaweza kurejelea <a href="https://www.digi-id.io/faq" target="_blank">mwongozo wa mtumiaji</a>, <a href="https://www.digi-id.io/vendor-info.html" target="_blank">mwongozo wa muuzaji</a> na <a href="https://www.digi-id.io/integration.html" target="_blank">mwongozo wa ujumuishaji</a>. Ikiwa unatafuta vifaa vya habari, tafadhali pata <a href="../docs/digiidintro.pdf" target="_blank">karatasi ya utangulizi</a> na <a href="https://github.com/DigiByte-Core/digibyte-logos/tree/master/Digi-ID%20Logos/Digi-ID_logos" target="_blank">nembo</a>.
-                    </p>
-                </div>
-            </div>
-			  
-            <div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Maktaba za ushirikiano ziko wapi?</h3>
-                    <p>Kwa kuwa Digi-ID ni chanzo-wazi, unaweza kujifunza zaidi kwa kutembelea <a href="https://github.com/DigiByte-Core?q=digiid" target="_blank">DigiByte Core Development</a>. Ikiwa unahitaji msaada zaidi, tafadhali jiunge na <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">jukwaa la majadiliano la DigiByte kwenye GitHub</a> kuuliza maswali yako.
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Je! Ninaweza kuingiza Digi-ID bila kujua programu?</h3>
-                    <p>Kama wewe sio mtengeneza programu, unaweza kutaka kutumia suluhisho jumuisho lililo tayari za kwa tovuti yako au bidhaa. Unaweza pia kutumia <a href="https://wordpress.org/plugins/digi-id-authentication/" target="_blank">WordPress plugin</a> kwa majukwaa ya WordPress.
-                    </p>
-                </div>
-            </div>
-			  
-			<div class="col-block item-feature">
-                <div class="item-feature__text">
-                    <h3 class="item-title">Je! Kuna programu nyingine za utambulisho za Digi-ID?</h3>
-                    <p>Ndio! Digi-ID ni jukwaa linalokua haraka. Programu nyingi za uthibitisho na na pochi zinazoendana na  Digi-ID  zinapatikana katika sehemu ya <a rel="noopener" target="_blank" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">Vipakuliwa</a>.
-                    </p> 
-                    </div>
-
-                </div>
-           </div>
-			
-           </div>
-
-    </section>
-	
-	
-	<!-- Community
-    ================================================== -->
-    <section id="community" class="s-pricing target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Jamii inayopenda zaidi!
-                </h1>
-                <p class="lead">
-                    Makumi ya watu wa kujitolea kutoka ulimwenguni kote wamechangia DigiByte kwa njia mbalimbali kwa miaka kuifanya iwe kama ilivyo leo. Ni harakati ya kweli ya chini kwa chini. Tunakukaribisha kwa upendo ili ujiunge nasi!
-                </p>
-            </div>
-		    <a class="btn btn--primary playb" href="https://www.youtube.com/embed/zODI3S9ZdUI?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Jifunze kwa kutazama</a>
-        </div>
-		
-		<div class="row features block-1-2 block-m-1-2" data-aos="fade">
-            <div class="col-block item-feature" id="developers">
-                <div class="item-feature__icon">
-                    <i class="fas fa-code"></i>
-                </div>  
-                <div class="item-feature__text">
-                    <h3 class="item-title">Watengenezaji wa programu za DigiByte.</h3>
-                    <p>Kila mtu anayefanya kazi kwenye DigiByte ni anajitolea bure bila malipo. Anza kuchangia maendeleo ya DGB leo au ujenge programu yako mwenyewe juu ya blockchain ya DigiByte.
-					<br />	
-					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank">Wakubwa wa DigiByte kwenye Majadiliano ya GitHub</a>.
-					<br />
-					<a href="https://github.com/digibyte-core/digibyte" target="_blank">Itifaki ya DigiByte Core kwenye GitHub</a>.
-                    </p>
-                </div>
-            </div>
-			<div class="col-block item-feature" id="wiki">
-                <div class="item-feature__icon">
-                    <i class="fab fa-wikipedia-w"></i>
-                </div>
-                <div class="item-feature__text">
-                    <h3 class="item-title">DigiByte Wiki.</h3>
-                    <p>The <a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">DigiByte Wiki</a> ni makala ya mtandaoni iliyojengwa na <a href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank">jamii Kwa ajili ya jamii</a>. Ina data muhimu na mpya kama vile <a href="https://github.com/DigiByte-Core/digibyte/wiki#digibyte-blockchain" target="_blank"> Mfumo wa DigiByte</a> na <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank">jinsi ya kuongoza</a>. Mtu yeyote anaweza kuchangia kwenye Wiki kwa kuunda akaunti ya bure ya mtumiaji na kuanza kuongeza habari kwenye DigiByte Wiki.<br><strong>Onyo</strong> <i class="fas fa-exclamation-circle"></i> Epuka kujitangaza kusio na haya na viungo vya mialiko.</p>
-					<p class="jared">
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#technical-specifications" target="_blank"><i class="fab fa-wikipedia-w"></i> Kiufundi</a> 
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#framework" target="_blank"><i class="fab fa-wikipedia-w"></i> Mfumo</a>
-					<a class="telegramicon" href="https://github.com/DigiByte-Core/digibyte/wiki#accomplishments" target="_blank"><i class="fab fa-wikipedia-w"></i> Utimilifu</a>
-					</p>
-                </div>
-            </div>
+			</div>
+			<a class="btn btn--ghost btn--sm nav__cta-extra" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" aria-label="GitHub">
+				<i class="fab fa-github"></i> GitHub
+			</a>
+			<a class="btn btn--primary btn--sm" href="#docs" data-i18n="nav.cta.docs">Docs &amp; Guides</a>
+			<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menyu" data-i18n-attr="aria-label:nav.aria.menu">
+				<span></span>
+			</button>
 		</div>
-	    
-	</section>
+	</div>
+</header>
 
+<main id="main">
 
-   <!-- Downloads
-    ================================================== -->
-    <section id="downloads" class="s-download target-section">
-	    
-	<!--- Downloads DigiByte Wallets
-    ================================================== -->
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Chagua programu yako.
-                </h1>
-                <p class="lead">
-                    Chagua programu kutuma, kukubali na kuhifadhi DigiBytes na DigiAssets zako au uthibitishe usalama kwa kutumia Digi-ID.<br /><a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank">DigiByte Core ya sasa v9.26.5</a>
-                </p>
-            </div>
-			<a class="btn wb playb" href="https://www.youtube.com/embed/sRxpgJkvRK8?autoplay=1&loop=1&modestbranding=1&iv_load_policy=3&rel=0&showinfo=0" data-lity><i class="fas fa-play"></i> Jifunze kwa kutazama</a>
-        </div>
-		
-		<div data-aos="fade">
-            <h1 class="downtitle align-center">Itifaki & Mkoba <br>Yote Kwa Moja</h1>
-            <div class="item-feature__text max830 align-center">
-                <p>DigiByte Core ina nakala kamili ya blockchain na inajenga uti wa mgongo wa mtandao.
-                Mara nyingi hutumiwa na watengenezaji, masoko ya kubadilishana, na biashara nyingine, pamoja na wanachama wa jamii, kwa ajili ya kufanya mtandao kuwa wa kidecentrali kwa kuendesha node kamili.
-                Pia inatumika kama mkoba wa programu.
-                </p>
-            </div>
-            <div class="row features block-1-2 block-m-1-2 block-tab-full stack max880">
-                <div id="dgbcore">
-                    <div class="item-plan__block-wrapper">
-                        <div class="item-plan__block">
-                            <div id="dgbcore_symbol"></div>
-                            <div class="item-plan__top-part">
-                                <p class="item-plan__price">DigiByte Core</p>
-                            </div>
-                            <div class="item-plan__bottom-part">
-                                <ul class="item-plan__features">
-                                    <li><i class="fas fa-check blue"></i> Uthibitisho kamili</li>
-                                    <li><i class="fas fa-check blue"></i> Usaidizi wa mtandao</li>
-                                    <li><i class="fas fa-check blue"></i> Utulivu wa juu</li>
-                                    <li><i class="fas fa-check blue"></i> Usaidizi wa SegWit</li>
-                                </ul>
-                                <div class="appsicon align-center">
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-win64-setup.exe" target="_blank"><i class="fab fa-windows zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-apple-darwin.zip" target="_blank"><i class="fab fa-apple zoom"></i></a>
-                                    <a class="rightpad25" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-linux-gnu.tar.gz" target="_blank"><i class="fab fa-linux zoom"></i></a>
-                                    <a href="https://snapcraft.io/digibyte-core" target="_blank">
-                                        <svg class="zoom" width="44px" height="69px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: middle;">
-                                            <g id="[EN]-snap-store-white-uneditable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="logo" fill-rule="nonzero">
-                                                    <path d="M18.9875172,17.8017143 L18.9875172,7.33085714 L26.2054138,10.5525714 L18.9875172,17.8017143 Z M5.20774138,31.6411429 L14.058569,14.9742857 L17.9423276,18.852 L5.20774138,31.6411429 Z M0.160180862,0.233262857 L18.3753103,6.84571429 L18.3753103,18.4171429 L0.160180862,0.233262857 Z" id="body" fill="#06c"></path>
-                                                    <polygon id="head" fill="#06c" points="29.8968621 6.84514286 19.4057069 6.84514286 32.8936034 12.8657143"></polygon>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="supportline align-center">
-                                    <p class="item-plan__per">Inapatikana kwa Windows, macOS, Linux & Snapcraft (64 Bit)</p>
-                                </div>
-                                <div class="supportline align-center pt2">
-                                    <a href="https://dgbsupport.digiassetx.com" data-lity><i class="fas fa-user-headset"></i> Msaada</a> - <a href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank"><i class="fas fa-info-circle"></i> Endesha node kamili</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lrmargin25">
-                        <div class="item-feature__text max800 align-center">
-                            <p>
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <strong>Onyo la Mkoba</strong>
-                                <br>
-                                DigiByte Core kama mkoba inapaswa kutumiwa na watumiaji wa juu tu ambao wanajua jinsi ya kuweka mkoba wao salama.
-                                Ikiwa wewe si mtumiaji mwenye uzoefu, unaweza kutaka kutumia <a target="_blank" rel="noopener" href="https://github.com/DigiByte-Core/digibyte/wiki/Community#other-community-resources">mkoba wa programu</a> uliorahisishwa.
-                            </p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>        
-	    
-	    	<!--- Downloads Docs & Guides
-    ================================================== -->
-	    		    <div class="lrmargin25" data-aos="fade"  id="docs">
-		
-			<h1 class="downtitle align-center"><i class="fas fa-books"></i> Hati za DigiByte na Miongozo.</h1>
-				
-			  <div class="item-feature__text max800 align-center">
-                  <p>Unatafuta nyaraka zaidi? Ikiwa unahitaji habari ya msingi ya kifungu au habari ya kiufundi kwa mchakato wa ujumuishaji. Unaweza kufikia miongozo yote muhimu hapa chini.
-                  </p>
-              </div>
-     
-		    <div class="row testimonials downslide">
+<!-- HERO ===================================================== -->
+<section class="hero" aria-labelledby="hero-title">
+	<div class="hero__canvas" data-hero-network aria-hidden="true"></div>
+	<div class="hero__overlay" aria-hidden="true"></div>
 
-                <div class="col-full slick-slider testimonials__slider">
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/infopaper.png" loading="lazy" width="72" height="72" alt="DigiByte Info Paper" class="testimonials__avatar">
-                        
-                        <p>Jifunze maelezo ya DigiByte blockchain kwa kutumia "info paper".</p>
+	<div class="row hero__inner">
+		<div class="hero__content">
+			<div class="hero__chips">
+				<span class="chip chip--live">Live · Block <span data-block-height class="is-loading">—</span></span>
+				<a class="chip chip--violet chip--link" href="https://github.com/DigiByte-Core/DigiByte.org/blob/main/LICENSE" target="_blank" rel="noopener" data-i18n="hero.chip.openSource" data-i18n-attr="aria-label:hero.chip.openSource.aria" aria-label="Released under the MIT license (opens in new tab)">Chanzo huria · MIT</a>
+				<span class="chip" data-i18n="hero.chip.since">Tangu 2014</span>
+			</div>
+			<h1 id="hero-title" class="hero__title">
+				<span class="accent" data-i18n="hero.title">Imebuniwa kwa uendeshaji usiokoma.</span>
+			</h1>
+			<p class="hero__lead" data-i18n="hero.lead">DigiByte ni blockchain ya UTXO yenye usalama wa hali ya juu na algorithmu nyingi, iliyojengwa kwa uwezo wa kupanuka. Ikiwa na muda wa bloku wa sekunde 15 na historia ya miaka kumi na miwili ya uendeshaji bila kukatika, mtandao huu unatoa msingi uliojaribiwa kwa DGB, DigiAssets, uthibitishaji uliogatuliwa wa Digi-ID, na — hivi karibuni — DigiDollar.</p>
+			<div class="hero__ctas">
+				<a class="btn btn--primary btn--lg" href="#downloads">
+					<i class="fas fa-rocket"></i> <span data-i18n="hero.cta.get">Pata DigiByte</span>
+				</a>
+				<a class="btn btn--ghost btn--lg" href="#devhub">
+					<i class="fas fa-terminal"></i> <span data-i18n="hero.cta.build">Jenga kwenye DGB</span>
+				</a>
+			</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Info paper</span>
-                            <a href="../docs/infopaper.pdf" target="_blank" class="testimonials__link">Pakua</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/integration.png" loading="lazy" width="72" height="72" alt="DigiByte Integration Guide" class="testimonials__avatar">
-                        
-                        <p>Jumuisha blockchain ya DigiByte katika ubadilishanaji wako, pochi au huduma kwa urahisi.</p>
+			<div class="hero__metrics">
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.blockTime">Muda wa bloku</span>
+					<span class="stat__value">15<small class="size-fs-half">s</small></span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.algorithms">Algorithmu</span>
+					<span class="stat__value">5</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.yearsLive">Miaka inayofanya kazi</span>
+					<span class="stat__value year-diff">—</span>
+				</div>
+				<div class="stat hero__metric">
+					<span class="stat__label" data-i18n="hero.metric.maxSupply">Ugawaji wa juu</span>
+					<span class="stat__value">21B</span>
+				</div>
+			</div>
+		</div>
 
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Mwongozo wa ujumuishaji</span>
-                            <a href="../docs/integrationguide.pdf" target="_blank" class="testimonials__link">Pakua</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/digibyte_symbol_06c.svg" loading="lazy" width="72" height="72" alt="DigiByte DigiDollar Guide" class="testimonials__avatar">
-                        
-                        <p>Implement DigiDollar &mdash; DigiByte's native USD-pegged stablecoin &mdash; in your wallet, exchange or service.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">DigiDollar guide</span>
-                            <a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" class="testimonials__link">Download</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/digibyte_symbol_06c.svg" loading="lazy" width="72" height="72" alt="DigiByte Technical Architecture Guide" class="testimonials__avatar">
-                        
-                        <p>Explore DigiByte's technical architecture, security model and ecosystem in this comprehensive July 2026 guide.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Technical Architecture guide</span>
-                            <a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" class="testimonials__link">Download</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/mediag.png" loading="lazy" width="72" height="72" alt="DigiByte Media Sheet" class="testimonials__avatar">
-                        
-                        <p>Jifunze ukweli muhimu kuhusu blockchain ya DigiByte blockchain kwa kutumia karatasi ya media haraka.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Karatasi ya media</span>
-                            <a href="../docs/mediakit.pdf" target="_blank" class="testimonials__link">Pakua</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-						<img src="../images/avatars/presentation.png" loading="lazy" width="72" height="72" alt="DigiByte Presentation" class="testimonials__avatar">
-                        
-                        <p>Tumia uwasilishaji wa mtandaoni unaofaa wa kutambulisha DigiByte kwa marafiki zako.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Uwasilishaji</span>
-                            <a href="https://docs.google.com/presentation/d/16Hn2GfuS1yLjZpjeTYloW0S_JVkhevYzffkDZFqjbiU" target="_blank" class="testimonials__link">Anza</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/logos.png" loading="lazy" width="72" height="72" alt="DigiByte Logos & Icons" class="testimonials__avatar">
-                        
-                        <p>Pata nembo na picha sahihi na za kisasa za DigiByte kwa ajili ya mradi wako.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Nembo na Picha</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" class="testimonials__link">Nenda GitHub</a>
-                        </div>
-                    </div>
-					
-					<div class="testimonials__slide">
-                        <img src="../images/avatars/howto.png" loading="lazy" width="72" height="72" alt="How to Guides" class="testimonials__avatar">
-                        
-                        <p>Endesha DigiByte yako mwenyewe kamili kwa kurejelea miongozo ya Wiki.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Jinsi ya kuongoza</span>
-                            <a href="https://github.com/DigiByte-Core/digibyte/wiki/Contribution-Guidelines" target="_blank" class="testimonials__link">Nenda DigiByte Wiki</a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
+		<div class="hero__art" aria-hidden="true">
+			<div class="hero__art-ring hero__art-ring--2"></div>
+			<div class="hero__art-ring"></div>
+			<div class="hero__art-coin">
+				<img src="../images/digibyte_symbol_06c.svg" alt="" width="420" height="420" class="coin-glow-soft">
+			</div>
+		</div>
 	</div>
 
-    </section>
+</section>
 
+<!-- WHY DIGIBYTE / FEATURES ================================== -->
+<section id="features" class="s-features" aria-labelledby="features-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="features.eyebrow">Kwa nini DigiByte</span>
+			<h2 id="features-title" data-i18n="features.title">Imebuniwa kwa muongo ujao wa cryptocurrency.</h2>
+			<p data-i18n="features.lead">Chain safi ya UTXO ya proof-of-work iliyokuwa ikitoa mwanzo wa kwanza wa sekta tangu 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets na Digi-ID.</p>
+		</header>
 
-    <!-- Footer
-    ================================================== -->
-    <footer id="footer" class="s-footer footer">
-		
-		<div class="align-center">
-			<a class="smoothscroll" href="#top"><img src="../images/footerlogo.png" loading="lazy" width="360" height="139" alt="DigiByte Blockchain" class="footerlogo"></a>
+		<div class="feature-rows">
+			<article class="feature-row" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-bolt feature-row__icon"></i>
+					<span class="feature-row__stat">15s</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.blockTime.eyebrow">Muda wa bloku</span>
+					<h3 data-i18n="features.blockTime.title">Bloku za sekunde 15, hutatuliwa haraka.</h3>
+					<p data-i18n="features.blockTime.body">Mara 40 haraka kuliko Bitcoin na mara 10 haraka kuliko Litecoin. Uthibitisho wa sekunde kumi na tano humaanisha kwamba malipo ya POS, uwekaji kwenye soko la fedha za kidijitali, na uhamishaji wa rasilimali hukamilika ndani ya muda unaohitajika kusoma sentensi hii — bila msongamano au kuongezeka kwa ada kwa chain za polepole.</p>
+				</div>
+			</article>
+
+			<article class="feature-row feature-row--reverse" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-shield-halved feature-row__icon"></i>
+					<span class="feature-row__stat">5</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.consensus.eyebrow">Makubaliano</span>
+					<h3 data-i18n="features.consensus.title">Algorithmu tano za uchimbaji kwa wakati mmoja.</h3>
+					<p data-i18n="features.consensus.body">DigiByte hulinda bloku kwa kutumia algorithmu tano huru za proof-of-work — <strong>SHA-256d</strong>, <strong>Scrypt</strong>, <strong>Skein</strong>, <strong>Qubit</strong> na <strong>Odocrypt</strong>. Kila moja inalenga mfumo tofauti wa uchimbaji (CPU, GPU, FPGA, ASIC), na Odocrypt huichanganya yenyewe kila siku 10 ili kuzuia utawala wa ASIC. Kushambulia chain humaanisha kushambulia algorithmu tano kwa wakati mmoja.</p>
+				</div>
+			</article>
+
+			<article class="feature-row" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-coins feature-row__icon"></i>
+					<span class="feature-row__stat">21B</span>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.supply.eyebrow">Ugawaji</span>
+					<h3 data-i18n="features.supply.title">Kikomo kigumu, uchache kwa muundo.</h3>
+					<p data-i18n="features.supply.body">DGB imewekewa kihisabati kikomo cha sarafu bilioni 21, zikitolewa kwa ratiba ya wazi inayopungua kila mwezi. Hakuna kodi ya wabunifu, hakuna ufunguzi wa utawala, hakuna mgao uliofichwa. Uchache unaoweza kutabirika ndio unaofanya rasilimali ya kifedha kuwa ya kuaminika — na ndiyo sababu kila baiti ya DGB hubeba thamani inayothibitishika na inayoweza kuhakikiwa kwa muda.</p>
+				</div>
+			</article>
+
+			<article class="feature-row feature-row--reverse" data-reveal>
+				<div class="feature-row__visual" aria-hidden="true">
+					<i class="fas fa-tower-broadcast feature-row__icon"></i>
+					<span class="feature-row__stat year-diff">12</span>
+					<small class="feature-row__stat-unit" data-i18n="features.yearsLiveUnit">miaka inayofanya kazi</small>
+				</div>
+				<div class="feature-row__body">
+					<span class="eyebrow" data-i18n="features.trackRecord.eyebrow">Historia</span>
+					<h3 data-i18n="features.trackRecord.title">Miaka kumi na miwili ya kazi. Sifuri ya kuzima.</h3>
+					<p data-i18n="features.trackRecord.body">Tangu Januari 2014 mainnet imekuwa ikitoa bloku kila sekunde kumi na tano bila kukatika. Hakuna re-org za kina, hakuna fork za utawala, hakuna hard fork za dharura. Uptime hii, pamoja na maelfu ya node zinazoendeshwa kwa kujitegemea duniani kote, ndiyo aina ya historia ya uendeshaji ambayo miundombinu muhimu inahitaji — na ambayo karibu hakuna chain nyingine inayoweza kuonyesha.</p>
+				</div>
+			</article>
 		</div>
-		
-		<div class="row footer__top max1000">
-            <div class="col-full footer__subscribe end">
-                <div class="subscribe-form">
-					<form id="de-form" class="group" method="get" target="_blank" action="https://chainz.cryptoid.info/dgb/search.dws?key=25ac5ef2ff1e">
-                       <input type="text" name="q" placeholder="Tafuta block, tx id au anwani " autocomplete="off" required>
-                       <a><input type="submit" value="Tafuta" class="btn btn--primary home-content__btn search"></a>
-                    </form>
-                </div>
-            </div>
-        </div>
+	</div>
+</section>
 
-        <div class="row footer__bottom">
+<!-- LIVE DASHBOARD =========================================== -->
+<section id="chain" class="s-dashboard bg-grid" aria-labelledby="chain-title" data-chain-dashboard>
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="chain.eyebrow">Mtandao wa moja kwa moja</span>
+			<h2 id="chain-title" data-i18n="chain.title">Data ya asili ya on-chain.</h2>
+			<p data-i18n="chain.lead">Hutolewa moja kwa moja kutoka kwa mtandao wa DigiByte kila dakika, ikipuuza API za watu wa tatu.</p>
+		</header>
 
-            <div class="footer__about col-five tab-full left">
+		<div class="s-dashboard__grid">
+			<div class="stat" data-reveal>
+				<span class="stat__label" data-i18n="chain.blockHeight.label">Urefu wa bloku</span>
+				<span class="stat__value is-loading" data-stat="blocks">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.blockHeight.delta">Wastani wa muda wa bloku 15 s</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="80">
+				<span class="stat__label" data-i18n="chain.hashrate.label">Hashrate ya mtandao</span>
+				<span class="stat__value is-loading" data-stat="network-hashrate">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.hashrate.delta.v2">SHA256d · 5-algo network</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="160">
+				<span class="stat__label" data-i18n="chain.difficulty.label">Ugumu</span>
+				<span class="stat__value is-loading" data-stat="difficulty">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.difficulty.delta.v2">SHA256d · DigiShield-adjusted</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="240">
+				<span class="stat__label" data-i18n="chain.blockReward.label">Last block reward</span>
+				<span class="stat__value is-loading" data-stat="block-reward">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.blockReward.delta">DGB · coinbase + fees</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="320">
+				<span class="stat__label" data-i18n="chain.version.label">Toleo la Core</span>
+				<span class="stat__value is-loading size-fs-5" data-stat="version">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.version.delta">Toleo jipya zaidi</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="400">
+				<span class="stat__label" data-i18n="chain.years.label">Miaka mtandaoni</span>
+				<span class="stat__value year-diff">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.years.delta">Tangu Jan 2014</span>
+			</div>
+		</div>
+	</div>
+</section>
 
-                <h4>Kuhusu DigiByte.</h4>
+<!-- TOKENOMICS + 3D COIN ===================================== -->
+<section id="predictable-issuance" class="s-tokenomics" aria-labelledby="predictable-issuance-title">
+	<div class="row">
+		<div class="s-tokenomics__layout">
+			<div class="s-tokenomics__visual" data-tokenomics-chart data-reveal></div>
 
-                <p>
-                DigiByte ni blockchain ya chanzo-wazi inayokua kwa kasi iliyoundwa mapema mwishoni mwa 2013 na iliyotolewa mapema mwanzoni mwa 2014. Baada ya miaka <span class="year-diff"></span> ya maendeleo ya mawazo ya mbele, DigiByte imekuwa moja ya blockchain salama zaidi, haraka zaidi, na ndefu zaidi na inayojulikana zaidi ya UTXO. DigiByte inapatikana katika nchi zaidi 100 ulimwenguni kote.
-                </p>
+			<div data-reveal>
+				<span class="eyebrow" data-i18n="tokenomics.predictableIssuance">Predictable issuance</span>
+				<h2 id="predictable-issuance-title" data-i18n="tokenomics.title">DigiByte: pesa imara kwa wavuti wenye kasi zaidi.</h2>
+				<p class="lead" data-i18n="tokenomics.lead.v2">Governed by a strictly predictable issuance schedule, DGB is hard-capped at 21 billion coins and follows a fully transparent emission curve with a fixed, mathematical distribution.</p>
 
-                <ul class="footer__social">
-		            <li><a class="zoom" href="https://x.com/DigiByteCoin" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                </ul>
-            </div>
+				<div class="s-tokenomics__stats">
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.maxSupply.label">Ugawaji wa juu</span><span class="stat__value">21B</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.blockReward.label">Tuzo ya bloku</span><span class="stat__value" data-stat="block-reward">~259</span><span class="stat__delta" data-i18n="tokenomics.blockReward.delta">DGB / bloku</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.emission.label">Utoaji</span><span class="stat__value">−1%/mo</span><span class="stat__delta" data-i18n="tokenomics.emission.delta">endelevu, hakuna halving</span></div>
+					<div class="stat"><span class="stat__label" data-i18n="tokenomics.premine.label">Premine</span><span class="stat__value text-success">0.5%</span><span class="stat__delta" data-i18n="tokenomics.premine.delta">uzinduzi wa haki · giveaway & maendeleo</span></div>
+				</div>
 
-            <div class="col-six md-seven tab-full right end">
-                <div class="row">
+				<div class="cluster mt-6">
+					<a class="btn btn--outline" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><span data-i18n="tokenomics.cta.wiki">Soma wiki</span> <i class="fas fa-arrow-right"></i></a>
+					<a class="btn btn--ghost" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved"></i> <span data-i18n="tokenomics.cta.techArch">Technical architecture</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-                    <div class="footer__site-links col-six mob-full">
-                        <h4>Viungo vya DigiByte.</h4>
+<!-- DIGIASSETS =============================================== -->
+<section id="digiassets" class="s-digiassets bg-grid" aria-labelledby="digiassets-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="digiassets.eyebrow">DigiAssets</span>
+			<h2 id="digiassets-title" data-i18n="digiassets.title">Toa rasilimali maalum kwenye chain salama ya UTXO.</h2>
+			<p data-i18n="digiassets.lead">Toa rasilimali za kidijitali maalum moja kwa moja kwenye mtandao wa DigiByte — kutoka kwa tokeni na stablecoin hadi rekodi za utambulisho. Kila rasilimali hutatuliwa ndani ya sekunde 15 na hulindwa na makubaliano ya kimataifa ya proof-of-work.</p>
+		</header>
 
-                        <ul class="footer__site-links">
-                            <li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank">DigiByte Wiki</a></li>
-			                <li><a href="https://digiexplorer.info" rel="noopener" target="_blank">DigiExplorer</a></li>
-							<li><a href="https://digibyte.io" target="_blank">DigiStats</a></li>
-                            <li><a href="https://github.com/DigiByte-Core/digibyte/wiki/Mining" target="_blank">DigiByte Mining</a></li>
-                        </ul>
-                    </div>
+		<div class="flow-steps">
+			<div class="flow-step card" data-reveal>
+				<h3 data-i18n="digiassets.step1.title">Chagua rasilimali yako</h3>
+				<p data-i18n="digiassets.step1.body">Tokeni inayoweza kubadilishana, kitu cha kukusanya, cheti, vocha — chochote kinachoweza kutengenezwa kwenye safu ya msingi ya UTXO.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="80">
+				<h3 data-i18n="digiassets.step2.title">Fafanua metadata</h3>
+				<p data-i18n="digiassets.step2.body">Weka jina, ugawaji, ugawanyiko na metadata iliyofungiwa kwa IPFS ili pochi na wachunguzi waweze kuyaonyesha kwa asili.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="160">
+				<h3 data-i18n="digiassets.step3.title">Saini &amp; tangaza</h3>
+				<p data-i18n="digiassets.step3.body">Lipa digis chache za DGB kama ada, tangaza muamala, na rasilimali iko hai katika mtandao mzima.</p>
+			</div>
+			<div class="flow-step card" data-reveal data-reveal-delay="240">
+				<h3 data-i18n="digiassets.step4.title">Tuma popote</h3>
+				<p data-i18n="digiassets.step4.body.v2">Transfer to any DGB address. Rendered natively by asset-aware DigiByte wallets.</p>
+			</div>
+		</div>
 
-                    <div class="footer__contact col-six mob-full">
-                        <h4>Rasilimali.</h4>
+		<div class="cluster mt-7 justify-center-children" data-reveal>
+			<a class="btn btn--primary" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="digiassets.cta.docs">Nyaraka za protokoli</a>
+		</div>
+	</div>
+</section>
 
-                        <ul class="footer__site-links">
-                            <li><a href="../docs/integrationguide.pdf" target="_blank">Mwongozo wa Ujumuishaji wa DGB</a></li>
-                            <li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank">DGB DigiDollar Guide</a></li>
-                            <li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank">DGB Technical Architecture Guide</a></li>
-                            <li><a href="../docs/mediakit.pdf" target="_blank">Karatasi ya media ya DGB</a></li>
-                            <li><a href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank">Nembo za DGB na Picha</a></li>
-			                <li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank">Itifaki ya DGB kwenye GitHub</a></li>
-                            <li><a href="https://github.com/digibyte-core" target="_blank">DGB Core GitHub</a></li>
-                        </ul>
-                    </div>		
+<!-- DIGI-ID ================================================== -->
+<section id="digi-id" class="s-digiid" aria-labelledby="digiid-title">
+	<div class="row">
+		<div class="s-digiid__layout">
+			<div class="s-digiid__visual" data-reveal>
+				<div class="qr-demo">
+					<div class="qr-demo__scan"></div>
+					<svg viewBox="0 0 33 33" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<rect width="33" height="33" fill="transparent"/>
+						<g fill="var(--c-ink-0)">
+							<rect x="0" y="0" width="7" height="7"/><rect x="2" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="26" y="0" width="7" height="7"/><rect x="28" y="2" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="0" y="26" width="7" height="7"/><rect x="2" y="28" width="3" height="3" fill="var(--c-bg-0)"/>
+							<rect x="9" y="0" width="2" height="2"/><rect x="13" y="0" width="3" height="2"/><rect x="18" y="0" width="2" height="2"/>
+							<rect x="9" y="9" width="2" height="2"/><rect x="13" y="11" width="3" height="2"/><rect x="18" y="9" width="3" height="3"/>
+							<rect x="22" y="11" width="2" height="3"/><rect x="11" y="14" width="2" height="3"/><rect x="14" y="14" width="3" height="2"/>
+							<rect x="20" y="16" width="2" height="2"/><rect x="24" y="14" width="3" height="3"/>
+							<rect x="9" y="20" width="3" height="2"/><rect x="14" y="20" width="2" height="3"/><rect x="18" y="22" width="3" height="2"/>
+							<rect x="22" y="20" width="2" height="3"/><rect x="26" y="22" width="3" height="2"/><rect x="30" y="20" width="2" height="3"/>
+							<rect x="9" y="26" width="2" height="3"/><rect x="13" y="28" width="3" height="2"/><rect x="18" y="26" width="3" height="2"/>
+							<rect x="22" y="28" width="2" height="2"/><rect x="26" y="26" width="3" height="2"/><rect x="30" y="28" width="2" height="2"/>
+						</g>
+					</svg>
+				</div>
+			</div>
 
-                </div>
-            </div>
+			<div data-reveal data-reveal-delay="80">
+				<span class="eyebrow" data-i18n="digiId.eyebrow">Digi-ID</span>
+				<h2 id="digiid-title" data-i18n="digiId.title">Uthibitishaji wa chanzo huria bila nenosiri.</h2>
+				<p class="lead" data-i18n="digiId.lead">Digi-ID inategemea saini za kicryptography zilizogatuliwa badala ya manenosiri ya kawaida, ikilinda utambulisho wa mtumiaji bila wapatanishi waliokusanyika.</p>
+				<ul class="stack mt-5">
+					<li class="cluster"><i class="fas fa-key text-cyan"></i><span data-i18n="digiId.benefit1">Uhifadhi wa funguo ndani ya kifaa kwa faragha kamili.</span></li>
+					<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i><span data-i18n="digiId.benefit2">Muundo unaopinga phishing kwa asili.</span></li>
+					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span data-i18n="digiId.benefit3">Muunganisho wa drop-in kwa ufikiaji wa kidijitali na wa kimwili.</span></li>
+				</ul>
+				<div class="cluster mt-6">
+					<a class="btn btn--primary" href="https://www.digi-id.io" target="_blank" rel="noopener"><span data-i18n="digiId.cta.open">Fungua Digi-ID.io</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digiId.cta.libraries">Maktaba</span></a>
+				</div>
 
-            <div class="col-full ss-copyright"> 
-                <span>&copy; Copyright <span id="copyright-year"></span></span> 
-				<span>Haki zote zimehifadhiwa</span> 
-                <span>Imetolewa chini ya <a href="https://opensource.org/licenses/mit-license.php" target="_blank">leseni ya MIT</a></span> 
-				<span><a href="/legaldisclaimer.html">Legal Disclaimer</a>Kanusho la kisheria</a> | <a href="../docs/PrivacyPolicy.pdf">Sera ya faragha</a></span>
-            </div>
+				<div class="accordion mt-7">
+					<details>
+						<summary data-i18n="digiId.faq1.q">Inatofautianaje na OAuth au „Ingia na X”?</summary>
+						<p data-i18n="digiId.faq1.a">Single sign-on ya kawaida inategemea madalali wa data waliokusanyika. Digi-ID imegatuliwa kabisa: watumiaji huthibitisha kwa kusaini changamoto ya kipekee moja kwa moja kutoka kwa kifaa chao, ikiondoa kabisa seva za watu wa tatu kutoka katika mchakato.</p>
+					</details>
+					<details>
+						<summary data-i18n="digiId.faq2.q">Je, inahitaji pochi ya cryptocurrency?</summary>
+						<p data-i18n="digiId.faq2.a">Hapana, kuwa na crypto ni hiari. Pochi nyingi za DigiByte zinasaidia Digi-ID kwa asili, lakini unaweza pia kutumia programu huru ya uthibitishaji iliyoundwa kwa ajili ya kuingia salama tu.</p>
+					</details>
+					<details>
+						<summary data-i18n="digiId.faq3.q">Ninawezaje kuiunganisha?</summary>
+						<p data-i18n="digiId.faq3.a">Wabunifu wanaweza kutumia maktaba zetu za drop-in kwa Node.js, PHP, Python na Go, au kufunga programu-jalizi ya asili ya WordPress. Rasilimali kamili ziko kwenye kituo cha wabunifu hapa chini.</p>
+					</details>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-        </div>
+<!-- DEVELOPER HUB ============================================ -->
+<section id="devhub" class="s-devhub" aria-labelledby="dev-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="devhub.eyebrow">Kituo cha wabunifu</span>
+			<h2 id="dev-title" class="gradient-text--brand" data-i18n="devhub.title">Miundombinu isiyo na maelewano kwa maendeleo ya UTXO.</h2>
+			<p data-i18n="devhub.lead">Fikia RPC inayoaminika na iliyojaribiwa kivita yenye muundo wa ada thabiti na unaoweza kutabirika. DigiByte hutoa msingi wa kupeleka node ndani ya dakika chache na kujenga juu ya mtandao uliogatuliwa kweli.</p>
+		</header>
 
-        
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
-        </div>
+		<div class="s-devhub__layout">
+			<div data-reveal>
+				<div class="tabs">
+					<div class="tabs__list" role="tablist">
+						<button type="button" class="tabs__btn" role="tab" data-tab="cli" aria-selected="true" aria-controls="tab-cli" id="tabbtn-cli">CLI</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="node" aria-selected="false" aria-controls="tab-node" id="tabbtn-node">Node.js</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="py" aria-selected="false" aria-controls="tab-py" id="tabbtn-py">Python</button>
+						<button type="button" class="tabs__btn" role="tab" data-tab="curl" aria-selected="false" aria-controls="tab-curl" id="tabbtn-curl">cURL</button>
+					</div>
 
-    </footer>
+					<div class="tabs__panel" data-tab="cli" data-active>
+						<div class="terminal">
+							<div class="terminal__bar"><span class="terminal__dot"></span><span class="terminal__title">~/digibyte — bash</span></div>
+							<div class="terminal__body">
+								<span class="line"><span class="comment"># Get current chain info</span></span>
+								<span class="line"><span class="prompt">$</span> <span class="cmd">digibyte-cli getblockchaininfo</span></span>
+								<span class="line"><span class="out">{</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"chain"</span><span class="out">: </span><span class="str">"main"</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"blocks"</span><span class="out">: </span><span class="num">21000000</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"difficulty"</span><span class="out">: </span><span class="num">128456.7</span><span class="out">,</span></span>
+								<span class="line"><span class="out">  </span><span class="key">"verificationprogress"</span><span class="out">: </span><span class="num">0.99999</span></span>
+								<span class="line"><span class="out">}</span><span class="terminal__cursor"></span></span>
+							</div>
+						</div>
+					</div>
 
+					<div class="tabs__panel" data-tab="node">
+						<div class="codeblock">
+<pre><code>// Send 100 DGB via Core RPC (Node.js, no external deps)
+import http from 'node:http';
+const body = JSON.stringify({ jsonrpc: '1.0', id: 'web', method: 'sendtoaddress',
+  params: ['DXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 100] });
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/plugins1b.js"></script>
-    <script src="../js/main2o.js"></script>
-	
-	<!-- Cookie info message
-    ================================================== -->
-	<script type="text/javascript" id="cookieinfo" src="../js/cookieinfo.min.js"
-	data-font-size="14px"
-	data-font-family="Nunito Sans,sans-serif"
-	data-text-align="left"
-    data-fg="#545454"
-	data-bg="rgba(255, 255, 255, 0.9)"
-	data-link="#0066cc"
-	data-divlink="#ffffff"
-	data-divlinkbg="#0066cc"
-	data-position="bottom"
-	data-message="Tunatumia cookies ili kuongeza uzoefu wako. Kwa kuendelea kutembelea tovuti hii unakubali matumizi yetu ya cookies."
-	data-linkmsg="Maelezo zaidi"
-	data-moreinfo="../docs/PrivacyPolicy.pdf"
-	data-close-text="Sawa"
-	>
-    </script>
-    <script>
-        if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("/js/sw.js").then(function(reg) {
-                console.log("Service worker has been registered for scope: " + reg.scope);
-            });
-        }       
-    </script>
+const req = http.request({
+  hostname: '127.0.0.1', port: 14022, method: 'POST',
+  auth: 'rpcuser:rpcpass',
+  headers: { 'Content-Type': 'application/json', 'Content-Length': body.length }
+}, res =&gt; {
+  let d = ''; res.on('data', c =&gt; d += c);
+  res.on('end', () =&gt; console.log(JSON.parse(d)));
+});
+req.write(body); req.end();</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="py">
+						<div class="codeblock">
+<pre><code># Listen for new blocks (Python, requests)
+import requests, time
+
+URL = "http://rpcuser:rpcpass@127.0.0.1:14022"
+last = 0
+while True:
+    info = requests.post(URL, json={
+        "jsonrpc": "1.0", "id": "py", "method": "getblockchaininfo", "params": []
+    }).json()["result"]
+    if info["blocks"] != last:
+        print("new block:", info["blocks"])
+        last = info["blocks"]
+    time.sleep(5)</code></pre>
+						</div>
+					</div>
+
+					<div class="tabs__panel" data-tab="curl">
+						<div class="codeblock">
+<pre><code>curl -u rpcuser:rpcpass --data-binary \
+  '{"jsonrpc":"1.0","id":"sh","method":"getmempoolinfo","params":[]}' \
+  -H 'content-type: application/json;' http://127.0.0.1:14022/</code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="s-devhub__links">
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener">
+						<i class="fab fa-github devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.core.title">Protokoli ya Core</span>
+						<span class="devlink__meta" data-i18n="devhub.link.core.meta">DigiByte-Core/digibyte</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener">
+						<i class="fas fa-server devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.node.title">Endesha full node</span>
+						<span class="devlink__meta" data-i18n="devhub.link.node.meta">mwongozo wa dakika 5</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">
+						<i class="fas fa-book devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.wiki.title">Wiki &amp; nyaraka za RPC</span>
+						<span class="devlink__meta" data-i18n="devhub.link.wiki.meta">inadumishwa na jumuiya</span>
+					</a>
+					<a class="devlink" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">
+						<i class="fas fa-comments devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.discussions.title">Majadiliano</span>
+						<span class="devlink__meta" data-i18n="devhub.link.discussions.meta">uliza, shiriki, tuma</span>
+					</a>
+					<a class="devlink" href="../docs/integrationguide.pdf" target="_blank">
+						<i class="fas fa-plug devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.integration.title">Mwongozo wa muunganisho</span>
+						<span class="devlink__meta" data-i18n="devhub.link.integration.meta">kwa exchange &amp; huduma</span>
+					</a>
+					<a class="devlink" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener">
+						<i class="fas fa-fingerprint devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.digiId.title">Maktaba za Digi-ID</span>
+						<span class="devlink__meta" data-i18n="devhub.link.digiId.meta">Node, PHP, Python, Go</span>
+					</a>
+				</div>
+			</div>
+
+			<div data-reveal data-reveal-delay="80">
+				<div class="release-card" data-github-release>
+					<div class="release-card__head">
+						<span class="release-card__tag is-loading">v&mdash;</span>
+						<span class="chip chip--violet" data-i18n="devhub.release.latest">Mpya zaidi</span>
+					</div>
+					<h3 class="card__title is-loading">DigiByte Core</h3>
+					<details class="release-card__notes is-loading">
+						<summary data-i18n="devhub.release.notes">Maelezo ya toleo</summary>
+						<div class="release-card__notes__body" data-i18n="devhub.release.loading">Inapakia maelezo ya toleo kutoka GitHub…</div>
+					</details>
+				</div>
+
+				<div class="card mt-5">
+					<span class="eyebrow" data-i18n="devhub.whyShip.eyebrow">Kwa nini utume kwenye DGB?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point1">Soko la ada linaloweza kutabirika: gharama za muamala chini ya senti moja zinaruhusu upanuzi endelevu wa programu.</span></li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point2">Miamala isiyohitaji idhini: mekaniki ya asili ya UTXO inakwepa hatari za usalama zinazohusiana na ruhusa pana za tokeni.</span></li>
+						<li class="cluster"><i class="fas fa-check text-cyan"></i> <span data-i18n="devhub.whyShip.point3">Utekelezaji bila hali: mazingira safi ya UTXO huruhusu maendeleo rahisi, sambamba na yanayoweza kujumuishwa.</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ROADMAP / MILESTONES ===================================== -->
+<section id="roadmap" class="s-roadmap" aria-labelledby="roadmap-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="roadmap.eyebrow">Historia</span>
+			<h2 id="roadmap-title" data-i18n="roadmap.title">Zaidi ya muongo wa utekelezaji wa kuendelea.</h2>
+			<p data-i18n="roadmap.lead">Kutoka kuanzishwa mapema kwa SegWit hadi makubaliano ya algorithmu nyingi. Kila upgrade ya protokoli imekuwa chanzo huria, imejaribiwa kwenye mainnet na imepelekwa bila ufadhili wa kati.</p>
+		</header>
+
+		<div class="roadmap" data-reveal>
+			<div class="roadmap__stage">
+				<ol class="roadmap__items">
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.genesis.title">Genesis</h3>
+						<p data-i18n="roadmap.genesis.body">Uzinduzi wa haki kupitia uchimbaji wa umma; 0.5% ya premine iligawanywa kwa giveaway na maendeleo.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.digishield.title">DigiShield</h3>
+						<p data-i18n="roadmap.digishield.body">Urekebishaji wa ugumu kwa wakati halisi ili kuhakikisha muda thabiti wa bloku.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2014</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.multialgo.title">MultiAlgo</h3>
+						<p data-i18n="roadmap.multialgo.body">Algorithmu tano za uchimbaji sambamba ili kuzuia ujikusanyaji wa hashrate.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2017</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.segwit.title">SegWit</h3>
+						<p data-i18n="roadmap.segwit.body">Upgrade ya protokoli inayoboresha uwezo na kurekebisha malleability ya muamala.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2019</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.odocrypt.title">Odocrypt &amp; Dandelion++</h3>
+						<p data-i18n="roadmap.odocrypt.body">Makubaliano yanayopinga ASIC na uelekezi wa muamala unaolinda faragha.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2020+</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.digiAssetsId.title">DigiAssets &amp; Digi-ID</h3>
+						<p data-i18n="roadmap.digiAssetsId.body">Muunganisho wa mfumo mzima wa ikolojia kwa rasilimali za on-chain na uthibitishaji uliogatuliwa.</p>
+					</li>
+					<li class="roadmap__item">
+						<span class="roadmap__year">2025</span>
+						<h3 class="roadmap__title" data-i18n="roadmap.core.title">Core v9.26.5</h3>
+						<p data-i18n="roadmap.core.body">Miundombinu ya node iliyoboreshwa iliyojengwa kwenye mfumo wa Bitcoin Core 26.</p>
+						<ul class="roadmap__bullets">
+							<li data-i18n="roadmap.core.taproot.bip340">BIP340 — Schnorr signatures</li>
+							<li data-i18n="roadmap.core.taproot.bip341">BIP341 — Pay-to-Taproot (P2TR)</li>
+							<li data-i18n="roadmap.core.taproot.bip342">BIP342 — Tapscript</li>
+						</ul>
+					</li>
+					<li class="roadmap__item roadmap__item--finale">
+						<span class="roadmap__year">2026</span>
+						<h3 class="roadmap__title"><span data-i18n="roadmap.digidollar.title">DigiDollar</span> <span class="chip chip--live" data-i18n="roadmap.digidollar.live">Live on mainnet</span></h3>
+						<p data-i18n="roadmap.digidollar.body">Stablecoin isiyo na ulinzi kabisa inayozalisha ukwasi uliofungamana na USD kupitia akiba za DGB zilizofungwa kwa muda.</p>
+						<a class="btn btn--primary btn--sm mt-3" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="roadmap.digidollar.cta">Chunguza DigiDollar</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					</li>
+				</ol>
+
+				<div class="roadmap__lane" aria-hidden="true">
+					<svg class="roadmap__road" viewBox="0 0 220 1760" preserveAspectRatio="none">
+						<defs>
+							<linearGradient id="road-grad" x1="0" y1="0" x2="0" y2="1">
+								<stop offset="0%" stop-color="#00e5ff"/>
+								<stop offset="50%" stop-color="#2f80ff"/>
+								<stop offset="100%" stop-color="#1450ff"/>
+							</linearGradient>
+							<filter id="road-glow" x="-50%" y="-10%" width="200%" height="120%">
+								<feGaussianBlur stdDeviation="4" result="b"/>
+								<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+							</filter>
+						</defs>
+
+						<!-- Soft outer glow -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="url(#road-grad)" stroke-width="32" stroke-opacity="0.18" stroke-linecap="round"/>
+
+						<!-- Road body -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="url(#road-grad)" stroke-width="14" stroke-linecap="round" filter="url(#road-glow)"/>
+
+						<!-- Dashed center line -->
+						<path d="M 30 110 C 30 220, 190 220, 190 330 C 190 440, 30 440, 30 550 C 30 660, 190 660, 190 770 C 190 880, 30 880, 30 990 C 30 1100, 190 1100, 190 1210 C 190 1320, 30 1320, 30 1430 C 30 1540, 190 1540, 190 1650"
+							fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7" stroke-dasharray="6 10" stroke-linecap="round"/>
+
+						<!-- Pins anchored to road points -->
+						<g font-family="ui-monospace, monospace" font-weight="700">
+							<g transform="translate(30 110)">  <circle r="18" fill="#05070d" stroke="#00e5ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#00e5ff" font-size="14">01</text></g>
+							<g transform="translate(190 330)"> <circle r="18" fill="#05070d" stroke="#00e5ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#00e5ff" font-size="14">02</text></g>
+							<g transform="translate(30 550)">  <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">03</text></g>
+							<g transform="translate(190 770)"> <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">04</text></g>
+							<g transform="translate(30 990)">  <circle r="18" fill="#05070d" stroke="#2f80ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#2f80ff" font-size="14">05</text></g>
+							<g transform="translate(190 1210)"><circle r="18" fill="#05070d" stroke="#1450ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#1450ff" font-size="14">06</text></g>
+							<g transform="translate(30 1430)"> <circle r="18" fill="#05070d" stroke="#1450ff" stroke-width="2"/><text text-anchor="middle" dy="5" fill="#1450ff" font-size="14">07</text></g>
+							<g transform="translate(190 1650)"><circle r="22" fill="#05070d" stroke="#00e5ff" stroke-width="2.5"/><text text-anchor="middle" dy="6" fill="#00e5ff" font-size="16">08</text></g>
+						</g>
+					</svg>
+
+					<!-- Animated DGB cars driving along the road -->
+					<img class="roadmap__car roadmap__car--1" src="../images/dgb-logo.png" alt="" aria-hidden="true" width="44" height="44" loading="lazy">
+					<img class="roadmap__car roadmap__car--2" src="../images/dgb-logo.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- COMMUNITY ================================================ -->
+<section id="community" class="s-community" aria-labelledby="community-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="community.eyebrow">Jumuiya</span>
+			<h2 id="community-title" data-i18n="community.title">Mtandao huru wa wajenzi wa kimataifa.</h2>
+			<p data-i18n="community.lead">DigiByte ni mradi wa chanzo huria safi usio na shirika la kati. Maendeleo ya kimataifa, miundombinu ya node, na ujanibishaji wa lugha zaidi ya 40 hudumishwa kabisa na watu wa kujitolea wanaojiratibu wenyewe.</p>
+			<p class="text-ink-2" data-i18n="community.getInvolved"><strong class="text-cyan">Shiriki:</strong> jiunge na mfumo wa ikolojia kwa kukagua kanuni, kujanibisha nyaraka, kuendesha miundombinu, au kutoa maudhui ya elimu.</p>
+			<p class="text-ink-2" data-i18n="community.dip0002">Per <a href="https://github.com/DigiByte-Core/dips/blob/main/dip-0002.mediawiki" target="_blank" rel="noopener">DIP-0002</a>, third-party social platforms and advocacy groups have been relocated to the community-maintained DigiByte Wiki and the official GitHub Discussions forum.</p>
+		</header>
+
+		<div class="community-grid">
+			<a class="community-tile" href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-reveal>
+				<i class="fab fa-github"></i><div><strong data-i18n="community.tile.github.title">GitHub Discussions</strong><br><small class="text-ink-3" data-i18n="community.tile.github.meta">Majadiliano &amp; PR</small></div>
+			</a>
+			<a class="community-tile" href="https://github.com/DigiByte-Core/digibyte/wiki/Community" target="_blank" rel="noopener" data-reveal data-reveal-delay="60">
+				<i class="fas fa-book-open"></i><div><strong data-i18n="community.tile.wiki.title">DigiByte Wiki Community</strong><br><small class="text-ink-3" data-i18n="community.tile.wiki.meta">Curated community index</small></div>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- DOWNLOADS ================================================ -->
+<section id="downloads" class="s-downloads bg-grid" aria-labelledby="downloads-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="downloads.eyebrow">Pata DigiByte</span>
+			<h2 id="downloads-title" data-i18n="downloads.title">Programu na wateja wa mtandao.</h2>
+			<p data-i18n="downloads.lead">Saidia usalama uliogatuliwa wa mtandao kwa kuendesha node kamili ya uthibitishaji, au tumia pochi nyepesi kwa usimamizi wa muamala portable, hifadhi ya rasilimali na kuingia salama.</p>
+		</header>
+
+		<div class="downloads-grid">
+			<article class="download-card download-card--featured" data-reveal>
+				<div class="download-card__main">
+					<header>
+						<span class="eyebrow" data-i18n="downloads.core.eyebrow">Full Node</span>
+						<h3 class="card__title">DigiByte Core</h3>
+						<p class="text-ink-2 mt-2" data-i18n="downloads.core.subtitle">Uthibitishaji kamili na huru wa bloku.</p>
+					</header>
+					<ul class="stack-sm">
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet1">Inanga na inalinda mtandao moja kwa moja</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet2">SegWit, Bech32 na miingiliano ya RPC iliyojumuishwa</span></li>
+						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Tayari kwa uzalishaji:</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v9.26.5</a></li>
+					</ul>
+					<div class="cluster">
+						<a class="btn btn--primary btn--sm" href="https://digibyte.io/downloads" target="_blank" rel="noopener"><i class="fas fa-download"></i> <span data-i18n="downloads.core.easyDownloads">Easy downloads</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">Endesha node</span></a>
+						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener" data-i18n="downloads.core.checksums">Checksums</a>
+					</div>
+				</div>
+				<aside class="download-card__aside">
+					<span class="eyebrow" data-i18n="downloads.core.whyValidate">Kwa nini kuthibitisha mwenyewe?</span>
+					<ul class="stack mt-3">
+						<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i> <span data-i18n="downloads.core.why1">Uthibitisho bila kuamini — usitegemee kamwe mtazamo wa wahusika wengine kuhusu chain.</span></li>
+						<li class="cluster"><i class="fas fa-network-wired text-cyan"></i> <span data-i18n="downloads.core.why2">Imarisha ugatuzi kwa kila peer mpya.</span></li>
+						<li class="cluster"><i class="fas fa-eye-slash text-cyan"></i> <span data-i18n="downloads.core.why3">Faragha bora zaidi katika daraja kwa pochi na utafutaji wako mwenyewe.</span></li>
+					</ul>
+					<div class="download-card__platforms mt-4">
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-win64-setup.exe" target="_blank" rel="noopener" aria-label="Pakua kwa Windows" data-i18n-attr="aria-label:downloads.core.aria.windows"><i class="fab fa-windows"></i> Windows</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-apple-darwin.zip" target="_blank" rel="noopener" aria-label="Pakua kwa macOS" data-i18n-attr="aria-label:downloads.core.aria.macos"><i class="fab fa-apple"></i> macOS</a>
+						<a class="btn btn--ghost btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/download/v9.26.5/digibyte-9.26.5-x86_64-linux-gnu.tar.gz" target="_blank" rel="noopener" aria-label="Pakua kwa Linux" data-i18n-attr="aria-label:downloads.core.aria.linux"><i class="fab fa-linux"></i> Linux</a>
+					</div>
+				</aside>
+			</article>
+		</div>
+
+		<aside id="docs" class="card mt-9" data-reveal>
+			<div class="cluster justify-between-children">
+				<div>
+					<span class="eyebrow"><i class="fas fa-books"></i> <span data-i18n="downloads.docs.eyebrow">Docs &amp; Miongozo</span></span>
+					<h3 class="card__title mt-2" data-i18n="downloads.docs.title">Kila kitu unachohitaji kwa muunganisho.</h3>
+				</div>
+			</div>
+			<div class="grid grid-3 mt-5">
+				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">Mwongozo wa muunganisho</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">Kwa exchange &amp; huduma</span></a>
+				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">Muunganisho wa DigiDollar</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · safu ya stablecoin</span></a>
+				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">Technical architecture</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · security &amp; ecosystem</span></a>
+				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">Kit ya vyombo vya habari</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">Nembo &amp; aikoni</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">kit ya chapa</span></a>
+				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">Wiki</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">rejeleo la kiufundi</span></a>
+			</div>
+		</aside>
+	</div>
+</section>
+
+</main>
+
+<!-- FOOTER =================================================== -->
+<footer class="footer" id="footer">
+	<div class="row">
+		<div class="footer__grid">
+			<div class="footer__brand">
+				<a href="#top" class="footer__brand-link" aria-label="Rudi juu" data-i18n-attr="aria-label:footer.aria.backToTop">
+					<img src="../images/footerlogo.png" alt="DigiByte" width="220" height="60" class="footer__logo mb-4">
+				</a>
+				<p class="text-ink-2" data-i18n="footer.tagline">Miundombinu isiyokatika ya UTXO. Imebuniwa na imepanuliwa na jumuiya iliyogatuliwa ya chanzo huria tangu 2014.</p>
+				<div class="footer__socials mt-5">
+					<a href="https://github.com/DigiByte-Core" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+					<a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" aria-label="GitHub Discussions"><i class="fas fa-comments"></i></a>
+					<a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" aria-label="DigiByte Wiki"><i class="fas fa-book-open"></i></a>
+				</div>
+			</div>
+			<div>
+				<h6 data-i18n="footer.protocol.heading">Protokoli</h6>
+				<ul class="footer__list">
+					<li><a href="#features" data-i18n="footer.protocol.features">Vipengele</a></li>
+					<li><a href="#predictable-issuance" data-i18n="footer.protocol.predictableIssuance">Predictable issuance</a></li>
+					<li><a href="#chain" data-i18n="footer.protocol.liveChain">Chain ya moja kwa moja</a></li>
+					<li><a href="#roadmap" data-i18n="footer.protocol.roadmap">Ramani ya njia</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.build.heading">Jenga</h6>
+				<ul class="footer__list">
+					<li><a href="#devhub" data-i18n="footer.build.devHub">Kituo cha wabunifu</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" data-i18n="footer.build.coreRepo">Repo ya Core</a></li>
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.build.wiki">Wiki</a></li>
+					<li><a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-i18n="footer.build.discussions">Majadiliano</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.use.heading">Tumia</h6>
+				<ul class="footer__list">
+					<li><a href="#downloads" data-i18n="footer.use.downloads">Vipakuliwa</a></li>
+					<li><a href="#digi-id" data-i18n="footer.use.digiId">Digi-ID</a></li>
+					<li><a href="#digiassets" data-i18n="footer.use.digiassets">DigiAssets</a></li>
+				</ul>
+			</div>
+			<div>
+				<h6 data-i18n="footer.resources.heading">Rasilimali</h6>
+				<ul class="footer__list">
+					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
+					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
+					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">Muunganisho</a></li>
+					<li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" data-i18n="footer.resources.digidollar">Mwongozo wa DigiDollar</a></li>
+					<li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" data-i18n="footer.resources.techArch">Technical architecture</a></li>
+					<li><a href="../legaldisclaimer.html" data-i18n="footer.resources.legal">Kanusho la kisheria</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<span data-i18n="footer.copyright">© 2014–2026 DigiByte — Imejengwa na jumuiya, kwa ajili ya jumuiya.</span>
+			<span class="cluster">
+				<a href="../legaldisclaimer.html" data-i18n="footer.bottom.disclaimer">Kanusho</a>
+				<a href="../privacy-app.html" data-i18n="footer.bottom.privacy">Faragha</a>
+				<a href="../terms-app.html" data-i18n="footer.bottom.terms">Masharti</a>
+			</span>
+		</div>
+	</div>
+</footer>
+
+<!-- App scripts -->
+<script type="module" src="../js/app.js"></script>
+
 </body>
-	
 </html>
