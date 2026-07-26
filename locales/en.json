@@ -159,7 +159,6 @@
   "digidollar.security.safe1": "Mint only inside <strong>DigiByte Core v9.26.4+</strong>, where your DGB stays locked in an on-chain vault under your own keys.",
   "digidollar.security.safe2": "Only download DigiByte Core from the <strong>official GitHub releases</strong>, and verify the signed binaries before installing.",
   "digidollar.security.cta.downloads": "Official Core releases",
-  "digidollar.security.cta.source": "Read @DigiByteCoin's advisory",
 
   "devhub.eyebrow": "Developer hub",
   "devhub.title": "Uncompromising infrastructure for UTXO development.",
