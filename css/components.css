@@ -359,6 +359,60 @@ a.chip:hover, a.chip:focus-visible, .chip--link:hover, .chip--link:focus-visible
 	color: var(--c-ink-2);
 }
 
+/* Callout (inline notice / advisory) ----------------------------------- */
+.callout {
+	border: 1px solid var(--c-border);
+	border-radius: var(--r-4);
+	background: var(--glass-bg);
+	padding: var(--s-5);
+}
+.callout__header {
+	display: flex;
+	align-items: center;
+	gap: var(--s-3);
+	margin-block-end: var(--s-3);
+}
+.callout__title {
+	margin: 0;
+	font-size: var(--fs-4);
+	line-height: 1.25;
+}
+.callout__grid {
+	display: grid;
+	gap: var(--s-5);
+	margin-block-start: var(--s-5);
+	grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 720px) { .callout__grid { grid-template-columns: 1fr 1fr; } }
+.callout ul.stack > li.cluster {
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+.callout ul.stack > li.cluster > i {
+	flex: 0 0 auto;
+	padding-block-start: 0.25em;
+}
+.callout ul.stack > li.cluster > span {
+	flex: 1 1 0;
+	min-width: 0;
+}
+/* Warning variant — amber accent for scam/security advisories. */
+.callout--warning {
+	border-color: rgba(255, 182, 72, 0.35);
+	background:
+		linear-gradient(180deg, rgba(255, 182, 72, 0.06), rgba(255, 182, 72, 0.02)),
+		var(--glass-bg);
+	box-shadow:
+		inset 0 0 0 1px rgba(255, 182, 72, 0.10),
+		0 8px 32px rgba(255, 182, 72, 0.06);
+}
+.callout--warning .callout__title { color: var(--c-warn); }
+.callout--warning .callout__header > .fa-triangle-exclamation {
+	color: var(--c-warn);
+	font-size: 1.25rem;
+	flex: 0 0 auto;
+}
+
 /* Dialog (lightbox) ---------------------------------------------------- */
 .dialog {
 	border: 0;
