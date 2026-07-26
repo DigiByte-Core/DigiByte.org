@@ -5,9 +5,7 @@
   "meta.og.description": "最も長く、最速で、最も分散化されたUTXOブロックチェーン。DigiAssetsで構築し、Digi-IDでサインイン。",
   "meta.twitter.title": "DigiByte — より速く、安全で、先進的なブロックチェーン",
   "meta.twitter.description": "最も長く、最速で、最も分散化されたUTXOブロックチェーン。DGB上で構築、送金、認証。",
-
   "skipLink": "コンテンツへスキップ",
-
   "ticker.aria": "DigiByteネットワークのライブティッカー",
   "ticker.block": "ブロック",
   "ticker.hashrate": "ハッシュレート",
@@ -17,7 +15,6 @@
   "ticker.algos": "5つのマイニングアルゴリズム",
   "ticker.blocks": "15秒ブロック",
   "ticker.global": "グローバルかつ分散型",
-
   "nav.aria.brand": "DigiByteホーム",
   "nav.aria.primary": "メインナビゲーション",
   "nav.aria.langMenu": "言語を選択",
@@ -31,19 +28,15 @@
   "nav.download": "ダウンロード",
   "nav.langMenu.edit": "GitHubで翻訳を編集",
   "nav.cta.getDgb": "DGBを入手",
-
   "hero.chip.openSource": "オープンソース · MIT",
   "hero.chip.since": "2014年から稼働",
   "hero.title": "止まらない稼働のために設計。",
-  "hero.lead": "DigiByteはスケールを前提に設計された、マルチアルゴリズム UTXO 型の堅牢なブロックチェーンです。15秒のブロックタイムと12年間途切れることのない稼働実績を備え、DGB、DigiAssets、分散型認証 Digi-ID、そしてまもなく登場する DigiDollar の確かな基盤を提供します。",
   "hero.cta.get": "DigiByte を入手",
   "hero.cta.build": "DGB で開発する",
   "hero.metric.blockTime": "ブロックタイム",
   "hero.metric.algorithms": "アルゴリズム",
   "hero.metric.yearsLive": "稼働年数",
   "hero.metric.maxSupply": "最大供給量",
-
-
   "features.eyebrow": "DigiByteを選ぶ理由",
   "features.title": "暗号資産の次の10年に向けて設計。",
   "features.lead": "純粋なプルーフ・オブ・ワーク型UTXOチェーンとして、2014年以来DigiShield、MultiAlgo、SegWit、Odocrypt、Dandelion++、DigiAssets、Digi-IDなど、業界初の機能を次々と実装してきました。",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "実績",
   "features.trackRecord.title": "12年間稼働、ダウンタイムゼロ。",
   "features.trackRecord.body": "2014年1月以来、メインネットは15秒ごとにブロックを生成し続け、一度も停止していません。深いリオーグも、ガバナンスフォークも、緊急ハードフォークもありません。世界中で独立運営される数千のノードによるこの稼働実績は、重要インフラに求められる類のものです — 他のチェーンではほぼ示すことができません。",
-
   "chain.eyebrow": "ライブネットワーク",
   "chain.title": "ネイティブなオンチェーンデータ。",
   "chain.lead": "サードパーティAPIを介さず、DigiByteネットワークから毎分直接取得しています。",
@@ -76,7 +68,6 @@
   "chain.version.delta": "最新リリース",
   "chain.years.label": "稼働年数",
   "chain.years.delta": "2014年1月から",
-
   "tokenomics.eyebrow": "トークノミクス",
   "tokenomics.title": "DigiByte:より速いウェブのための健全な通貨。",
   "tokenomics.lead": "厳格に予測可能な金融政策のもと、DGBは210億コインを上限とし、固定された数学的分配による完全に透明な発行スケジュールで運用されています。",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "プレマイン",
   "tokenomics.premine.delta": "公正な開始 · ギブアウェイ＆開発",
   "tokenomics.cta.wiki": "Wikiを読む",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "安全なUTXOチェーン上でカスタムアセットを発行。",
   "digiassets.lead": "DigiByteネットワーク上で、トークンやステーブルコインから本人確認記録まで、独自のデジタルアセットをネイティブに発行できます。すべてのアセットは15秒で確定し、グローバルなプルーフ・オブ・ワークコンセンサスで保護されます。",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "わずかな数digisのDGBを手数料として支払い、トランザクションをブロードキャストすれば、アセットはネットワーク上で有効になります。",
   "digiassets.step4.title": "どこへでも送信",
   "digiassets.cta.docs": "プロトコルドキュメント",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "パスワード不要、オープンソースの認証。",
   "digiId.lead": "Digi-IDは従来のパスワードに代わり、分散型の暗号署名によって中央仲介者なしにユーザーIDを守ります。",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "いいえ、暗号資産の保有は任意です。多くのDigiByteウォレットがDigi-IDをネイティブにサポートしていますが、安全なログイン専用の独立した認証アプリを使うこともできます。",
   "digiId.faq3.q": "どのように統合すれば?",
   "digiId.faq3.a": "開発者はNode.js、PHP、Python、Go向けのドロップインライブラリを使えるほか、WordPress用のネイティブプラグインもあります。詳しいリソースは下の開発者ハブにあります。",
-
   "devhub.eyebrow": "開発者ハブ",
   "devhub.title": "UTXO開発のための妥協なきインフラ。",
   "devhub.lead": "実績豊富で信頼できるRPCと、予測可能で固定された手数料体系を利用できます。DigiByteは、数分でノードを立ち上げ、真に分散化されたネットワーク上で構築するための基盤を提供します。",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "予測可能な手数料市場:1セント未満のトランザクションコストで、持続可能なアプリのスケーリングを実現。",
   "devhub.whyShip.point2": "承認不要のトランザクション:ネイティブなUTXOの仕組みが、広範なトークン許可に伴うセキュリティリスクを回避します。",
   "devhub.whyShip.point3": "ステートレス実行:純粋なUTXO環境により、シンプルで並列・合成可能な開発が可能です。",
-
-
   "roadmap.eyebrow": "実績",
   "roadmap.title": "10年以上にわたる継続的な実行。",
   "roadmap.lead": "初期のSegWit有効化からマルチアルゴリズムコンセンサスまで。すべてのプロトコルアップグレードはオープンソースで、メインネットでテストされ、中央集権的な資金なしで展開されてきました。",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "近日公開",
   "roadmap.digidollar.body": "DGBをタイムロックで担保し、米ドル連動の流動性を生み出す、完全な非カストディアル型ステーブルコイン。",
   "roadmap.digidollar.cta": "DigiDollarを見る",
-
   "community.eyebrow": "コミュニティ",
   "community.title": "世界中のビルダーによる独立したネットワーク。",
   "community.lead": "DigiByteは中央組織を持たない純粋なオープンソースプロジェクトです。グローバルな開発、ノードインフラ、40以上の言語へのローカライズは、すべて自律的に連携するボランティアによって維持されています。",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "ディスカッション &amp; PR",
   "community.tile.discord.meta": "ライブチャット",
   "community.tile.youtube.meta": "講演 &amp; チュートリアル",
-
   "downloads.eyebrow": "DigiByteを入手",
   "downloads.title": "ネットワークソフトウェアとクライアント。",
   "downloads.lead": "フル検証ノードを動かしてネットワークの分散型セキュリティを支えるもよし、ライトウォレットで持ち運べる取引管理、アセット保管、安全なログインを行うもよし。",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "ブランドキット",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "技術リファレンス",
-
-
   "footer.aria.backToTop": "ページ上部に戻る",
   "footer.tagline": "途切れないUTXOインフラ。2014年から、分散型でオープンソースなコミュニティが設計・拡張してきました。",
   "footer.protocol.heading": "プロトコル",

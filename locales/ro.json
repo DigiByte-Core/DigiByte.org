@@ -5,9 +5,7 @@
   "meta.og.description": "Cea mai longevivă, rapidă și descentralizată blockchain UTXO. Construiește cu DigiAssets, conectează-te cu Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain mai rapid, sigur și de avangardă",
   "meta.twitter.description": "Cea mai longevivă, rapidă și descentralizată blockchain UTXO. Construiește, tranzacționează și autentifică-te pe DGB.",
-
   "skipLink": "Sari la conținut",
-
   "ticker.aria": "Ticker live al rețelei DigiByte",
   "ticker.block": "Bloc",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritmi de minat",
   "ticker.blocks": "Blocuri de 15 secunde",
   "ticker.global": "Globală, descentralizată",
-
   "nav.aria.brand": "Pagina principală DigiByte",
   "nav.aria.primary": "Principal",
   "nav.aria.langMenu": "Alege limba",
@@ -31,19 +28,15 @@
   "nav.download": "Descărcare",
   "nav.langMenu.edit": "Editează traducerile pe GitHub",
   "nav.cta.getDgb": "Obține DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Din 2014",
   "hero.title": "Construit pentru funcționare neîntreruptă.",
-  "hero.lead": "DigiByte este o blockchain UTXO multi-algoritm, foarte sigură, proiectată pentru scalare. Cu blocuri la 15 secunde și doisprezece ani de funcționare neîntreruptă, rețeaua oferă o bază testată în luptă pentru DGB, DigiAssets, autentificarea descentralizată Digi-ID și — foarte curând — DigiDollar.",
   "hero.cta.get": "Obține DigiByte",
   "hero.cta.build": "Construiește pe DGB",
   "hero.metric.blockTime": "Timp de bloc",
   "hero.metric.algorithms": "Algoritmi",
   "hero.metric.yearsLive": "Ani activă",
   "hero.metric.maxSupply": "Ofertă max.",
-
-
   "features.eyebrow": "De ce DigiByte",
   "features.title": "Construită pentru următorul deceniu al cripto.",
   "features.lead": "Un lanț UTXO pur proof-of-work care livrează premiere de industrie din 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets și Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Istoric",
   "features.trackRecord.title": "Doisprezece ani activă. Zero perioade de pauză.",
   "features.trackRecord.body": "Din ianuarie 2014, mainnet-ul produce blocuri la fiecare cincisprezece secunde, fără întrerupere. Fără reorgs profunde, fără fork-uri de guvernanță, fără hard fork-uri de urgență. Acest uptime, alături de mii de noduri operate independent în lume, este genul de istoric operațional de care are nevoie infrastructura critică — și pe care aproape niciun alt lanț nu îl poate arăta.",
-
   "chain.eyebrow": "Rețea live",
   "chain.title": "Date on-chain native.",
   "chain.lead": "Preluate direct din rețeaua DigiByte în fiecare minut, ocolind orice API terță.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Ultima versiune",
   "chain.years.label": "Ani online",
   "chain.years.delta": "Din ian. 2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: bani solizi pentru un web mai rapid.",
   "tokenomics.lead": "Guvernat de o politică monetară strict previzibilă, DGB are plafon fix de 21 de miliarde de monede și funcționează pe un calendar de emisie complet transparent, cu distribuție matematică fixă.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "lansare echitabilă · giveaways & dev",
   "tokenomics.cta.wiki": "Citește wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Emite active personalizate pe un lanț UTXO sigur.",
   "digiassets.lead": "Emite native active digitale personalizate pe rețeaua DigiByte, de la token-uri și stablecoin-uri până la înregistrări de identitate. Fiecare activ este decontat în 15 secunde și securizat de un consens global proof-of-work.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Plătește câțiva digis de DGB drept taxe, difuzează tranzacția și activul este viu în toată rețeaua.",
   "digiassets.step4.title": "Trimite oriunde",
   "digiassets.cta.docs": "Documentația protocolului",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Autentificare open source, fără parolă.",
   "digiId.lead": "Digi-ID se bazează pe semnături criptografice descentralizate în locul parolelor tradiționale, protejând identitatea utilizatorului fără intermediari centralizați.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Nu, deținerea de cripto este opțională. Multe portofele DigiByte suportă Digi-ID nativ, dar poți folosi și o aplicație de autentificare separată, dedicată exclusiv login-urilor sigure.",
   "digiId.faq3.q": "Cum o integrez?",
   "digiId.faq3.a": "Dezvoltatorii pot folosi bibliotecile noastre drop-in pentru Node.js, PHP, Python și Go, sau pot instala pluginul nativ pentru WordPress. Toate resursele se află în hub-ul de dezvoltatori de mai jos.",
-
   "devhub.eyebrow": "Hub dezvoltatori",
   "devhub.title": "Infrastructură fără compromisuri pentru dezvoltarea UTXO.",
   "devhub.lead": "Accesează un RPC fiabil, testat în luptă, cu structuri de comisioane fixe și previzibile. DigiByte oferă baza pentru a porni noduri în câteva minute și a construi pe o rețea cu adevărat descentralizată.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Piețe de comisioane previzibile: costuri de tranzacție sub un cent asigură scalare sustenabilă a aplicațiilor.",
   "devhub.whyShip.point2": "Tranzacții fără aprobări: mecanica nativă UTXO ocolește riscurile de securitate legate de permisiunile ample asupra token-urilor.",
   "devhub.whyShip.point3": "Execuție fără stare: un mediu UTXO pur permite o dezvoltare simplă, paralelă și componibilă.",
-
-
   "roadmap.eyebrow": "Istoric",
   "roadmap.title": "Peste un deceniu de execuție continuă.",
   "roadmap.lead": "De la activarea timpurie a SegWit până la consensul multi-algoritm. Fiecare upgrade de protocol a fost open source, testat pe mainnet și implementat fără finanțare centralizată.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "În curând",
   "roadmap.digidollar.body": "O stablecoin complet non-custodial care generează lichiditate ancorată în USD prin rezerve DGB blocate temporal.",
   "roadmap.digidollar.cta": "Descoperă DigiDollar",
-
   "community.eyebrow": "Comunitate",
   "community.title": "O rețea independentă de constructori globali.",
   "community.lead": "DigiByte este un proiect pur open source, fără o organizație centralizată. Dezvoltarea globală, infrastructura nodurilor și localizarea în peste 40 de limbi sunt menținute integral de voluntari auto-coordonați.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Discuții &amp; PR-uri",
   "community.tile.discord.meta": "Chat live",
   "community.tile.youtube.meta": "Conferințe &amp; tutoriale",
-
   "downloads.eyebrow": "Obține DigiByte",
   "downloads.title": "Software și clienți pentru rețea.",
   "downloads.lead": "Susține securitatea descentralizată a rețelei rulând un nod de validare complet, sau folosește portofelul light pentru gestionarea portabilă a tranzacțiilor, custodia activelor și login-uri sigure.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "kit de brand",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "referință tehnică",
-
-
   "footer.aria.backToTop": "Înapoi sus",
   "footer.tagline": "Infrastructură UTXO neîntreruptă. Concepută și scalată de o comunitate descentralizată, open source, din 2014.",
   "footer.protocol.heading": "Protocol",

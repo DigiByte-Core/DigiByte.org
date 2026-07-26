@@ -5,9 +5,7 @@
   "meta.og.description": "Den længstkørende, hurtigste og mest decentraliserede UTXO-blockchain. Byg med DigiAssets, log ind med Digi-ID.",
   "meta.twitter.title": "DigiByte — Hurtigere, sikrere, fremsynet blockchain",
   "meta.twitter.description": "Den længstkørende, hurtigste og mest decentraliserede UTXO-blockchain. Byg, transaktér og autentificér på DGB.",
-
   "skipLink": "Spring til indhold",
-
   "ticker.aria": "Live ticker for DigiByte-netværket",
   "ticker.block": "Blok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 mining-algoritmer",
   "ticker.blocks": "15-sekunders blokke",
   "ticker.global": "Global, decentraliseret",
-
   "nav.aria.brand": "DigiByte hjem",
   "nav.aria.primary": "Hovednavigation",
   "nav.aria.langMenu": "Vælg sprog",
@@ -31,19 +28,15 @@
   "nav.download": "Hent",
   "nav.langMenu.edit": "Redigér oversættelser på GitHub",
   "nav.cta.getDgb": "Hent DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Siden 2014",
   "hero.title": "Designet til uafbrudt drift.",
-  "hero.lead": "DigiByte er en yderst sikker, multi-algoritme UTXO-blockchain bygget til skala. Med blokke hvert 15. sekund og tolv års uafbrudt oppetid leverer netværket et kamptestet fundament for DGB, DigiAssets, decentraliseret Digi-ID-autentificering og — meget snart — DigiDollar.",
   "hero.cta.get": "Hent DigiByte",
   "hero.cta.build": "Byg på DGB",
   "hero.metric.blockTime": "Bloktid",
   "hero.metric.algorithms": "Algoritmer",
   "hero.metric.yearsLive": "År live",
   "hero.metric.maxSupply": "Maks. udbud",
-
-
   "features.eyebrow": "Hvorfor DigiByte",
   "features.title": "Designet til kryptos næste årti.",
   "features.lead": "En ren proof-of-work UTXO-chain, der har leveret branche-førsteheder siden 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets og Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Track record",
   "features.trackRecord.title": "Tolv år live. Nul nedetid.",
   "features.trackRecord.body": "Siden januar 2014 har mainnettet produceret blokke hvert femtende sekund uden afbrydelser. Ingen dybe re-orgs, ingen governance-forks, ingen nød-hard forks. Den oppetid, kombineret med tusindvis af uafhængigt drevne noder verden over, er præcis den slags driftshistorik, kritisk infrastruktur kræver — og som næsten ingen anden chain kan fremvise.",
-
   "chain.eyebrow": "Live netværk",
   "chain.title": "Native on-chain data.",
   "chain.lead": "Hentet direkte fra DigiByte-netværket hvert minut, uden tredjeparts-API'er.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Seneste release",
   "chain.years.label": "År online",
   "chain.years.delta": "Siden jan. 2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: solide penge til et hurtigere web.",
   "tokenomics.lead": "Styret af en strengt forudsigelig pengepolitik er DGB hårdt begrænset til 21 milliarder coins og kører efter en fuldt gennemsigtig udstedelsesplan med en fast, matematisk fordeling.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "fair start · giveaways & udvikling",
   "tokenomics.cta.wiki": "Læs wiki'en",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Udsted egne aktiver på en sikker UTXO-chain.",
   "digiassets.lead": "Udsted nativt egne digitale aktiver på DigiByte-netværket — fra tokens og stablecoins til identitetsoptegnelser. Hvert aktiv afregner på 15 sekunder og sikres af global proof-of-work-konsensus.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Betal et par digis DGB i gebyr, udsend transaktionen, og aktivet er live på hele netværket.",
   "digiassets.step4.title": "Send overalt",
   "digiassets.cta.docs": "Protokol-dokumentation",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Adgangskodefri, open source autentificering.",
   "digiId.lead": "Digi-ID bygger på decentraliserede kryptografiske signaturer i stedet for traditionelle adgangskoder og sikrer brugerens identitet uden centrale mellemled.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Nej, det er valgfrit at eje krypto. Mange DigiByte-wallets understøtter Digi-ID nativt, men du kan også bruge en separat autentificerings-app, der udelukkende er bygget til sikre logins.",
   "digiId.faq3.q": "Hvordan integrerer jeg det?",
   "digiId.faq3.a": "Udviklere kan bruge vores drop-in biblioteker til Node.js, PHP, Python og Go eller installere det native WordPress-plugin. Alle ressourcer findes i developer-hub'en længere nede.",
-
   "devhub.eyebrow": "Developer hub",
   "devhub.title": "Kompromisløs infrastruktur til UTXO-udvikling.",
   "devhub.lead": "Få adgang til en pålidelig, kamptestet RPC med faste, forudsigelige gebyrstrukturer. DigiByte leverer fundamentet til at deploye noder på minutter og bygge på et reelt decentraliseret netværk.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Forudsigelige gebyrmarkeder: transaktionsomkostninger under en cent giver bæredygtig app-skalering.",
   "devhub.whyShip.point2": "Approval-frie transaktioner: native UTXO-mekanik omgår sikkerhedsrisici ved brede token-tilladelser.",
   "devhub.whyShip.point3": "Tilstandsløs udførelse: et rent UTXO-miljø muliggør enkel, parallel og komponérbar udvikling.",
-
-
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Over et årtis kontinuerlig eksekvering.",
   "roadmap.lead": "Fra tidlig SegWit-aktivering til multi-algoritme-konsensus. Hver protokol-opgradering har været open source, mainnet-testet og udrullet uden central finansiering.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Snart tilgængelig",
   "roadmap.digidollar.body": "En fuldt non-custodial stablecoin, der skaber USD-bundet likviditet via tids-låste DGB-reserver.",
   "roadmap.digidollar.cta": "Udforsk DigiDollar",
-
   "community.eyebrow": "Fællesskab",
   "community.title": "Et uafhængigt netværk af globale buildere.",
   "community.lead": "DigiByte er et rent open source-projekt uden central organisation. Global udvikling, node-infrastruktur og oversættelse til over 40 sprog vedligeholdes udelukkende af selvkoordinerende frivillige.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Diskussioner &amp; PRs",
   "community.tile.discord.meta": "Live chat",
   "community.tile.youtube.meta": "Talks &amp; tutorials",
-
   "downloads.eyebrow": "Hent DigiByte",
   "downloads.title": "Netværkssoftware og klienter.",
   "downloads.lead": "Støt netværkets decentraliserede sikkerhed ved at køre en fuld validerende node, eller brug den lette wallet til mobil transaktionsstyring, asset-forvaring og sikre logins.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "brand-kit",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "teknisk reference",
-
-
   "footer.aria.backToTop": "Tilbage til toppen",
   "footer.tagline": "Uafbrudt UTXO-infrastruktur. Designet og skaleret af et decentraliseret open source-fællesskab siden 2014.",
   "footer.protocol.heading": "Protokol",

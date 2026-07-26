@@ -5,9 +5,7 @@
   "meta.og.description": "Najdugovječniji, najbrži i najdecentraliziraniji UTXO blockchain. Gradite uz DigiAssets, prijavite se s Digi-ID.",
   "meta.twitter.title": "DigiByte — Brži, sigurniji, napredan blockchain",
   "meta.twitter.description": "Najdugovječniji, najbrži i najdecentraliziraniji UTXO blockchain. Gradite, transaktirajte i autenticirajte se na DGB.",
-
   "skipLink": "Preskoči na sadržaj",
-
   "ticker.aria": "Ticker uživo za mrežu DigiByte",
   "ticker.block": "Blok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritama rudarenja",
   "ticker.blocks": "Blokovi od 15 sekundi",
   "ticker.global": "Globalna, decentralizirana",
-
   "nav.aria.brand": "DigiByte početna",
   "nav.aria.primary": "Glavna navigacija",
   "nav.aria.langMenu": "Odaberi jezik",
@@ -31,19 +28,15 @@
   "nav.download": "Preuzmi",
   "nav.langMenu.edit": "Uredi prijevode na GitHubu",
   "nav.cta.getDgb": "Nabavi DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Od 2014.",
   "hero.title": "Dizajniran za neprekidan rad.",
-  "hero.lead": "DigiByte je vrlo siguran, više-algoritamski UTXO blockchain izgrađen za skaliranje. S vremenom bloka od 15 sekundi i dvanaest godina neprekidnog rada, mreža pruža u praksi provjeren temelj za DGB, DigiAssets, decentraliziranu autentifikaciju Digi-ID i — vrlo skoro — DigiDollar.",
   "hero.cta.get": "Nabavi DigiByte",
   "hero.cta.build": "Gradi na DGB",
   "hero.metric.blockTime": "Vrijeme bloka",
   "hero.metric.algorithms": "Algoritmi",
   "hero.metric.yearsLive": "Godine rada",
   "hero.metric.maxSupply": "Maks. ponuda",
-
-
   "features.eyebrow": "Zašto DigiByte",
   "features.title": "Stvoren za sljedeće desetljeće kripta.",
   "features.lead": "Čisti proof-of-work UTXO lanac koji od 2014. donosi prvenstva u industriji — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets i Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Povijest",
   "features.trackRecord.title": "Dvanaest godina rada. Nula zastoja.",
   "features.trackRecord.body": "Od siječnja 2014. mainnet proizvodi blok svakih petnaest sekundi bez prekida. Bez dubokih re-orgova, bez governance forkova, bez hitnih hard forkova. Taj uptime, uz tisuće neovisno upravljanih čvorova diljem svijeta, upravo je vrsta operativne povijesti koja je potrebna kritičnoj infrastrukturi — i koju gotovo nijedan drugi lanac ne može pokazati.",
-
   "chain.eyebrow": "Mreža uživo",
   "chain.title": "Nativni on-chain podaci.",
   "chain.lead": "Povlače se izravno iz mreže DigiByte svake minute, zaobilazeći sve API-je trećih strana.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Najnovije izdanje",
   "chain.years.label": "Godine online",
   "chain.years.delta": "Od sij. 2014.",
-
   "tokenomics.eyebrow": "Tokenomika",
   "tokenomics.title": "DigiByte: stabilan novac za brži web.",
   "tokenomics.lead": "Pod strogo predvidivom monetarnom politikom DGB ima tvrdi maksimum od 21 milijardu novčića i radi po potpuno transparentnom rasporedu emisije s fiksnom matematičkom raspodjelom.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "pošten početak · giveaway & razvoj",
   "tokenomics.cta.wiki": "Pročitaj wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Izdaj vlastite asete na sigurnom UTXO lancu.",
   "digiassets.lead": "Izdajte nativno vlastite digitalne asete na mreži DigiByte — od tokena i stablecoina do zapisa identiteta. Svaki aset se obračunava za 15 sekundi i osigurava globalnim proof-of-work konsenzusom.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Plati nekoliko digis DGB-a kao naknadu, emitiraj transakciju i aset je živ u cijeloj mreži.",
   "digiassets.step4.title": "Pošalji bilo kamo",
   "digiassets.cta.docs": "Dokumentacija protokola",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Autentifikacija bez lozinke, open source.",
   "digiId.lead": "Digi-ID koristi decentralizirane kriptografske potpise umjesto tradicionalnih lozinki, štiteći identitet korisnika bez centralnih posrednika.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Ne, posjedovanje kripta je opcionalno. Mnogi DigiByte novčanici nativno podržavaju Digi-ID, ali možete koristiti i zasebnu autentifikacijsku aplikaciju namijenjenu isključivo sigurnim prijavama.",
   "digiId.faq3.q": "Kako ga integrirati?",
   "digiId.faq3.a": "Programeri mogu koristiti naše drop-in biblioteke za Node.js, PHP, Python i Go ili instalirati nativni WordPress dodatak. Cjelokupne resurse pronaći ćete u hubu za programere u nastavku.",
-
   "devhub.eyebrow": "Hub za programere",
   "devhub.title": "Beskompromisna infrastruktura za UTXO razvoj.",
   "devhub.lead": "Pristupite pouzdanom, u praksi provjerenom RPC-u s fiksnim, predvidljivim strukturama naknada. DigiByte pruža temelj za pokretanje čvorova u nekoliko minuta i gradnju na uistinu decentraliziranoj mreži.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Predvidljiva tržišta naknada: troškovi transakcije ispod jednog centa omogućuju održivo skaliranje aplikacija.",
   "devhub.whyShip.point2": "Transakcije bez approval-a: nativna UTXO mehanika zaobilazi sigurnosne rizike širokih dopuštenja tokenima.",
   "devhub.whyShip.point3": "Bez-stanjasti izvršni model: čisto UTXO okruženje omogućuje jednostavan, paralelan i kompozibilan razvoj.",
-
-
   "roadmap.eyebrow": "Povijest",
   "roadmap.title": "Više od desetljeća kontinuirane izvedbe.",
   "roadmap.lead": "Od ranog aktiviranja SegWita do više-algoritamskog konsenzusa. Svaka nadogradnja protokola bila je open source, testirana na mainnetu i implementirana bez centraliziranog financiranja.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Uskoro dostupno",
   "roadmap.digidollar.body": "Potpuno ne-skrbnički stablecoin koji generira likvidnost vezanu uz USD putem vremenski zaključanih DGB rezervi.",
   "roadmap.digidollar.cta": "Istraži DigiDollar",
-
   "community.eyebrow": "Zajednica",
   "community.title": "Neovisna mreža globalnih graditelja.",
   "community.lead": "DigiByte je čisto open source projekt bez centralizirane organizacije. Globalni razvoj, infrastrukturu čvorova i lokalizaciju na više od 40 jezika u potpunosti održavaju samokoordinirani volonteri.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Rasprave &amp; PR-ovi",
   "community.tile.discord.meta": "Razgovor uživo",
   "community.tile.youtube.meta": "Predavanja &amp; tutoriali",
-
   "downloads.eyebrow": "Nabavi DigiByte",
   "downloads.title": "Mrežni softver i klijenti.",
   "downloads.lead": "Podržite decentraliziranu sigurnost mreže pokretanjem punog validacijskog čvora ili koristite light novčanik za prijenosno upravljanje transakcijama, čuvanje aseta i sigurne prijave.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tehnička referenca",
-
-
   "footer.aria.backToTop": "Natrag na vrh",
   "footer.tagline": "Neprekinuta UTXO infrastruktura. Dizajnirana i skalirana od strane decentralizirane, open source zajednice od 2014.",
   "footer.protocol.heading": "Protokol",

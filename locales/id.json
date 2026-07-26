@@ -5,9 +5,7 @@
   "meta.og.description": "Blockchain UTXO terpanjang yang berjalan, tercepat, dan paling terdesentralisasi. Bangun dengan DigiAssets, masuk dengan Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain lebih cepat, aman, dan visioner",
   "meta.twitter.description": "Blockchain UTXO terpanjang yang berjalan, tercepat, dan paling terdesentralisasi. Bangun, bertransaksi, dan autentikasi di DGB.",
-
   "skipLink": "Lewati ke konten",
-
   "ticker.aria": "Ticker langsung jaringan DigiByte",
   "ticker.block": "Blok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritma penambangan",
   "ticker.blocks": "Blok 15 detik",
   "ticker.global": "Global, terdesentralisasi",
-
   "nav.aria.brand": "Beranda DigiByte",
   "nav.aria.primary": "Navigasi utama",
   "nav.aria.langMenu": "Pilih bahasa",
@@ -31,19 +28,15 @@
   "nav.download": "Unduh",
   "nav.langMenu.edit": "Edit terjemahan di GitHub",
   "nav.cta.getDgb": "Dapatkan DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Sejak 2014",
   "hero.title": "Direkayasa untuk operasi berkelanjutan.",
-  "hero.lead": "DigiByte adalah blockchain UTXO multi-algoritma yang sangat aman, dibangun untuk skala. Dengan waktu blok 15 detik dan dua belas tahun riwayat uptime tanpa henti, jaringan menyediakan fondasi yang teruji di lapangan untuk DGB, DigiAssets, autentikasi terdesentralisasi Digi-ID, dan — segera — DigiDollar.",
   "hero.cta.get": "Dapatkan DigiByte",
   "hero.cta.build": "Bangun di DGB",
   "hero.metric.blockTime": "Waktu blok",
   "hero.metric.algorithms": "Algoritma",
   "hero.metric.yearsLive": "Tahun aktif",
   "hero.metric.maxSupply": "Pasokan maks.",
-
-
   "features.eyebrow": "Mengapa DigiByte",
   "features.title": "Direkayasa untuk dekade kripto berikutnya.",
   "features.lead": "Rantai UTXO proof-of-work murni yang sejak 2014 menghadirkan inovasi pertama di industri — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets, dan Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Rekam jejak",
   "features.trackRecord.title": "Dua belas tahun aktif. Nol downtime.",
   "features.trackRecord.body": "Sejak Januari 2014 mainnet memproduksi blok setiap lima belas detik tanpa gangguan. Tanpa re-org mendalam, tanpa fork governance, tanpa hard fork darurat. Uptime tersebut, dipadukan dengan ribuan node yang dioperasikan secara independen di seluruh dunia, adalah jenis rekam jejak operasional yang dibutuhkan infrastruktur kritis — dan yang hampir tidak ada chain lain mampu tunjukkan.",
-
   "chain.eyebrow": "Jaringan langsung",
   "chain.title": "Data on-chain native.",
   "chain.lead": "Diambil langsung dari jaringan DigiByte setiap menit, melewati semua API pihak ketiga.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Rilis terbaru",
   "chain.years.label": "Tahun online",
   "chain.years.delta": "Sejak Jan 2014",
-
   "tokenomics.eyebrow": "Tokenomik",
   "tokenomics.title": "DigiByte: uang yang solid untuk web yang lebih cepat.",
   "tokenomics.lead": "Dikelola oleh kebijakan moneter yang sangat dapat diprediksi, DGB dibatasi 21 miliar koin dan beroperasi pada jadwal emisi yang sepenuhnya transparan dengan distribusi matematis tetap.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "peluncuran adil · giveaway & pengembangan",
   "tokenomics.cta.wiki": "Baca wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Terbitkan aset kustom di chain UTXO yang aman.",
   "digiassets.lead": "Terbitkan aset digital kustom secara native di jaringan DigiByte — dari token dan stablecoin hingga catatan identitas. Setiap aset diselesaikan dalam 15 detik dan diamankan oleh konsensus proof-of-work global.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Bayar beberapa digis DGB sebagai biaya, siarkan transaksi, dan aset menjadi aktif di seluruh jaringan.",
   "digiassets.step4.title": "Kirim ke mana saja",
   "digiassets.cta.docs": "Dokumentasi protokol",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Autentikasi open source tanpa kata sandi.",
   "digiId.lead": "Digi-ID mengandalkan tanda tangan kriptografis terdesentralisasi alih-alih kata sandi tradisional, mengamankan identitas pengguna tanpa perantara terpusat.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Tidak, memiliki kripto bersifat opsional. Banyak dompet DigiByte mendukung Digi-ID secara native, tetapi Anda juga dapat menggunakan aplikasi autentikator mandiri yang dirancang khusus untuk login aman.",
   "digiId.faq3.q": "Bagaimana cara mengintegrasikannya?",
   "digiId.faq3.a": "Pengembang dapat menggunakan pustaka drop-in kami untuk Node.js, PHP, Python, dan Go, atau memasang plugin WordPress native. Sumber daya lengkap ada di hub pengembang di bawah.",
-
   "devhub.eyebrow": "Hub pengembang",
   "devhub.title": "Infrastruktur tanpa kompromi untuk pengembangan UTXO.",
   "devhub.lead": "Akses RPC yang andal dan teruji di lapangan dengan struktur biaya tetap dan dapat diprediksi. DigiByte menyediakan fondasi untuk menggelar node dalam hitungan menit dan membangun di atas jaringan yang benar-benar terdesentralisasi.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Pasar biaya yang dapat diprediksi: biaya transaksi di bawah satu sen memungkinkan skala aplikasi yang berkelanjutan.",
   "devhub.whyShip.point2": "Transaksi bebas approval: mekanika UTXO native menghindari risiko keamanan yang terkait dengan izin token yang luas.",
   "devhub.whyShip.point3": "Eksekusi tanpa status: lingkungan UTXO murni memungkinkan pengembangan sederhana, paralel, dan dapat dikomposisi.",
-
-
   "roadmap.eyebrow": "Rekam jejak",
   "roadmap.title": "Lebih dari satu dekade eksekusi berkelanjutan.",
   "roadmap.lead": "Dari aktivasi awal SegWit hingga konsensus multi-algoritma. Setiap upgrade protokol bersifat open source, diuji di mainnet, dan digelar tanpa pendanaan terpusat.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Segera hadir",
   "roadmap.digidollar.body": "Stablecoin sepenuhnya non-custodial yang menghasilkan likuiditas terikat USD melalui cadangan DGB yang terkunci waktu.",
   "roadmap.digidollar.cta": "Jelajahi DigiDollar",
-
   "community.eyebrow": "Komunitas",
   "community.title": "Jaringan pembangun global yang independen.",
   "community.lead": "DigiByte adalah proyek open source murni tanpa organisasi terpusat. Pengembangan global, infrastruktur node, dan lokalisasi ke lebih dari 40 bahasa sepenuhnya dikelola oleh sukarelawan yang mengkoordinasikan diri.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Diskusi &amp; PR",
   "community.tile.discord.meta": "Chat langsung",
   "community.tile.youtube.meta": "Ceramah &amp; tutorial",
-
   "downloads.eyebrow": "Dapatkan DigiByte",
   "downloads.title": "Perangkat lunak dan klien jaringan.",
   "downloads.lead": "Dukung keamanan terdesentralisasi jaringan dengan menjalankan node validasi penuh, atau gunakan dompet ringan untuk manajemen transaksi portabel, penyimpanan aset, dan login aman.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "kit merek",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "referensi teknis",
-
-
   "footer.aria.backToTop": "Kembali ke atas",
   "footer.tagline": "Infrastruktur UTXO tanpa henti. Dirancang dan diskalakan oleh komunitas open source yang terdesentralisasi sejak 2014.",
   "footer.protocol.heading": "Protokol",

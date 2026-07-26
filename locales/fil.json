@@ -5,9 +5,7 @@
   "meta.og.description": "Pinakamatagal na tumatakbo, pinakamabilis, at pinakadesentralisadong UTXO blockchain. Gumawa gamit ang DigiAssets, mag-log in gamit ang Digi-ID.",
   "meta.twitter.title": "DigiByte — Mas mabilis, ligtas, at malayuing tanaw na blockchain",
   "meta.twitter.description": "Pinakamatagal na tumatakbo, pinakamabilis, at pinakadesentralisadong UTXO blockchain. Gumawa, mag-transact, at mag-authenticate sa DGB.",
-
   "skipLink": "Lumaktaw sa nilalaman",
-
   "ticker.aria": "Live na ticker ng network ng DigiByte",
   "ticker.block": "Block",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritmo sa pagmimina",
   "ticker.blocks": "15-segundong mga block",
   "ticker.global": "Pandaigdigan, desentralisado",
-
   "nav.aria.brand": "Home ng DigiByte",
   "nav.aria.primary": "Pangunahing nabigasyon",
   "nav.aria.langMenu": "Pumili ng wika",
@@ -31,19 +28,15 @@
   "nav.download": "I-download",
   "nav.langMenu.edit": "I-edit ang mga pagsasalin sa GitHub",
   "nav.cta.getDgb": "Kumuha ng DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Mula 2014",
   "hero.title": "Idinisenyo para sa walang patid na operasyon.",
-  "hero.lead": "Ang DigiByte ay isang lubos na ligtas, multi-algorithm na UTXO blockchain na itinayo para sa scale. Sa 15-segundong block time at labindalawang taon ng walang patid na uptime, ang network ay nagbibigay ng napatunayan sa larangan na pundasyon para sa DGB, DigiAssets, desentralisadong Digi-ID na pagpapatunay, at — sa lalong madaling panahon — DigiDollar.",
   "hero.cta.get": "Kumuha ng DigiByte",
   "hero.cta.build": "Gumawa sa DGB",
   "hero.metric.blockTime": "Block time",
   "hero.metric.algorithms": "Mga algoritmo",
   "hero.metric.yearsLive": "Taong tumatakbo",
   "hero.metric.maxSupply": "Pinakamaraming supply",
-
-
   "features.eyebrow": "Bakit DigiByte",
   "features.title": "Idinisenyo para sa susunod na dekada ng crypto.",
   "features.lead": "Isang dalisay na proof-of-work na UTXO chain na naghahatid ng mga unang nagawa sa industriya mula 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets at Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Track record",
   "features.trackRecord.title": "Labindalawang taong tumatakbo. Walang downtime.",
   "features.trackRecord.body": "Mula Enero 2014 ang mainnet ay gumagawa ng mga block kada labinglimang segundo nang walang patid. Walang malalim na re-org, walang governance fork, walang emergency hard fork. Ang uptime na iyon, kasama ang libu-libong independiyenteng pinatatakbong node sa buong mundo, ay ang uri ng operational track record na kailangan ng kritikal na imprastraktura — at na halos walang ibang chain ang kayang ipakita.",
-
   "chain.eyebrow": "Live na network",
   "chain.title": "Native na on-chain na datos.",
   "chain.lead": "Direktang kinukuha mula sa network ng DigiByte bawat minuto, lampasan ang lahat ng third-party API.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Pinakabagong release",
   "chain.years.label": "Taong online",
   "chain.years.delta": "Mula Ene 2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: matatag na pera para sa mas mabilis na web.",
   "tokenomics.lead": "Pinangangasiwaan ng mahigpit na predictable na patakarang monetaryo, ang DGB ay may mahigpit na limitasyon na 21 bilyong barya at gumagana sa ganap na malinaw na iskedyul ng paglabas na may nakatakdang matematikal na pamamahagi.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "patas na simula · giveaway & development",
   "tokenomics.cta.wiki": "Basahin ang wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Maglabas ng custom na asset sa ligtas na UTXO chain.",
   "digiassets.lead": "Maglabas ng custom na digital asset nang natively sa network ng DigiByte — mula sa mga token at stablecoin hanggang sa mga identity record. Bawat asset ay nasasara sa loob ng 15 segundo at pinoprotektahan ng pandaigdigang proof-of-work na konsensus.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Magbayad ng ilang digis DGB bilang bayad, ipasa ang transaksyon at ang asset ay buhay sa buong network.",
   "digiassets.step4.title": "Ipadala kahit saan",
   "digiassets.cta.docs": "Dokumentasyon ng protocol",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Walang password, open-source na pagpapatunay.",
   "digiId.lead": "Umaasa ang Digi-ID sa desentralisadong cryptographic na lagda sa halip ng tradisyonal na password, na nag-iingat sa identity ng gumagamit nang walang sentralisadong tagapamagitan.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Hindi, opsyonal ang pagkakaroon ng crypto. Maraming DigiByte wallets ang natively na sumusuporta sa Digi-ID, ngunit maaari ka ring gumamit ng standalone na authenticator app na ginawa lamang para sa ligtas na pag-log in.",
   "digiId.faq3.q": "Paano ko ito i-integrate?",
   "digiId.faq3.a": "Maaaring gamitin ng mga developer ang aming drop-in na library para sa Node.js, PHP, Python, at Go, o i-install ang native na WordPress plugin. Nasa developer hub sa ibaba ang kumpletong mga mapagkukunan.",
-
   "devhub.eyebrow": "Developer hub",
   "devhub.title": "Walang kompromisong imprastraktura para sa pag-develop ng UTXO.",
   "devhub.lead": "Mag-access ng mapagkakatiwalaan, napatunayan na RPC na may nakatakdang, predictable na istruktura ng bayad. Nagbibigay ang DigiByte ng pundasyon upang mag-deploy ng mga node sa loob ng ilang minuto at magtayo sa tunay na desentralisadong network.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Predictable na mga merkado ng bayad: kung sub-cent ang gastos sa transaksyon, posible ang sustainable na app scaling.",
   "devhub.whyShip.point2": "Walang approval na transaksyon: ang native UTXO mechanics ay umiiwas sa mga panganib sa seguridad na kaakibat ng malawak na token allowances.",
   "devhub.whyShip.point3": "Stateless na pag-execute: ang dalisay na UTXO environment ay nagbibigay-daan sa simple, parallel, at composable na pag-develop.",
-
-
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Higit sa isang dekada ng tuluy-tuloy na pag-execute.",
   "roadmap.lead": "Mula sa maagang pag-activate ng SegWit hanggang sa multi-algorithm consensus. Bawat protocol upgrade ay open source, sinubok sa mainnet, at na-deploy nang walang sentralisadong pondo.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Malapit nang ilabas",
   "roadmap.digidollar.body": "Isang ganap na non-custodial na stablecoin na lumilikha ng USD-linked na likidong puhunan sa pamamagitan ng time-locked na DGB reserves.",
   "roadmap.digidollar.cta": "Tuklasin ang DigiDollar",
-
   "community.eyebrow": "Komunidad",
   "community.title": "Isang independiyenteng network ng mga pandaigdigang tagagawa.",
   "community.lead": "Ang DigiByte ay isang dalisay na open source na proyekto na walang sentralisadong organisasyon. Ang pandaigdigang pag-develop, imprastraktura ng node, at lokalisasyon sa mahigit 40 wika ay pinananatili nang buo ng mga self-coordinating na boluntaryo.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Talakayan &amp; PR",
   "community.tile.discord.meta": "Live na chat",
   "community.tile.youtube.meta": "Talks &amp; tutorial",
-
   "downloads.eyebrow": "Kumuha ng DigiByte",
   "downloads.title": "Software at mga kliyente ng network.",
   "downloads.lead": "Tulungan ang desentralisadong seguridad ng network sa pamamagitan ng pagpapatakbo ng buong validation node, o gamitin ang light wallet para sa portable na pag-manage ng transaksyon, pag-iingat ng asset, at ligtas na pag-login.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "teknikal na sanggunian",
-
-
   "footer.aria.backToTop": "Bumalik sa itaas",
   "footer.tagline": "Walang patid na UTXO infrastructure. Idinisenyo at pinalawak ng desentralisadong open-source na komunidad mula 2014.",
   "footer.protocol.heading": "Protocol",

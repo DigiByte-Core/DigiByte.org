@@ -5,9 +5,7 @@
   "meta.og.description": "Nejdéle běžící, nejrychlejší a nejdecentralizovanější UTXO blockchain. Stavějte s DigiAssets, přihlašte se přes Digi-ID.",
   "meta.twitter.title": "DigiByte — Rychlejší, bezpečnější, perspektivní blockchain",
   "meta.twitter.description": "Nejdéle běžící, nejrychlejší a nejdecentralizovanější UTXO blockchain. Stavějte, transagujte a ověřujte se na DGB.",
-
   "skipLink": "Přeskočit na obsah",
-
   "ticker.aria": "Živý ticker sítě DigiByte",
   "ticker.block": "Blok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 těžebních algoritmů",
   "ticker.blocks": "15sekundové bloky",
   "ticker.global": "Globální, decentralizovaná",
-
   "nav.aria.brand": "Domovská stránka DigiByte",
   "nav.aria.primary": "Hlavní navigace",
   "nav.aria.langMenu": "Vybrat jazyk",
@@ -31,19 +28,15 @@
   "nav.download": "Stáhnout",
   "nav.langMenu.edit": "Upravit překlady na GitHubu",
   "nav.cta.getDgb": "Získat DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Od roku 2014",
   "hero.title": "Navržen pro nepřetržitý provoz.",
-  "hero.lead": "DigiByte je vysoce zabezpečený UTXO blockchain s více algoritmy, postavený pro škálování. S patnáctisekundovým časem bloku a dvanáctiletou historií nepřerušeného provozu poskytuje síť bojem prověřený základ pro DGB, DigiAssets, decentralizované ověřování Digi-ID a — velmi brzy — DigiDollar.",
   "hero.cta.get": "Získat DigiByte",
   "hero.cta.build": "Stavět na DGB",
   "hero.metric.blockTime": "Čas bloku",
   "hero.metric.algorithms": "Algoritmy",
   "hero.metric.yearsLive": "Let v provozu",
   "hero.metric.maxSupply": "Max. nabídka",
-
-
   "features.eyebrow": "Proč DigiByte",
   "features.title": "Navržen pro další dekádu krypta.",
   "features.lead": "Čistý proof-of-work UTXO řetězec, který od roku 2014 přináší prvenství v odvětví — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets a Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Historie",
   "features.trackRecord.title": "Dvanáct let v provozu. Nulový výpadek.",
   "features.trackRecord.body": "Od ledna 2014 mainnet produkuje bloky každých patnáct sekund bez přerušení. Žádné hluboké re-orgs, žádné governance forky, žádné nouzové hard forky. Tato dostupnost spolu s tisíci nezávisle provozovaných uzlů po celém světě je přesně ten typ provozního záznamu, který kritická infrastruktura potřebuje — a kterým se téměř žádný jiný řetězec nemůže pochlubit.",
-
   "chain.eyebrow": "Živá síť",
   "chain.title": "Nativní on-chain data.",
   "chain.lead": "Stahováno přímo ze sítě DigiByte každou minutu, bez prostředníků třetích stran.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Nejnovější vydání",
   "chain.years.label": "Let online",
   "chain.years.delta": "Od ledna 2014",
-
   "tokenomics.eyebrow": "Tokenomika",
   "tokenomics.title": "DigiByte: zdravé peníze pro rychlejší web.",
   "tokenomics.lead": "Řízeno přísně předvídatelnou měnovou politikou má DGB pevný strop 21 miliard mincí a běží podle plně transparentního emisního plánu s pevným matematickým rozdělením.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "férový start · giveaways & vývoj",
   "tokenomics.cta.wiki": "Číst wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Vydejte vlastní aktiva na bezpečném UTXO řetězci.",
   "digiassets.lead": "Vydávejte nativně vlastní digitální aktiva na síti DigiByte — od tokenů a stablecoinů po záznamy identity. Každé aktivum se vyřídí za 15 sekund a je chráněno globálním proof-of-work konsenzem.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Zaplaťte pár digis DGB jako poplatek, rozešlete transakci a aktivum je živé v celé síti.",
   "digiassets.step4.title": "Pošlete kamkoli",
   "digiassets.cta.docs": "Dokumentace protokolu",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Ověřování bez hesla, open source.",
   "digiId.lead": "Digi-ID staví na decentralizovaných kryptografických podpisech místo tradičních hesel a chrání identitu uživatele bez centralizovaných prostředníků.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Ne, vlastnictví kryptoměn je volitelné. Mnoho DigiByte peněženek podporuje Digi-ID nativně, ale lze využít i samostatnou autentifikační aplikaci určenou výhradně pro bezpečná přihlášení.",
   "digiId.faq3.q": "Jak to zaintegrovat?",
   "digiId.faq3.a": "Vývojáři mohou použít naše drop-in knihovny pro Node.js, PHP, Python a Go, nebo nainstalovat nativní WordPress plugin. Kompletní zdroje najdete v hubu pro vývojáře níže.",
-
   "devhub.eyebrow": "Hub pro vývojáře",
   "devhub.title": "Bezkompromisní infrastruktura pro UTXO vývoj.",
   "devhub.lead": "Přístup ke spolehlivému, bojem prověřenému RPC s pevnými, předvídatelnými poplatky. DigiByte poskytuje základ pro nasazení uzlů během minut a vývoj nad opravdu decentralizovanou sítí.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Předvídatelné trhy s poplatky: transakční náklady pod jeden cent umožňují udržitelné škálování aplikací.",
   "devhub.whyShip.point2": "Transakce bez approvals: nativní mechanika UTXO obchází bezpečnostní rizika spojená s rozsáhlými povoleními tokenů.",
   "devhub.whyShip.point3": "Bezstavové provádění: čisté UTXO prostředí umožňuje jednoduchý, paralelní a komponovatelný vývoj.",
-
-
   "roadmap.eyebrow": "Historie",
   "roadmap.title": "Přes deset let nepřetržitého doručování.",
   "roadmap.lead": "Od raného nasazení SegWit po vícealgoritmický konsenzus. Každá upgrade protokolu byl open source, otestován na mainnetu a nasazen bez centralizovaného financování.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Brzy dostupné",
   "roadmap.digidollar.body": "Plně non-custodial stablecoin generující likviditu navázanou na USD prostřednictvím časově zamčených DGB rezerv.",
   "roadmap.digidollar.cta": "Prozkoumat DigiDollar",
-
   "community.eyebrow": "Komunita",
   "community.title": "Nezávislá síť globálních tvůrců.",
   "community.lead": "DigiByte je čistě open-source projekt bez centralizované organizace. Globální vývoj, infrastrukturu uzlů a lokalizaci do více než 40 jazyků udržují výhradně samokoordinovaní dobrovolníci.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Diskuse &amp; PR",
   "community.tile.discord.meta": "Živý chat",
   "community.tile.youtube.meta": "Přednášky &amp; tutoriály",
-
   "downloads.eyebrow": "Získat DigiByte",
   "downloads.title": "Síťový software a klienti.",
   "downloads.lead": "Podpořte decentralizovanou bezpečnost sítě spuštěním plného validačního uzlu, nebo použijte lehkou peněženku pro přenosnou správu transakcí, úschovu aktiv a bezpečná přihlášení.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "brand kit",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "technická reference",
-
-
   "footer.aria.backToTop": "Nahoru",
   "footer.tagline": "Nepřerušená UTXO infrastruktura. Navržená a škálovaná decentralizovanou open-source komunitou od roku 2014.",
   "footer.protocol.heading": "Protokol",

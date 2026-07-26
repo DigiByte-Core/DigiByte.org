@@ -13,6 +13,14 @@ const ENDPOINTS = {
 	blocksFrom: (height) => `https://digiexplorer.info/api/blocks/${height}`,
 	blockTxs: (hash) => `https://digiexplorer.info/api/block/${hash}/txs/0`,
 	price: 'https://api.coinpaprika.com/v1/tickers/dgb-digibyte',
+	/* TODO: DigiDollar total supply. DigiDollar activated on mainnet at block
+	 * 23,869,440 on 17 Jul 2026 via BIP9, buried in Core v9.26.5 via BIP90.
+	 * The canonical supply source is `getdigidollarinfo` on a DigiByte Core
+	 * v9.26.4+ node. The URL below is provisional and will 404 until an
+	 * HTTPS proxy is exposed — `fetchDigiDollarSupply()` degrades to `—`
+	 * quietly when that happens. Replace with the confirmed endpoint once
+	 * available. */
+	digidollarSupply: 'https://digiexplorer.info/api/digidollar/supply',
 };
 
 async function fetchJSON(url, timeoutMs = 8000) {
@@ -177,9 +185,30 @@ async function refreshPrice() {
 	} catch { /* silent */ }
 }
 
+/* Best-effort DigiDollar supply fetch. Endpoint is provisional (see ENDPOINTS
+ * comment above): if the response is missing, non-numeric or the request 404s,
+ * we leave the placeholder "—" in place and emit a single console.debug so we
+ * don't pollute production console output. Wire a canonical source once one
+ * exists — the UI already has the stat card and the i18n keys. */
+async function refreshDigiDollarSupply() {
+	if (!document.querySelector('[data-stat="digidollar-supply"]')) return;
+	try {
+		const j = await fetchJSON(ENDPOINTS.digidollarSupply);
+		// Accept either { supply: <number> } or a bare number for flexibility.
+		const raw = (j && typeof j === 'object') ? (j.supply ?? j.total ?? j.value) : j;
+		const supply = Number(raw);
+		if (Number.isFinite(supply) && supply >= 0) {
+			animate('[data-stat="digidollar-supply"]', supply);
+		}
+	} catch (err) {
+		console.debug('[chain-dashboard] DigiDollar supply endpoint unavailable:', err?.message || err);
+	}
+}
+
 function refresh() {
 	refreshChain();
 	refreshPrice();
+	refreshDigiDollarSupply();
 }
 
 export function init() {

@@ -5,9 +5,7 @@
   "meta.og.description": "أطول بلوكشين UTXO عمرًا وأسرعه وأكثره لامركزية. ابنِ مع DigiAssets، وسجّل الدخول بـ Digi-ID.",
   "meta.twitter.title": "DigiByte — بلوكشين أسرع وأكثر أمانًا وتطلعًا إلى المستقبل",
   "meta.twitter.description": "أطول بلوكشين UTXO عمرًا وأسرعه وأكثره لامركزية. ابنِ، وعامل، وتحقّق من الهوية على DGB.",
-
   "skipLink": "تخطَّ إلى المحتوى",
-
   "ticker.aria": "شريط مباشر لشبكة DigiByte",
   "ticker.block": "كتلة",
   "ticker.hashrate": "معدل التجزئة",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 خوارزميات تعدين",
   "ticker.blocks": "كتل كل 15 ثانية",
   "ticker.global": "عالمية، لامركزية",
-
   "nav.aria.brand": "الصفحة الرئيسية لـ DigiByte",
   "nav.aria.primary": "التنقل الرئيسي",
   "nav.aria.langMenu": "اختر اللغة",
@@ -31,19 +28,15 @@
   "nav.download": "تحميل",
   "nav.langMenu.edit": "تعديل الترجمات على GitHub",
   "nav.cta.getDgb": "احصل على DGB",
-
   "hero.chip.openSource": "مفتوح المصدر · MIT",
   "hero.chip.since": "منذ 2014",
   "hero.title": "مصمم للعمل المتواصل.",
-  "hero.lead": "DigiByte بلوكشين UTXO متعدد الخوارزميات وعالي الأمان، مبني للتوسع. بزمن كتلة 15 ثانية واثني عشر عامًا من التشغيل دون انقطاع، توفّر الشبكة أساسًا مجرّبًا في الميدان لـ DGB وDigiAssets ومصادقة Digi-ID اللامركزية، وقريبًا جدًا — DigiDollar.",
   "hero.cta.get": "احصل على DigiByte",
   "hero.cta.build": "ابنِ على DGB",
   "hero.metric.blockTime": "زمن الكتلة",
   "hero.metric.algorithms": "خوارزميات",
   "hero.metric.yearsLive": "سنوات تشغيل",
   "hero.metric.maxSupply": "العرض الأقصى",
-
-
   "features.eyebrow": "لماذا DigiByte",
   "features.title": "مصمم لعقد العملات المشفّرة القادم.",
   "features.lead": "سلسلة UTXO تعتمد على إثبات العمل النقي وقدّمت ابتكارات أوّلية في القطاع منذ 2014 — DigiShield، MultiAlgo، SegWit، Odocrypt، Dandelion++، DigiAssets وDigi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "السجل",
   "features.trackRecord.title": "اثنا عشر عامًا من التشغيل. صفر تعطّل.",
   "features.trackRecord.body": "منذ يناير 2014، أنتجت الشبكة الرئيسية كتلة كل خمس عشرة ثانية دون انقطاع. لا re-orgs عميقة، ولا فورك حوكمة، ولا هارد فورك طارئ. هذا الجاهزية، مع آلاف العقد المُدارة باستقلال حول العالم، هي تمامًا نوع السجل التشغيلي الذي تحتاجه البنية التحتية الحيوية — ولا تستطيع أي سلسلة أخرى تقريبًا إظهاره.",
-
   "chain.eyebrow": "شبكة مباشرة",
   "chain.title": "بيانات أصلية على السلسلة.",
   "chain.lead": "تُسحب مباشرة من شبكة DigiByte كل دقيقة، متجاوزة جميع واجهات الطرف الثالث.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "أحدث إصدار",
   "chain.years.label": "سنوات الاتصال",
   "chain.years.delta": "منذ يناير 2014",
-
   "tokenomics.eyebrow": "اقتصاديات الرمز",
   "tokenomics.title": "DigiByte: مال صلب لويب أسرع.",
   "tokenomics.lead": "يخضع DGB لسياسة نقدية شديدة القابلية للتنبؤ، وهو محدود بسقف صارم قدره 21 مليار عملة ويعمل وفق جدول إصدار شفّاف بالكامل وتوزيع رياضي ثابت.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "إطلاق عادل · هدايا وتطوير",
   "tokenomics.cta.wiki": "اقرأ الويكي",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "أصدر أصولًا مخصصة على سلسلة UTXO آمنة.",
   "digiassets.lead": "أصدر أصولًا رقمية مخصصة بشكل أصلي على شبكة DigiByte — من الرموز والعملات المستقرة إلى سجلات الهوية. تُسوّى كل أصل خلال 15 ثانية وتؤمَّن بإجماع إثبات عمل عالمي.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "ادفع بضع digis من DGB كرسوم، ابثّ المعاملة، وسيكون الأصل نشطًا في الشبكة بأكملها.",
   "digiassets.step4.title": "أرسل إلى أي مكان",
   "digiassets.cta.docs": "توثيق البروتوكول",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "مصادقة مفتوحة المصدر دون كلمة مرور.",
   "digiId.lead": "يعتمد Digi-ID على توقيعات تشفيرية لامركزية بدلًا من كلمات المرور التقليدية، ويحمي هوية المستخدم بلا وسطاء مركزيين.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "لا، امتلاك العملات المشفّرة اختياري. تدعم العديد من محافظ DigiByte Digi-ID أصليًا، لكن يمكنك أيضًا استخدام تطبيق مصادقة مستقل مصمم حصريًا لتسجيلات الدخول الآمنة.",
   "digiId.faq3.q": "كيف أدمجه؟",
   "digiId.faq3.a": "يستطيع المطوّرون استخدام مكتباتنا الجاهزة لـ Node.js وPHP وPython وGo، أو تثبيت إضافة WordPress الأصلية. تجد جميع الموارد في مركز المطوّرين أدناه.",
-
   "devhub.eyebrow": "مركز المطوّرين",
   "devhub.title": "بنية تحتية دون مساومات لتطوير UTXO.",
   "devhub.lead": "اطّلع على RPC موثوق ومجرّب ميدانيًا بهياكل رسوم ثابتة وقابلة للتنبؤ. يوفّر DigiByte الأساس لنشر العقد خلال دقائق وللبناء على شبكة لامركزية فعلًا.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "أسواق رسوم قابلة للتنبؤ: تكاليف معاملات دون سنت واحد تضمن توسعًا مستدامًا للتطبيقات.",
   "devhub.whyShip.point2": "معاملات دون أذونات: آلية UTXO الأصلية تتجاوز المخاطر الأمنية المرتبطة بأذونات الرموز الواسعة.",
   "devhub.whyShip.point3": "تنفيذ بدون حالة: بيئة UTXO نقية تتيح تطويرًا بسيطًا ومتوازيًا وقابلًا للتركيب.",
-
-
   "roadmap.eyebrow": "السجل",
   "roadmap.title": "أكثر من عقد من التنفيذ المتواصل.",
   "roadmap.lead": "من تفعيل SegWit المبكر إلى الإجماع متعدد الخوارزميات. كل ترقية بروتوكولية كانت مفتوحة المصدر ومجرّبة على الشبكة الرئيسية ونُشرت دون تمويل مركزي.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "قريبًا",
   "roadmap.digidollar.body": "عملة مستقرة غير حافظة بالكامل تولّد سيولة مرتبطة بالدولار الأمريكي عبر احتياطيات DGB مقفلة زمنيًا.",
   "roadmap.digidollar.cta": "استكشف DigiDollar",
-
   "community.eyebrow": "المجتمع",
   "community.title": "شبكة مستقلة من البنّائين العالميين.",
   "community.lead": "DigiByte مشروع مفتوح المصدر بالكامل بلا تنظيم مركزي. التطوير العالمي، وبنية العقد، والتوطين إلى أكثر من 40 لغة، يتولّاها بالكامل متطوعون يديرون أنفسهم بأنفسهم.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "نقاشات &amp; PRs",
   "community.tile.discord.meta": "محادثة مباشرة",
   "community.tile.youtube.meta": "محاضرات &amp; دروس",
-
   "downloads.eyebrow": "احصل على DigiByte",
   "downloads.title": "برمجيات الشبكة والعملاء.",
   "downloads.lead": "ادعم الأمان اللامركزي للشبكة بتشغيل عقدة تحقّق كاملة، أو استخدم المحفظة الخفيفة لإدارة المعاملات المحمولة وحفظ الأصول وتسجيل الدخول الآمن.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "حقيبة العلامة التجارية",
   "downloads.docs.wiki.title": "الويكي",
   "downloads.docs.wiki.meta": "مرجع تقني",
-
-
   "footer.aria.backToTop": "العودة إلى الأعلى",
   "footer.tagline": "بنية UTXO تحتية متواصلة. صمّمها ووسّعها مجتمع مفتوح المصدر لامركزي منذ 2014.",
   "footer.protocol.heading": "البروتوكول",

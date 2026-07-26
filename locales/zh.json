@@ -5,9 +5,7 @@
   "meta.og.description": "运行最久、最快、最去中心化的 UTXO 区块链。使用 DigiAssets 构建,用 Digi-ID 登录。",
   "meta.twitter.title": "DigiByte — 更快、更安全、前瞻性的区块链",
   "meta.twitter.description": "运行最久、最快、最去中心化的 UTXO 区块链。在 DGB 上构建、交易和认证。",
-
   "skipLink": "跳转至内容",
-
   "ticker.aria": "DigiByte 网络实时行情",
   "ticker.block": "区块",
   "ticker.hashrate": "算力",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 种挖矿算法",
   "ticker.blocks": "15 秒出块",
   "ticker.global": "全球分布,去中心化",
-
   "nav.aria.brand": "DigiByte 首页",
   "nav.aria.primary": "主导航",
   "nav.aria.langMenu": "选择语言",
@@ -31,19 +28,15 @@
   "nav.download": "下载",
   "nav.langMenu.edit": "在 GitHub 上编辑翻译",
   "nav.cta.getDgb": "获取 DGB",
-
   "hero.chip.openSource": "开源 · MIT",
   "hero.chip.since": "始于 2014 年",
   "hero.title": "为持续运行而设计。",
-  "hero.lead": "DigiByte 是一条专为规模化设计、采用多算法的高安全 UTXO 区块链。15 秒出块,十二年从未中断运行,为 DGB、DigiAssets、去中心化的 Digi-ID 身份认证,以及即将推出的 DigiDollar 提供经过实战检验的可靠基础。",
   "hero.cta.get": "获取 DigiByte",
   "hero.cta.build": "在 DGB 上构建",
   "hero.metric.blockTime": "出块时间",
   "hero.metric.algorithms": "算法",
   "hero.metric.yearsLive": "运行年数",
   "hero.metric.maxSupply": "最大供应量",
-
-
   "features.eyebrow": "为什么选 DigiByte",
   "features.title": "为加密世界下一个十年而设计。",
   "features.lead": "一条纯粹的工作量证明 UTXO 链,自 2014 年起持续推出业界首创 — DigiShield、MultiAlgo、SegWit、Odocrypt、Dandelion++、DigiAssets 与 Digi-ID。",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "运营记录",
   "features.trackRecord.title": "十二年运行,零停机。",
   "features.trackRecord.body": "自 2014 年 1 月以来,主网每 15 秒生产一个区块,从未中断。没有深度重组、没有治理分叉、没有紧急硬分叉。这种稳定运行,加上全球数千个独立运营的节点,正是关键基础设施所需要的运营履历 — 几乎没有其他链能拿出来。",
-
   "chain.eyebrow": "实时网络",
   "chain.title": "原生链上数据。",
   "chain.lead": "每分钟直接从 DigiByte 网络拉取,不经任何第三方 API。",
@@ -76,7 +68,6 @@
   "chain.version.delta": "最新版本",
   "chain.years.label": "运行年数",
   "chain.years.delta": "自 2014 年 1 月",
-
   "tokenomics.eyebrow": "代币经济",
   "tokenomics.title": "DigiByte:面向更快网络的健全货币。",
   "tokenomics.lead": "DGB 受严格可预测的货币政策管理,硬顶 210 亿枚,按固定数学分配的完全透明发行计划运行。",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "预挖",
   "tokenomics.premine.delta": "公平启动 · 赠礼与开发",
   "tokenomics.cta.wiki": "阅读 Wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "在安全的 UTXO 链上发行自定义资产。",
   "digiassets.lead": "在 DigiByte 网络上原生发行自定义数字资产,从代币、稳定币到身份记录。每个资产 15 秒确认,由全球工作量证明共识守护。",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "支付几 digis 的 DGB 作为手续费,广播交易后,资产立即在网络中生效。",
   "digiassets.step4.title": "随处发送",
   "digiassets.cta.docs": "协议文档",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "无密码、开源的身份认证。",
   "digiId.lead": "Digi-ID 用去中心化的密码学签名代替传统密码,无需任何中心化代理即可保护用户身份。",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "不需要,持有加密货币是可选的。虽然许多 DigiByte 钱包原生支持 Digi-ID,用户也可以使用专为安全登录设计的独立认证 App。",
   "digiId.faq3.q": "如何集成?",
   "digiId.faq3.a": "开发者可以使用我们为 Node.js、PHP、Python 和 Go 提供的即插即用库,或安装原生的 WordPress 插件。完整资源在下方的开发者中心。",
-
   "devhub.eyebrow": "开发者中心",
   "devhub.title": "毫不妥协的 UTXO 开发基础设施。",
   "devhub.lead": "使用可靠、经过实战检验的 RPC,以及固定且可预测的费用结构。DigiByte 提供在数分钟内部署节点、在真正去中心化网络上构建的基础。",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "可预测的费用市场:亚分级别的交易成本确保应用可持续扩张。",
   "devhub.whyShip.point2": "免授权交易:原生 UTXO 机制绕开了广泛代币授权所带来的安全风险。",
   "devhub.whyShip.point3": "无状态执行:纯 UTXO 环境支持简单、并行、可组合的开发。",
-
-
   "roadmap.eyebrow": "运营记录",
   "roadmap.title": "十余年持续执行。",
   "roadmap.lead": "从早期激活 SegWit 到多算法共识,每一次协议升级都是开源、主网验证、无需中心化资金部署的。",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "即将推出",
   "roadmap.digidollar.body": "完全非托管的稳定币,通过时间锁定的 DGB 储备生成与美元挂钩的流动性。",
   "roadmap.digidollar.cta": "了解 DigiDollar",
-
   "community.eyebrow": "社区",
   "community.title": "由全球开发者构成的独立网络。",
   "community.lead": "DigiByte 是一个没有中心化组织的纯粹开源项目。全球开发、节点基础设施以及 40 多种语言的本地化,完全由自我协调的志愿者维护。",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "讨论 &amp; PR",
   "community.tile.discord.meta": "实时聊天",
   "community.tile.youtube.meta": "演讲 &amp; 教程",
-
   "downloads.eyebrow": "获取 DigiByte",
   "downloads.title": "网络软件与客户端。",
   "downloads.lead": "运行完整验证节点支持网络的去中心化安全,或使用轻钱包进行便携交易管理、资产托管和安全登录。",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "品牌套件",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "技术参考",
-
-
   "footer.aria.backToTop": "回到顶部",
   "footer.tagline": "不间断的 UTXO 基础设施。由去中心化的开源社区自 2014 年以来设计与扩展。",
   "footer.protocol.heading": "协议",

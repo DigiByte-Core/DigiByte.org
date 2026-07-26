@@ -5,9 +5,7 @@
   "meta.og.description": "Blockchain ya UTXO inayofanya kazi muda mrefu zaidi, ya haraka zaidi na yenye ugatuzi mkubwa zaidi. Jenga na DigiAssets, ingia na Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain yenye kasi, salama na ya kifutathii zaidi",
   "meta.twitter.description": "Blockchain ya UTXO inayofanya kazi muda mrefu zaidi, ya haraka zaidi na yenye ugatuzi mkubwa zaidi. Jenga, fanya muamala na uthibitisha kwenye DGB.",
-
   "skipLink": "Ruka kwenda kwa maudhui",
-
   "ticker.aria": "Tikara ya moja kwa moja ya mtandao wa DigiByte",
   "ticker.block": "Bloku",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "Algorithmu 5 za uchimbaji",
   "ticker.blocks": "Bloku za sekunde 15",
   "ticker.global": "Ya kimataifa, iliyogatuliwa",
-
   "nav.aria.brand": "Ukurasa wa nyumbani wa DigiByte",
   "nav.aria.primary": "Urambazaji kuu",
   "nav.aria.langMenu": "Chagua lugha",
@@ -31,19 +28,15 @@
   "nav.download": "Pakua",
   "nav.langMenu.edit": "Hariri tafsiri kwenye GitHub",
   "nav.cta.getDgb": "Pata DGB",
-
   "hero.chip.openSource": "Chanzo huria · MIT",
   "hero.chip.since": "Tangu 2014",
   "hero.title": "Imebuniwa kwa uendeshaji usiokoma.",
-  "hero.lead": "DigiByte ni blockchain ya UTXO yenye usalama wa hali ya juu na algorithmu nyingi, iliyojengwa kwa uwezo wa kupanuka. Ikiwa na muda wa bloku wa sekunde 15 na historia ya miaka kumi na miwili ya uendeshaji bila kukatika, mtandao huu unatoa msingi uliojaribiwa kwa DGB, DigiAssets, uthibitishaji uliogatuliwa wa Digi-ID, na — hivi karibuni — DigiDollar.",
   "hero.cta.get": "Pata DigiByte",
   "hero.cta.build": "Jenga kwenye DGB",
   "hero.metric.blockTime": "Muda wa bloku",
   "hero.metric.algorithms": "Algorithmu",
   "hero.metric.yearsLive": "Miaka inayofanya kazi",
   "hero.metric.maxSupply": "Ugawaji wa juu",
-
-
   "features.eyebrow": "Kwa nini DigiByte",
   "features.title": "Imebuniwa kwa muongo ujao wa cryptocurrency.",
   "features.lead": "Chain safi ya UTXO ya proof-of-work iliyokuwa ikitoa mwanzo wa kwanza wa sekta tangu 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets na Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Historia",
   "features.trackRecord.title": "Miaka kumi na miwili ya kazi. Sifuri ya kuzima.",
   "features.trackRecord.body": "Tangu Januari 2014 mainnet imekuwa ikitoa bloku kila sekunde kumi na tano bila kukatika. Hakuna re-org za kina, hakuna fork za utawala, hakuna hard fork za dharura. Uptime hii, pamoja na maelfu ya node zinazoendeshwa kwa kujitegemea duniani kote, ndiyo aina ya historia ya uendeshaji ambayo miundombinu muhimu inahitaji — na ambayo karibu hakuna chain nyingine inayoweza kuonyesha.",
-
   "chain.eyebrow": "Mtandao wa moja kwa moja",
   "chain.title": "Data ya asili ya on-chain.",
   "chain.lead": "Hutolewa moja kwa moja kutoka kwa mtandao wa DigiByte kila dakika, ikipuuza API za watu wa tatu.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Toleo jipya zaidi",
   "chain.years.label": "Miaka mtandaoni",
   "chain.years.delta": "Tangu Jan 2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: pesa imara kwa wavuti wenye kasi zaidi.",
   "tokenomics.lead": "Ikidhibitiwa na sera ya fedha inayoweza kutabirika kwa ukali, DGB ina kikomo kigumu cha sarafu bilioni 21 na inafanya kazi kwenye ratiba ya utoaji wazi kabisa yenye mgawanyiko thabiti wa kihisabati.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "uzinduzi wa haki · giveaway & maendeleo",
   "tokenomics.cta.wiki": "Soma wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Toa rasilimali maalum kwenye chain salama ya UTXO.",
   "digiassets.lead": "Toa rasilimali za kidijitali maalum moja kwa moja kwenye mtandao wa DigiByte — kutoka kwa tokeni na stablecoin hadi rekodi za utambulisho. Kila rasilimali hutatuliwa ndani ya sekunde 15 na hulindwa na makubaliano ya kimataifa ya proof-of-work.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Lipa digis chache za DGB kama ada, tangaza muamala, na rasilimali iko hai katika mtandao mzima.",
   "digiassets.step4.title": "Tuma popote",
   "digiassets.cta.docs": "Nyaraka za protokoli",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Uthibitishaji wa chanzo huria bila nenosiri.",
   "digiId.lead": "Digi-ID inategemea saini za kicryptography zilizogatuliwa badala ya manenosiri ya kawaida, ikilinda utambulisho wa mtumiaji bila wapatanishi waliokusanyika.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Hapana, kuwa na crypto ni hiari. Pochi nyingi za DigiByte zinasaidia Digi-ID kwa asili, lakini unaweza pia kutumia programu huru ya uthibitishaji iliyoundwa kwa ajili ya kuingia salama tu.",
   "digiId.faq3.q": "Ninawezaje kuiunganisha?",
   "digiId.faq3.a": "Wabunifu wanaweza kutumia maktaba zetu za drop-in kwa Node.js, PHP, Python na Go, au kufunga programu-jalizi ya asili ya WordPress. Rasilimali kamili ziko kwenye kituo cha wabunifu hapa chini.",
-
   "devhub.eyebrow": "Kituo cha wabunifu",
   "devhub.title": "Miundombinu isiyo na maelewano kwa maendeleo ya UTXO.",
   "devhub.lead": "Fikia RPC inayoaminika na iliyojaribiwa kivita yenye muundo wa ada thabiti na unaoweza kutabirika. DigiByte hutoa msingi wa kupeleka node ndani ya dakika chache na kujenga juu ya mtandao uliogatuliwa kweli.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Soko la ada linaloweza kutabirika: gharama za muamala chini ya senti moja zinaruhusu upanuzi endelevu wa programu.",
   "devhub.whyShip.point2": "Miamala isiyohitaji idhini: mekaniki ya asili ya UTXO inakwepa hatari za usalama zinazohusiana na ruhusa pana za tokeni.",
   "devhub.whyShip.point3": "Utekelezaji bila hali: mazingira safi ya UTXO huruhusu maendeleo rahisi, sambamba na yanayoweza kujumuishwa.",
-
-
   "roadmap.eyebrow": "Historia",
   "roadmap.title": "Zaidi ya muongo wa utekelezaji wa kuendelea.",
   "roadmap.lead": "Kutoka kuanzishwa mapema kwa SegWit hadi makubaliano ya algorithmu nyingi. Kila upgrade ya protokoli imekuwa chanzo huria, imejaribiwa kwenye mainnet na imepelekwa bila ufadhili wa kati.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Inakuja hivi karibuni",
   "roadmap.digidollar.body": "Stablecoin isiyo na ulinzi kabisa inayozalisha ukwasi uliofungamana na USD kupitia akiba za DGB zilizofungwa kwa muda.",
   "roadmap.digidollar.cta": "Chunguza DigiDollar",
-
   "community.eyebrow": "Jumuiya",
   "community.title": "Mtandao huru wa wajenzi wa kimataifa.",
   "community.lead": "DigiByte ni mradi wa chanzo huria safi usio na shirika la kati. Maendeleo ya kimataifa, miundombinu ya node, na ujanibishaji wa lugha zaidi ya 40 hudumishwa kabisa na watu wa kujitolea wanaojiratibu wenyewe.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Majadiliano &amp; PR",
   "community.tile.discord.meta": "Mazungumzo ya moja kwa moja",
   "community.tile.youtube.meta": "Hotuba &amp; mafunzo",
-
   "downloads.eyebrow": "Pata DigiByte",
   "downloads.title": "Programu na wateja wa mtandao.",
   "downloads.lead": "Saidia usalama uliogatuliwa wa mtandao kwa kuendesha node kamili ya uthibitishaji, au tumia pochi nyepesi kwa usimamizi wa muamala portable, hifadhi ya rasilimali na kuingia salama.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "kit ya chapa",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "rejeleo la kiufundi",
-
-
   "footer.aria.backToTop": "Rudi juu",
   "footer.tagline": "Miundombinu isiyokatika ya UTXO. Imebuniwa na imepanuliwa na jumuiya iliyogatuliwa ya chanzo huria tangu 2014.",
   "footer.protocol.heading": "Protokoli",

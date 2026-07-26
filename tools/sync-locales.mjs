@@ -132,6 +132,16 @@ function localize(html, locale) {
 	//    locally, while still working at /<lang>/ on GitHub Pages.
 	out = out.replace(/(\s(?:href|src|content)=")\/(?!\/)/g, '$1../');
 
+	// 4b. `srcset` is a comma-separated list of "URL descriptor" pairs, so it
+	//     needs its own rewrite: turn every root-relative URL inside the
+	//     attribute value into `../` form. We only touch `srcset` values that
+	//     contain root-relative entries; full URLs (https://…) and already-
+	//     relative paths are left alone.
+	out = out.replace(/(\ssrcset=")([^"]+)"/g, (_m, prefix, value) => {
+		const rewritten = value.replace(/(^|,\s*)\/(?!\/)/g, '$1../');
+		return `${prefix}${rewritten}"`;
+	});
+
 	// Keep absolute hrefs to # anchors and full URLs as-is (already not /-rooted).
 
 	// 5. Manifest sometimes lives at /favicons/site.webmanifest — already root-rooted, fine.

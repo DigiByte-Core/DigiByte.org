@@ -5,9 +5,7 @@
   "meta.og.description": "Blockchain UTXO chạy lâu nhất, nhanh nhất và phi tập trung nhất. Xây dựng với DigiAssets, đăng nhập bằng Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain nhanh hơn, an toàn hơn, hướng tới tương lai",
   "meta.twitter.description": "Blockchain UTXO chạy lâu nhất, nhanh nhất và phi tập trung nhất. Xây dựng, giao dịch và xác thực trên DGB.",
-
   "skipLink": "Bỏ qua đến nội dung",
-
   "ticker.aria": "Bảng tin trực tiếp của mạng DigiByte",
   "ticker.block": "Khối",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 thuật toán đào",
   "ticker.blocks": "Khối 15 giây",
   "ticker.global": "Toàn cầu, phi tập trung",
-
   "nav.aria.brand": "Trang chủ DigiByte",
   "nav.aria.primary": "Điều hướng chính",
   "nav.aria.langMenu": "Chọn ngôn ngữ",
@@ -31,19 +28,15 @@
   "nav.download": "Tải xuống",
   "nav.langMenu.edit": "Chỉnh sửa bản dịch trên GitHub",
   "nav.cta.getDgb": "Lấy DGB",
-
   "hero.chip.openSource": "Mã nguồn mở · MIT",
   "hero.chip.since": "Từ năm 2014",
   "hero.title": "Thiết kế để vận hành liên tục.",
-  "hero.lead": "DigiByte là blockchain UTXO đa thuật toán, rất an toàn và được thiết kế để mở rộng. Với thời gian khối 15 giây và mười hai năm hoạt động không gián đoạn, mạng cung cấp nền tảng đã được kiểm chứng cho DGB, DigiAssets, xác thực phi tập trung Digi-ID và — rất sớm thôi — DigiDollar.",
   "hero.cta.get": "Lấy DigiByte",
   "hero.cta.build": "Xây dựng trên DGB",
   "hero.metric.blockTime": "Thời gian khối",
   "hero.metric.algorithms": "Thuật toán",
   "hero.metric.yearsLive": "Năm hoạt động",
   "hero.metric.maxSupply": "Cung tối đa",
-
-
   "features.eyebrow": "Tại sao chọn DigiByte",
   "features.title": "Thiết kế cho thập kỷ tiếp theo của crypto.",
   "features.lead": "Một chuỗi UTXO proof-of-work thuần khiết đã mang đến những điều đầu tiên cho ngành từ năm 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets và Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Bề dày",
   "features.trackRecord.title": "Mười hai năm hoạt động. Không gián đoạn.",
   "features.trackRecord.body": "Từ tháng 1 năm 2014, mainnet sản xuất khối mỗi mười lăm giây không bị gián đoạn. Không có re-org sâu, không có fork quản trị, không có hard fork khẩn cấp. Thời gian hoạt động đó, cùng với hàng nghìn nút được vận hành độc lập trên toàn thế giới, chính là dạng hồ sơ vận hành mà cơ sở hạ tầng quan trọng cần — và hầu như không chuỗi nào khác có thể trình bày.",
-
   "chain.eyebrow": "Mạng trực tiếp",
   "chain.title": "Dữ liệu on-chain bản địa.",
   "chain.lead": "Được lấy trực tiếp từ mạng DigiByte mỗi phút, bỏ qua mọi API của bên thứ ba.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Bản phát hành mới nhất",
   "chain.years.label": "Năm trực tuyến",
   "chain.years.delta": "Từ tháng 1/2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: tiền vững chắc cho một web nhanh hơn.",
   "tokenomics.lead": "Được điều hành bởi một chính sách tiền tệ rất có thể dự đoán, DGB bị giới hạn cứng ở mức 21 tỷ coin và vận hành theo lịch trình phát hành hoàn toàn minh bạch với phân phối toán học cố định.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "khởi đầu công bằng · giveaway & phát triển",
   "tokenomics.cta.wiki": "Đọc wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Phát hành tài sản tùy chỉnh trên chuỗi UTXO an toàn.",
   "digiassets.lead": "Phát hành nguyên bản tài sản số tùy chỉnh trên mạng DigiByte — từ token và stablecoin đến hồ sơ danh tính. Mỗi tài sản hoàn tất trong 15 giây và được bảo vệ bởi đồng thuận proof-of-work toàn cầu.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Trả vài digis DGB làm phí, phát sóng giao dịch và tài sản hoạt động trên toàn mạng.",
   "digiassets.step4.title": "Gửi bất cứ đâu",
   "digiassets.cta.docs": "Tài liệu giao thức",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Xác thực mã nguồn mở, không cần mật khẩu.",
   "digiId.lead": "Digi-ID dựa vào chữ ký mật mã phi tập trung thay vì mật khẩu truyền thống, bảo vệ danh tính người dùng mà không cần trung gian tập trung.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Không, sở hữu tiền điện tử là tùy chọn. Nhiều ví DigiByte hỗ trợ Digi-ID nguyên bản, nhưng bạn cũng có thể sử dụng ứng dụng xác thực độc lập được thiết kế chỉ cho đăng nhập an toàn.",
   "digiId.faq3.q": "Làm cách nào để tích hợp?",
   "digiId.faq3.a": "Nhà phát triển có thể sử dụng thư viện drop-in cho Node.js, PHP, Python và Go, hoặc cài đặt plugin WordPress nguyên bản. Tài nguyên đầy đủ ở hub nhà phát triển bên dưới.",
-
   "devhub.eyebrow": "Hub nhà phát triển",
   "devhub.title": "Hạ tầng không khoan nhượng cho phát triển UTXO.",
   "devhub.lead": "Truy cập RPC đáng tin cậy, đã được kiểm chứng với cấu trúc phí cố định, có thể dự đoán. DigiByte cung cấp nền tảng để triển khai nút trong vài phút và xây dựng trên một mạng thực sự phi tập trung.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Thị trường phí dự đoán được: chi phí giao dịch dưới một xu cho phép mở rộng ứng dụng bền vững.",
   "devhub.whyShip.point2": "Giao dịch không cần approval: cơ chế UTXO nguyên bản tránh được rủi ro bảo mật từ các quyền token rộng.",
   "devhub.whyShip.point3": "Thực thi stateless: môi trường UTXO thuần khiết cho phép phát triển đơn giản, song song và có thể kết hợp.",
-
-
   "roadmap.eyebrow": "Bề dày",
   "roadmap.title": "Hơn một thập kỷ thực thi liên tục.",
   "roadmap.lead": "Từ việc kích hoạt sớm SegWit đến đồng thuận đa thuật toán. Mỗi nâng cấp giao thức đều là mã nguồn mở, được thử nghiệm trên mainnet và triển khai mà không có nguồn tài trợ tập trung.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Sắp ra mắt",
   "roadmap.digidollar.body": "Stablecoin hoàn toàn phi giam giữ tạo ra tính thanh khoản gắn USD thông qua dự trữ DGB khóa thời gian.",
   "roadmap.digidollar.cta": "Khám phá DigiDollar",
-
   "community.eyebrow": "Cộng đồng",
   "community.title": "Mạng lưới độc lập của các nhà xây dựng toàn cầu.",
   "community.lead": "DigiByte là một dự án mã nguồn mở thuần khiết, không có tổ chức tập trung. Phát triển toàn cầu, hạ tầng nút và bản địa hóa sang hơn 40 ngôn ngữ được duy trì hoàn toàn bởi các tình nguyện viên tự điều phối.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Thảo luận &amp; PR",
   "community.tile.discord.meta": "Trò chuyện trực tiếp",
   "community.tile.youtube.meta": "Bài nói &amp; hướng dẫn",
-
   "downloads.eyebrow": "Lấy DigiByte",
   "downloads.title": "Phần mềm và máy khách của mạng.",
   "downloads.lead": "Hỗ trợ bảo mật phi tập trung của mạng bằng cách chạy nút xác thực đầy đủ, hoặc dùng ví nhẹ để quản lý giao dịch di động, lưu trữ tài sản và đăng nhập an toàn.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "bộ thương hiệu",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tham khảo kỹ thuật",
-
-
   "footer.aria.backToTop": "Lên đầu trang",
   "footer.tagline": "Hạ tầng UTXO không gián đoạn. Được thiết kế và mở rộng bởi cộng đồng mã nguồn mở phi tập trung từ năm 2014.",
   "footer.protocol.heading": "Giao thức",

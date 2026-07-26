@@ -5,9 +5,7 @@
   "meta.og.description": "Blockchain-i UTXO më i vjetër në funksionim, më i shpejtë dhe më i decentralizuar. Ndërto me DigiAssets, hyr me Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain më i shpejtë, më i sigurt, përparimtar",
   "meta.twitter.description": "Blockchain-i UTXO më i vjetër në funksionim, më i shpejtë dhe më i decentralizuar. Ndërto, kryej transaksione dhe autentifikohu në DGB.",
-
   "skipLink": "Kalo te përmbajtja",
-
   "ticker.aria": "Ticker live i rrjetit DigiByte",
   "ticker.block": "Bllok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritma minerimi",
   "ticker.blocks": "Bllokë 15-sekondësh",
   "ticker.global": "Globale, e decentralizuar",
-
   "nav.aria.brand": "Faqja kryesore DigiByte",
   "nav.aria.primary": "Lundrim kryesor",
   "nav.aria.langMenu": "Zgjidh gjuhën",
@@ -31,19 +28,15 @@
   "nav.download": "Shkarko",
   "nav.langMenu.edit": "Edito përkthimet në GitHub",
   "nav.cta.getDgb": "Merr DGB",
-
   "hero.chip.openSource": "Kod i hapur · MIT",
   "hero.chip.since": "Që nga 2014",
   "hero.title": "I projektuar për funksionim të pandërprerë.",
-  "hero.lead": "DigiByte është një blockchain UTXO shumë i sigurt, me shumë algoritma, i ndërtuar për shkallëzim. Me kohë blloku 15 sekonda dhe dymbëdhjetë vjet histori funksionimi pa ndërprerje, rrjeti ofron një bazë të testuar në betejë për DGB, DigiAssets, autentifikimin e decentralizuar Digi-ID dhe — shumë shpejt — DigiDollar.",
   "hero.cta.get": "Merr DigiByte",
   "hero.cta.build": "Ndërto në DGB",
   "hero.metric.blockTime": "Kohë blloku",
   "hero.metric.algorithms": "Algoritma",
   "hero.metric.yearsLive": "Vjet aktiv",
   "hero.metric.maxSupply": "Furnizimi max.",
-
-
   "features.eyebrow": "Pse DigiByte",
   "features.title": "I projektuar për dekadën e ardhshme të kriptos.",
   "features.lead": "Një zinxhir UTXO i pastër proof-of-work që që nga 2014 sjell të parat e industrisë — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets dhe Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Histori",
   "features.trackRecord.title": "Dymbëdhjetë vjet aktiv. Zero ndërprerje.",
   "features.trackRecord.body": "Që nga janari 2014 mainnet prodhon bllokë çdo pesëmbëdhjetë sekonda pa ndërprerje. Pa re-orgs të thella, pa fork-e qeverisjeje, pa hard fork-e urgjente. Ai uptime, së bashku me mijëra nyje të operuara në mënyrë të pavarur në mbarë botën, është pikërisht ai lloj historiku operacional që kërkon infrastruktura kritike — dhe që pothuajse asnjë zinxhir tjetër nuk mund ta tregojë.",
-
   "chain.eyebrow": "Rrjeti live",
   "chain.title": "Të dhëna native on-chain.",
   "chain.lead": "Marrë drejtpërdrejt nga rrjeti DigiByte çdo minutë, duke anashkaluar çdo API të palëve të treta.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Versioni më i fundit",
   "chain.years.label": "Vjet online",
   "chain.years.delta": "Që nga jan. 2014",
-
   "tokenomics.eyebrow": "Tokenomika",
   "tokenomics.title": "DigiByte: para të shëndetshme për një web më të shpejtë.",
   "tokenomics.lead": "I qeverisur nga një politikë monetare rreptësisht e parashikueshme, DGB ka kufi të fortë prej 21 miliardë monedhash dhe funksionon në një kalendar emetimi plotësisht transparent me një shpërndarje matematike fikse.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "nisje e drejtë · giveaway & zhvillim",
   "tokenomics.cta.wiki": "Lexo wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Lësho asete të personalizuara në një zinxhir UTXO të sigurt.",
   "digiassets.lead": "Lësho në mënyrë native asete dixhitale të personalizuara në rrjetin DigiByte — nga tokenat dhe stablecoin-at te regjistrat e identitetit. Çdo aset rregullohet në 15 sekonda dhe sigurohet nga një konsensus global proof-of-work.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Paguaj disa digis DGB si tarifë, transmeto transaksionin dhe aseti është aktiv në gjithë rrjetin.",
   "digiassets.step4.title": "Dërgo kudo",
   "digiassets.cta.docs": "Dokumentacion i protokollit",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Autentifikim pa fjalëkalim, me kod të hapur.",
   "digiId.lead": "Digi-ID mbështetet në nënshkrime kriptografike të decentralizuara në vend të fjalëkalimeve tradicionale, duke mbrojtur identitetin e përdoruesit pa ndërmjetës qendrorë.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Jo, posedimi i kriptomonedhave është opsional. Shumë kuleta DigiByte e mbështesin Digi-ID në mënyrë native, por mund të përdorni edhe një aplikacion autentifikimi të pavarur të dedikuar vetëm për hyrje të sigurta.",
   "digiId.faq3.q": "Si ta integroj?",
   "digiId.faq3.a": "Zhvilluesit mund të përdorin bibliotekat tona drop-in për Node.js, PHP, Python dhe Go, ose të instalojnë shtojcën native për WordPress. Burimet e plota gjenden te hub-i i zhvilluesve më poshtë.",
-
   "devhub.eyebrow": "Hub i zhvilluesve",
   "devhub.title": "Infrastrukturë pa kompromise për zhvillimin UTXO.",
   "devhub.lead": "Akseso një RPC të besueshëm, të testuar në betejë me struktura të fiksuara dhe të parashikueshme tarifash. DigiByte siguron bazën për të vendosur nyje brenda minutash dhe për të ndërtuar mbi një rrjet vërtet të decentralizuar.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Tregje të parashikueshme tarifash: kosto transaksionesh nën një cent mundësojnë shkallëzim të qëndrueshëm të aplikacioneve.",
   "devhub.whyShip.point2": "Transaksione pa approval: mekanika native UTXO anashkalon rreziqet e sigurisë që lidhen me lejet e gjera mbi tokenat.",
   "devhub.whyShip.point3": "Ekzekutim pa gjendje: një mjedis i pastër UTXO mundëson zhvillim të thjeshtë, paralel dhe të kompozueshëm.",
-
-
   "roadmap.eyebrow": "Histori",
   "roadmap.title": "Më shumë se një dekadë ekzekutim i vazhdueshëm.",
   "roadmap.lead": "Nga aktivizimi i hershëm i SegWit deri te konsensusi multi-algoritmik. Çdo përditësim i protokollit ka qenë me kod të hapur, i testuar në mainnet dhe i dorëzuar pa financim qendror.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Së shpejti",
   "roadmap.digidollar.body": "Një stablecoin plotësisht jo-kustodial që gjeneron likuiditet të lidhur me USD përmes rezervave DGB të bllokuara në kohë.",
   "roadmap.digidollar.cta": "Eksploro DigiDollar",
-
   "community.eyebrow": "Komuniteti",
   "community.title": "Një rrjet i pavarur ndërtuesish globalë.",
   "community.lead": "DigiByte është një projekt thjesht me kod të hapur pa organizim qendror. Zhvillimi global, infrastruktura e nyjeve dhe lokalizimi në mbi 40 gjuhë mirëmbahen tërësisht nga vullnetarë vetëkoordinues.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Diskutime &amp; PR",
   "community.tile.discord.meta": "Bisedë live",
   "community.tile.youtube.meta": "Fjalime &amp; tutoriale",
-
   "downloads.eyebrow": "Merr DigiByte",
   "downloads.title": "Software dhe klientë të rrjetit.",
   "downloads.lead": "Mbështet sigurinë e decentralizuar të rrjetit duke ekzekutuar një nyje të plotë validimi, ose përdor kuletën e lehtë për menaxhim portativ transaksionesh, ruajtje aseti dhe hyrje të sigurta.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "kit marke",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "referencë teknike",
-
-
   "footer.aria.backToTop": "Kthehu lart",
   "footer.tagline": "Infrastrukturë UTXO e pandërprerë. E projektuar dhe e shkallëzuar nga një komunitet i decentralizuar me kod të hapur që nga 2014.",
   "footer.protocol.heading": "Protokolli",

@@ -5,9 +5,7 @@
   "meta.og.description": "La blockchain UTXO più longeva, veloce e decentralizzata. Costruisci con DigiAssets, accedi con Digi-ID.",
   "meta.twitter.title": "DigiByte — Blockchain più veloce, sicura e all'avanguardia",
   "meta.twitter.description": "La blockchain UTXO più longeva, veloce e decentralizzata. Costruisci, transa e autenticati su DGB.",
-
   "skipLink": "Vai al contenuto",
-
   "ticker.aria": "Ticker live della rete DigiByte",
   "ticker.block": "Blocco",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 algoritmi di mining",
   "ticker.blocks": "Blocchi da 15 secondi",
   "ticker.global": "Globale, decentralizzata",
-
   "nav.aria.brand": "Home di DigiByte",
   "nav.aria.primary": "Principale",
   "nav.aria.langMenu": "Scegli lingua",
@@ -31,19 +28,15 @@
   "nav.download": "Download",
   "nav.langMenu.edit": "Modifica le traduzioni su GitHub",
   "nav.cta.getDgb": "Ottieni DGB",
-
   "hero.chip.openSource": "Open source · MIT",
   "hero.chip.since": "Dal 2014",
   "hero.title": "Progettata per funzionare senza interruzioni.",
-  "hero.lead": "DigiByte è una blockchain UTXO multi-algoritmo, altamente sicura e pensata per scalare. Con tempi di blocco di 15 secondi e dodici anni di operatività ininterrotta, la rete offre una base testata sul campo per DGB, DigiAssets, l'autenticazione decentralizzata Digi-ID e — molto presto — DigiDollar.",
   "hero.cta.get": "Ottieni DigiByte",
   "hero.cta.build": "Costruisci su DGB",
   "hero.metric.blockTime": "Tempo di blocco",
   "hero.metric.algorithms": "Algoritmi",
   "hero.metric.yearsLive": "Anni live",
   "hero.metric.maxSupply": "Offerta max",
-
-
   "features.eyebrow": "Perché DigiByte",
   "features.title": "Progettata per il prossimo decennio del cripto.",
   "features.lead": "Una catena UTXO in pura proof-of-work che dal 2014 introduce delle prime assolute — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets e Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Track record",
   "features.trackRecord.title": "Dodici anni live. Zero downtime.",
   "features.trackRecord.body": "Da gennaio 2014 la mainnet produce blocchi ogni quindici secondi senza interruzioni. Niente re-org profonde, niente fork di governance, niente hard fork di emergenza. Questo uptime, insieme a migliaia di nodi operati in modo indipendente nel mondo, è il tipo di track record operativo che serve all'infrastruttura critica — e che quasi nessun'altra catena può mostrare.",
-
   "chain.eyebrow": "Rete live",
   "chain.title": "Dati on-chain nativi.",
   "chain.lead": "Recuperati direttamente dalla rete DigiByte ogni minuto, senza passare da API di terze parti.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Ultima release",
   "chain.years.label": "Anni online",
   "chain.years.delta": "Dal gen 2014",
-
   "tokenomics.eyebrow": "Tokenomics",
   "tokenomics.title": "DigiByte: moneta solida per un web più veloce.",
   "tokenomics.lead": "Regolata da una politica monetaria strettamente prevedibile, DGB ha un cap fisso di 21 miliardi di monete e opera con un calendario di emissione completamente trasparente e una distribuzione matematica fissa.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "lancio equo · giveaway & dev",
   "tokenomics.cta.wiki": "Leggi la wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Emetti asset personalizzati su una catena UTXO sicura.",
   "digiassets.lead": "Emetti nativamente asset digitali personalizzati sulla rete DigiByte, da token e stablecoin a record d'identità. Ogni asset si regola in 15 secondi ed è protetto da un consenso PoW globale.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Paga qualche digi di DGB di commissione, trasmetti la transazione e l'asset è attivo su tutta la rete.",
   "digiassets.step4.title": "Invia ovunque",
   "digiassets.cta.docs": "Documentazione protocollo",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Autenticazione open source, senza password.",
   "digiId.lead": "Digi-ID si basa su firme crittografiche decentralizzate al posto delle password tradizionali, proteggendo l'identità dell'utente senza intermediari centralizzati.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "No, possedere criptovalute è opzionale. Molti wallet DigiByte supportano nativamente Digi-ID, ma puoi anche usare un'app di autenticazione standalone pensata solo per login sicuri.",
   "digiId.faq3.q": "Come la integro?",
   "digiId.faq3.a": "Gli sviluppatori possono usare le nostre librerie drop-in per Node.js, PHP, Python e Go oppure installare il plugin WordPress nativo. Tutte le risorse sono nel developer hub qui sotto.",
-
   "devhub.eyebrow": "Developer hub",
   "devhub.title": "Infrastruttura senza compromessi per lo sviluppo UTXO.",
   "devhub.lead": "Accedi a una RPC affidabile e testata sul campo, con commissioni fisse e prevedibili. DigiByte fornisce la base per mettere in piedi nodi in pochi minuti e costruire su una rete davvero decentralizzata.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Mercati di commissioni prevedibili: costi di transazione sotto il centesimo permettono di scalare l'app in modo sostenibile.",
   "devhub.whyShip.point2": "Transazioni senza approvazioni: la meccanica nativa UTXO evita i rischi di sicurezza legati ad ampie allowance sui token.",
   "devhub.whyShip.point3": "Esecuzione senza stato: un ambiente UTXO puro permette uno sviluppo semplice, parallelo e componibile.",
-
-
   "roadmap.eyebrow": "Track record",
   "roadmap.title": "Oltre un decennio di esecuzione continua.",
   "roadmap.lead": "Dall'attivazione precoce di SegWit al consenso multi-algoritmo. Ogni upgrade di protocollo è stato open source, testato in mainnet e rilasciato senza finanziamenti centralizzati.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Prossimamente",
   "roadmap.digidollar.body": "Una stablecoin totalmente non-custodial che genera liquidità ancorata al dollaro tramite riserve DGB con time-lock.",
   "roadmap.digidollar.cta": "Scopri DigiDollar",
-
   "community.eyebrow": "Community",
   "community.title": "Una rete indipendente di builder globali.",
   "community.lead": "DigiByte è un progetto puramente open source senza organizzazione centralizzata. Sviluppo globale, infrastruttura dei nodi e localizzazione in oltre 40 lingue sono mantenuti interamente da volontari auto-coordinati.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Discussioni &amp; PR",
   "community.tile.discord.meta": "Chat live",
   "community.tile.youtube.meta": "Talk &amp; tutorial",
-
   "downloads.eyebrow": "Ottieni DigiByte",
   "downloads.title": "Software e client di rete.",
   "downloads.lead": "Sostieni la sicurezza decentralizzata della rete avviando un nodo di validazione completo, oppure usa il wallet leggero per gestire transazioni portatili, custodia di asset e login sicuri.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "kit di brand",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "riferimento tecnico",
-
-
   "footer.aria.backToTop": "Torna su",
   "footer.tagline": "Infrastruttura UTXO ininterrotta. Progettata e scalata da una community decentralizzata e open source dal 2014.",
   "footer.protocol.heading": "Protocollo",

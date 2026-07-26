@@ -5,9 +5,7 @@
   "meta.og.description": "Pisin, nopein ja hajautetuin UTXO-lohkoketju. Rakenna DigiAssetsilla, kirjaudu Digi-ID:llä.",
   "meta.twitter.title": "DigiByte — Nopeampi, turvallisempi, edistyksellinen lohkoketju",
   "meta.twitter.description": "Pisin, nopein ja hajautetuin UTXO-lohkoketju. Rakenna, maksa ja tunnistaudu DGB:llä.",
-
   "skipLink": "Siirry sisältöön",
-
   "ticker.aria": "DigiByte-verkon live-tikkeri",
   "ticker.block": "Lohko",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 louhinta-algoritmia",
   "ticker.blocks": "15 sekunnin lohkot",
   "ticker.global": "Globaali, hajautettu",
-
   "nav.aria.brand": "DigiByten etusivu",
   "nav.aria.primary": "Päänavigaatio",
   "nav.aria.langMenu": "Valitse kieli",
@@ -31,19 +28,15 @@
   "nav.download": "Lataa",
   "nav.langMenu.edit": "Muokkaa käännöksiä GitHubissa",
   "nav.cta.getDgb": "Hanki DGB",
-
   "hero.chip.openSource": "Avoin lähdekoodi · MIT",
   "hero.chip.since": "Vuodesta 2014",
   "hero.title": "Suunniteltu yhtäjaksoiseen toimintaan.",
-  "hero.lead": "DigiByte on erittäin turvallinen, monialgoritminen UTXO-lohkoketju, joka on rakennettu skaalattavaksi. 15 sekunnin lohkoajalla ja kahdentoista vuoden katkeamattomalla käyttöajalla verkko tarjoaa kentällä testatun perustan DGB:lle, DigiAssetsille, hajautetulle Digi-ID-tunnistautumiselle ja — aivan pian — DigiDollarille.",
   "hero.cta.get": "Hanki DigiByte",
   "hero.cta.build": "Rakenna DGB:llä",
   "hero.metric.blockTime": "Lohkoaika",
   "hero.metric.algorithms": "Algoritmit",
   "hero.metric.yearsLive": "Vuotta käytössä",
   "hero.metric.maxSupply": "Maksimitarjonta",
-
-
   "features.eyebrow": "Miksi DigiByte",
   "features.title": "Suunniteltu kryptojen seuraavalle vuosikymmenelle.",
   "features.lead": "Puhdas proof-of-work UTXO-ketju, joka on tuottanut alan ensimmäisiä saavutuksia vuodesta 2014 — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets ja Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Saavutukset",
   "features.trackRecord.title": "12 vuotta käytössä. Nolla käyttökatkoa.",
   "features.trackRecord.body": "Tammikuusta 2014 mainnet on tuottanut lohkon viidentoista sekunnin välein katkeamatta. Ei syviä uudelleenjärjestelyjä, ei hallinnollisia haaroja, ei hätä-hardforkkeja. Tämä toimintavarmuus yhdistettynä tuhansiin itsenäisesti operoituihin noodeihin ympäri maailmaa on juuri sellainen toiminnallinen näyttö, jota kriittinen infrastruktuuri vaatii — ja jota lähes mikään muu ketju ei pysty esittämään.",
-
   "chain.eyebrow": "Live-verkko",
   "chain.title": "Natiivit ketjudata.",
   "chain.lead": "Haetaan suoraan DigiByte-verkosta joka minuutti, ilman kolmannen osapuolen rajapintoja.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Viimeisin julkaisu",
   "chain.years.label": "Vuotta verkossa",
   "chain.years.delta": "Tammikuusta 2014",
-
   "tokenomics.eyebrow": "Tokenomiikka",
   "tokenomics.title": "DigiByte: vakaata rahaa nopeammalle webille.",
   "tokenomics.lead": "Tiukasti ennustettavan rahapolitiikan ohjaamana DGB:llä on kova 21 miljardin kolikon katto, ja se toimii täysin läpinäkyvällä emissioaikataululla ja kiinteällä matemaattisella jakaumalla.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Premine",
   "tokenomics.premine.delta": "reilu aloitus · arvonnat & kehitys",
   "tokenomics.cta.wiki": "Lue wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Laske liikkeelle omia varoja turvallisessa UTXO-ketjussa.",
   "digiassets.lead": "Laske liikkeelle natiivisti omia digitaalisia varoja DigiByte-verkossa — tokeneista ja stablecoineista identiteettitietoihin. Jokainen vara selviää 15 sekunnissa ja sitä suojaa maailmanlaajuinen proof-of-work-konsensus.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Maksa muutama digis DGB:tä palkkioksi, lähetä tapahtuma, ja vara on käytössä koko verkossa.",
   "digiassets.step4.title": "Lähetä minne tahansa",
   "digiassets.cta.docs": "Protokolladokumentaatio",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Salasanaton, avoimen lähdekoodin tunnistautuminen.",
   "digiId.lead": "Digi-ID perustuu hajautettuihin kryptografisiin allekirjoituksiin perinteisten salasanojen sijaan ja suojaa käyttäjän identiteetin ilman keskitettyjä välittäjiä.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Ei, kryptojen omistaminen on vapaaehtoista. Monet DigiByte-lompakot tukevat Digi-ID:tä natiivisti, mutta voit käyttää myös erillistä tunnistautumissovellusta, joka on suunniteltu vain turvallisiin kirjautumisiin.",
   "digiId.faq3.q": "Miten integroin sen?",
   "digiId.faq3.a": "Kehittäjät voivat käyttää drop-in-kirjastojamme Node.js:lle, PHP:lle, Pythonille ja Golle, tai asentaa natiivin WordPress-lisäosan. Täydelliset resurssit löytyvät alla olevasta kehittäjähubista.",
-
   "devhub.eyebrow": "Kehittäjähub",
   "devhub.title": "Tinkimätön infrastruktuuri UTXO-kehitykseen.",
   "devhub.lead": "Käytä luotettavaa, kentällä testattua RPC:tä kiinteillä ja ennustettavilla palkkiorakenteilla. DigiByte tarjoaa perustan, jolla noodit voi ottaa käyttöön minuuteissa ja rakentaa aidosti hajautetussa verkossa.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Ennustettavat palkkiomarkkinat: alle sentin transaktiokustannukset mahdollistavat sovellusten kestävän skaalauksen.",
   "devhub.whyShip.point2": "Hyväksyntävapaat tapahtumat: natiivi UTXO-mekaniikka kiertää laajojen token-valtuuksien tietoturvariskit.",
   "devhub.whyShip.point3": "Tilaton suoritus: puhdas UTXO-ympäristö mahdollistaa yksinkertaisen, rinnakkaisen ja koostettavan kehityksen.",
-
-
   "roadmap.eyebrow": "Saavutukset",
   "roadmap.title": "Yli vuosikymmen jatkuvaa toteutusta.",
   "roadmap.lead": "Aikaisesta SegWit-aktivoinnista monialgoritmiseen konsensukseen. Jokainen protokollapäivitys on ollut avointa lähdekoodia, mainnetissä testattu ja toteutettu ilman keskitettyä rahoitusta.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Tulossa pian",
   "roadmap.digidollar.body": "Täysin ei-säilyttäjäpohjainen stablecoin, joka tuottaa USD-sidottua likviditeettiä aikalukittujen DGB-reservien kautta.",
   "roadmap.digidollar.cta": "Tutustu DigiDollariin",
-
   "community.eyebrow": "Yhteisö",
   "community.title": "Itsenäinen globaalien rakentajien verkosto.",
   "community.lead": "DigiByte on puhdas avoimen lähdekoodin projekti, jolla ei ole keskitettyä organisaatiota. Globaali kehitys, noodi-infrastruktuuri ja yli 40 kielen lokalisointi ovat kokonaan itseohjautuvien vapaaehtoisten ylläpitämiä.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Keskustelut &amp; PR:t",
   "community.tile.discord.meta": "Live-chat",
   "community.tile.youtube.meta": "Esitelmät &amp; opetukset",
-
   "downloads.eyebrow": "Hanki DigiByte",
   "downloads.title": "Verkkoon liittyvä ohjelmisto ja asiakkaat.",
   "downloads.lead": "Tue verkon hajautettua turvallisuutta pyörittämällä täyttä validointinoodia tai käytä kevytlompakkoa kannettavaan tapahtumahallintaan, varojen säilytykseen ja turvallisiin kirjautumisiin.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "brändipaketti",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tekninen viite",
-
-
   "footer.aria.backToTop": "Takaisin ylös",
   "footer.tagline": "Katkeamaton UTXO-infrastruktuuri. Suunniteltu ja skaalattu hajautetun, avoimen lähdekoodin yhteisön voimin vuodesta 2014.",
   "footer.protocol.heading": "Protokolla",

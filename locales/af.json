@@ -5,9 +5,7 @@
   "meta.og.description": "Die langste, vinnigste en mees gedesentraliseerde UTXO-blokketting. Bou met DigiAssets, teken aan met Digi-ID.",
   "meta.twitter.title": "DigiByte — Vinniger, veiliger, vooruitstrewende blokketting",
   "meta.twitter.description": "Die langste, vinnigste en mees gedesentraliseerde UTXO-blokketting. Bou, transaksioneer en autentiseer op DGB.",
-
   "skipLink": "Spring na inhoud",
-
   "ticker.aria": "Lewendige ticker van die DigiByte-netwerk",
   "ticker.block": "Blok",
   "ticker.hashrate": "Hashrate",
@@ -17,7 +15,6 @@
   "ticker.algos": "5 mynbou-algoritmes",
   "ticker.blocks": "15-sekonde-blokke",
   "ticker.global": "Wêreldwyd, gedesentraliseer",
-
   "nav.aria.brand": "DigiByte tuisblad",
   "nav.aria.primary": "Hoof",
   "nav.aria.langMenu": "Kies taal",
@@ -31,19 +28,15 @@
   "nav.download": "Aflaai",
   "nav.langMenu.edit": "Wysig vertalings op GitHub",
   "nav.cta.getDgb": "Kry DGB",
-
   "hero.chip.openSource": "Oopbron · MIT",
   "hero.chip.since": "Sedert 2014",
   "hero.title": "Ontwerp vir ononderbroke bedryf.",
-  "hero.lead": "DigiByte is 'n hoogs veilige, multi-algoritme UTXO-blokketting wat vir skaal gebou is. Met blokke elke 15 sekondes en twaalf jaar van ononderbroke bedryf bied die netwerk 'n in-die-veld-getoetste fondament vir DGB, DigiAssets, gedesentraliseerde Digi-ID-verifikasie en — baie binnekort — DigiDollar.",
   "hero.cta.get": "Kry DigiByte",
   "hero.cta.build": "Bou op DGB",
   "hero.metric.blockTime": "Bloktyd",
   "hero.metric.algorithms": "Algoritmes",
   "hero.metric.yearsLive": "Jare lewendig",
   "hero.metric.maxSupply": "Maks. voorraad",
-
-
   "features.eyebrow": "Hoekom DigiByte",
   "features.title": "Ontwerp vir die volgende dekade van krypto.",
   "features.lead": "'n Suiwer bewys-van-werk UTXO-ketting wat sedert 2014 wêreld-eerstes lewer — DigiShield, MultiAlgo, SegWit, Odocrypt, Dandelion++, DigiAssets en Digi-ID.",
@@ -60,7 +53,6 @@
   "features.trackRecord.eyebrow": "Rekord",
   "features.trackRecord.title": "Twaalf jaar lewendig. Nul stilstand.",
   "features.trackRecord.body": "Sedert Januarie 2014 produseer die hoofnetwerk elke vyftien sekondes 'n blok, sonder onderbreking. Geen diep her-organisasies, geen bestuurs-vurke, geen noodgedwonge hard forks nie. Hierdie aanlyntyd, saam met duisende onafhanklik bedryfde nodes wêreldwyd, is die soort operasionele rekord wat kritieke infrastruktuur benodig — en wat byna geen ander ketting kan vertoon nie.",
-
   "chain.eyebrow": "Lewendige netwerk",
   "chain.title": "Inheemse on-chain data.",
   "chain.lead": "Elke minuut direk uit die DigiByte-netwerk getrek, sonder enige derdeparty-API.",
@@ -76,7 +68,6 @@
   "chain.version.delta": "Jongste vrystelling",
   "chain.years.label": "Jare aanlyn",
   "chain.years.delta": "Sedert Jan 2014",
-
   "tokenomics.eyebrow": "Tokenomika",
   "tokenomics.title": "DigiByte: betroubare geld vir 'n vinniger web.",
   "tokenomics.lead": "Onder 'n streng voorspelbare monetêre beleid het DGB 'n harde maksimum van 21 miljard munte en werk dit op 'n volledig deursigtige uitreikingskedule met 'n vaste, wiskundige verspreiding.",
@@ -88,7 +79,6 @@
   "tokenomics.premine.label": "Voormynbou",
   "tokenomics.premine.delta": "regverdige bekendstelling · weggee & ontwikkeling",
   "tokenomics.cta.wiki": "Lees die wiki",
-
   "digiassets.eyebrow": "DigiAssets",
   "digiassets.title": "Gee eie bates op 'n veilige UTXO-ketting uit.",
   "digiassets.lead": "Gee inheems eie digitale bates op die DigiByte-netwerk uit — van tokens en stablecoins tot identiteitsrekords. Elke bate vereffen binne 15 sekondes en word deur 'n wêreldwye bewys-van-werk-konsensus beskerm.",
@@ -100,7 +90,6 @@
   "digiassets.step3.body": "Betaal 'n paar digis DGB as fooie, saai die transaksie uit en die bate is regdeur die netwerk lewend.",
   "digiassets.step4.title": "Stuur enige plek",
   "digiassets.cta.docs": "Protokol-dokumentasie",
-
   "digiId.eyebrow": "Digi-ID",
   "digiId.title": "Wagwoordlose, oopbron verifikasie.",
   "digiId.lead": "Digi-ID maak gebruik van gedesentraliseerde kriptografiese handtekeninge in plaas van tradisionele wagwoorde, en beveilig die identiteit van gebruikers sonder gesentraliseerde tussengangers.",
@@ -115,7 +104,6 @@
   "digiId.faq2.a": "Nee, kripto-besit is opsioneel. Baie DigiByte-beursies ondersteun Digi-ID inheems, maar jy kan ook 'n selfstandige verifikasie-toepassing gebruik wat uitsluitlik vir veilige aanmeldings ontwerp is.",
   "digiId.faq3.q": "Hoe integreer ek dit?",
   "digiId.faq3.a": "Ontwikkelaars kan ons plak-en-speel-biblioteke vir Node.js, PHP, Python en Go gebruik, of die inheemse WordPress-inprop installeer. Volledige hulpbronne is in die ontwikkelaarsentrum hieronder.",
-
   "devhub.eyebrow": "Ontwikkelaarsentrum",
   "devhub.title": "Sonder kompromieë — infrastruktuur vir UTXO-ontwikkeling.",
   "devhub.lead": "Kry toegang tot 'n betroubare, in-die-veld-getoetste RPC met vaste, voorspelbare fooistrukture. DigiByte verskaf die fondament om binne minute nodes te ontplooi en op 'n werklik gedesentraliseerde netwerk te bou.",
@@ -138,8 +126,6 @@
   "devhub.whyShip.point1": "Voorspelbare fooimarkte: transaksiekoste onder 'n sent maak volhoubare app-skaal moontlik.",
   "devhub.whyShip.point2": "Goedkeur-vry transaksies: die inheemse UTXO-meganisme omseil sekuriteitsrisiko's verbonde aan breë token-toestemmings.",
   "devhub.whyShip.point3": "Toestandlose uitvoering: 'n suiwer UTXO-omgewing gee eenvoudige, parallelle en samestelbare ontwikkeling.",
-
-
   "roadmap.eyebrow": "Rekord",
   "roadmap.title": "Meer as 'n dekade van deurlopende uitvoering.",
   "roadmap.lead": "Van vroeë SegWit-aktivering tot multi-algoritme-konsensus. Elke protokol-opgradering was oopbron, op die hoofnetwerk getoets en sonder gesentraliseerde befondsing ontplooi.",
@@ -161,7 +147,6 @@
   "roadmap.digidollar.comingSoon": "Binnekort beskikbaar",
   "roadmap.digidollar.body": "'n Volledig nie-bewarings stablecoin wat USD-gekoppelde likiditeit genereer via tyd-vergrendelde DGB-reserwes.",
   "roadmap.digidollar.cta": "Verken DigiDollar",
-
   "community.eyebrow": "Gemeenskap",
   "community.title": "'n Onafhanklike netwerk van wêreldwye bouers.",
   "community.lead": "DigiByte is 'n suiwer oopbron-projek sonder gesentraliseerde organisasie. Wêreldwye ontwikkeling, node-infrastruktuur en lokalisering in meer as 40 tale word geheel en al deur self-gekoördineerde vrywilligers onderhou.",
@@ -169,7 +154,6 @@
   "community.tile.github.meta": "Besprekings &amp; PR's",
   "community.tile.discord.meta": "Lewendige geselsie",
   "community.tile.youtube.meta": "Praatjies &amp; tutoriale",
-
   "downloads.eyebrow": "Kry DigiByte",
   "downloads.title": "Netwerksagteware en kliënte.",
   "downloads.lead": "Ondersteun die gedesentraliseerde sekuriteit van die netwerk deur 'n volledige valideringsnode te bedryf, of gebruik die ligte beursie vir draagbare transaksiebestuur, bate-bewaring en veilige aanmeldings.",
@@ -199,8 +183,6 @@
   "downloads.docs.logos.meta": "handelsmerk-stel",
   "downloads.docs.wiki.title": "Wiki",
   "downloads.docs.wiki.meta": "tegniese verwysing",
-
-
   "footer.aria.backToTop": "Terug na bo",
   "footer.tagline": "Ononderbroke UTXO-infrastruktuur. Ontwerp en geskaal deur 'n gedesentraliseerde, oopbron-gemeenskap sedert 2014.",
   "footer.protocol.heading": "Protokol",

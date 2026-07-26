@@ -158,6 +158,7 @@
 				<li><a href="#predictable-issuance" data-i18n="nav.dgb">DGB</a></li>
 				<li><a href="#digiassets" data-i18n="nav.digiassets">DigiAssets</a></li>
 				<li><a href="#digi-id" data-i18n="nav.digiId">Digi-ID</a></li>
+				<li><a href="#digidollar" data-i18n="nav.digidollar">DigiDollar</a></li>
 				<li><a href="#devhub" data-i18n="nav.developers">Kehittäjille</a></li>
 				<li><a href="#downloads" data-i18n="nav.download">Lataa</a></li>
 				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
@@ -231,13 +232,14 @@
 		<div class="hero__content">
 			<div class="hero__chips">
 				<span class="chip chip--live">Live · Block <span data-block-height class="is-loading">—</span></span>
+				<a class="chip chip--live chip--link" href="#digidollar" data-i18n="hero.chip.digidollar" data-i18n-attr="aria-label:hero.chip.digidollar.aria" aria-label="DigiDollar is live on the DigiByte mainnet">DigiDollar · Live on mainnet</a>
 				<a class="chip chip--violet chip--link" href="https://github.com/DigiByte-Core/DigiByte.org/blob/main/LICENSE" target="_blank" rel="noopener" data-i18n="hero.chip.openSource" data-i18n-attr="aria-label:hero.chip.openSource.aria" aria-label="Released under the MIT license (opens in new tab)">Avoin lähdekoodi · MIT</a>
 				<span class="chip" data-i18n="hero.chip.since">Vuodesta 2014</span>
 			</div>
 			<h1 id="hero-title" class="hero__title">
 				<span class="accent" data-i18n="hero.title">Suunniteltu yhtäjaksoiseen toimintaan.</span>
 			</h1>
-			<p class="hero__lead" data-i18n="hero.lead">DigiByte on erittäin turvallinen, monialgoritminen UTXO-lohkoketju, joka on rakennettu skaalattavaksi. 15 sekunnin lohkoajalla ja kahdentoista vuoden katkeamattomalla käyttöajalla verkko tarjoaa kentällä testatun perustan DGB:lle, DigiAssetsille, hajautetulle Digi-ID-tunnistautumiselle ja — aivan pian — DigiDollarille.</p>
+			<p class="hero__lead" data-i18n="hero.lead">DigiByte is a highly secure, multi-algorithm UTXO blockchain built for scale. Operating with 15-second block times and a twelve-year history of uninterrupted uptime, the network provides a battle-tested foundation for DGB, DigiAssets, decentralized Digi-ID authentication, and DigiDollar — its native, non-custodial stablecoin, now live on mainnet.</p>
 			<div class="hero__ctas">
 				<a class="btn btn--primary btn--lg" href="#downloads">
 					<i class="fas fa-rocket"></i> <span data-i18n="hero.cta.get">Hanki DigiByte</span>
@@ -380,6 +382,16 @@
 				<span class="stat__value year-diff">&mdash;</span>
 				<span class="stat__delta" data-i18n="chain.years.delta">Tammikuusta 2014</span>
 			</div>
+			<div class="stat" data-reveal data-reveal-delay="480">
+				<span class="stat__label" data-i18n="chain.digidollarSupply.label">DigiDollar supply</span>
+				<span class="stat__value is-loading" data-stat="digidollar-supply">&mdash;</span>
+				<span class="stat__delta" data-i18n="chain.digidollarSupply.delta">USD-pegged · non-custodial</span>
+			</div>
+			<div class="stat" data-reveal data-reveal-delay="560">
+				<span class="stat__label" data-i18n="chain.digidollarActivated.label">DigiDollar activated</span>
+				<span class="stat__value size-fs-5">Block 23,869,440</span>
+				<span class="stat__delta" data-i18n="chain.digidollarActivated.delta">17 Jul 2026 · BIP9 → BIP90</span>
+			</div>
 		</div>
 	</div>
 </section>
@@ -497,6 +509,62 @@
 					<details>
 						<summary data-i18n="digiId.faq3.q">Miten integroin sen?</summary>
 						<p data-i18n="digiId.faq3.a">Kehittäjät voivat käyttää drop-in-kirjastojamme Node.js:lle, PHP:lle, Pythonille ja Golle, tai asentaa natiivin WordPress-lisäosan. Täydelliset resurssit löytyvät alla olevasta kehittäjähubista.</p>
+					</details>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- DIGIDOLLAR =============================================== -->
+<section id="digidollar" class="s-digidollar bg-grid" aria-labelledby="digidollar-title">
+	<div class="row">
+		<div class="s-digidollar__layout">
+			<div class="s-digidollar__visual" data-reveal>
+				<div class="hero__art-ring hero__art-ring--2"></div>
+				<div class="hero__art-ring"></div>
+				<div class="hero__art-coin">
+					<img src="../images/digidollar/digidollar-logo-256.png"
+						srcset="../images/digidollar/digidollar-logo-128.png 128w, ../images/digidollar/digidollar-logo-192.png 192w, ../images/digidollar/digidollar-logo-256.png 256w"
+						sizes="(max-width: 720px) 192px, 256px"
+						alt="DigiDollar logo" width="256" height="256" class="coin-glow-soft"
+						data-i18n-attr="alt:digidollar.imageAlt"
+						loading="lazy" decoding="async">
+				</div>
+				<div class="s-digidollar__chip">
+					<span class="chip chip--live" data-i18n="digidollar.chip">Live · Block 23,869,440 · 17 Jul 2026</span>
+				</div>
+			</div>
+
+			<div data-reveal data-reveal-delay="80">
+				<span class="eyebrow" data-i18n="digidollar.eyebrow">DigiDollar</span>
+				<h2 id="digidollar-title" data-i18n="digidollar.title">The native, non-custodial stablecoin of DigiByte.</h2>
+				<p class="lead" data-i18n="digidollar.lead">DigiDollar generates USD-pegged liquidity directly on the DigiByte mainnet by locking DGB in on-chain reserves. There is no issuer, no custodian and no admin key — only the same proof-of-work network that has secured DGB since 2014.</p>
+				<ul class="stack mt-5">
+					<li class="cluster"><i class="fas fa-lock text-cyan"></i><span data-i18n="digidollar.benefit1">Fully non-custodial: users lock DGB, users hold DigiDollar. No third party ever takes custody.</span></li>
+					<li class="cluster"><i class="fas fa-scale-balanced text-cyan"></i><span data-i18n="digidollar.benefit2">A MuSig2 Schnorr oracle roster publishes the USD price feed with aggregated, tamper-evident signatures.</span></li>
+					<li class="cluster"><i class="fas fa-flag-checkered text-cyan"></i><span data-i18n="digidollar.benefit3">Activated via BIP9 miner signaling on 17 Jul 2026 and buried in Core v9.26.5 via BIP90 for deterministic validation.</span></li>
+					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span data-i18n="digidollar.benefit4">Settles at the native 15-second block time — mint, transfer and redeem confirm in seconds.</span></li>
+					<li class="cluster"><i class="fas fa-server text-cyan"></i><span data-i18n="digidollar.benefit5">Runs on pruned nodes since Core v9.26.4 — full validation in a few gigabytes instead of the full ~40 GB chain.</span></li>
+					<li class="cluster"><i class="fas fa-code-branch text-cyan"></i><span data-i18n="digidollar.benefit6">100% open source. No admin keys, no mint switch, no pause button.</span></li>
+				</ul>
+				<div class="cluster mt-6">
+					<a class="btn btn--primary" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="digidollar.cta.explore">Explore DigiDollar</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digidollar.cta.releaseNotes">Read the v9.26.5 release notes</span></a>
+				</div>
+
+				<div class="accordion mt-7">
+					<details>
+						<summary data-i18n="digidollar.faq1.q">How is DigiDollar different from USDT or USDC?</summary>
+						<p data-i18n="digidollar.faq1.a">USDT and USDC are IOUs issued by a centralized company that holds off-chain reserves. DigiDollar has no issuer and no custodian. Every unit is backed by DGB time-locked directly on the DigiByte blockchain, and mint/redeem is enforced by consensus rules — not by a company's promise.</p>
+					</details>
+					<details>
+						<summary data-i18n="digidollar.faq2.q">What backs the peg and how is the USD price fed on-chain?</summary>
+						<p data-i18n="digidollar.faq2.a">Each DigiDollar is backed by time-locked DGB collateral held in on-chain reserves. The USD/DGB price is delivered by a MuSig2 Schnorr oracle roster: multiple independent oracles co-sign each update with a single aggregated Schnorr signature, so the network validates the feed cryptographically without trusting any single publisher.</p>
+					</details>
+					<details>
+						<summary data-i18n="digidollar.faq3.q">How do I mint or redeem DigiDollar?</summary>
+						<p data-i18n="digidollar.faq3.a">Mint by locking DGB into a DigiDollar reserve output using a DigiDollar-aware wallet or DigiByte Core v9.26.4+. Redeem by burning DigiDollar to unlock the underlying DGB. All operations settle in the next 15-second block — no bridges, no wrappers, no off-chain intermediaries.</p>
 					</details>
 				</div>
 			</div>
@@ -701,7 +769,7 @@ while True:
 						<span class="roadmap__year">2026</span>
 						<h3 class="roadmap__title"><span data-i18n="roadmap.digidollar.title">DigiDollar</span> <span class="chip chip--live" data-i18n="roadmap.digidollar.live">Live on mainnet</span></h3>
 						<p data-i18n="roadmap.digidollar.body">Täysin ei-säilyttäjäpohjainen stablecoin, joka tuottaa USD-sidottua likviditeettiä aikalukittujen DGB-reservien kautta.</p>
-						<a class="btn btn--primary btn--sm mt-3" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="roadmap.digidollar.cta">Tutustu DigiDollariin</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+						<a class="btn btn--primary btn--sm mt-3" href="#digidollar"><span data-i18n="roadmap.digidollar.cta">Tutustu DigiDollariin</span> <i class="fas fa-arrow-down"></i></a>
 					</li>
 				</ol>
 

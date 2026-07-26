@@ -720,6 +720,73 @@
 	.s-digiid__visual { display: none; }
 }
 
+/* DigiDollar ------------------------------------------------------------ */
+/* Reuses the hero coin-art primitives (.hero__art-coin, .hero__art-ring)
+   so the visual matches the hero DGB coin while presenting the DigiDollar
+   logo, chip and copy in the two-column Digi-ID layout. */
+.s-digidollar {
+	background:
+		radial-gradient(ellipse at 85% 20%, rgba(0, 229, 255, 0.10), transparent 55%),
+		radial-gradient(ellipse at 15% 80%, rgba(20, 80, 255, 0.10), transparent 55%),
+		linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0));
+	border-block: 1px solid var(--glass-border);
+}
+.s-digidollar__layout {
+	display: grid;
+	gap: var(--s-7);
+	grid-template-columns: minmax(0, 1fr);
+	align-items: center;
+}
+@media (min-width: 1024px) { .s-digidollar__layout { grid-template-columns: 1fr 1fr; } }
+
+/* Coin-art container matches .hero__art so .hero__art-coin/.hero__art-ring
+   inherit the same absolute positioning + aspect ratio. */
+.s-digidollar__visual {
+	position: relative;
+	aspect-ratio: 1;
+	max-width: 420px;
+	margin-inline: auto;
+	width: 100%;
+}
+/* The source PNG (from the wallet repo) has an opaque black square baked
+   around the circular coin. Clip to a circle so the black corners drop out
+   against any background. The DigiDollar mark is a perfect circle inscribed
+   in the square, so 50% is exact. */
+.s-digidollar__visual .hero__art-coin img {
+	clip-path: circle(50%);
+	background: transparent;
+}
+.s-digidollar__chip {
+	position: absolute;
+	inset-block-end: 0;
+	inset-inline: 0;
+	display: flex;
+	justify-content: center;
+	pointer-events: none;
+}
+.s-digidollar__chip .chip { pointer-events: auto; }
+
+/* Benefit list rows: same fixed-icon column rule as Digi-ID so long items
+   don't push the icon to a new row on narrow viewports. */
+.s-digidollar ul.stack > li.cluster {
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+.s-digidollar ul.stack > li.cluster > i {
+	flex: 0 0 auto;
+	padding-block-start: 0.25em;
+}
+.s-digidollar ul.stack > li.cluster > span {
+	flex: 1 1 0;
+	min-width: 0;
+}
+
+/* On mobile, shrink the coin visual instead of hiding it — the DigiDollar
+   logo is the section's focal point. */
+@media (max-width: 767px) {
+	.s-digidollar__visual { max-width: 260px; }
+}
+
 /* Developer hub --------------------------------------------------------- */
 .s-devhub {
 	background:
