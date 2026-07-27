@@ -34,3 +34,4 @@ The script:
 3. After the homepage source changes again, the sync script will overwrite
    your translation. Until we move to a Jekyll-includes/data-driven setup,
    translators should re-apply changes after each sync — keep diffs small.
+

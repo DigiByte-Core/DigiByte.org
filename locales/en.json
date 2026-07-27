@@ -83,10 +83,6 @@
   "chain.version.delta": "Latest release",
   "chain.years.label": "Years online",
   "chain.years.delta": "Since Jan 2014",
-  "chain.digidollarSupply.label": "DigiDollar supply",
-  "chain.digidollarSupply.delta": "USD-pegged · non-custodial",
-  "chain.digidollarActivated.label": "DigiDollar activated",
-  "chain.digidollarActivated.delta": "17 Jul 2026 · BIP9 → BIP90",
 
   "tokenomics.predictableIssuance": "Predictable issuance",
   "tokenomics.title": "DigiByte: Sound money for a faster web.",
