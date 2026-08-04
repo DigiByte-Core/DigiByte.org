@@ -14,7 +14,18 @@ export async function init() {
 		const date = j.published_at ? new Date(j.published_at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : '';
 		const url = j.html_url || 'https://github.com/DigiByte-Core/digibyte/releases';
 		const body = (j.body || '').slice(0, 1500);
-		const assetCount = (j.assets || []).length;
+		const assets = Array.isArray(j.assets) ? j.assets : [];
+		const assetCount = assets.length;
+		// Sum the real per-asset download counters the API returns; the previous
+		// "N downloads" chip was actually just assets.length, which reviewers
+		// (rightly) read as "5 files to download" instead of an install count.
+		const totalDownloads = assets.reduce((n, a) => n + (a && typeof a.download_count === 'number' ? a.download_count : 0), 0);
+		const downloadsLabel = totalDownloads > 0
+			? `${totalDownloads.toLocaleString()} downloads`
+			: `${assetCount} ${assetCount === 1 ? 'binary' : 'binaries'}`;
+		const downloadsTitle = totalDownloads > 0
+			? `Aggregate downloads across ${assetCount} ${assetCount === 1 ? 'binary' : 'binaries'}`
+			: 'Prebuilt binaries attached to this release';
 
 		host.innerHTML = `
 			<div class="release-card__head">
@@ -29,7 +40,7 @@ export async function init() {
 			</details>
 			<div class="cluster">
 				<a class="btn btn--primary btn--sm" href="${escapeAttr(url)}" target="_blank" rel="noopener">View on GitHub →</a>
-				<span class="chip">${assetCount} downloads</span>
+				<span class="chip" title="${escapeAttr(downloadsTitle)}">${escapeHTML(downloadsLabel)}</span>
 			</div>
 		`;
 		host.classList.remove('is-loading');
