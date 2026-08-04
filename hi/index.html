@@ -8,6 +8,9 @@
 	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
 	<meta name="theme-color" content="#05070d">
 	<meta name="color-scheme" content="dark">
+	<!-- Content-Security-Policy: static site + first-party assets. Third-party allowlist covers GA (deferred) and the live-chain / price / release / geo APIs used by /js/*.js. -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; manifest-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://digiexplorer.info https://api.coinpaprika.com https://api.github.com https://ipinfo.io https://www.google-analytics.com https://region1.google-analytics.com; upgrade-insecure-requests">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
 	<link rel="canonical" href="https://digibyte.org/hi/">
 	<link rel="manifest" href="../manifest.json">
 
@@ -69,17 +72,13 @@
 	<meta name="twitter:description" content="सबसे लंबे समय से चलने वाला, सबसे तेज़ और सबसे विकेन्द्रीकृत UTXO ब्लॉकचेन। DGB पर निर्माण करें, लेन-देन करें और प्रमाणीकरण करें।" data-i18n-attr="content:meta.twitter.description">
 	<meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png">
 
-	<!-- Fonts (non-blocking) -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
+	<!-- Self-hosted fonts (no third-party requests) -->
+	<link rel="stylesheet" href="../css/fonts.css" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="../css/fonts.css"></noscript>
 
-	<!-- Icons (Font Awesome, non-blocking) -->
-	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
-	<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></noscript>
+	<!-- Self-hosted Font Awesome -->
+	<link rel="stylesheet" href="../css/font-awesome/css/all.min.css" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="../css/font-awesome/css/all.min.css"></noscript>
 
 	<!-- Design system -->
 	<link rel="stylesheet" href="../css/tokens.css">
@@ -237,7 +236,7 @@
 				<span class="chip" data-i18n="hero.chip.since">2014 से</span>
 			</div>
 			<h1 id="hero-title" class="hero__title">
-				<span class="accent" data-i18n="hero.title">निरंतर संचालन के लिए डिज़ाइन किया गया।</span>
+				<span class="accent" data-i18n="hero.title">Fifteen seconds. Five algorithms. Running uninterrupted since 2014.</span>
 			</h1>
 			<p class="hero__lead" data-i18n="hero.lead">DigiByte is a highly secure, multi-algorithm UTXO blockchain built for scale. Operating with 15-second block times and a twelve-year history of uninterrupted uptime, the network provides a battle-tested foundation for DGB, DigiAssets, decentralized Digi-ID authentication, and DigiDollar — its native, non-custodial stablecoin, now live on mainnet.</p>
 			<div class="hero__ctas">
@@ -310,7 +309,7 @@
 				<div class="feature-row__body">
 					<span class="eyebrow" data-i18n="features.consensus.eyebrow">सहमति</span>
 					<h3 data-i18n="features.consensus.title">पांच माइनिंग एल्गोरिदम समानांतर में।</h3>
-					<p data-i18n="features.consensus.body">DigiByte पांच स्वतंत्र प्रूफ-ऑफ-वर्क एल्गोरिदम के माध्यम से ब्लॉकों को सुरक्षित करता है — <strong>SHA-256d</strong>, <strong>Scrypt</strong>, <strong>Skein</strong>, <strong>Qubit</strong> और <strong>Odocrypt</strong>। प्रत्येक एक अलग माइनिंग इकोसिस्टम (CPU, GPU, FPGA, ASIC) को लक्षित करता है और Odocrypt ASIC प्रभुत्व को रोकने के लिए हर 10 दिनों में स्वयं को फिर से यादृच्छिक करता है। चेन पर हमला करने का मतलब है पांच एल्गोरिदम पर एक साथ हमला करना।</p>
+					<p data-i18n="features.consensus.body">DigiByte secures blocks through five independent proof-of-work algorithms — <strong>SHA-256d</strong>, <strong>Scrypt</strong>, <strong>Skein</strong>, <strong>Qubit</strong> and <strong>Odocrypt</strong>. Each targets a different class of specialized mining hardware, and Odocrypt re-randomizes itself every 10 days to keep ASIC dominance off the table. Attacking the chain means attacking five algorithms at once.</p>
 				</div>
 			</article>
 
@@ -774,7 +773,7 @@ while True:
 					</li>
 					<li class="roadmap__item">
 						<span class="roadmap__year">2025</span>
-						<h3 class="roadmap__title" data-i18n="roadmap.core.title">Core v9.26.5</h3>
+						<h3 class="roadmap__title" data-i18n="roadmap.core.title">Core v8.26.2</h3>
 						<p data-i18n="roadmap.core.body">Bitcoin Core 26 फ्रेमवर्क पर निर्मित आधुनिक नोड बुनियादी ढांचा।</p>
 						<ul class="roadmap__bullets">
 							<li data-i18n="roadmap.core.taproot.bip340">BIP340 — Schnorr signatures</li>

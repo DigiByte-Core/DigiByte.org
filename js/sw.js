@@ -1,5 +1,5 @@
 /* DigiByte Service Worker — v2026.06 (futuristic redesign) */
-const CACHE = 'dgb-v2026-06-16';
+const CACHE = 'dgb-v2026-06-17';
 const PRECACHE = [
 	'/',
 	'/index.html',
@@ -9,6 +9,8 @@ const PRECACHE = [
 	'/css/components.css',
 	'/css/sections.css',
 	'/css/utilities.css',
+	'/css/fonts.css',
+	'/css/font-awesome/css/all.min.css',
 	'/js/app.js',
 	'/js/hero-network.js',
 	'/js/tokenomics-chart.js',
