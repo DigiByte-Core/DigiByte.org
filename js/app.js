@@ -251,7 +251,8 @@ function initScrollTop() {
 		btn.className = 'scroll-top';
 		btn.type = 'button';
 		btn.setAttribute('aria-label', 'Back to top');
-		btn.innerHTML = '<i class="fa-solid fa-arrow-up" aria-hidden="true"></i>';
+		// This site vendors Font Awesome 5 Pro; `fa-solid` is FA6 syntax and won't set the font-family.
+		btn.innerHTML = '<i class="fas fa-arrow-up" aria-hidden="true"></i>';
 		document.body.appendChild(btn);
 	}
 	const onScroll = () => btn.classList.toggle('is-visible', window.scrollY > 600);
