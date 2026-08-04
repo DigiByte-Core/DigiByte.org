@@ -748,13 +748,25 @@
 	margin-inline: auto;
 	width: 100%;
 }
-/* The source PNG (from the wallet repo) has an opaque black square baked
-   around the circular coin. Clip to a circle so the black corners drop out
-   against any background. The DigiDollar mark is a perfect circle inscribed
-   in the square, so 50% is exact. */
+/* Two full-badge SVGs stack in the same grid cell so the green variant can
+   cross-fade in on hover/focus. The SVGs are transparent outside the badge
+   circle, so no clip is needed. */
+.s-digidollar__visual .hero__art-coin { position: relative; }
 .s-digidollar__visual .hero__art-coin img {
-	clip-path: circle(50%);
+	grid-area: 1 / 1;
 	background: transparent;
+	transition: opacity 240ms var(--ease-in-out, ease-in-out);
+}
+.s-digidollar__logo--hover {
+	opacity: 0;
+	filter: drop-shadow(0 0 32px rgba(46, 204, 113, 0.45));
+}
+.s-digidollar__visual:hover .s-digidollar__logo--base,
+.s-digidollar__visual:focus-within .s-digidollar__logo--base { opacity: 0; }
+.s-digidollar__visual:hover .s-digidollar__logo--hover,
+.s-digidollar__visual:focus-within .s-digidollar__logo--hover { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+	.s-digidollar__visual .hero__art-coin img { transition: none; }
 }
 .s-digidollar__chip {
 	position: absolute;
