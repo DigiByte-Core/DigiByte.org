@@ -282,5 +282,9 @@
   "partner.form.consent": "Duke dërguar, ju pranoni që mesazhi juaj të përcillet te një anëtar i komunitetit DigiByte nëpërmjet përpunuesit tonë të formularëve. Shihni <a href=\"/privacy-app.html\">njoftimin e privatësisë</a> për detaje.",
   "partner.form.submit": "Dërgo mesazhin",
   "partner.form.noscript": "Ky formular kërkon JavaScript. Kontaktoni komunitetin DigiByte përmes forumit <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Bashkëpuno &amp; integro"
+  "footer.build.partner": "Bashkëpuno &amp; integro",
+  "downloads.docs.digidollarWhitepaper.title": "Letra e bardhë DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · gusht 2026 · themeli teknik",
+  "digidollar.cta.whitepaper": "Lexo letrën e bardhë",
+  "footer.resources.digidollarWhitepaper": "Letra e bardhë DigiDollar"
 }

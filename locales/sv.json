@@ -282,5 +282,9 @@
   "partner.form.consent": "Genom att skicka godkänner du att ditt meddelande vidarebefordras till en medlem av DigiByte-communityn via vår formulärhanterare. Se <a href=\"/privacy-app.html\">integritetsmeddelandet</a> för detaljer.",
   "partner.form.submit": "Skicka meddelande",
   "partner.form.noscript": "Detta formulär kräver JavaScript. Kontakta DigiByte-communityn via <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>-forumet.",
-  "footer.build.partner": "Samarbeta &amp; integrera"
+  "footer.build.partner": "Samarbeta &amp; integrera",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar-whitepaper",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · aug 2026 · teknisk grund",
+  "digidollar.cta.whitepaper": "Läs whitepaperet",
+  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper"
 }

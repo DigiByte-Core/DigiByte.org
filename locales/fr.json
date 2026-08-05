@@ -282,5 +282,9 @@
   "partner.form.consent": "En envoyant, vous acceptez que votre message soit transmis à un membre de la communauté DigiByte via notre processeur de formulaires. Voir l'<a href=\"/privacy-app.html\">avis de confidentialité</a> pour plus de détails.",
   "partner.form.submit": "Envoyer le message",
   "partner.form.noscript": "Ce formulaire nécessite JavaScript. Merci de contacter la communauté DigiByte via le forum <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Collaborer &amp; intégrer"
+  "footer.build.partner": "Collaborer &amp; intégrer",
+  "downloads.docs.digidollarWhitepaper.title": "Livre blanc DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · août 2026 · fondation technique",
+  "digidollar.cta.whitepaper": "Lire le livre blanc",
+  "footer.resources.digidollarWhitepaper": "Livre blanc DigiDollar"
 }

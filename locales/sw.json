@@ -282,5 +282,9 @@
   "partner.form.consent": "Kwa kutuma, unakubali ujumbe wako uwasilishwe kwa mwanajumuiya wa DigiByte kupitia kichakataji chetu cha fomu. Angalia <a href=\"/privacy-app.html\">taarifa ya faragha</a> kwa maelezo.",
   "partner.form.submit": "Tuma ujumbe",
   "partner.form.noscript": "Fomu hii inahitaji JavaScript. Tafadhali wasiliana na jumuiya ya DigiByte kupitia jukwaa la <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Shirikiana &amp; unganisha"
+  "footer.build.partner": "Shirikiana &amp; unganisha",
+  "downloads.docs.digidollarWhitepaper.title": "Karatasi nyeupe ya DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Ago 2026 · msingi wa kiufundi",
+  "digidollar.cta.whitepaper": "Soma karatasi nyeupe",
+  "footer.resources.digidollarWhitepaper": "Karatasi nyeupe ya DigiDollar"
 }

@@ -282,5 +282,9 @@
   "partner.form.consent": "Odesláním souhlasíte s tím, že vaše zpráva bude prostřednictvím našeho zpracovatele formulářů předána členovi komunity DigiByte. Podrobnosti viz <a href=\"/privacy-app.html\">oznámení o ochraně soukromí</a>.",
   "partner.form.submit": "Odeslat zprávu",
   "partner.form.noscript": "Tento formulář vyžaduje JavaScript. Kontaktujte prosím komunitu DigiByte prostřednictvím fóra <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Spolupracujte &amp; integrujte"
+  "footer.build.partner": "Spolupracujte &amp; integrujte",
+  "downloads.docs.digidollarWhitepaper.title": "Bílá kniha DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · srpen 2026 · technický základ",
+  "digidollar.cta.whitepaper": "Přečíst bílou knihu",
+  "footer.resources.digidollarWhitepaper": "Bílá kniha DigiDollar"
 }

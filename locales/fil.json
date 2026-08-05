@@ -282,5 +282,9 @@
   "partner.form.consent": "Sa pagsusumite, sumasang-ayon kang ipapadala ang iyong mensahe sa isang miyembro ng komunidad ng DigiByte sa pamamagitan ng aming form processor. Tingnan ang <a href=\"/privacy-app.html\">paunawa sa privacy</a> para sa mga detalye.",
   "partner.form.submit": "Ipadala ang mensahe",
   "partner.form.noscript": "Nangangailangan ng JavaScript ang form na ito. Mangyaring makipag-ugnayan sa komunidad ng DigiByte sa pamamagitan ng <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> forum.",
-  "footer.build.partner": "Makipagtulungan at mag-integrate"
+  "footer.build.partner": "Makipagtulungan at mag-integrate",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar white paper",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Ago 2026 · teknikal na pundasyon",
+  "digidollar.cta.whitepaper": "Basahin ang white paper",
+  "footer.resources.digidollarWhitepaper": "DigiDollar white paper"
 }

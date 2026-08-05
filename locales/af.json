@@ -282,5 +282,9 @@
   "partner.form.consent": "Deur in te dien, stem jy in dat jou boodskap aan 'n DigiByte-gemeenskapslid via ons vormverwerker gestuur word. Sien die <a href=\"/privacy-app.html\">privaatheidskennisgewing</a> vir besonderhede.",
   "partner.form.submit": "Stuur boodskap",
   "partner.form.noscript": "Hierdie vorm benodig JavaScript. Kontak asseblief die DigiByte-gemeenskap deur die <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>-forum.",
-  "footer.build.partner": "Werk saam &amp; integreer"
+  "footer.build.partner": "Werk saam &amp; integreer",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar-witpaper",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Aug 2026 · tegniese fondament",
+  "digidollar.cta.whitepaper": "Lees die witpaper",
+  "footer.resources.digidollarWhitepaper": "DigiDollar-witpaper"
 }

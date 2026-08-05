@@ -282,5 +282,9 @@
   "partner.form.consent": "Dengan mengirimkan, Anda setuju pesan Anda diteruskan ke anggota komunitas DigiByte melalui pemroses formulir kami. Lihat <a href=\"/privacy-app.html\">pemberitahuan privasi</a> untuk detail.",
   "partner.form.submit": "Kirim pesan",
   "partner.form.noscript": "Formulir ini memerlukan JavaScript. Silakan hubungi komunitas DigiByte melalui forum <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Kolaborasi &amp; integrasi"
+  "footer.build.partner": "Kolaborasi &amp; integrasi",
+  "downloads.docs.digidollarWhitepaper.title": "White paper DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Agu 2026 · fondasi teknis",
+  "digidollar.cta.whitepaper": "Baca white paper",
+  "footer.resources.digidollarWhitepaper": "White paper DigiDollar"
 }

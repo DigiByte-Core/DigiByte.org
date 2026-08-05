@@ -282,5 +282,9 @@
   "partner.form.consent": "Με την υποβολή συμφωνείτε ότι το μήνυμά σας θα προωθηθεί σε μέλος της κοινότητας DigiByte μέσω του επεξεργαστή φορμών μας. Δείτε την <a href=\"/privacy-app.html\">ειδοποίηση απορρήτου</a> για λεπτομέρειες.",
   "partner.form.submit": "Αποστολή μηνύματος",
   "partner.form.noscript": "Αυτή η φόρμα απαιτεί JavaScript. Επικοινωνήστε με την κοινότητα DigiByte μέσω του φόρουμ <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Συνεργασία &amp; ενσωμάτωση"
+  "footer.build.partner": "Συνεργασία &amp; ενσωμάτωση",
+  "downloads.docs.digidollarWhitepaper.title": "Λευκή βίβλος DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Αύγ. 2026 · τεχνική βάση",
+  "digidollar.cta.whitepaper": "Διάβασε τη λευκή βίβλο",
+  "footer.resources.digidollarWhitepaper": "Λευκή βίβλος DigiDollar"
 }

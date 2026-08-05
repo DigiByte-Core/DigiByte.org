@@ -282,5 +282,9 @@
   "partner.form.consent": "A beküldéssel elfogadja, hogy üzenetét űrlapfeldolgozónkon keresztül továbbítjuk a DigiByte közösség egy tagjának. Részletek az <a href=\"/privacy-app.html\">adatvédelmi tájékoztatóban</a>.",
   "partner.form.submit": "Üzenet küldése",
   "partner.form.noscript": "Ez az űrlap JavaScriptet igényel. Kérjük, vegye fel a kapcsolatot a DigiByte közösséggel a <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> fórumon.",
-  "footer.build.partner": "Együttműködés &amp; integráció"
+  "footer.build.partner": "Együttműködés &amp; integráció",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar fehérkönyv",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · 2026. aug. · technikai alap",
+  "digidollar.cta.whitepaper": "Fehérkönyv olvasása",
+  "footer.resources.digidollarWhitepaper": "DigiDollar fehérkönyv"
 }

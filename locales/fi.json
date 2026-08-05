@@ -282,5 +282,9 @@
   "partner.form.consent": "Lähettämällä hyväksyt, että viestisi välitetään DigiByte-yhteisön jäsenelle lomakekäsittelijämme kautta. Katso lisätiedot <a href=\"/privacy-app.html\">tietosuojailmoituksesta</a>.",
   "partner.form.submit": "Lähetä viesti",
   "partner.form.noscript": "Tämä lomake vaatii JavaScriptin. Ota yhteyttä DigiByte-yhteisöön <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> -foorumin kautta.",
-  "footer.build.partner": "Yhteistyö &amp; integraatio"
+  "footer.build.partner": "Yhteistyö &amp; integraatio",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar-whitepaper",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · elo 2026 · tekninen perusta",
+  "digidollar.cta.whitepaper": "Lue whitepaper",
+  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper"
 }

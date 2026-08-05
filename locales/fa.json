@@ -282,5 +282,9 @@
   "partner.form.consent": "با ارسال، شما موافقت می‌کنید که پیام شما از طریق پردازشگر فرم ما به یکی از اعضای جامعه DigiByte ارسال شود. جزئیات در <a href=\"/privacy-app.html\">اعلامیه حریم خصوصی</a>.",
   "partner.form.submit": "ارسال پیام",
   "partner.form.noscript": "این فرم به JavaScript نیاز دارد. لطفاً از طریق انجمن <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> با جامعه DigiByte در تماس باشید.",
-  "footer.build.partner": "همکاری و یکپارچه‌سازی"
+  "footer.build.partner": "همکاری و یکپارچه‌سازی",
+  "downloads.docs.digidollarWhitepaper.title": "وایت‌پیپر DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · مرداد ۱۴۰۵ · مبانی فنی",
+  "digidollar.cta.whitepaper": "وایت‌پیپر را بخوانید",
+  "footer.resources.digidollarWhitepaper": "وایت‌پیپر DigiDollar"
 }

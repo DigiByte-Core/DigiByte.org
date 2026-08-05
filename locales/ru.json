@@ -282,5 +282,9 @@
   "partner.form.consent": "Отправляя форму, вы соглашаетесь на пересылку вашего сообщения участнику сообщества DigiByte через наш обработчик форм. Подробности см. в <a href=\"/privacy-app.html\">уведомлении о конфиденциальности</a>.",
   "partner.form.submit": "Отправить сообщение",
   "partner.form.noscript": "Эта форма требует JavaScript. Свяжитесь с сообществом DigiByte через форум <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Сотрудничество и интеграция"
+  "footer.build.partner": "Сотрудничество и интеграция",
+  "downloads.docs.digidollarWhitepaper.title": "Уайтпейпер DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · авг. 2026 · техническая основа",
+  "digidollar.cta.whitepaper": "Читать уайтпейпер",
+  "footer.resources.digidollarWhitepaper": "Уайтпейпер DigiDollar"
 }

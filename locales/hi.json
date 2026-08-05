@@ -282,5 +282,9 @@
   "partner.form.consent": "सबमिट करके, आप सहमत हैं कि आपका संदेश हमारे फ़ॉर्म प्रोसेसर के माध्यम से DigiByte समुदाय के एक सदस्य को अग्रेषित किया जाएगा। विवरण के लिए <a href=\"/privacy-app.html\">गोपनीयता नोटिस</a> देखें।",
   "partner.form.submit": "संदेश भेजें",
   "partner.form.noscript": "इस फ़ॉर्म को JavaScript की आवश्यकता है। कृपया <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> फ़ोरम के माध्यम से DigiByte समुदाय से संपर्क करें।",
-  "footer.build.partner": "सहयोग करें और एकीकृत करें"
+  "footer.build.partner": "सहयोग करें और एकीकृत करें",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar श्वेतपत्र",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · अग. 2026 · तकनीकी आधार",
+  "digidollar.cta.whitepaper": "श्वेतपत्र पढ़ें",
+  "footer.resources.digidollarWhitepaper": "DigiDollar श्वेतपत्र"
 }

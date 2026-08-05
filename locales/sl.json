@@ -282,5 +282,9 @@
   "partner.form.consent": "S pošiljanjem se strinjate, da bo vaše sporočilo posredovano članu skupnosti DigiByte prek našega obdelovalnika obrazcev. Podrobnosti v <a href=\"/privacy-app.html\">obvestilu o zasebnosti</a>.",
   "partner.form.submit": "Pošlji sporočilo",
   "partner.form.noscript": "Ta obrazec zahteva JavaScript. Prosimo, obrnite se na skupnost DigiByte prek foruma <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Sodeluj &amp; integriraj"
+  "footer.build.partner": "Sodeluj &amp; integriraj",
+  "downloads.docs.digidollarWhitepaper.title": "Bela knjiga DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · avg. 2026 · tehnične osnove",
+  "digidollar.cta.whitepaper": "Preberi belo knjigo",
+  "footer.resources.digidollarWhitepaper": "Bela knjiga DigiDollar"
 }

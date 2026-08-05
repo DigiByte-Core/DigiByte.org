@@ -282,5 +282,9 @@
   "partner.form.consent": "提交即表示您同意通过我们的表单处理服务将您的消息转发给 DigiByte 社区成员。详情请见<a href=\"/privacy-app.html\">隐私声明</a>。",
   "partner.form.submit": "发送消息",
   "partner.form.noscript": "此表单需要 JavaScript。请通过 <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> 论坛联系 DigiByte 社区。",
-  "footer.build.partner": "合作 &amp; 集成"
+  "footer.build.partner": "合作 &amp; 集成",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar 白皮书",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · 2026 年 8 月 · 技术基础",
+  "digidollar.cta.whitepaper": "阅读白皮书",
+  "footer.resources.digidollarWhitepaper": "DigiDollar 白皮书"
 }

@@ -282,5 +282,9 @@
   "partner.form.consent": "Bằng cách gửi, bạn đồng ý rằng tin nhắn của bạn sẽ được chuyển đến một thành viên cộng đồng DigiByte thông qua bộ xử lý biểu mẫu của chúng tôi. Xem <a href=\"/privacy-app.html\">thông báo bảo mật</a> để biết chi tiết.",
   "partner.form.submit": "Gửi tin nhắn",
   "partner.form.noscript": "Biểu mẫu này cần JavaScript. Vui lòng liên hệ cộng đồng DigiByte qua diễn đàn <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Hợp tác &amp; tích hợp"
+  "footer.build.partner": "Hợp tác &amp; tích hợp",
+  "downloads.docs.digidollarWhitepaper.title": "Sách trắng DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Th08 2026 · nền tảng kỹ thuật",
+  "digidollar.cta.whitepaper": "Đọc sách trắng",
+  "footer.resources.digidollarWhitepaper": "Sách trắng DigiDollar"
 }

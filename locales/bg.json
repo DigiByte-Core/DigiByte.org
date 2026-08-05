@@ -282,5 +282,9 @@
   "partner.form.consent": "С изпращането се съгласявате съобщението ви да бъде препратено към член на общността на DigiByte чрез нашия обработчик на формуляри. Вижте <a href=\"/privacy-app.html\">известието за поверителност</a> за подробности.",
   "partner.form.submit": "Изпрати съобщение",
   "partner.form.noscript": "Този формуляр изисква JavaScript. Моля, свържете се с общността на DigiByte чрез форума <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Сътрудничи &amp; интегрирай"
+  "footer.build.partner": "Сътрудничи &amp; интегрирай",
+  "downloads.docs.digidollarWhitepaper.title": "Бяла книга на DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · авг. 2026 · техническа основа",
+  "digidollar.cta.whitepaper": "Прочети бялата книга",
+  "footer.resources.digidollarWhitepaper": "Бяла книга на DigiDollar"
 }

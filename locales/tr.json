@@ -282,5 +282,9 @@
   "partner.form.consent": "Göndererek, mesajınızın form işleyicimiz aracılığıyla bir DigiByte topluluk üyesine iletilmesini kabul edersiniz. Ayrıntılar için <a href=\"/privacy-app.html\">gizlilik bildirimini</a> inceleyin.",
   "partner.form.submit": "Mesaj gönder",
   "partner.form.noscript": "Bu form JavaScript gerektirir. Lütfen DigiByte topluluğuna <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a> forumu üzerinden ulaşın.",
-  "footer.build.partner": "İşbirliği &amp; entegrasyon"
+  "footer.build.partner": "İşbirliği &amp; entegrasyon",
+  "downloads.docs.digidollarWhitepaper.title": "DigiDollar teknik dokümanı",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · Ağu 2026 · teknik temel",
+  "digidollar.cta.whitepaper": "Teknik dokümanı oku",
+  "footer.resources.digidollarWhitepaper": "DigiDollar teknik dokümanı"
 }

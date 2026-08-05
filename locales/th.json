@@ -282,5 +282,9 @@
   "partner.form.consent": "การส่งหมายความว่าคุณยินยอมให้ข้อความของคุณถูกส่งต่อไปยังสมาชิกชุมชน DigiByte ผ่านตัวประมวลผลแบบฟอร์มของเรา ดูรายละเอียดได้ที่<a href=\"/privacy-app.html\">ประกาศความเป็นส่วนตัว</a>",
   "partner.form.submit": "ส่งข้อความ",
   "partner.form.noscript": "แบบฟอร์มนี้ต้องใช้ JavaScript โปรดติดต่อชุมชน DigiByte ผ่านฟอรัม <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>",
-  "footer.build.partner": "ร่วมมือ &amp; เชื่อมต่อ"
+  "footer.build.partner": "ร่วมมือ &amp; เชื่อมต่อ",
+  "downloads.docs.digidollarWhitepaper.title": "เอกสารไวต์เปเปอร์ DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · ส.ค. 2026 · รากฐานทางเทคนิค",
+  "digidollar.cta.whitepaper": "อ่านไวต์เปเปอร์",
+  "footer.resources.digidollarWhitepaper": "เอกสารไวต์เปเปอร์ DigiDollar"
 }

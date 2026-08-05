@@ -282,5 +282,9 @@
   "partner.form.consent": "Prin trimitere, ești de acord ca mesajul tău să fie redirecționat către un membru al comunității DigiByte prin procesorul nostru de formulare. Consultă <a href=\"/privacy-app.html\">nota de confidențialitate</a> pentru detalii.",
   "partner.form.submit": "Trimite mesajul",
   "partner.form.noscript": "Acest formular necesită JavaScript. Contactează comunitatea DigiByte prin forumul <a href=\"https://github.com/orgs/DigiByte-Core/discussions\" target=\"_blank\" rel=\"noopener\">GitHub Discussions</a>.",
-  "footer.build.partner": "Colaborează &amp; integrează"
+  "footer.build.partner": "Colaborează &amp; integrează",
+  "downloads.docs.digidollarWhitepaper.title": "White paper DigiDollar",
+  "downloads.docs.digidollarWhitepaper.meta": "PDF · aug. 2026 · fundament tehnic",
+  "digidollar.cta.whitepaper": "Citește white paper-ul",
+  "footer.resources.digidollarWhitepaper": "White paper DigiDollar"
 }
