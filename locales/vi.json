@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Sách trắng DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Th08 2026 · nền tảng kỹ thuật",
   "digidollar.cta.whitepaper": "Đọc sách trắng",
-  "footer.resources.digidollarWhitepaper": "Sách trắng DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Sách trắng DigiDollar",
+  "chain.cta.explorer": "Khám phá khối trên DigiExplorer",
+  "devhub.link.explorer.title": "Trình khám phá khối",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Trình khám phá khối"
 }

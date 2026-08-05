@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar teknik dokümanı",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Ağu 2026 · teknik temel",
   "digidollar.cta.whitepaper": "Teknik dokümanı oku",
-  "footer.resources.digidollarWhitepaper": "DigiDollar teknik dokümanı"
+  "footer.resources.digidollarWhitepaper": "DigiDollar teknik dokümanı",
+  "chain.cta.explorer": "DigiExplorer'da blokları keşfet",
+  "devhub.link.explorer.title": "Blok gezgini",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Blok gezgini"
 }

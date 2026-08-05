@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "เอกสารไวต์เปเปอร์ DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · ส.ค. 2026 · รากฐานทางเทคนิค",
   "digidollar.cta.whitepaper": "อ่านไวต์เปเปอร์",
-  "footer.resources.digidollarWhitepaper": "เอกสารไวต์เปเปอร์ DigiDollar"
+  "footer.resources.digidollarWhitepaper": "เอกสารไวต์เปเปอร์ DigiDollar",
+  "chain.cta.explorer": "สำรวจบล็อกบน DigiExplorer",
+  "devhub.link.explorer.title": "บล็อกเอกซ์พลอเรอร์",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "บล็อกเอกซ์พลอเรอร์"
 }

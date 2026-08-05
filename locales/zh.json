@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar 白皮书",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · 2026 年 8 月 · 技术基础",
   "digidollar.cta.whitepaper": "阅读白皮书",
-  "footer.resources.digidollarWhitepaper": "DigiDollar 白皮书"
+  "footer.resources.digidollarWhitepaper": "DigiDollar 白皮书",
+  "chain.cta.explorer": "在 DigiExplorer 上浏览区块",
+  "devhub.link.explorer.title": "区块浏览器",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "区块浏览器"
 }

@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Бяла книга на DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · авг. 2026 · техническа основа",
   "digidollar.cta.whitepaper": "Прочети бялата книга",
-  "footer.resources.digidollarWhitepaper": "Бяла книга на DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Бяла книга на DigiDollar",
+  "chain.cta.explorer": "Разгледай блоковете в DigiExplorer",
+  "devhub.link.explorer.title": "Блоков експлорер",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Блоков експлорер"
 }

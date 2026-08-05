@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Letra e bardhë DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · gusht 2026 · themeli teknik",
   "digidollar.cta.whitepaper": "Lexo letrën e bardhë",
-  "footer.resources.digidollarWhitepaper": "Letra e bardhë DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Letra e bardhë DigiDollar",
+  "chain.cta.explorer": "Eksploro blloqet në DigiExplorer",
+  "devhub.link.explorer.title": "Eksplorues blloqesh",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Eksplorues blloqesh"
 }

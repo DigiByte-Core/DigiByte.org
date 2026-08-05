@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "White paper DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · aug. 2026 · fundament tehnic",
   "digidollar.cta.whitepaper": "Citește white paper-ul",
-  "footer.resources.digidollarWhitepaper": "White paper DigiDollar"
+  "footer.resources.digidollarWhitepaper": "White paper DigiDollar",
+  "chain.cta.explorer": "Explorează blocuri pe DigiExplorer",
+  "devhub.link.explorer.title": "Explorator de blocuri",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Explorator de blocuri"
 }

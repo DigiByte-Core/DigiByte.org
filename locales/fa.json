@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "وایت‌پیپر DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · مرداد ۱۴۰۵ · مبانی فنی",
   "digidollar.cta.whitepaper": "وایت‌پیپر را بخوانید",
-  "footer.resources.digidollarWhitepaper": "وایت‌پیپر DigiDollar"
+  "footer.resources.digidollarWhitepaper": "وایت‌پیپر DigiDollar",
+  "chain.cta.explorer": "کاوش بلوک‌ها در DigiExplorer",
+  "devhub.link.explorer.title": "کاوشگر بلوک",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "کاوشگر بلوک"
 }

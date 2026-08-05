@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Karatasi nyeupe ya DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Ago 2026 · msingi wa kiufundi",
   "digidollar.cta.whitepaper": "Soma karatasi nyeupe",
-  "footer.resources.digidollarWhitepaper": "Karatasi nyeupe ya DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Karatasi nyeupe ya DigiDollar",
+  "chain.cta.explorer": "Chunguza vitalu kwenye DigiExplorer",
+  "devhub.link.explorer.title": "Kichunguzi cha vitalu",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Kichunguzi cha vitalu"
 }

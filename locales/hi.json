@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar श्वेतपत्र",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · अग. 2026 · तकनीकी आधार",
   "digidollar.cta.whitepaper": "श्वेतपत्र पढ़ें",
-  "footer.resources.digidollarWhitepaper": "DigiDollar श्वेतपत्र"
+  "footer.resources.digidollarWhitepaper": "DigiDollar श्वेतपत्र",
+  "chain.cta.explorer": "DigiExplorer पर ब्लॉक देखें",
+  "devhub.link.explorer.title": "ब्लॉक एक्सप्लोरर",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "ब्लॉक एक्सप्लोरर"
 }

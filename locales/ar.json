@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "الورقة البيضاء لـ DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · أغسطس 2026 · الأساس التقني",
   "digidollar.cta.whitepaper": "اقرأ الورقة البيضاء",
-  "footer.resources.digidollarWhitepaper": "الورقة البيضاء لـ DigiDollar"
+  "footer.resources.digidollarWhitepaper": "الورقة البيضاء لـ DigiDollar",
+  "chain.cta.explorer": "استكشف الكتل على DigiExplorer",
+  "devhub.link.explorer.title": "متصفح الكتل",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "متصفح الكتل"
 }

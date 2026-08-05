@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Kertas putih DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Ogo 2026 · asas teknikal",
   "digidollar.cta.whitepaper": "Baca kertas putih",
-  "footer.resources.digidollarWhitepaper": "Kertas putih DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Kertas putih DigiDollar",
+  "chain.cta.explorer": "Terokai blok di DigiExplorer",
+  "devhub.link.explorer.title": "Peneroka blok",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Peneroka blok"
 }

@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar-whitepaper",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · elo 2026 · tekninen perusta",
   "digidollar.cta.whitepaper": "Lue whitepaper",
-  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper"
+  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper",
+  "chain.cta.explorer": "Tutki lohkoja DigiExplorerissa",
+  "devhub.link.explorer.title": "Lohkoselain",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Lohkoselain"
 }

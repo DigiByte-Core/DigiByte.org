@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Bela knjiga DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · avg. 2026 · tehnične osnove",
   "digidollar.cta.whitepaper": "Preberi belo knjigo",
-  "footer.resources.digidollarWhitepaper": "Bela knjiga DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Bela knjiga DigiDollar",
+  "chain.cta.explorer": "Razišči bloke v DigiExplorerju",
+  "devhub.link.explorer.title": "Raziskovalec blokov",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Raziskovalec blokov"
 }

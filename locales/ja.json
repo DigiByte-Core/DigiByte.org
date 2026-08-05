@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar ホワイトペーパー",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · 2026年8月 · 技術的基盤",
   "digidollar.cta.whitepaper": "ホワイトペーパーを読む",
-  "footer.resources.digidollarWhitepaper": "DigiDollar ホワイトペーパー"
+  "footer.resources.digidollarWhitepaper": "DigiDollar ホワイトペーパー",
+  "chain.cta.explorer": "DigiExplorerでブロックを見る",
+  "devhub.link.explorer.title": "ブロックエクスプローラー",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "ブロックエクスプローラー"
 }

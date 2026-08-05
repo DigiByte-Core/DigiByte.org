@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar white paper",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Ago 2026 · teknikal na pundasyon",
   "digidollar.cta.whitepaper": "Basahin ang white paper",
-  "footer.resources.digidollarWhitepaper": "DigiDollar white paper"
+  "footer.resources.digidollarWhitepaper": "DigiDollar white paper",
+  "chain.cta.explorer": "Galugarin ang mga block sa DigiExplorer",
+  "devhub.link.explorer.title": "Block explorer",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Block explorer"
 }

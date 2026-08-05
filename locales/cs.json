@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Bílá kniha DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · srpen 2026 · technický základ",
   "digidollar.cta.whitepaper": "Přečíst bílou knihu",
-  "footer.resources.digidollarWhitepaper": "Bílá kniha DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Bílá kniha DigiDollar",
+  "chain.cta.explorer": "Prohlédnout bloky na DigiExploreru",
+  "devhub.link.explorer.title": "Průzkumník bloků",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Průzkumník bloků"
 }

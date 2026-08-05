@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar fehérkönyv",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · 2026. aug. · technikai alap",
   "digidollar.cta.whitepaper": "Fehérkönyv olvasása",
-  "footer.resources.digidollarWhitepaper": "DigiDollar fehérkönyv"
+  "footer.resources.digidollarWhitepaper": "DigiDollar fehérkönyv",
+  "chain.cta.explorer": "Blokkok felfedezése a DigiExploreren",
+  "devhub.link.explorer.title": "Blokkfelfedező",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Blokkfelfedező"
 }

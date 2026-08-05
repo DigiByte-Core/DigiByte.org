@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar-whitepaper",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · aug 2026 · teknisk grund",
   "digidollar.cta.whitepaper": "Läs whitepaperet",
-  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper"
+  "footer.resources.digidollarWhitepaper": "DigiDollar-whitepaper",
+  "chain.cta.explorer": "Utforska block på DigiExplorer",
+  "devhub.link.explorer.title": "Blockutforskare",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Blockutforskare"
 }

@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "DigiDollar-witpaper",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Aug 2026 · tegniese fondament",
   "digidollar.cta.whitepaper": "Lees die witpaper",
-  "footer.resources.digidollarWhitepaper": "DigiDollar-witpaper"
+  "footer.resources.digidollarWhitepaper": "DigiDollar-witpaper",
+  "chain.cta.explorer": "Verken blokke op DigiExplorer",
+  "devhub.link.explorer.title": "Blokverkenner",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Blokverkenner"
 }

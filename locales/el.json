@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Λευκή βίβλος DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · Αύγ. 2026 · τεχνική βάση",
   "digidollar.cta.whitepaper": "Διάβασε τη λευκή βίβλο",
-  "footer.resources.digidollarWhitepaper": "Λευκή βίβλος DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Λευκή βίβλος DigiDollar",
+  "chain.cta.explorer": "Εξερεύνηση blocks στο DigiExplorer",
+  "devhub.link.explorer.title": "Εξερευνητής block",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Εξερευνητής block"
 }

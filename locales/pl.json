@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Biała księga DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · sie 2026 · podstawa techniczna",
   "digidollar.cta.whitepaper": "Przeczytaj białą księgę",
-  "footer.resources.digidollarWhitepaper": "Biała księga DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Biała księga DigiDollar",
+  "chain.cta.explorer": "Przeglądaj bloki na DigiExplorerze",
+  "devhub.link.explorer.title": "Eksplorator bloków",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Eksplorator bloków"
 }

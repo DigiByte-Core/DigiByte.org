@@ -286,5 +286,9 @@
   "downloads.docs.digidollarWhitepaper.title": "Уайтпейпер DigiDollar",
   "downloads.docs.digidollarWhitepaper.meta": "PDF · авг. 2026 · техническая основа",
   "digidollar.cta.whitepaper": "Читать уайтпейпер",
-  "footer.resources.digidollarWhitepaper": "Уайтпейпер DigiDollar"
+  "footer.resources.digidollarWhitepaper": "Уайтпейпер DigiDollar",
+  "chain.cta.explorer": "Изучить блоки в DigiExplorer",
+  "devhub.link.explorer.title": "Обозреватель блоков",
+  "devhub.link.explorer.meta": "DigiExplorer.info",
+  "footer.resources.explorer": "Обозреватель блоков"
 }
