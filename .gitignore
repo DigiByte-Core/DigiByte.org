@@ -10,3 +10,6 @@ deploy.php
 # Add php files used elsewhere
 rates.php
 ajax.php
+
+# Local Core source checkout (not part of the website)
+digibyte/
