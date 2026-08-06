@@ -8,8 +8,8 @@
 	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
 	<meta name="theme-color" content="#05070d">
 	<meta name="color-scheme" content="dark">
-	<!-- Content-Security-Policy: static site + first-party assets. Third-party allowlist covers GA (deferred) and the live-chain / price / release / geo APIs used by /js/*.js. -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; manifest-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://digiexplorer.info https://api.coinpaprika.com https://api.github.com https://ipinfo.io https://www.google-analytics.com https://region1.google-analytics.com; upgrade-insecure-requests">
+	<!-- Content-Security-Policy: static site + first-party assets. Third-party allowlist covers GA (deferred), the live-chain / price / release / geo APIs used by /js/*.js, and the Web3Forms endpoint for the #collaborate form. -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; manifest-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://digiexplorer.info https://api.coinpaprika.com https://api.github.com https://ipinfo.io https://www.google-analytics.com https://region1.google-analytics.com https://api.web3forms.com; upgrade-insecure-requests">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 	<link rel="canonical" href="https://digibyte.org/hu/">
 	<link rel="manifest" href="../manifest.json">
@@ -382,6 +382,9 @@
 				<span class="stat__delta" data-i18n="chain.years.delta">2014 jan. óta</span>
 			</div>
 		</div>
+		<div class="cluster mt-6 justify-center-children" data-reveal>
+			<a class="btn btn--outline" href="https://digiexplorer.info" target="_blank" rel="noopener"><i class="fas fa-cubes"></i> <span data-i18n="chain.cta.explorer">Blokkok felfedezése a DigiExploreren</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+		</div>
 	</div>
 </section>
 
@@ -540,6 +543,7 @@
 				</ul>
 				<div class="cluster mt-6">
 					<a class="btn btn--primary" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="digidollar.cta.explore">Fedezd fel a DigiDollart</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="../docs/DigiDollar_whitepaper.pdf" target="_blank"><i class="fas fa-file-alt"></i> <span data-i18n="digidollar.cta.whitepaper">Fehérkönyv olvasása</span></a>
 					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digidollar.cta.releaseNotes">Olvasd a v9.26.5 kiadási jegyzeteit</span></a>
 				</div>
 
@@ -680,6 +684,11 @@ while True:
 						<i class="fas fa-server devlink__icon"></i>
 						<span class="devlink__title" data-i18n="devhub.link.node.title">Teljes csomópont futtatása</span>
 						<span class="devlink__meta" data-i18n="devhub.link.node.meta">5 perces útmutató</span>
+					</a>
+					<a class="devlink" href="https://digiexplorer.info" target="_blank" rel="noopener">
+						<i class="fas fa-cubes devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.explorer.title">Blokkfelfedező</span>
+						<span class="devlink__meta" data-i18n="devhub.link.explorer.meta">DigiExplorer.info</span>
 					</a>
 					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">
 						<i class="fas fa-book devlink__icon"></i>
@@ -914,12 +923,72 @@ while True:
 			<div class="grid grid-3 mt-5">
 				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">Integrációs útmutató</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">Tőzsdéknek &amp; szolgáltatóknak</span></a>
 				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">DigiDollar integráció</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · stablecoin réteg</span></a>
-				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">Technikai architektúra</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · biztonság &amp; ökoszisztéma</span></a>
+				<a class="devlink" href="../docs/DigiDollar_whitepaper.pdf" target="_blank"><i class="fas fa-file-alt devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollarWhitepaper.title">DigiDollar fehérkönyv</span><span class="devlink__meta" data-i18n="downloads.docs.digidollarWhitepaper.meta">PDF · 2026. aug. · technikai alap</span></a>
+				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-alt devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">Technikai architektúra</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · biztonság &amp; ökoszisztéma</span></a>
 				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">Sajtóanyag</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">Logók &amp; ikonok</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">márkacsomag</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">Wiki</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">műszaki referencia</span></a>
 			</div>
 		</aside>
+	</div>
+</section>
+
+<!-- COLLABORATIONS & INTEGRATIONS ============================= -->
+<section id="collaborate" class="s-partner bg-grid" aria-labelledby="collaborate-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="partner.eyebrow">Lépjen kapcsolatba</span>
+			<h2 id="collaborate-title" data-i18n="partner.title">Szeretne együttműködni a DigiByte-tal?</h2>
+			<p class="lead" data-i18n="partner.lead">Tőzsdei listázások, tárca-integrációk, DigiAssets projektek, sajtó. Meséljen róla, mit épít, és a DigiByte közösség egy tagja hamarosan válaszol.</p>
+		</header>
+
+		<form id="partnerForm" class="card partner-form mt-8" data-reveal novalidate>
+			<!-- Honeypot: real users leave this empty; bots fill it. -->
+			<input type="checkbox" name="botcheck" class="partner-form__hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+			<div class="grid grid-2 gap-4">
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.name.label">Az Ön neve</span>
+					<input class="input" type="text" name="name" required autocomplete="name">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.email.label">E-mail</span>
+					<input class="input" type="email" name="email" required autocomplete="email">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.org.label">Szervezet</span></span>
+					<input class="input" type="text" name="organization" autocomplete="organization">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.interest.label">Érdeklődöm</span>
+					<select class="input" name="interest" required>
+						<option value="Collaboration" data-i18n="partner.form.interest.collab">Együttműködés</option>
+						<option value="Integration" data-i18n="partner.form.interest.integration">Integráció (tőzsde / tárca / szolgáltatás)</option>
+						<option value="DigiAssets project" data-i18n="partner.form.interest.digiassets">DigiAssets projekt</option>
+						<option value="Media / press" data-i18n="partner.form.interest.media">Média / sajtó</option>
+						<option value="Other" data-i18n="partner.form.interest.other">Egyéb</option>
+					</select>
+				</label>
+			</div>
+
+			<label class="form-field mt-4">
+				<span class="form-field__label" data-i18n="partner.form.message.label">Mondjon el többet</span>
+				<textarea class="input" name="message" rows="5" required></textarea>
+			</label>
+
+			<p class="form-consent mt-3 text-ink-2" data-i18n="partner.form.consent">A beküldéssel elfogadja, hogy üzenetét űrlapfeldolgozónkon keresztül továbbítjuk a DigiByte közösség egy tagjának. Részletek az <a href="/privacy-app.html">adatvédelmi tájékoztatóban</a>.</p>
+
+			<div class="cluster gap-3 mt-5">
+				<button type="submit" class="btn btn--primary" data-partner-submit>
+					<i class="fas fa-paper-plane"></i> <span data-i18n="partner.form.submit">Üzenet küldése</span>
+				</button>
+				<span class="form-status" data-partner-status role="status" aria-live="polite"></span>
+			</div>
+
+			<noscript>
+				<p class="mt-4 text-ink-2" data-i18n="partner.form.noscript">Ez az űrlap JavaScriptet igényel. Kérjük, vegye fel a kapcsolatot a DigiByte közösséggel a <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">GitHub Discussions</a> fórumon.</p>
+			</noscript>
+		</form>
 	</div>
 </section>
 
@@ -956,6 +1025,7 @@ while True:
 					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" data-i18n="footer.build.coreRepo">Core repó</a></li>
 					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.build.wiki">Wiki</a></li>
 					<li><a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-i18n="footer.build.discussions">Beszélgetések</a></li>
+					<li><a href="#collaborate" data-i18n="footer.build.partner">Együttműködés &amp; integráció</a></li>
 				</ul>
 			</div>
 			<div>
@@ -971,8 +1041,10 @@ while True:
 				<ul class="footer__list">
 					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
 					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
+					<li><a href="https://digiexplorer.info" target="_blank" rel="noopener" data-i18n="footer.resources.explorer">Blokkfelfedező</a></li>
 					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">Integráció</a></li>
 					<li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" data-i18n="footer.resources.digidollar">DigiDollar útmutató</a></li>
+					<li><a href="../docs/DigiDollar_whitepaper.pdf" target="_blank" data-i18n="footer.resources.digidollarWhitepaper">DigiDollar fehérkönyv</a></li>
 					<li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" data-i18n="footer.resources.techArch">Technikai architektúra</a></li>
 					<li><a href="../legaldisclaimer.html" data-i18n="footer.resources.legal">Jogi nyilatkozat</a></li>
 				</ul>

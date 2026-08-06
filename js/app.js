@@ -263,6 +263,73 @@ function initScrollTop() {
 	});
 }
 
+// ---------- Partner / contact form ----------
+// The DigiByte Interest Form (#collaborate) posts to Web3Forms:
+//   https://web3forms.com/  (free tier)
+//
+// The access key below is the ONLY place the form is wired to an inbox —
+// there is no server-side secret, no environment variable, no DB. Rotate it
+// like this:
+//   1. Sign in at https://web3forms.com/ with the address that should receive submissions.
+//   2. Regenerate the access key from the dashboard.
+//   3. Replace the string below and open a PR / redeploy.
+// See also README.md → "Maintainer notes · Web3Forms".
+const WEB3FORMS_ACCESS_KEY = '3d4319f1-66fa-4d15-9a53-4058cc60a425';
+
+function initPartnerForm() {
+	const form = $('#partnerForm');
+	if (!form) return;
+	const btn = $('[data-partner-submit]', form);
+	const status = $('[data-partner-status]', form);
+	const setStatus = (msg, kind) => {
+		if (!status) return;
+		status.textContent = msg || '';
+		status.classList.remove('is-ok', 'is-error');
+		if (kind) status.classList.add(`is-${kind}`);
+	};
+
+	form.addEventListener('submit', async (e) => {
+		e.preventDefault();
+		if (form.botcheck && form.botcheck.checked) return; // honeypot tripped
+		if (!form.reportValidity()) return;
+		if (WEB3FORMS_ACCESS_KEY === 'YOUR_WEB3FORMS_ACCESS_KEY_HERE') {
+			setStatus('Form is not configured yet. Add a Web3Forms access key in /js/app.js.', 'error');
+			return;
+		}
+
+		const data = new FormData(form);
+		data.append('access_key', WEB3FORMS_ACCESS_KEY);
+		data.append('subject', `[DigiByte Interest Form] ${data.get('interest') || 'General'} — ${data.get('name') || ''}`);
+		data.append('from_name', 'DigiByte Interest Form');
+		data.append('replyto', String(data.get('email') || ''));
+
+		btn.disabled = true;
+		const originalLabel = btn.innerHTML;
+		btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> <span>Sending…</span>';
+		setStatus('', null);
+
+		try {
+			const res = await fetch('https://api.web3forms.com/submit', {
+				method: 'POST',
+				headers: { Accept: 'application/json' },
+				body: data,
+			});
+			const json = await res.json().catch(() => ({}));
+			if (res.ok && json.success) {
+				form.reset();
+				setStatus('Thanks — your message is on its way. A DigiByte community member will reply soon.', 'ok');
+			} else {
+				setStatus(json.message || 'Something went wrong. Please try again in a moment.', 'error');
+			}
+		} catch {
+			setStatus('Network error. Please check your connection and try again.', 'error');
+		} finally {
+			btn.disabled = false;
+			btn.innerHTML = originalLabel;
+		}
+	});
+}
+
 // ---------- Boot ----------
 function boot() {
 	initNav();
@@ -277,6 +344,7 @@ function boot() {
 	initLangMenu();
 	initScrollTop();
 	initYearDiff();
+	initPartnerForm();
 
 	// Lazy-load feature modules on demand
 	if ($('[data-hero-network]')) {

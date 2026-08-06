@@ -8,8 +8,8 @@
 	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
 	<meta name="theme-color" content="#05070d">
 	<meta name="color-scheme" content="dark">
-	<!-- Content-Security-Policy: static site + first-party assets. Third-party allowlist covers GA (deferred) and the live-chain / price / release / geo APIs used by /js/*.js. -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; manifest-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://digiexplorer.info https://api.coinpaprika.com https://api.github.com https://ipinfo.io https://www.google-analytics.com https://region1.google-analytics.com; upgrade-insecure-requests">
+	<!-- Content-Security-Policy: static site + first-party assets. Third-party allowlist covers GA (deferred), the live-chain / price / release / geo APIs used by /js/*.js, and the Web3Forms endpoint for the #collaborate form. -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; manifest-src 'self'; img-src 'self' data: https:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://digiexplorer.info https://api.coinpaprika.com https://api.github.com https://ipinfo.io https://www.google-analytics.com https://region1.google-analytics.com https://api.web3forms.com; upgrade-insecure-requests">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 	<link rel="canonical" href="https://digibyte.org/zh/">
 	<link rel="manifest" href="../manifest.json">
@@ -382,6 +382,9 @@
 				<span class="stat__delta" data-i18n="chain.years.delta">自 2014 年 1 月</span>
 			</div>
 		</div>
+		<div class="cluster mt-6 justify-center-children" data-reveal>
+			<a class="btn btn--outline" href="https://digiexplorer.info" target="_blank" rel="noopener"><i class="fas fa-cubes"></i> <span data-i18n="chain.cta.explorer">在 DigiExplorer 上浏览区块</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+		</div>
 	</div>
 </section>
 
@@ -540,6 +543,7 @@
 				</ul>
 				<div class="cluster mt-6">
 					<a class="btn btn--primary" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="digidollar.cta.explore">了解 DigiDollar</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--ghost" href="../docs/DigiDollar_whitepaper.pdf" target="_blank"><i class="fas fa-file-alt"></i> <span data-i18n="digidollar.cta.whitepaper">阅读白皮书</span></a>
 					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digidollar.cta.releaseNotes">阅读 v9.26.5 发布说明</span></a>
 				</div>
 
@@ -680,6 +684,11 @@ while True:
 						<i class="fas fa-server devlink__icon"></i>
 						<span class="devlink__title" data-i18n="devhub.link.node.title">运行全节点</span>
 						<span class="devlink__meta" data-i18n="devhub.link.node.meta">5 分钟指南</span>
+					</a>
+					<a class="devlink" href="https://digiexplorer.info" target="_blank" rel="noopener">
+						<i class="fas fa-cubes devlink__icon"></i>
+						<span class="devlink__title" data-i18n="devhub.link.explorer.title">区块浏览器</span>
+						<span class="devlink__meta" data-i18n="devhub.link.explorer.meta">DigiExplorer.info</span>
 					</a>
 					<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener">
 						<i class="fas fa-book devlink__icon"></i>
@@ -914,12 +923,72 @@ while True:
 			<div class="grid grid-3 mt-5">
 				<a class="devlink" href="../docs/integrationguide.pdf" target="_blank"><i class="fas fa-plug devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.integration.title">集成指南</span><span class="devlink__meta" data-i18n="downloads.docs.integration.meta">面向交易所 &amp; 服务商</span></a>
 				<a class="devlink" href="../docs/DigiDollar_integration_guide.pdf" target="_blank"><i class="fas fa-coins devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollar.title">DigiDollar 集成</span><span class="devlink__meta" data-i18n="downloads.docs.digidollar.meta">PDF · 稳定币层</span></a>
-				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">技术架构</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · 安全 &amp; 生态</span></a>
+				<a class="devlink" href="../docs/DigiDollar_whitepaper.pdf" target="_blank"><i class="fas fa-file-alt devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.digidollarWhitepaper.title">DigiDollar 白皮书</span><span class="devlink__meta" data-i18n="downloads.docs.digidollarWhitepaper.meta">PDF · 2026 年 8 月 · 技术基础</span></a>
+				<a class="devlink" href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-alt devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.techArch.title">技术架构</span><span class="devlink__meta" data-i18n="downloads.docs.techArch.meta">PDF · 安全 &amp; 生态</span></a>
 				<a class="devlink" href="../docs/mediakit.pdf" target="_blank"><i class="fas fa-newspaper devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.media.title">媒体资料</span><span class="devlink__meta" data-i18n="downloads.docs.media.meta">PDF</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte-logos" target="_blank" rel="noopener"><i class="fas fa-icons devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.logos.title">Logo &amp; 图标</span><span class="devlink__meta" data-i18n="downloads.docs.logos.meta">品牌套件</span></a>
 				<a class="devlink" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><i class="fas fa-book devlink__icon"></i><span class="devlink__title" data-i18n="downloads.docs.wiki.title">Wiki</span><span class="devlink__meta" data-i18n="downloads.docs.wiki.meta">技术参考</span></a>
 			</div>
 		</aside>
+	</div>
+</section>
+
+<!-- COLLABORATIONS & INTEGRATIONS ============================= -->
+<section id="collaborate" class="s-partner bg-grid" aria-labelledby="collaborate-title">
+	<div class="row">
+		<header class="section-header" data-reveal>
+			<span class="eyebrow" data-i18n="partner.eyebrow">联系我们</span>
+			<h2 id="collaborate-title" data-i18n="partner.title">想与 DigiByte 合作吗？</h2>
+			<p class="lead" data-i18n="partner.lead">交易所上币、钱包集成、DigiAssets 项目、媒体。告诉我们您正在做什么，DigiByte 社区成员会与您联系。</p>
+		</header>
+
+		<form id="partnerForm" class="card partner-form mt-8" data-reveal novalidate>
+			<!-- Honeypot: real users leave this empty; bots fill it. -->
+			<input type="checkbox" name="botcheck" class="partner-form__hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+			<div class="grid grid-2 gap-4">
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.name.label">您的姓名</span>
+					<input class="input" type="text" name="name" required autocomplete="name">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.email.label">电子邮箱</span>
+					<input class="input" type="email" name="email" required autocomplete="email">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.org.label">所属机构</span></span>
+					<input class="input" type="text" name="organization" autocomplete="organization">
+				</label>
+				<label class="form-field">
+					<span class="form-field__label" data-i18n="partner.form.interest.label">我感兴趣的方向</span>
+					<select class="input" name="interest" required>
+						<option value="Collaboration" data-i18n="partner.form.interest.collab">合作</option>
+						<option value="Integration" data-i18n="partner.form.interest.integration">集成（交易所 / 钱包 / 服务）</option>
+						<option value="DigiAssets project" data-i18n="partner.form.interest.digiassets">DigiAssets 项目</option>
+						<option value="Media / press" data-i18n="partner.form.interest.media">媒体 / 新闻</option>
+						<option value="Other" data-i18n="partner.form.interest.other">其他</option>
+					</select>
+				</label>
+			</div>
+
+			<label class="form-field mt-4">
+				<span class="form-field__label" data-i18n="partner.form.message.label">告诉我们更多</span>
+				<textarea class="input" name="message" rows="5" required></textarea>
+			</label>
+
+			<p class="form-consent mt-3 text-ink-2" data-i18n="partner.form.consent">提交即表示您同意通过我们的表单处理服务将您的消息转发给 DigiByte 社区成员。详情请见<a href="/privacy-app.html">隐私声明</a>。</p>
+
+			<div class="cluster gap-3 mt-5">
+				<button type="submit" class="btn btn--primary" data-partner-submit>
+					<i class="fas fa-paper-plane"></i> <span data-i18n="partner.form.submit">发送消息</span>
+				</button>
+				<span class="form-status" data-partner-status role="status" aria-live="polite"></span>
+			</div>
+
+			<noscript>
+				<p class="mt-4 text-ink-2" data-i18n="partner.form.noscript">此表单需要 JavaScript。请通过 <a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener">GitHub Discussions</a> 论坛联系 DigiByte 社区。</p>
+			</noscript>
+		</form>
 	</div>
 </section>
 
@@ -956,6 +1025,7 @@ while True:
 					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" data-i18n="footer.build.coreRepo">核心仓库</a></li>
 					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.build.wiki">Wiki</a></li>
 					<li><a href="https://github.com/orgs/DigiByte-Core/discussions" target="_blank" rel="noopener" data-i18n="footer.build.discussions">讨论</a></li>
+					<li><a href="#collaborate" data-i18n="footer.build.partner">合作 &amp; 集成</a></li>
 				</ul>
 			</div>
 			<div>
@@ -971,8 +1041,10 @@ while True:
 				<ul class="footer__list">
 					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
 					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>
+					<li><a href="https://digiexplorer.info" target="_blank" rel="noopener" data-i18n="footer.resources.explorer">区块浏览器</a></li>
 					<li><a href="../docs/integrationguide.pdf" target="_blank" data-i18n="footer.resources.integration">集成</a></li>
 					<li><a href="../docs/DigiDollar_integration_guide.pdf" target="_blank" data-i18n="footer.resources.digidollar">DigiDollar 指南</a></li>
+					<li><a href="../docs/DigiDollar_whitepaper.pdf" target="_blank" data-i18n="footer.resources.digidollarWhitepaper">DigiDollar 白皮书</a></li>
 					<li><a href="../docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank" data-i18n="footer.resources.techArch">技术架构</a></li>
 					<li><a href="../legaldisclaimer.html" data-i18n="footer.resources.legal">法律免责声明</a></li>
 				</ul>
