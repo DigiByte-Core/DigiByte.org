@@ -264,8 +264,16 @@ function initScrollTop() {
 }
 
 // ---------- Partner / contact form ----------
-// Replace with your Web3Forms access key from https://web3forms.com/
-// (free tier; the key routes submissions to the email you signed up with).
+// The DigiByte Interest Form (#collaborate) posts to Web3Forms:
+//   https://web3forms.com/  (free tier)
+//
+// The access key below is the ONLY place the form is wired to an inbox —
+// there is no server-side secret, no environment variable, no DB. Rotate it
+// like this:
+//   1. Sign in at https://web3forms.com/ with the address that should receive submissions.
+//   2. Regenerate the access key from the dashboard.
+//   3. Replace the string below and open a PR / redeploy.
+// See also README.md → "Maintainer notes · Web3Forms".
 const WEB3FORMS_ACCESS_KEY = '3d4319f1-66fa-4d15-9a53-4058cc60a425';
 
 function initPartnerForm() {

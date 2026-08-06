@@ -13,3 +13,8 @@ ajax.php
 
 # Local Core source checkout (not part of the website)
 digibyte/
+
+tools/node_modules/
+
+reports/
+
