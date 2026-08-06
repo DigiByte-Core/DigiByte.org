@@ -27,7 +27,10 @@ for (const e of fs.readdirSync(root, { withFileTypes: true })) {
 for (const f of fs.readdirSync(path.join(root, 'js'))) {
 	if (f.endsWith('.js')) scanPaths.push(path.join(root, 'js', f));
 }
-const iconRe = /class="(fab|fas|far|fal|fad|fak)\s+(fa-[a-z0-9-]+)(?:\s+[^"]*)?"/g;
+// Accept both FA5 short prefixes (`fas`, `fab`, ...) and FA6 long ones
+// (`fa-solid`, `fa-brands`, `fa-regular`) so nothing slips past the subset if
+// a fresh copy-paste sneaks in FA6 syntax.
+const iconRe = /class=["'](fab|fas|far|fal|fad|fak|fa-solid|fa-brands|fa-regular)\s+(fa-[a-z0-9-]+)(?:\s+[^"']*)?["']/g;
 const solidIcons = new Set();
 const brandsIcons = new Set();
 for (const p of scanPaths) {
@@ -35,8 +38,8 @@ for (const p of scanPaths) {
 	for (const m of c.matchAll(iconRe)) {
 		const family = m[1];
 		const name = m[2];
-		if (family === 'fas') solidIcons.add(name);
-		else if (family === 'fab') brandsIcons.add(name);
+		if (family === 'fas' || family === 'fa-solid') solidIcons.add(name);
+		else if (family === 'fab' || family === 'fa-brands') brandsIcons.add(name);
 	}
 }
 console.log(`Discovered ${solidIcons.size} solid + ${brandsIcons.size} brand icons`);
