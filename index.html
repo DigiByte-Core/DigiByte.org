@@ -3,6 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<!-- Early language redirect: mirrors the fast-path decisions in /js/lang-router.js
+	     so matching browsers redirect at parse time (~50ms) instead of after the
+	     deferred router runs post-DOMContentLoaded (~3.6s wasted CSS/JS work).
+	     Unmapped locales fall through and the deferred router handles the
+	     ipinfo.io geo fallback exactly as before. -->
+	<script>
+	(function () {
+		try {
+			if (location.pathname !== '/' && location.pathname !== '/index.html') return;
+			var target = location.hash || '';
+			var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+			var l5 = lang.substr(0, 5);
+			var l3 = lang.substr(0, 3);
+			var l2 = lang.substr(0, 2);
+			var go = function (path) { location.replace(path + target); };
+			if (l5 === 'pt-br') return go('pt-br/');
+			if (l3 === 'fil')   return go('fil/');
+			if (['nb','no','nn'].indexOf(l2) >= 0) return go('nb/');
+			if (['hr','sr','bs'].indexOf(l2) >= 0) return go('hr/');
+			if (['cs','sk'].indexOf(l2) >= 0)      return go('cs/');
+			var direct = ['af','da','de','es','fr','id','it','sw','hu','ms','nl','pl','pt','ro','sq','sl','fi','sv','vi','tr','ru','bg','el','hi','th','ja','zh','ar','fa'];
+			if (direct.indexOf(l2) >= 0) return go(l2 + '/');
+			/* English / unknown: let the deferred router hit ipinfo.io for region disambiguation. */
+		} catch (_) { /* stay on / if anything throws */ }
+	})();
+	</script>
 	<title data-i18n="meta.title">DigiByte — Faster, Safer, Forward-thinking Blockchain | DGB · DigiAssets · Digi-ID</title>
 	<meta name="description" content="DigiByte is the longest, fastest, most decentralized UTXO blockchain. Build with DigiAssets, sign in with Digi-ID, run a node, and join a global open-source community." data-i18n-attr="content:meta.description">
 	<meta name="keywords" content="DigiByte, DGB, Blockchain, Decentralized, UTXO, DigiAssets, Digi-ID, Crypto, Wallet, Mining, MultiAlgo, DigiShield, SegWit, Open Source, Web3">
@@ -72,20 +98,21 @@
 	<meta name="twitter:description" content="The longest, fastest, most decentralized UTXO blockchain. Build, transact and authenticate on DGB." data-i18n-attr="content:meta.twitter.description">
 	<meta name="twitter:image" content="https://digibyte.org/favicons/twitter.png">
 
+	<!-- Preconnect to third-party API origins used at runtime (chain stats, price ticker, releases) -->
+	<link rel="preconnect" href="https://digiexplorer.info" crossorigin>
+	<link rel="preconnect" href="https://api.coinpaprika.com" crossorigin>
+	<link rel="preconnect" href="https://api.github.com" crossorigin>
+
 	<!-- Self-hosted fonts (no third-party requests) -->
 	<link rel="stylesheet" href="/css/fonts.css" media="print" onload="this.media='all'">
 	<noscript><link rel="stylesheet" href="/css/fonts.css"></noscript>
 
 	<!-- Self-hosted Font Awesome -->
-	<link rel="stylesheet" href="/css/font-awesome/css/all.min.css" media="print" onload="this.media='all'">
-	<noscript><link rel="stylesheet" href="/css/font-awesome/css/all.min.css"></noscript>
+	<link rel="stylesheet" href="/css/font-awesome-subset/fa-subset.css" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="/css/font-awesome-subset/fa-subset.css"></noscript>
 
 	<!-- Design system -->
-	<link rel="stylesheet" href="/css/tokens.css">
-	<link rel="stylesheet" href="/css/base.css">
-	<link rel="stylesheet" href="/css/components.css">
-	<link rel="stylesheet" href="/css/sections.css">
-	<link rel="stylesheet" href="/css/utilities.css">
+	<link rel="stylesheet" href="/css/dgb.min.css">
 
 	<!-- Language router (preserves existing behaviour) -->
 	<script src="/js/lang-router.js" defer></script>
@@ -106,23 +133,6 @@
 	}
 	</script>
 
-	<!-- Google Analytics (deferred to idle to protect FCP/LCP) -->
-	<script>
-		(function(){
-			window.dataLayer = window.dataLayer || [];
-			window.gtag = function(){ dataLayer.push(arguments); };
-			gtag('js', new Date());
-			gtag('config', 'UA-129492671-3', { 'anonymize_ip': true });
-			var load = function(){
-				var s = document.createElement('script');
-				s.async = true;
-				s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129492671-3';
-				document.head.appendChild(s);
-			};
-			if ('requestIdleCallback' in window) requestIdleCallback(load, { timeout: 4000 });
-			else window.addEventListener('load', function(){ setTimeout(load, 1500); });
-		})();
-	</script>
 </head>
 <body id="top">
 
@@ -137,7 +147,7 @@
 		<span class="top-ticker__item"><span data-i18n="ticker.difficulty">Difficulty</span> <strong data-stat="difficulty" class="is-loading">—</strong></span>
 		<span class="top-ticker__item"><span data-i18n="ticker.connections">Connections</span> <strong data-stat="connections" class="is-loading">—</strong></span>
 		<span class="top-ticker__item"><span data-i18n="ticker.core">Core</span> <strong data-stat="version" class="is-loading">—</strong></span>
-		<span class="top-ticker__item"><i class="fas fa-shield-halved"></i> <span data-i18n="ticker.algos">5 mining algorithms</span></span>
+		<span class="top-ticker__item"><i class="fas fa-shield-alt"></i> <span data-i18n="ticker.algos">5 mining algorithms</span></span>
 		<span class="top-ticker__item"><i class="fas fa-bolt"></i> <span data-i18n="ticker.blocks">15-second blocks</span></span>
 		<span class="top-ticker__item"><i class="fas fa-globe"></i> <span data-i18n="ticker.global">Global, decentralized</span></span>
 	</div>
@@ -160,7 +170,7 @@
 				<li><a href="#digidollar" data-i18n="nav.digidollar">DigiDollar</a></li>
 				<li><a href="#devhub" data-i18n="nav.developers">Developers</a></li>
 				<li><a href="#downloads" data-i18n="nav.download">Download</a></li>
-				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fa-solid fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a></li>
+				<li><a href="https://digibyte.io/" target="_blank" rel="noopener">DigiStats <i class="fas fa-external-link-alt fa-2xs" aria-hidden="true"></i></a></li>
 			</ul>
 		</nav>
 		<div class="nav__cta">
@@ -305,7 +315,7 @@
 
 			<article class="feature-row feature-row--reverse" data-reveal>
 				<div class="feature-row__visual" aria-hidden="true">
-					<i class="fas fa-shield-halved feature-row__icon"></i>
+					<i class="fas fa-shield-alt feature-row__icon"></i>
 					<span class="feature-row__stat">5</span>
 				</div>
 				<div class="feature-row__body">
@@ -329,7 +339,7 @@
 
 			<article class="feature-row feature-row--reverse" data-reveal>
 				<div class="feature-row__visual" aria-hidden="true">
-					<i class="fas fa-tower-broadcast feature-row__icon"></i>
+					<i class="fas fa-broadcast-tower feature-row__icon"></i>
 					<span class="feature-row__stat year-diff">12</span>
 					<small class="feature-row__stat-unit" data-i18n="features.yearsLiveUnit">years live</small>
 				</div>
@@ -385,7 +395,7 @@
 			</div>
 		</div>
 		<div class="cluster mt-6 justify-center-children" data-reveal>
-			<a class="btn btn--outline" href="https://digiexplorer.info" target="_blank" rel="noopener"><i class="fas fa-cubes"></i> <span data-i18n="chain.cta.explorer">Explore blocks on DigiExplorer</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+			<a class="btn btn--outline" href="https://digiexplorer.info" target="_blank" rel="noopener"><i class="fas fa-cubes"></i> <span data-i18n="chain.cta.explorer">Explore blocks on DigiExplorer</span> <i class="fas fa-external-link-alt fa-2xs" aria-hidden="true"></i></a>
 		</div>
 	</div>
 </section>
@@ -410,7 +420,7 @@
 
 				<div class="cluster mt-6">
 					<a class="btn btn--outline" href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener"><span data-i18n="tokenomics.cta.wiki">Read the wiki</span> <i class="fas fa-arrow-right"></i></a>
-					<a class="btn btn--ghost" href="/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-halved"></i> <span data-i18n="tokenomics.cta.techArch">Technical architecture</span></a>
+					<a class="btn btn--ghost" href="/docs/DigiByte_Technical_Architecture_Security_%26_Ecosystem_Guide_07_2026.pdf" target="_blank"><i class="fas fa-shield-alt"></i> <span data-i18n="tokenomics.cta.techArch">Technical architecture</span></a>
 				</div>
 			</div>
 		</div>
@@ -483,11 +493,11 @@
 				<p class="lead" data-i18n="digiId.lead">Digi-ID relies on decentralized cryptographic signatures instead of traditional passwords, securing user identity without centralized brokers.</p>
 				<ul class="stack mt-5">
 					<li class="cluster"><i class="fas fa-key text-cyan"></i><span data-i18n="digiId.benefit1">Local key storage for absolute privacy.</span></li>
-					<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i><span data-i18n="digiId.benefit2">Natively phishing-resistant design.</span></li>
+					<li class="cluster"><i class="fas fa-shield-alt text-cyan"></i><span data-i18n="digiId.benefit2">Natively phishing-resistant design.</span></li>
 					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span data-i18n="digiId.benefit3">Drop-in integration for digital and physical access.</span></li>
 				</ul>
 				<div class="cluster mt-6">
-					<a class="btn btn--primary" href="https://www.digi-id.io" target="_blank" rel="noopener"><span data-i18n="digiId.cta.open">Open Digi-ID.io</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--primary" href="https://www.digi-id.io" target="_blank" rel="noopener"><span data-i18n="digiId.cta.open">Open Digi-ID.io</span> <i class="fas fa-external-link-alt"></i></a>
 					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core?q=digiid" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digiId.cta.libraries">Libraries</span></a>
 				</div>
 
@@ -537,21 +547,21 @@
 				<p class="lead" data-i18n="digidollar.lead">DigiDollar generates USD-pegged liquidity directly on the DigiByte mainnet by locking DGB in on-chain reserves. There is no issuer, no custodian and no admin key &mdash; only the same proof-of-work network that has secured DGB since 2014.</p>
 				<ul class="stack mt-5">
 					<li class="cluster"><i class="fas fa-lock text-cyan"></i><span data-i18n="digidollar.benefit1">Fully non-custodial: users lock DGB, users hold DigiDollar. No third party ever takes custody.</span></li>
-					<li class="cluster"><i class="fas fa-scale-balanced text-cyan"></i><span data-i18n="digidollar.benefit2">A MuSig2 Schnorr oracle roster publishes the USD price feed with aggregated, tamper-evident signatures.</span></li>
+					<li class="cluster"><i class="fas fa-balance-scale text-cyan"></i><span data-i18n="digidollar.benefit2">A MuSig2 Schnorr oracle roster publishes the USD price feed with aggregated, tamper-evident signatures.</span></li>
 					<li class="cluster"><i class="fas fa-flag-checkered text-cyan"></i><span data-i18n="digidollar.benefit3">Activated via BIP9 miner signaling on 17 Jul 2026 and buried in Core v9.26.5 via BIP90 for deterministic validation.</span></li>
 					<li class="cluster"><i class="fas fa-bolt text-cyan"></i><span data-i18n="digidollar.benefit4">Settles at the native 15-second block time &mdash; mint, transfer and redeem confirm in seconds.</span></li>
 					<li class="cluster"><i class="fas fa-server text-cyan"></i><span data-i18n="digidollar.benefit5">Runs on pruned nodes since Core v9.26.4 &mdash; full validation in a few gigabytes instead of the full ~40 GB chain.</span></li>
 					<li class="cluster"><i class="fas fa-code-branch text-cyan"></i><span data-i18n="digidollar.benefit6">100% open source. No admin keys, no mint switch, no pause button.</span></li>
 				</ul>
 				<div class="cluster mt-6">
-					<a class="btn btn--primary" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="digidollar.cta.explore">Explore DigiDollar</span> <i class="fas fa-arrow-up-right-from-square"></i></a>
+					<a class="btn btn--primary" href="https://digibyte.io/digidollar" target="_blank" rel="noopener"><span data-i18n="digidollar.cta.explore">Explore DigiDollar</span> <i class="fas fa-external-link-alt"></i></a>
 					<a class="btn btn--ghost" href="/docs/DigiDollar_whitepaper.pdf" target="_blank"><i class="fas fa-file-alt"></i> <span data-i18n="digidollar.cta.whitepaper">Read the white paper</span></a>
 					<a class="btn btn--ghost" href="https://github.com/DigiByte-Core/digibyte/releases/tag/v9.26.5" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-i18n="digidollar.cta.releaseNotes">Read the v9.26.5 release notes</span></a>
 				</div>
 
 				<div class="callout callout--warning mt-7" role="note" aria-labelledby="digidollar-security-title">
 					<div class="callout__header">
-						<i class="fas fa-triangle-exclamation" aria-hidden="true"></i>
+						<i class="fas fa-exclamation-triangle" aria-hidden="true"></i>
 						<h3 id="digidollar-security-title" class="callout__title" data-i18n="digidollar.security.title">Avoid scams &mdash; DigiByte Core is the only vetted way to mint DigiDollar.</h3>
 					</div>
 					<p data-i18n="digidollar.security.lead">Minting and redeeming DigiDollar happens entirely inside the official DigiByte Core wallet, where your DGB is locked in a vault secured by your own keys. There is no other trusted flow, no partner site, no bridge.</p>
@@ -614,7 +624,7 @@
 						<button type="button" class="tabs__btn" role="tab" data-tab="curl" aria-selected="false" aria-controls="tab-curl" id="tabbtn-curl">cURL</button>
 					</div>
 
-					<div class="tabs__panel" data-tab="cli" data-active>
+					<div class="tabs__panel" data-tab="cli" id="tab-cli" role="tabpanel" aria-labelledby="tabbtn-cli" data-active>
 						<div class="terminal">
 							<div class="terminal__bar"><span class="terminal__dot"></span><span class="terminal__title">~/digibyte — bash</span></div>
 							<div class="terminal__body">
@@ -630,7 +640,7 @@
 						</div>
 					</div>
 
-					<div class="tabs__panel" data-tab="node">
+					<div class="tabs__panel" data-tab="node" id="tab-node" role="tabpanel" aria-labelledby="tabbtn-node">
 						<div class="codeblock">
 <pre><code>// Send 100 DGB via Core RPC (Node.js, no external deps)
 import http from 'node:http';
@@ -649,7 +659,7 @@ req.write(body); req.end();</code></pre>
 						</div>
 					</div>
 
-					<div class="tabs__panel" data-tab="py">
+					<div class="tabs__panel" data-tab="py" id="tab-py" role="tabpanel" aria-labelledby="tabbtn-py">
 						<div class="codeblock">
 <pre><code># Listen for new blocks (Python, requests)
 import requests, time
@@ -667,7 +677,7 @@ while True:
 						</div>
 					</div>
 
-					<div class="tabs__panel" data-tab="curl">
+					<div class="tabs__panel" data-tab="curl" id="tab-curl" role="tabpanel" aria-labelledby="tabbtn-curl">
 						<div class="codeblock">
 <pre><code>curl -u rpcuser:rpcpass --data-binary \
   '{"jsonrpc":"1.0","id":"sh","method":"getmempoolinfo","params":[]}' \
@@ -894,7 +904,7 @@ while True:
 						<li><i class="fas fa-check text-cyan"></i> <span data-i18n="downloads.core.bullet3">Production-ready:</span> <a href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener">v9.26.5</a></li>
 					</ul>
 					<div class="cluster">
-						<a class="btn btn--primary btn--sm" href="https://digibyte.io/downloads" target="_blank" rel="noopener"><i class="fas fa-download"></i> <span data-i18n="downloads.core.easyDownloads">Easy downloads</span> <i class="fas fa-arrow-up-right-from-square fa-2xs" aria-hidden="true"></i></a>
+						<a class="btn btn--primary btn--sm" href="https://digibyte.io/downloads" target="_blank" rel="noopener"><i class="fas fa-download"></i> <span data-i18n="downloads.core.easyDownloads">Easy downloads</span> <i class="fas fa-external-link-alt fa-2xs" aria-hidden="true"></i></a>
 						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/wiki/Run-a-Open-Full-Node" target="_blank" rel="noopener"><i class="fas fa-server"></i> <span data-i18n="downloads.core.runNode">Run a node</span></a>
 						<a class="btn btn--outline btn--sm" href="https://github.com/DigiByte-Core/digibyte/releases/" target="_blank" rel="noopener" data-i18n="downloads.core.checksums">Checksums</a>
 					</div>
@@ -902,7 +912,7 @@ while True:
 				<aside class="download-card__aside">
 					<span class="eyebrow" data-i18n="downloads.core.whyValidate">Why self-validate?</span>
 					<ul class="stack mt-3">
-						<li class="cluster"><i class="fas fa-shield-halved text-cyan"></i> <span data-i18n="downloads.core.why1">Trustless verification — never rely on a third party's view of the chain.</span></li>
+						<li class="cluster"><i class="fas fa-shield-alt text-cyan"></i> <span data-i18n="downloads.core.why1">Trustless verification — never rely on a third party's view of the chain.</span></li>
 						<li class="cluster"><i class="fas fa-network-wired text-cyan"></i> <span data-i18n="downloads.core.why2">Strengthen decentralization with every additional peer.</span></li>
 						<li class="cluster"><i class="fas fa-eye-slash text-cyan"></i> <span data-i18n="downloads.core.why3">Best-in-class privacy for your own wallets and lookups.</span></li>
 					</ul>
@@ -1012,7 +1022,7 @@ while True:
 				</div>
 			</div>
 			<div>
-				<h6 data-i18n="footer.protocol.heading">Protocol</h6>
+				<h3 data-i18n="footer.protocol.heading">Protocol</h3>
 				<ul class="footer__list">
 					<li><a href="#features" data-i18n="footer.protocol.features">Features</a></li>
 					<li><a href="#predictable-issuance" data-i18n="footer.protocol.predictableIssuance">Predictable issuance</a></li>
@@ -1021,7 +1031,7 @@ while True:
 				</ul>
 			</div>
 			<div>
-				<h6 data-i18n="footer.build.heading">Build</h6>
+				<h3 data-i18n="footer.build.heading">Build</h3>
 				<ul class="footer__list">
 					<li><a href="#devhub" data-i18n="footer.build.devHub">Developer hub</a></li>
 					<li><a href="https://github.com/DigiByte-Core/digibyte" target="_blank" rel="noopener" data-i18n="footer.build.coreRepo">Core repo</a></li>
@@ -1031,7 +1041,7 @@ while True:
 				</ul>
 			</div>
 			<div>
-				<h6 data-i18n="footer.use.heading">Use</h6>
+				<h3 data-i18n="footer.use.heading">Use</h3>
 				<ul class="footer__list">
 					<li><a href="#downloads" data-i18n="footer.use.downloads">Downloads</a></li>
 					<li><a href="#digi-id" data-i18n="footer.use.digiId">Digi-ID</a></li>
@@ -1039,7 +1049,7 @@ while True:
 				</ul>
 			</div>
 			<div>
-				<h6 data-i18n="footer.resources.heading">Resources</h6>
+				<h3 data-i18n="footer.resources.heading">Resources</h3>
 				<ul class="footer__list">
 					<li><a href="https://github.com/DigiByte-Core/digibyte/wiki" target="_blank" rel="noopener" data-i18n="footer.resources.wiki">DigiByte Wiki</a></li>
 					<li><a href="https://digibyte.io/" target="_blank" rel="noopener" data-i18n="footer.resources.digistats">DigiStats</a></li>

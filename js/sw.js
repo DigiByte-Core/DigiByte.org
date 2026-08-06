@@ -1,16 +1,14 @@
 /* DigiByte Service Worker — v2026.06 (futuristic redesign) */
-const CACHE = 'dgb-v2026-06-17';
+const CACHE = 'dgb-v2026-08-06e';
 const PRECACHE = [
 	'/',
 	'/index.html',
 	'/offline.html',
-	'/css/tokens.css',
-	'/css/base.css',
-	'/css/components.css',
-	'/css/sections.css',
-	'/css/utilities.css',
+	'/css/dgb.min.css',
 	'/css/fonts.css',
-	'/css/font-awesome/css/all.min.css',
+	'/css/font-awesome-subset/fa-subset.css',
+	'/css/font-awesome-subset/fa-solid-900.subset.woff2',
+	'/css/font-awesome-subset/fa-brands-400.subset.woff2',
 	'/js/app.js',
 	'/js/hero-network.js',
 	'/js/tokenomics-chart.js',

@@ -18,7 +18,11 @@ export function init(selector = '[data-hero-network]') {
 	const ctx = canvas.getContext('2d', { alpha: true });
 	if (!ctx) return;
 
-	let dpr = Math.min(window.devicePixelRatio || 1, 2);
+	// Coarse pointers (phones/tablets) get a lower DPR cap. Full-DPR canvas over
+	// a large hero on a 3x phone is the single biggest paint cost on mobile.
+	const coarse = matchMedia('(pointer: coarse)').matches;
+	const dprCap = coarse ? 1.5 : 2;
+	let dpr = Math.min(window.devicePixelRatio || 1, dprCap);
 	let w = 0, h = 0;
 	let blocks = [];
 	let particles = [];
@@ -55,8 +59,23 @@ export function init(selector = '[data-hero-network]') {
 		seed();
 	}
 
+	// Adjusts only the backing store (no reseed) — used when the mobile URL bar
+	// collapses/expands and fires a resize with a height-only delta. Reseeding
+	// on every scroll is what makes the hero look like it zooms in and out.
+	function resizeCanvasOnly() {
+		const rect = host.getBoundingClientRect();
+		w = rect.width;
+		h = rect.height;
+		canvas.width = Math.floor(w * dpr);
+		canvas.height = Math.floor(h * dpr);
+		canvas.style.width = w + 'px';
+		canvas.style.height = h + 'px';
+		ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+	}
+
 	function seed() {
-		const blockCount = Math.min(14, Math.max(7, Math.floor(h / 90)));
+		const blockCap = coarse ? 9 : 14;
+		const blockCount = Math.min(blockCap, Math.max(coarse ? 5 : 7, Math.floor(h / 90)));
 		blocks = new Array(blockCount).fill(0).map((_, i) => ({
 			x: Math.random() * w,
 			y: (i / blockCount) * h + Math.random() * 40,
@@ -71,7 +90,10 @@ export function init(selector = '[data-hero-network]') {
 			dgb: Math.random() < 0.25,
 		}));
 
-		const particleCount = Math.min(70, Math.max(28, Math.floor((w * h) / 28000)));
+		const particleCap = coarse ? 40 : 70;
+		const particleMin = coarse ? 20 : 28;
+		const particleDiv = coarse ? 42000 : 28000;
+		const particleCount = Math.min(particleCap, Math.max(particleMin, Math.floor((w * h) / particleDiv)));
 		particles = new Array(particleCount).fill(0).map(() => ({
 			x: Math.random() * w,
 			y: Math.random() * h,
@@ -81,7 +103,7 @@ export function init(selector = '[data-hero-network]') {
 			pulse: Math.random() * Math.PI * 2,
 		}));
 
-		const glyphCount = Math.min(12, Math.max(5, Math.floor(w / 180)));
+		const glyphCount = Math.min(coarse ? 7 : 12, Math.max(coarse ? 3 : 5, Math.floor(w / 180)));
 		glyphs = new Array(glyphCount).fill(0).map(() => ({
 			x: Math.random() * w,
 			y: Math.random() * h,
@@ -365,10 +387,28 @@ export function init(selector = '[data-hero-network]') {
 	}
 
 	resize();
+	let lastRW = w, lastRH = h;
+	let resizeRaf = 0;
 	window.addEventListener('resize', () => {
-		dpr = Math.min(window.devicePixelRatio || 1, 2);
-		resize();
-		if (reduced) drawStatic();
+		if (resizeRaf) return;
+		resizeRaf = requestAnimationFrame(() => {
+			resizeRaf = 0;
+			const rect = host.getBoundingClientRect();
+			const nw = rect.width, nh = rect.height;
+			const widthChanged = Math.abs(nw - lastRW) > 1;
+			// Mobile URL-bar collapse/expand fires resize with only a height
+			// delta. Reseeding all particles here is what caused the visible
+			// "zoom in / zoom out" flicker while scrolling on phones.
+			if (!widthChanged) {
+				lastRH = nh;
+				resizeCanvasOnly();
+				return;
+			}
+			dpr = Math.min(window.devicePixelRatio || 1, dprCap);
+			lastRW = nw; lastRH = nh;
+			resize();
+			if (reduced) drawStatic();
+		});
 	}, { passive: true });
 
 	if (reduced) {

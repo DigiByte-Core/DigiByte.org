@@ -14,7 +14,8 @@ ajax.php
 # Local Core source checkout (not part of the website)
 digibyte/
 
+# Node.js dev tooling and Lighthouse reports (not shipped to production)
 tools/node_modules/
-
+tools/package-lock.json
 reports/
-
+.vscode/

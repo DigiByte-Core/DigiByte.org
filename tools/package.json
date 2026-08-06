@@ -1,0 +1,18 @@
+{
+	"name": "dgbio-tools",
+	"private": true,
+	"description": "Local build scripts for digibyte.org (CSS bundling, Font Awesome subsetting, image resizing). Not shipped to production.",
+	"type": "module",
+	"scripts": {
+		"build:css": "node build-css.mjs && node purge-css.mjs",
+		"build:fa": "node build-fa-subset.mjs",
+		"build:images": "node resize-logos.mjs",
+		"build": "npm run build:css && npm run build:fa"
+	},
+	"devDependencies": {
+		"esbuild": "^0.24.0",
+		"purgecss": "^7.0.0",
+		"sharp": "^0.33.0",
+		"subset-font": "^2.5.0"
+	}
+}
