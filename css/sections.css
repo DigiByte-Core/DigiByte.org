@@ -364,6 +364,21 @@
 	backdrop-filter: blur(14px) saturate(140%);
 	box-shadow: 0 24px 60px rgba(0, 0, 0, 0.30), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
+/* Mobile/touch: drop the expensive blur layered over the animating hero canvas
+   and darken the slab background so text stays legible. This is one of the
+   biggest wins for scroll smoothness on phones. */
+@media (max-width: 900px), (pointer: coarse) {
+	.hero__content {
+		background: linear-gradient(135deg, rgba(6, 20, 50, 0.82), rgba(3, 12, 32, 0.78));
+		-webkit-backdrop-filter: none;
+		backdrop-filter: none;
+	}
+	.hero__metric {
+		-webkit-backdrop-filter: none;
+		backdrop-filter: none;
+		background: rgba(3, 16, 42, 0.72);
+	}
+}
 .hero__chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-block-end: var(--s-5); }
 .hero__title {
 	font-size: clamp(2.2rem, 1.6rem + 3.2vw, 4rem);
@@ -1219,7 +1234,7 @@
 	max-width: 100%;
 	filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.18));
 }
-.footer h6 { margin-block-end: var(--s-3); color: var(--c-ink-2); }
+.footer h3 { margin-block-end: var(--s-3); color: var(--c-ink-2); }
 .footer__list { display: flex; flex-direction: column; gap: var(--s-2); }
 .footer__list a { color: var(--c-ink-2); font-size: var(--fs-1); }
 .footer__list a:hover { color: var(--c-neon-cyan); }

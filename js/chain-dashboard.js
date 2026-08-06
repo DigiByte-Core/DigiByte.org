@@ -186,9 +186,19 @@ export function init() {
 	if (!document.querySelector('[data-chain-dashboard], [data-block-height], [data-stat]')) return;
 	document.querySelectorAll('[data-stat], [data-block-height]').forEach(el => el.classList.add('is-loading'));
 	refresh();
-	const interval = setInterval(refresh, 60000);
+	let interval = setInterval(refresh, 60000);
 	document.addEventListener('visibilitychange', () => {
-		if (document.visibilityState === 'visible') refresh();
+		if (document.visibilityState === 'visible') {
+			if (!interval) interval = setInterval(refresh, 60000);
+			refresh();
+		} else if (interval) {
+			clearInterval(interval);
+			interval = 0;
+		}
 	});
-	window.addEventListener('beforeunload', () => clearInterval(interval));
+	// `pagehide` keeps the page eligible for the browser back/forward cache;
+	// `beforeunload` would disqualify it and force a full reload on back-nav.
+	window.addEventListener('pagehide', () => {
+		if (interval) { clearInterval(interval); interval = 0; }
+	});
 }
