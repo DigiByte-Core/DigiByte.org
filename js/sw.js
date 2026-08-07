@@ -1,5 +1,5 @@
 /* DigiByte Service Worker — v2026.06 (futuristic redesign) */
-const CACHE = 'dgb-v2026-08-06e';
+const CACHE = 'dgb-v2026-08-07a';
 const PRECACHE = [
 	'/',
 	'/index.html',
