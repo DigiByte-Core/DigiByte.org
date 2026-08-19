@@ -6,7 +6,11 @@
 /* Modern reset (Josh Comeau-style, trimmed) ---------------------------- */
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; }
-html, body { height: 100%; }
+/* Note: no `height: 100%` on <body>. A fixed body height plus overflowing
+   content breaks `position: sticky` on the header (body becomes the sticky
+   containing block and its scroll port ends before the content does).
+   `min-height: 100svh` below handles the "fill the viewport" case. */
+html { height: 100%; }
 html {
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
@@ -14,6 +18,10 @@ html {
 	color-scheme: dark;
 	font-feature-settings: "ss01", "cv11";
 	background: var(--c-bg-0);
+	/* Prevents horizontal scroll from decorative overflow (hero art rings,
+	   long no-wrap buttons) without creating a scroll container — required
+	   so `.nav { position: sticky }` keeps working on mobile. */
+	overflow-x: clip;
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
@@ -25,7 +33,6 @@ body {
 	background: var(--c-bg-0);
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	overflow-x: hidden;
 	min-height: 100svh;
 }
 
@@ -131,7 +138,7 @@ a:hover { color: var(--c-link-hover); }
 .container--wide { max-width: var(--container-w-wide); }
 .container--full { max-width: none; padding-inline: 0; }
 
-section { position: relative; padding-block: var(--section-py); }
+section { position: relative; padding-block: var(--section-py); overflow-x: clip; }
 section + section::before {
 	content: "";
 	position: absolute;
