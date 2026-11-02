@@ -1,5 +1,5 @@
 /* DigiByte Service Worker — v2026.06 (futuristic redesign) */
-const CACHE = 'dgb-v2026-08-07a';
+const CACHE = 'dgb-v2026-11-02a';
 const PRECACHE = [
 	'/',
 	'/index.html',
@@ -14,6 +14,7 @@ const PRECACHE = [
 	'/js/tokenomics-chart.js',
 	'/js/chain-dashboard.js',
 	'/js/github-release.js',
+	'/js/core-version.js',
 	'/js/lang-router.js',
 	'/images/logo.svg',
 	'/images/digibyte_symbol_06c.svg',

@@ -358,6 +358,9 @@ function boot() {
 	if ($('[data-chain-dashboard]')) {
 		import('./chain-dashboard.js').then(m => m.init?.()).catch(() => {});
 	}
+	if ($('[data-core-version]')) {
+		import('./core-version.js').then(m => m.init?.()).catch(() => {});
+	}
 	if ($('[data-github-release]')) {
 		import('./github-release.js').then(m => m.init?.()).catch(() => {});
 	}

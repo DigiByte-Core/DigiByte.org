@@ -156,7 +156,11 @@ async function refreshChain() {
 
 	// Static-ish info — exposed via legacy data-stat ids on existing markup
 	setText('[data-stat="connections"]', '5 algos');
-	setText('[data-stat="version"]', 'v9.26.5');
+	setText('[data-stat="version"]', 'v9.26.7');
+	import('./core-version.js')
+		.then(m => m.getLatestTag())
+		.then(tag => { if (tag) setText('[data-stat="version"]', tag); })
+		.catch(() => {});
 }
 
 async function refreshPrice() {
